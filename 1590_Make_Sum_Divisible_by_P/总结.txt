@@ -1,0 +1,4 @@
+和其他subarray的思路差不多，cumsum和hashmap的解法
+主要目标是消除 rem = (数组和 % p) 这部分（如果已经是0可以直接返回0），所以问题转变为是否存在prev_cumsum和当前cumsum的差值为rem（找不到返回-1）subarray长度为其index之差:
+	prev_cumsum - current  = rem  => 检查map是否存在key：map[rem+current]
+

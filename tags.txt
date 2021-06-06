@@ -1,0 +1,60 @@
+0001	Array	HashTable
+0011	Array	TwoPointers
+0015	Array	TwoPointers
+0016	Array	TwoPointers
+0018	Array	HashTable	TwoPointers
+0030	HashTable	String	TwoPointers	
+0042	Array	Stack	TwoPointers	DynamicProgramming
+0045	Array	Greedy
+0049	HashTable	String
+0053	Array	DivideAndConquer	DynamicProgramming
+0055	Array	Greedy
+0076	HashTable	SlidingWindow	String	TwoPointers
+0121	Array	DynamicProgramming
+0122	Array	Greedy
+0123	Array	DynamicProgramming
+0152	Array	DynamicProgramming
+0155	Design	Stack
+0167	Array	BinarySearch	TwoPointers
+0170	Design	HastTable
+0188	DynamicProgramming
+0198	DynamicProgramming
+0209	Array	BinarySearch	TwoPointers
+0213	DynamicProgramming
+0238	Array
+0239	Dequeue	Heap	SlidingWindow
+0242	HastTable	Sort
+0259	Array	TwoPointers
+0283	Array	TwoPointers
+0309	DynamicProgramming
+0325	???
+0337	DepthFirstSearch	DynamicProgramming	Tree
+0407	BreadthFirstSearch	Heap
+0438	HastTable
+0474	DynamicProgramming
+0454	BinarySearch	HastTable	
+0523	DynamicProgramming	Math
+0560	Array	HashTable
+0567	TwoPointer	SlidingWindow
+0600	DynamicProgramming
+0628	Array	Math
+0632	HashTable	String	TwoPointers
+0653	Tree
+0689	Array	DynamicProgramming
+0697	Array
+0713	Array	TwoPointers
+0714	Array	DynamicProgramming	Greedy
+0718	Array	BinarySearch	DynamicProgramming	HashTable
+0724	Array
+0727	DynamicProgramming	HashTable	SlidingWindow	String	TwoPointers
+0740	DynamicProgramming
+0974	Array	HashTable
+0978	Array	DynamicProgramming	SlidingWindow
+1099	Array
+1306	BreadthFirstSearch	DepthFirstSearch	Recursion	
+1345	BreadthFirstSearch
+1590	Array	BinarySearch	HashTable	Math
+1658	BinarySearch	Greedy	SlidingWindow	TwoPointers		
+1679	HashTable	
+1711	Array	HashTable	TwoPointers
+1749	Greedy

@@ -1,0 +1,6 @@
+使用暴力破解的方法：先把列表B中的元素放入hashmap（键为元素值，值为index列表），遍历列表A，从hashmap中找到值等于A[i]的B中元素（返回的是其index j），按照：
+	while (A[i+k] == B[j+k]): k += 1
+的逻辑可以求到最长的k。时间复杂度为O(len(A) * len(B) * min(len(A), len(B)))，空间复杂度为O(len(B))
+
+
+
