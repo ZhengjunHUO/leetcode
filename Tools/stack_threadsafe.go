@@ -52,6 +52,17 @@ func (s *Stack) Size() int {
 	return len(s.Elems)
 }
 
+func (s *Stack) Peek() interface{} {
+	if s.IsEmpty() {
+		return nil
+	}	
+
+	s.Lock.RLock()
+	defer s.Lock.RUnlock()
+
+	return s.Elems[len(s.Elems)-1]
+}
+
 func main() {
 	s := NewStack()
 	fmt.Println(s.Pop())
@@ -62,6 +73,7 @@ func main() {
 
 	fmt.Println(s.Pop())
 	fmt.Println(s.Pop())
+	fmt.Println(s.Peek())
 	fmt.Println(s.Size())
 	
 	fmt.Println(s.IsEmpty())

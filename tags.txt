@@ -52,6 +52,7 @@
 0978	Array	DynamicProgramming	SlidingWindow
 1099	Array
 1306	BreadthFirstSearch	DepthFirstSearch	Recursion	
+1340	DynamicProgramming
 1345	BreadthFirstSearch
 1590	Array	BinarySearch	HashTable	Math
 1658	BinarySearch	Greedy	SlidingWindow	TwoPointers		
