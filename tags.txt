@@ -60,3 +60,4 @@
 1696	Dequeue	
 1711	Array	HashTable	TwoPointers
 1749	Greedy
+1871	BreadthFirstSearch	Greedy	LineSweep
