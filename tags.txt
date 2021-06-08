@@ -57,5 +57,6 @@
 1590	Array	BinarySearch	HashTable	Math
 1658	BinarySearch	Greedy	SlidingWindow	TwoPointers		
 1679	HashTable	
+1696	Dequeue	
 1711	Array	HashTable	TwoPointers
 1749	Greedy

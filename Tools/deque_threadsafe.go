@@ -89,6 +89,14 @@ func (d *Deque) isEmpty() bool {
 	return len(d.Elems) == 0 
 }
 
+func (d *Deque) Size() int {
+	d.Lock.RLock()
+	defer d.Lock.RUnlock()
+
+	return len(d.Elems)
+}
+
+
 func main() {
 	d := NewDeque()
 	d.popFirst()
@@ -98,6 +106,7 @@ func main() {
 	d.pushFirst(2)
 	d.pushLast(10)
 	fmt.Println(d.Elems)
+	fmt.Println(d.Size())
 	fmt.Println(d.peekFirst())
 	fmt.Println(d.popFirst())
 	fmt.Println(d.popLast())
