@@ -32,6 +32,7 @@
 0337	DepthFirstSearch	DynamicProgramming	Tree
 0407	BreadthFirstSearch	Heap
 0438	HastTable
+0445	LinkedList
 0474	DynamicProgramming
 0454	BinarySearch	HastTable	
 0523	DynamicProgramming	Math
