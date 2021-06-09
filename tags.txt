@@ -52,6 +52,7 @@
 0740	DynamicProgramming
 0974	Array	HashTable
 0978	Array	DynamicProgramming	SlidingWindow
+0989	Array
 1099	Array
 1306	BreadthFirstSearch	DepthFirstSearch	Recursion	
 1340	DynamicProgramming
