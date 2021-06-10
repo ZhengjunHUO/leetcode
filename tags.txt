@@ -30,6 +30,7 @@
 0309	DynamicProgramming
 0325	???
 0337	DepthFirstSearch	DynamicProgramming	Tree
+0371	BitManipulation
 0407	BreadthFirstSearch	Heap
 0438	HastTable
 0445	LinkedList
