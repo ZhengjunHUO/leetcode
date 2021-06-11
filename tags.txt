@@ -6,10 +6,12 @@
 0018	Array	HashTable	TwoPointers
 0030	HashTable	String	TwoPointers	
 0042	Array	Stack	TwoPointers	DynamicProgramming
+0043	Math	String
 0045	Array	Greedy
 0049	HashTable	String
 0053	Array	DivideAndConquer	DynamicProgramming
 0055	Array	Greedy
+0066	Array
 0067	Math	String
 0076	HashTable	SlidingWindow	String	TwoPointers
 0121	Array	DynamicProgramming
