@@ -1,5 +1,6 @@
 0001	Array	HashTable
 0002	LinkedList	Math	Recursion	
+0003	HashTable	SlidingWindow	String	TwoPointers	
 0011	Array	TwoPointers
 0015	Array	TwoPointers
 0016	Array	TwoPointers
