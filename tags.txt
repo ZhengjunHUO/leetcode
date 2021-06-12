@@ -39,8 +39,8 @@
 0415	String
 0438	HastTable
 0445	LinkedList
-0474	DynamicProgramming
 0454	BinarySearch	HastTable	
+0474	DynamicProgramming
 0523	DynamicProgramming	Math
 0560	Array	HashTable
 0567	TwoPointer	SlidingWindow
