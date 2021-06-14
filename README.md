@@ -16,6 +16,7 @@
 |0001| [Two Sum](https://github.com/ZhengjunHUO/leetcode/tree/main/0001_Two_Sum) | Array  HashTable |
 |0002| [Add Two Numbers](https://github.com/ZhengjunHUO/leetcode/tree/main/0002_Add_Two_Numbers) | LinkedList  Math  Recursion |
 |0003| [Longest Substring Without Repeating Characters](https://github.com/ZhengjunHUO/leetcode/tree/main/0003_Longest_Substring_Without_Repeating_Characters) | HashTable  SlidingWindow  String  TwoPointers |
+|0004| [Median of Two Sorted Arrays](https://github.com/ZhengjunHUO/leetcode/tree/main/0004_Median_of_Two_Sorted_Arrays) | Array  BinarySearch  DivideAndConquer |
 |0011| [Container With Most Water](https://github.com/ZhengjunHUO/leetcode/tree/main/0011_Container_With_Most_Water) | Array  TwoPointers |
 |0015| [Three Sum](https://github.com/ZhengjunHUO/leetcode/tree/main/0015_Three_Sum) | Array  TwoPointers |
 |0016| [3Sum Closest](https://github.com/ZhengjunHUO/leetcode/tree/main/0016_3Sum_Closest) | Array  TwoPointers |
