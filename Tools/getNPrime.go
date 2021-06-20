@@ -2,33 +2,14 @@ package main
 
 import (
 	"fmt"
-	"math"
+	"github.com/ZhengjunHUO/gtoolkit"
 	"os"
 	"strconv"
 	"log"
 )
 
-func sieveOfEratosthenes(n int) []int {
-        isNotPrime := make([]bool, n+1)
-        prime := []int{}
-        pivot := int(math.Ceil(math.Sqrt(float64(n))))
-
-        for i:=2; i<n+1; i++ {
-                if isNotPrime[i] == false {
-                        prime = append(prime, i)
-                        if i<=pivot {
-                                for j:=i*i; j<=n; j+=i {
-                                        isNotPrime[j] = true
-                                }
-                        }
-                }
-        }
-
-        return prime
-}
-
 func main() {
-	n := 5
+	n := 10
 	if len(os.Args) == 2 {
 		x, err := strconv.Atoi(os.Args[1])
 		if err != nil {
@@ -37,10 +18,6 @@ func main() {
 		n = x
         }
 
-	rslt := sieveOfEratosthenes(n*n)
+	rslt := gtoolkit.SieveOfEratosthenes(n*n)
 	fmt.Println(rslt[:n])
-	for i := range rslt[:n] {
-		fmt.Printf("%d,", rslt[i])
-	}
-	fmt.Println()
 }

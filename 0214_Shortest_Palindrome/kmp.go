@@ -2,23 +2,13 @@ package main
 
 import (
 	"fmt"
+	"github.com/ZhengjunHUO/gtoolkit"
 )
 
 /* 
+  遍历字符串，记录从index 0到每个index i为止，最长的即是前缀也是后缀的pattern的长度
   本方案支持中文
 */
-
-func reverse(s string) string {
-        r := []rune(s)
-
-        for i, j := 0, len(r)-1; i < j; i, j = i+1, j-1 {
-                r[i], r[j] = r[j], r[i]
-        } 
-
-        return string(r)
-}
-
-// 遍历字符串，记录从index 0到每个index i为止，最长的即是前缀也是后缀的pattern的长度
 func buildKMPTable(s string) []int {
 	r := []rune(s)
 	n := len(r)
@@ -47,9 +37,9 @@ func buildKMPTable(s string) []int {
   把原字符串去掉该回文组后剩下的部分倒序接在原字符串开头即可
 */
 func shortestPalindrome(s string) string {
-	symmetric := s + "#" + reverse(s)
+	symmetric := s + "#" + gtoolkit.ReverseStr(s)
 	tab := buildKMPTable(symmetric)
-	return reverse(string([]rune(s)[tab[len(tab)-1]:])) + s
+	return gtoolkit.ReverseStr(string([]rune(s)[tab[len(tab)-1]:])) + s
 }
 
 func main() {
