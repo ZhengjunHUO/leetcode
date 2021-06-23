@@ -20,13 +20,16 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0004| [Median of Two Sorted Arrays](https://github.com/ZhengjunHUO/leetcode/tree/main/0004_Median_of_Two_Sorted_Arrays) | Array  BinarySearch  DivideAndConquer | 求两个有序数列的中位数 |
 |0005| [Longest Palindromic Substring](https://github.com/ZhengjunHUO/leetcode/tree/main/0005_Longest_Palindromic_Substring) | String  DynamicProgramming | 求最长回文子串 |
 |0007| [Reverse Integer](https://github.com/ZhengjunHUO/leetcode/tree/main/0007_Reverse_Integer) | Math | 整数反向 |
-|0008| [String to Integer (atoi)](https://github.com/ZhengjunHUO/leetcode/tree/main/0008_String_to_Integer) | Math String | 字符串转整数实现 |
+|0008| [String to Integer (atoi)](https://github.com/ZhengjunHUO/leetcode/tree/main/0008_String_to_Integer) | Math  String | 字符串转整数实现 |
 |0009| [Palindrome Number](https://github.com/ZhengjunHUO/leetcode/tree/main/0009_Palindrome_Number) | Math | 判断整数是否为回文 |
+|0010| [Regular Expression Matching](https://github.com/ZhengjunHUO/leetcode/tree/main/0010_Regular_Expression_Matching) | Backtracking  DynamicProgramming  String | 正则表达匹配实现 | 
 |0011| [Container With Most Water](https://github.com/ZhengjunHUO/leetcode/tree/main/0011_Container_With_Most_Water) | Array  TwoPointers | 确定容器的两个边界使其含水量最大化 |
+|0012| [Integer to Roman](https://github.com/ZhengjunHUO/leetcode/tree/main/0012_Integer_to_Roman) | Math  String | 整型转罗马数字 |
+|0013| [Roman to Integer](https://github.com/ZhengjunHUO/leetcode/tree/main/0013_Roman_to_Integer) | Math  String | 罗马数字转整型 |
 |0015| [Three Sum](https://github.com/ZhengjunHUO/leetcode/tree/main/0015_Three_Sum) | Array  TwoPointers | 求所有和为0的三元组 |
 |0016| [3Sum Closest](https://github.com/ZhengjunHUO/leetcode/tree/main/0016_3Sum_Closest) | Array  TwoPointers | 求和最接近目标值的三元组 |
 |0018| [Four Sum](https://github.com/ZhengjunHUO/leetcode/tree/main/0018_Four_Sum) | Array  HashTable  TwoPointers | 找出所有和为目标值的四元组 |
-|0028| [Implement strStr()](https://github.com/ZhengjunHUO/leetcode/tree/main/0028_Implement_strStr) | String TwoPointers | 找出pattern在字符串中第一次出现的位置 |
+|0028| [Implement strStr()](https://github.com/ZhengjunHUO/leetcode/tree/main/0028_Implement_strStr) | String  TwoPointers | 找出pattern在字符串中第一次出现的位置 |
 |0030| [Substring with Concatenation of All Words](https://github.com/ZhengjunHUO/leetcode/tree/main/0030_Substring_with_Concatenation_of_All_Words) | HashTable  String  TwoPointers | 找出内容为"以任意顺序拼接的所有给定单词"的子串 |
 |0042| [Trapping Rain Water](https://github.com/ZhengjunHUO/leetcode/tree/main/0042_Trapping_Rain_Water) | Array  Stack  TwoPointers  DynamicProgramming | 计算二维地形的积水量 |
 |0043| [Multiply Strings](https://github.com/ZhengjunHUO/leetcode/tree/main/0043_Multiply_Strings) | Math  String | 计算以字符串描述的两数的乘积 |
@@ -34,7 +37,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0049| [Group Anagrams](https://github.com/ZhengjunHUO/leetcode/tree/main/0049_Group_Anagrams) | HashTable  String | 将相关联的易位词组合起来 |
 |0053| [Maximum Subarray](https://github.com/ZhengjunHUO/leetcode/tree/main/0053_Maximum_Subarray) | Array  DivideAndConquer  DynamicProgramming | 找到和最大的子数列 |
 |0055| [Jump Game](https://github.com/ZhengjunHUO/leetcode/tree/main/0055_Jump_Game) | Array  Greedy | 求是否可以跳到终点 |
-|0065| [Valid Number](https://github.com/ZhengjunHUO/leetcode/tree/main/0065_Valid_Number) | Math String | 检查字符串是否为合法的数 |
+|0065| [Valid Number](https://github.com/ZhengjunHUO/leetcode/tree/main/0065_Valid_Number) | Math  String | 检查字符串是否为合法的数 |
 |0066| [Plus One](https://github.com/ZhengjunHUO/leetcode/tree/main/0066_Plus_One) | Array | 以数组描述的数加一 |
 |0067| [Add Binary](https://github.com/ZhengjunHUO/leetcode/tree/main/0067_Add_Binary) | Math  String | 字符串形式的二进制数相加 |
 |0076| [Minimum Window Substring](https://github.com/ZhengjunHUO/leetcode/tree/main/0076_Minimum_Window_Substring) | HashTable  SlidingWindow  String  TwoPointers | 在A字符串中找到包含所有B字符串字母的最小子串 |
