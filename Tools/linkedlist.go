@@ -16,4 +16,5 @@ func main() {
 
 	godtype.NewList(10)
 	godtype.NewList("hello")
+	godtype.PrintList(godtype.NewList([]string{}))
 }
