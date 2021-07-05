@@ -37,6 +37,8 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0032| [Longest Valid Parentheses](https://github.com/ZhengjunHUO/leetcode/tree/main/0032_Longest_Valid_Parentheses) | DynamicProgramming  Stack  String | 最长的合法括号子串 |
 |0033| [Search in Rotated Sorted Array](https://github.com/ZhengjunHUO/leetcode/tree/main/0033_Search_in_Rotated_Sorted_Array) | Array  BinarySearch | 在一个循环升序数列中寻找某数 |
 |0035| [Search Insert Position](https://github.com/ZhengjunHUO/leetcode/tree/main/0035_Search_Insert_Position) | Array  BinarySearch | 为某数在一个升序数列中寻找插入位置 |
+|0039| [Combination Sum](https://github.com/ZhengjunHUO/leetcode/tree/main/0039_Combination_Sum) | Array  Backtracking | 找出所有和为目标值的元素（元素可重复使用）组成的列表 |
+|0040| [Combination Sum II](https://github.com/ZhengjunHUO/leetcode/tree/main/0040_Combination_Sum_II) | Array  Backtracking | 找出所有和为目标值的元素（元素不可重复使用）组成的列表 |
 |0042| [Trapping Rain Water](https://github.com/ZhengjunHUO/leetcode/tree/main/0042_Trapping_Rain_Water) | Array  Stack  TwoPointers  DynamicProgramming | 计算二维地形的积水量 |
 |0043| [Multiply Strings](https://github.com/ZhengjunHUO/leetcode/tree/main/0043_Multiply_Strings) | Math  String | 计算以字符串描述的两数的乘积 |
 |0045| [Jump Game II](https://github.com/ZhengjunHUO/leetcode/tree/main/0045_Jump_Game_II) | Array  Greedy | 最小跳数到达终点 |
