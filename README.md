@@ -52,6 +52,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0066| [Plus One](https://github.com/ZhengjunHUO/leetcode/tree/main/0066_Plus_One) | Array | 以数组描述的数加一 |
 |0067| [Add Binary](https://github.com/ZhengjunHUO/leetcode/tree/main/0067_Add_Binary) | Math  String | 字符串形式的二进制数相加 |
 |0076| [Minimum Window Substring](https://github.com/ZhengjunHUO/leetcode/tree/main/0076_Minimum_Window_Substring) | HashTable  SlidingWindow  String  TwoPointers | 在A字符串中找到包含所有B字符串字母的最小子串 |
+|0077| [Combinations](https://github.com/ZhengjunHUO/leetcode/tree/main/0077_Combinations) | Array  Backtracking | 在1到n的范围内找出所有长度为k的组合 |
 |0078| [Subsets](https://github.com/ZhengjunHUO/leetcode/tree/main/0078_Subsets) | Array  Backtracking  BitManipulation | 找出数列的所有可能子集 |
 |0088| [Merge Sorted Array](https://github.com/ZhengjunHUO/leetcode/tree/main/0088_Merge_Sorted_Array) | Array  Sorting  TwoPointers | 将两个排好序的字符串in-place融合 |
 |0090| [Subsets II](https://github.com/ZhengjunHUO/leetcode/tree/main/0090_Subsets_II) | Array  Backtracking  BitManipulation | 找出含重复元素数列的所有可能的不重复子集 |
