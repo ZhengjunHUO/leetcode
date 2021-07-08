@@ -34,6 +34,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0024| [Swap Nodes in Pairs](https://github.com/ZhengjunHUO/leetcode/tree/main/0024_Swap_Nodes_in_Pairs) | LinkedList  Recursion | 链表相邻两个结点对调 |
 |0028| [Implement strStr()](https://github.com/ZhengjunHUO/leetcode/tree/main/0028_Implement_strStr) | String  TwoPointers | 找出pattern在字符串中第一次出现的位置 |
 |0030| [Substring with Concatenation of All Words](https://github.com/ZhengjunHUO/leetcode/tree/main/0030_Substring_with_Concatenation_of_All_Words) | HashTable  String  TwoPointers | 找出内容为"以任意顺序拼接的所有给定单词"的子串 |
+|0031| [Next Permutation](https://github.com/ZhengjunHUO/leetcode/tree/main/0031_Next_Permutation) | Array  TwoPointers | 按字典顺序寻找当前数组的后一个排列 |
 |0032| [Longest Valid Parentheses](https://github.com/ZhengjunHUO/leetcode/tree/main/0032_Longest_Valid_Parentheses) | DynamicProgramming  Stack  String | 最长的合法括号子串 |
 |0033| [Search in Rotated Sorted Array](https://github.com/ZhengjunHUO/leetcode/tree/main/0033_Search_in_Rotated_Sorted_Array) | Array  BinarySearch | 在一个循环升序数列中寻找某数 |
 |0034| [Find First and Last Position of Element in Sorted Array](https://github.com/ZhengjunHUO/leetcode/tree/main/0034_Find_First_and_Last_Position_of_Element_in_Sorted_Array) | Array  BinarySearch | 在有序数列中找到某元素的起始和中止index |
