@@ -28,6 +28,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0013| [Roman to Integer](https://github.com/ZhengjunHUO/leetcode/tree/main/0013_Roman_to_Integer) | Math  String | 罗马数字转整型 |
 |0015| [Three Sum](https://github.com/ZhengjunHUO/leetcode/tree/main/0015_Three_Sum) | Array  TwoPointers | 求所有和为0的三元组 |
 |0016| [3Sum Closest](https://github.com/ZhengjunHUO/leetcode/tree/main/0016_3Sum_Closest) | Array  TwoPointers | 求和最接近目标值的三元组 |
+|0017| [Letter Combinations of a Phone Number](https://github.com/ZhengjunHUO/leetcode/tree/main/0017_Letter_Combinations_of_a_Phone_Number) | Backtracking  HashTable  String | 根据电话号码找到对应的字母组合 |
 |0018| [Four Sum](https://github.com/ZhengjunHUO/leetcode/tree/main/0018_Four_Sum) | Array  HashTable  TwoPointers | 找出所有和为目标值的四元组 |
 |0020| [Valid Parentheses](https://github.com/ZhengjunHUO/leetcode/tree/main/0020_Valid_Parentheses) | Stack  String | 检查括号是否正确闭合 |
 |0021| [Merge Two Sorted Lists](https://github.com/ZhengjunHUO/leetcode/tree/main/0021_Merge_Two_Sorted_Lists) | LinkedList  Recursion | 融合两个排好序的链表 |
