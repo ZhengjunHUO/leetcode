@@ -57,8 +57,11 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0076| [Minimum Window Substring](https://github.com/ZhengjunHUO/leetcode/tree/main/0076_Minimum_Window_Substring) | HashTable  SlidingWindow  String  TwoPointers | 在A字符串中找到包含所有B字符串字母的最小子串 |
 |0077| [Combinations](https://github.com/ZhengjunHUO/leetcode/tree/main/0077_Combinations) | Array  Backtracking | 在1到n的范围内找出所有长度为k的组合 |
 |0078| [Subsets](https://github.com/ZhengjunHUO/leetcode/tree/main/0078_Subsets) | Array  Backtracking  BitManipulation | 找出数列的所有可能子集 |
+|0079| [Word Search](https://github.com/ZhengjunHUO/leetcode/tree/main/0079_Word_Search) | Array  Backtracking  Matrix | 矩阵中寻找一个单词 |
+|0080| [Remove Duplicates from Sorted Array II](https://github.com/ZhengjunHUO/leetcode/tree/main/0080_Remove_Duplicates_from_Sorted_Array_II) | Array  TwoPointers | 移除数组中多余的元素(in place) |
 |0088| [Merge Sorted Array](https://github.com/ZhengjunHUO/leetcode/tree/main/0088_Merge_Sorted_Array) | Array  Sorting  TwoPointers | 将两个排好序的字符串in-place融合 |
 |0090| [Subsets II](https://github.com/ZhengjunHUO/leetcode/tree/main/0090_Subsets_II) | Array  Backtracking  BitManipulation | 找出含重复元素数列的所有可能的不重复子集 |
+|0093| [Restore IP Addresses](https://github.com/ZhengjunHUO/leetcode/tree/main/0093_Restore_IP_Addresses) | Backtracking  String | 从字符串还原IP地址 |
 |0121| [Best Time to Buy and Sell Stock](https://github.com/ZhengjunHUO/leetcode/tree/main/0121_Best_Time_to_Buy_and_Sell_Stock) | Array  DynamicProgramming | 一次买卖交易获得的最大值 |
 |0122| [Best Time to Buy and Sell Stock II](https://github.com/ZhengjunHUO/leetcode/tree/main/0122_Best_Time_to_Buy_and_Sell_Stock_II) | Array  Greedy | 不限次数交易获得的最大值 |
 |0123| [Best Time to Buy and Sell Stock III](https://github.com/ZhengjunHUO/leetcode/tree/main/0123_Best_Time_to_Buy_and_Sell_Stock_III) | Array  DynamicProgramming | 至多两次交易获得的最大值 |
