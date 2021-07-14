@@ -75,6 +75,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0188| [Best Time to Buy and Sell Stock IV](https://github.com/ZhengjunHUO/leetcode/tree/main/0188_Best_Time_to_Buy_and_Sell_Stock_IV) | DynamicProgramming | 至多K次交易获得的最大值 |
 |0190| [Reverse Bits](https://github.com/ZhengjunHUO/leetcode/tree/main/0190_Reverse_Bits) | BitManipulation | 字符串表示的二进制数取反 |
 |0191| [Number of 1 Bits](https://github.com/ZhengjunHUO/leetcode/tree/main/0191_Number_of_1_Bits) | BitManipulation | 字符串表示的二进制数中1的个数 |
+|0193| [Valid Phone Numbers](https://github.com/ZhengjunHUO/leetcode/tree/main/0193_Valid_Phone_Numbers) | Shell | 从文本中找出合法的电话号码 |
 |0198| [House Robber](https://github.com/ZhengjunHUO/leetcode/tree/main/0198_House_Robber) | DynamicProgramming | 抢劫不相邻房屋获得的最大收益 |
 |0209| [Minimum Size Subarray Sum](https://github.com/ZhengjunHUO/leetcode/tree/main/0209_Minimum_Size_Subarray_Sum) | Array  BinarySearch  TwoPointers | 求和大于等于目标值的最短子串 |
 |0213| [House Robber II](https://github.com/ZhengjunHUO/leetcode/tree/main/0213_House_Robber_II) | DynamicProgramming | 抢劫不相邻房屋获得的最大收益 |
