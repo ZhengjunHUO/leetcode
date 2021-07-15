@@ -90,6 +90,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0309| [Best Time to Buy and Sell Stock with Cooldown](https://github.com/ZhengjunHUO/leetcode/tree/main/0309_Best_Time_to_Buy_and_Sell_Stock_with_Cooldown) | DynamicProgramming | 不限次数交易获得的最大值，卖出后有一天冷却期 |
 |0325| [Maximum Size Subarray Sum Equals k](https://github.com/ZhengjunHUO/leetcode/tree/main/0325_Maximum_Size_Subarray_Sum_Equals_k) | ??? | 求和等于目标值的最长子串 |
 |0337| [House Robber III](https://github.com/ZhengjunHUO/leetcode/tree/main/0337_House_Robber_III) | DepthFirstSearch  DynamicProgramming  Tree | 抢劫树形排列不相邻房屋获得的最大收益 |
+|0347| [Top K Frequent Elements](https://github.com/ZhengjunHUO/leetcode/tree/main/0347_Top_K_Frequent_Elements) | Array  BucketSort  Counting  DivideAndConquer  HashTable  Heap  Quickselect  Sorting | 返回前k个最常见的元素 |
 |0371| [Sum of Two Integers](https://github.com/ZhengjunHUO/leetcode/tree/main/0371_Sum_of_Two_Integers) | BitManipulation | 位操作实现两数相加 |
 |0407| [Trapping Rain Water II](https://github.com/ZhengjunHUO/leetcode/tree/main/0407_Trapping_Rain_Water_II) | BreadthFirstSearch  Heap | 计算三维地形的积水量 |
 |0415| [Add Strings](https://github.com/ZhengjunHUO/leetcode/tree/main/0415_Add_Strings) | String | 以字符串形式表示的两数之和 |
