@@ -93,6 +93,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0337| [House Robber III](https://github.com/ZhengjunHUO/leetcode/tree/main/0337_House_Robber_III) | DepthFirstSearch  DynamicProgramming  Tree | 抢劫树形排列不相邻房屋获得的最大收益 |
 |0347| [Top K Frequent Elements](https://github.com/ZhengjunHUO/leetcode/tree/main/0347_Top_K_Frequent_Elements) | Array  BucketSort  Counting  DivideAndConquer  HashTable  Heap  Quickselect  Sorting | 返回前k个最常见的元素 |
 |0371| [Sum of Two Integers](https://github.com/ZhengjunHUO/leetcode/tree/main/0371_Sum_of_Two_Integers) | BitManipulation | 位操作实现两数相加 |
+|0387| [First Unique Character in a String](https://github.com/ZhengjunHUO/leetcode/tree/main/0387_First_Unique_Character_in_a_String) | Counting  HashTable  Queue  String | 找到第一个只出现一次的字符 |
 |0407| [Trapping Rain Water II](https://github.com/ZhengjunHUO/leetcode/tree/main/0407_Trapping_Rain_Water_II) | BreadthFirstSearch  Heap | 计算三维地形的积水量 |
 |0415| [Add Strings](https://github.com/ZhengjunHUO/leetcode/tree/main/0415_Add_Strings) | String | 以字符串形式表示的两数之和 |
 |0438| [Find All Anagrams in a String](https://github.com/ZhengjunHUO/leetcode/tree/main/0438_Find_All_Anagrams_in_a_String) | HastTable | 在字符串A中找到所有字符串B的易位词 | 
