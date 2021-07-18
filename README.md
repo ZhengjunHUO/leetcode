@@ -111,6 +111,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0653| [Two Sum IV Input Is A BST](https://github.com/ZhengjunHUO/leetcode/tree/main/0653_Two_Sum_IV_Input_Is_A_BST) | Tree | 在BST中找到等于目标值的两个数 |
 |0686| [Repeated String Match](https://github.com/ZhengjunHUO/leetcode/tree/main/0686_Repeated_String_Match) | String | a字符串重复多少次可以包含b字符串 |
 |0689| [Maximum Sum of 3 Non-Overlapping Subarrays](https://github.com/ZhengjunHUO/leetcode/tree/main/0689_Maximum_Sum_of_3_Non-Overlapping_Subarrays) | Array  DynamicProgramming | 找到三个指定长度的和最大的独立子串 |
+|0692| [Top K Frequent Words](https://github.com/ZhengjunHUO/leetcode/tree/main/0692_Top_K_Frequent_Words) | BucketSort  Counting  HashTable  Heap  Sorting  String  Trie | 出现频率最高的k个词 |
 |0697| [Degree of an Array](https://github.com/ZhengjunHUO/leetcode/tree/main/0697_Degree_of_an_Array) | Array | 找到和字符串有相同度的子串 |
 |0713| [Subarray Product Less Than K](https://github.com/ZhengjunHUO/leetcode/tree/main/0713_Subarray_Product_Less_Than_K) | Array  TwoPointers | 乘积小于目标值的子串的个数 |
 |0714| [Best Time to Buy and Sell Stock with Transaction Fee](https://github.com/ZhengjunHUO/leetcode/tree/main/0714_Best_Time_to_Buy_and_Sell_Stock_with_Transaction_Fee) | Array  DynamicProgramming  Greedy | 不限次数交易获得的最大值，每笔交易有手续费 |
@@ -119,6 +120,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0727| [Minimum Window Subsequence](https://github.com/ZhengjunHUO/leetcode/tree/main/0727_Minimum_Window_Subsequence) | DynamicProgramming  HashTable  SlidingWindow  String  TwoPointers | 字符串A中找到最短的可以包含字符串B的子串
 |0740| [Delete and Earn](https://github.com/ZhengjunHUO/leetcode/tree/main/0740_Delete_and_Earn) | DynamicProgramming | 在数组中取一个数可得分，但是要删除它和如果存在的它+-1的值，求最大得分 |
 |0784| [Letter Case Permutation](https://github.com/ZhengjunHUO/leetcode/tree/main/0784_Letter_Case_Permutation) | Backtracking  BitManipulation  String | alnum字符串中字母大小写变换的排列组合 |
+|0912| [Sort an Array](https://github.com/ZhengjunHUO/leetcode/tree/main/0912_Sort_an_Array) | Array  BucketSort  CountingSort  DivideAndConquer  Heap  MergeSort  RadixSort  Sorting | 给数列排序 |
 |0974| [Subarray Sums Divisible by K](https://github.com/ZhengjunHUO/leetcode/tree/main/0974_Subarray_Sums_Divisible_by_K) | Array  HashTable | 和可以整除目标值的子串的个数 |
 |0977| [Squares of a Sorted Array](https://github.com/ZhengjunHUO/leetcode/tree/main/0977_Squares_of_a_Sorted_Array) | Array  Sorting  TwoPointers | 求排好序的数组各元素平方后得到的新升序数组 |
 |0978| [Longest Turbulent Subarray](https://github.com/ZhengjunHUO/leetcode/tree/main/0978_Longest_Turbulent_Subarray) | Array  DynamicProgramming  SlidingWindow | 找到符合峰谷交替规律的最长的子串 |
