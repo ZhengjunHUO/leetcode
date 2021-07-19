@@ -59,9 +59,11 @@ func Constructor(k int, nums []int) KthLargest {
 func (this *KthLargest) Add(val int) int {
 	heap.Push(this.ih, val) 
 	heap.Pop(this.ih)
-	rslt := heap.Pop(this.ih)
-	heap.Push(this.ih, rslt)
-	return rslt.(int)
+	return this.Peek()
+}
+
+func (this *KthLargest) Peek() int {
+	return (*(this.ih))[0]
 }
 
 func main() {
