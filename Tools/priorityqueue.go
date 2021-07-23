@@ -11,27 +11,27 @@ func main() {
 	prios := []int{3, 2, 4}
 
 	pq := godtype.InitPQ(values, prios, false)
-	(&pq).Insert("orange", 1)
+	pq.Push("orange", 1)
 	
 	fmt.Println("Priority queue: ")
-	for i := range pq {
-		fmt.Printf("%.2d:%v [index: %v]\n", pq[i].Priority, pq[i].Value, pq[i].Index)
+	for _,v := range pq.Data {
+		fmt.Printf("%.2d:%v [index: %v]\n", v.Priority, v.Value, v.Index)
 	}
 	fmt.Println("")
 
 	fmt.Println("Update elem.")
-	(&pq).Update("orange", 10)
+	pq.Update("orange", 10)
 
 	fmt.Println("Priority queue: ")
-	for i := range pq {
-		fmt.Printf("%.2d:%v [index: %v]\n", pq[i].Priority, pq[i].Value, pq[i].Index)
+	for _,v := range pq.Data {
+		fmt.Printf("%.2d:%v [index: %v]\n", v.Priority, v.Value, v.Index)
 	}
 	fmt.Println("")
 
-	fmt.Println("Peek: ", (&pq).Peek())
+	fmt.Println("Peek: ", pq.Peek())
 
 	fmt.Println("Pop:")
-	for pq.Len() > 0 {
-		fmt.Println((&pq).Pull())
+	for pq.Data.Len() > 0 {
+		fmt.Println(pq.Pop())
 	}
 }
