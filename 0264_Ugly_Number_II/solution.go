@@ -19,6 +19,7 @@ func min(a, b, c int) int {
 	return temp
 }
 
+// 根据提示Assume you have Uk, the kth ugly number. Then Uk+1 must be Min(L1 * 2, L2 * 3, L3 * 5).
 func nthUglyNumber(n int) int {
 	list := make([]int, n)
 	list[0] = 1
