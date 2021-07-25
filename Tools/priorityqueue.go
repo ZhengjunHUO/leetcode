@@ -10,7 +10,7 @@ func main() {
 	values := []int{500, 404, 1000}
 	prios := []int{3, 2, 4}
 
-	pq := godtype.InitPQ(values, prios, false)
+	pq := godtype.NewPQ(values, prios, false)
 	pq.Push("orange", 1)
 	
 	fmt.Println("Priority queue: ")
