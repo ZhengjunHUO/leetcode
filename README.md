@@ -37,6 +37,8 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0022| [Generate Parentheses](https://github.com/ZhengjunHUO/leetcode/tree/main/0022_Generate_Parentheses) | Backtracking  DynamicProgramming  String | 生成括号对 |
 |0023| [Merge k Sorted Lists](https://github.com/ZhengjunHUO/leetcode/tree/main/0023_Merge_k_Sorted_Lists) | DivideAndConquer  Heap  LinkedList  MergeSort | 融合k个排好序的列表 |
 |0024| [Swap Nodes in Pairs](https://github.com/ZhengjunHUO/leetcode/tree/main/0024_Swap_Nodes_in_Pairs) | LinkedList  Recursion | 链表相邻两个结点对调 |
+|0026| [Remove Duplicates from Sorted Array](https://github.com/ZhengjunHUO/leetcode/tree/main/0026_Remove_Duplicates_from_Sorted_Array) | Array  TwoPointers | 移除数组中多余的元素(in place) |
+|0027| [Remove Element](https://github.com/ZhengjunHUO/leetcode/tree/main/0027_Remove_Element) | Array  TwoPointers | 移除数组中指定元素(in place) |
 |0028| [Implement strStr()](https://github.com/ZhengjunHUO/leetcode/tree/main/0028_Implement_strStr) | String  TwoPointers | 找出pattern在字符串中第一次出现的位置 |
 |0030| [Substring with Concatenation of All Words](https://github.com/ZhengjunHUO/leetcode/tree/main/0030_Substring_with_Concatenation_of_All_Words) | HashTable  String  TwoPointers | 找出内容为"以任意顺序拼接的所有给定单词"的子串 |
 |0031| [Next Permutation](https://github.com/ZhengjunHUO/leetcode/tree/main/0031_Next_Permutation) | Array  TwoPointers | 按字典顺序寻找当前数组的后一个排列 |
@@ -45,6 +47,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0034| [Find First and Last Position of Element in Sorted Array](https://github.com/ZhengjunHUO/leetcode/tree/main/0034_Find_First_and_Last_Position_of_Element_in_Sorted_Array) | Array  BinarySearch | 在有序数列中找到某元素的起始和中止index |
 |0035| [Search Insert Position](https://github.com/ZhengjunHUO/leetcode/tree/main/0035_Search_Insert_Position) | Array  BinarySearch | 为某数在一个升序数列中寻找插入位置 |
 |0039| [Combination Sum](https://github.com/ZhengjunHUO/leetcode/tree/main/0039_Combination_Sum) | Array  Backtracking | 找出所有和为目标值的元素（元素可重复使用）组成的列表 |
+|0041| [First Missing Positive](https://github.com/ZhengjunHUO/leetcode/tree/main/0041_First_Missing_Positive) | Array  HashTable | 找到数列缺失的最小正整数 |
 |0040| [Combination Sum II](https://github.com/ZhengjunHUO/leetcode/tree/main/0040_Combination_Sum_II) | Array  Backtracking | 找出所有和为目标值的元素（元素不可重复使用）组成的列表 |
 |0042| [Trapping Rain Water](https://github.com/ZhengjunHUO/leetcode/tree/main/0042_Trapping_Rain_Water) | Array  Stack  TwoPointers  DynamicProgramming | 计算二维地形的积水量 |
 |0043| [Multiply Strings](https://github.com/ZhengjunHUO/leetcode/tree/main/0043_Multiply_Strings) | Math  String | 计算以字符串描述的两数的乘积 |
@@ -105,6 +108,8 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0347| [Top K Frequent Elements](https://github.com/ZhengjunHUO/leetcode/tree/main/0347_Top_K_Frequent_Elements) | Array  BucketSort  Counting  DivideAndConquer  HashTable  Heap  Quickselect  Sorting | 返回前k个最常见的元素 |
 |0355| [Design Twitter](https://github.com/ZhengjunHUO/leetcode/tree/main/0355_Design_Twitter) | Design  HashTable  Heap  LinkedList | 实现简单的推特应用 |
 |0371| [Sum of Two Integers](https://github.com/ZhengjunHUO/leetcode/tree/main/0371_Sum_of_Two_Integers) | BitManipulation | 位操作实现两数相加 |
+|0373| [Find K Pairs with Smallest Sums](https://github.com/ZhengjunHUO/leetcode/tree/main/0373_Find_K_Pairs_with_Smallest_Sums) | Array  Heap | 两个数列中找到和最小的k对元素 |
+|0378| [Kth Smallest Element in a Sorted Matrix](https://github.com/ZhengjunHUO/leetcode/tree/main/0378_Kth_Smallest_Element_in_a_Sorted_Matrix) | Array  BinarySearch  Heap  Matrix  Sorting | 在行和列都是升序的矩阵中找到第k小的元素 |
 |0387| [First Unique Character in a String](https://github.com/ZhengjunHUO/leetcode/tree/main/0387_First_Unique_Character_in_a_String) | Counting  HashTable  Queue  String | 找到第一个只出现一次的字符 |
 |0407| [Trapping Rain Water II](https://github.com/ZhengjunHUO/leetcode/tree/main/0407_Trapping_Rain_Water_II) | BreadthFirstSearch  Heap | 计算三维地形的积水量 |
 |0414| [Third Maximum Number](https://github.com/ZhengjunHUO/leetcode/tree/main/0414_Third_Maximum_Number) | Array  Sorting | 第三大的数字 |
@@ -116,6 +121,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0459| [Repeated Substring Pattern](https://github.com/ZhengjunHUO/leetcode/tree/main/0459_Repeated_Substring_Pattern) | String | 检查字符串是否由某个子串重复n次构成 |
 |0474| [Ones and Zeroes](https://github.com/ZhengjunHUO/leetcode/tree/main/0474_Ones_and_Zeroes) | DynamicProgramming | 字符串表示的二进制数组中，找出最大的包含至多m个0和n个1的子集合 |
 |0502| [IPO](https://github.com/ZhengjunHUO/leetcode/tree/main/0502_IPO) | Array  Greedy  Heap  Sorting | 完成k个项目可以获得的最大纯利润 |
+|0506| [Relative Ranks](https://github.com/ZhengjunHUO/leetcode/tree/main/0506_Relative_Ranks) | Array  Heap  Sorting | 把分数转换为名次 |
 |0523| [Continuous Subarray Sum](https://github.com/ZhengjunHUO/leetcode/tree/main/0523_Continuous_Subarray_Sum) | DynamicProgramming  Math | 求是否有一个长度至少为2的子串其和为给定值的倍数 |
 |0560| [Subarray Sum Equals K](https://github.com/ZhengjunHUO/leetcode/tree/main/0560_Subarray_Sum_Equals_K) | Array  HashTable | 求和为目标值的子串个数 |
 |0567| [Permutation in String](https://github.com/ZhengjunHUO/leetcode/tree/main/0567_Permutation_in_String) | TwoPointer  SlidingWindow | 求字符串A是否包含字符串B的变种 |
@@ -127,7 +133,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0689| [Maximum Sum of 3 Non-Overlapping Subarrays](https://github.com/ZhengjunHUO/leetcode/tree/main/0689_Maximum_Sum_of_3_Non-Overlapping_Subarrays) | Array  DynamicProgramming | 找到三个指定长度的和最大的独立子串 |
 |0692| [Top K Frequent Words](https://github.com/ZhengjunHUO/leetcode/tree/main/0692_Top_K_Frequent_Words) | BucketSort  Counting  HashTable  Heap  Sorting  String  Trie | 出现频率最高的k个词 |
 |0697| [Degree of an Array](https://github.com/ZhengjunHUO/leetcode/tree/main/0697_Degree_of_an_Array) | Array | 找到和字符串有相同度的子串 |
-|0703| [Kth Largest Element in a Stream](https://github.com/ZhengjunHUO/leetcode/tree/main/0703_Kth_Largest_Element_in_a_Stream) | 不断插入新元素同时找到第k大的元素 |
+|0703| [Kth Largest Element in a Stream](https://github.com/ZhengjunHUO/leetcode/tree/main/0703_Kth_Largest_Element_in_a_Stream) | BinarySearchTree  BinaryTree  DataStream  Design  Heap  Tree | 不断插入新元素同时找到第k大的元素 |
 |0713| [Subarray Product Less Than K](https://github.com/ZhengjunHUO/leetcode/tree/main/0713_Subarray_Product_Less_Than_K) | Array  TwoPointers | 乘积小于目标值的子串的个数 |
 |0714| [Best Time to Buy and Sell Stock with Transaction Fee](https://github.com/ZhengjunHUO/leetcode/tree/main/0714_Best_Time_to_Buy_and_Sell_Stock_with_Transaction_Fee) | Array  DynamicProgramming  Greedy | 不限次数交易获得的最大值，每笔交易有手续费 |
 |0718| [Maximum Length of Repeated Subarray](https://github.com/ZhengjunHUO/leetcode/tree/main/0718_Maximum_Length_of_Repeated_Subarray) | Array  BinarySearch  DynamicProgramming  HashTable | 寻找最大公共子串 | 
@@ -146,7 +152,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |1340| [Jump Game V](https://github.com/ZhengjunHUO/leetcode/tree/main/1340_Jump_Game_V) | DynamicProgramming | 从任意点出发允许向前向后最远跳d的距离且只能从大数跳向小数，求最多能覆盖几个index ｜
 |1345| [Jump Game IV](https://github.com/ZhengjunHUO/leetcode/tree/main/1345_Jump_Game_IV) | BreadthFirstSearch | 从头开始，每一条可以向前向后一格，或传送到其他值相等的index，求到达终点最少的跳跃次数 |
 |1590| [Make Sum Divisible by P](https://github.com/ZhengjunHUO/leetcode/tree/main/1590_Make_Sum_Divisible_by_P) | Array  BinarySearch  HashTable  Math | 字符串中删除最小的子串使剩下的元素和可以整除目标值 |
-|1636| [Sort Array by Increasing Frequency](https://github.com/ZhengjunHUO/leetcode/tree/main/1636_Sort_Array_by_Increasing_Frequency) | 按照元素出现的频率对字符串升序排序，如果频率相同则按数字大小降序排列 |
+|1636| [Sort Array by Increasing Frequency](https://github.com/ZhengjunHUO/leetcode/tree/main/1636_Sort_Array_by_Increasing_Frequency) | Array  HashTable  Sorting | 按照元素出现的频率对字符串升序排序，如果频率相同则按数字大小降序排列 |
 |1658| [Minimum Operations to Reduce X to Zero](https://github.com/ZhengjunHUO/leetcode/tree/main/1658_Minimum_Operations_to_Reduce_X_to_Zero) | BinarySearch  Greedy  SlidingWindow  TwoPointers | 每一步可以移除字符串头或尾的元素，目标值减去该元素，求将目标值减为0的最少步数 |
 |1679| [Max Number of K-Sum Pairs](https://github.com/ZhengjunHUO/leetcode/tree/main/1679_Max_Number_of_K-Sum_Pairs) | HashTable | 数组中每一步可以移除和为K的两个元素，求最大可执行次数 |
 |1695| [Maximum_Erasure_Value](https://github.com/ZhengjunHUO/leetcode/tree/main/1695_Maximum_Erasure_Value) | TwoPointers | 找到不含重复元素的且和为最大的子串 |
