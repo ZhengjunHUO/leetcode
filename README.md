@@ -54,8 +54,11 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0045| [Jump Game II](https://github.com/ZhengjunHUO/leetcode/tree/main/0045_Jump_Game_II) | Array  Greedy | 最小跳数到达终点 |
 |0046| [Permutations](https://github.com/ZhengjunHUO/leetcode/tree/main/0046_Permutations) | Array  Backtracking | 求数列中所有元素排列组合的集合 |
 |0047| [Permutations II](https://github.com/ZhengjunHUO/leetcode/tree/main/0047_Permutations_II) | Array  Backtracking | 求含重复元素数列中所有元素排列组合的集合 |
+|0048| [Rotate Image](https://github.com/ZhengjunHUO/leetcode/tree/main/0048_Rotate_Image) | Array  Math  Matrix | 顺时针旋转矩阵 |
 |0049| [Group Anagrams](https://github.com/ZhengjunHUO/leetcode/tree/main/0049_Group_Anagrams) | HashTable  String | 将相关联的易位词组合起来 |
+|0050| [Pow(x, n)](https://github.com/ZhengjunHUO/leetcode/tree/main/0050_Pow) | Math  Recursion | 实现次方运算 |
 |0053| [Maximum Subarray](https://github.com/ZhengjunHUO/leetcode/tree/main/0053_Maximum_Subarray) | Array  DivideAndConquer  DynamicProgramming | 找到和最大的子数列 |
+|0054| [Spiral Matrix](https://github.com/ZhengjunHUO/leetcode/tree/main/0054_Spiral_Matrix) | Array  Matrix  Simulation | 按顺时针螺旋输出矩阵所有元素 |
 |0055| [Jump Game](https://github.com/ZhengjunHUO/leetcode/tree/main/0055_Jump_Game) | Array  Greedy | 求是否可以跳到终点 |
 |0060| [Permutation Sequence](https://github.com/ZhengjunHUO/leetcode/tree/main/0060_Permutation_Sequence) | Math  Recursion | 在数列的所有排列组合中按字典顺序找出第k个组合 |
 |0062| [Unique Paths](https://github.com/ZhengjunHUO/leetcode/tree/main/0062_Unique_Paths) | Combinatorics  DynamicProgramming  Math | 计算从矩阵左上角到右下角的路线数 |
