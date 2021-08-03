@@ -25,7 +25,7 @@ func climbStairs(n int) int {
 }
 
 func main() {
-	ns := []int{2,3,5}
+	ns := []int{2,3,5,8}
 	for _,v := range ns {
 		fmt.Println(climbStairs(v))
 	}
