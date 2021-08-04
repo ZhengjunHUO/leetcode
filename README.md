@@ -63,12 +63,20 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0056| [Merge Intervals](https://github.com/ZhengjunHUO/leetcode/tree/main/0056_Merge_Intervals) | Array  Sorting | 合并重叠的区间 |
 |0057| [Insert Interval](https://github.com/ZhengjunHUO/leetcode/tree/main/0057_Insert_Interval) | Array | 插入区间（如有重叠需融合） |
 |0058| [Length of Last Word](https://github.com/ZhengjunHUO/leetcode/tree/main/0058_Length_of_Last_Word) | String | 最后一个词的长度 |
+|0059| [Spiral Matrix II](https://github.com/ZhengjunHUO/leetcode/tree/main/0059_Spiral_Matrix_II) | Array  Matrix  Simulation | 按顺时针螺旋向矩阵中插入元素 |
 |0060| [Permutation Sequence](https://github.com/ZhengjunHUO/leetcode/tree/main/0060_Permutation_Sequence) | Math  Recursion | 在数列的所有排列组合中按字典顺序找出第k个组合 |
+|0061| [Rotate List](https://github.com/ZhengjunHUO/leetcode/tree/main/0061_Rotate_List) | LinkedList  TwoPointers | 将链表的末尾移到链首 |
 |0062| [Unique Paths](https://github.com/ZhengjunHUO/leetcode/tree/main/0062_Unique_Paths) | Combinatorics  DynamicProgramming  Math | 计算从矩阵左上角到右下角的路线数 |
 |0063| [Unique Paths II](https://github.com/ZhengjunHUO/leetcode/tree/main/0063_Unique_Paths_II) | Array  DynamicProgramming  Matrix | 计算从含障碍物的矩阵左上角到右下角的路线数 |
+|0064| [Minimum Path Sum](https://github.com/ZhengjunHUO/leetcode/tree/main/0064_Minimum_Path_Sum) | Array  DynamicProgramming  Matrix | 计算从矩阵左上角到右下角的格子值之和最小的路线 |
 |0065| [Valid Number](https://github.com/ZhengjunHUO/leetcode/tree/main/0065_Valid_Number) | Math  String | 检查字符串是否为合法的数 |
 |0066| [Plus One](https://github.com/ZhengjunHUO/leetcode/tree/main/0066_Plus_One) | Array | 以数组描述的数加一 |
 |0067| [Add Binary](https://github.com/ZhengjunHUO/leetcode/tree/main/0067_Add_Binary) | Math  String | 字符串形式的二进制数相加 |
+|0069| [Sqrt(x)](https://github.com/ZhengjunHUO/leetcode/tree/main/0069_Sqrt_x) | Math  BinarySearch | 求平方根 |
+|0070| [Climbing Stairs](https://github.com/ZhengjunHUO/leetcode/tree/main/0070_Climbing_Stairs) | DynamicProgramming  Math  Memoization | 求共有几种方法到达n |
+|0071| [Simplify Path](https://github.com/ZhengjunHUO/leetcode/tree/main/0071_Simplify_Path) | Stack  String | 简化文件路径 |
+|0073| [Set Matrix Zeroes](https://github.com/ZhengjunHUO/leetcode/tree/main/0073_Set_Matrix_Zeroes) | Array  HashTable  Matrix | 将矩阵中值为0的格子的行和列都置0 |
+|0074| [Search a 2D Matrix](https://github.com/ZhengjunHUO/leetcode/tree/main/0074_Search_a_2D_Matrix) | Array  BinarySearch  Matrix | 在排好序的矩阵中找元素 |
 |0076| [Minimum Window Substring](https://github.com/ZhengjunHUO/leetcode/tree/main/0076_Minimum_Window_Substring) | HashTable  SlidingWindow  String  TwoPointers | 在A字符串中找到包含所有B字符串字母的最小子串 |
 |0077| [Combinations](https://github.com/ZhengjunHUO/leetcode/tree/main/0077_Combinations) | Array  Backtracking | 在1到n的范围内找出所有长度为k的组合 |
 |0078| [Subsets](https://github.com/ZhengjunHUO/leetcode/tree/main/0078_Subsets) | Array  Backtracking  BitManipulation | 找出数列的所有可能子集 |
