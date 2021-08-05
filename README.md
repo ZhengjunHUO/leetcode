@@ -77,6 +77,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0071| [Simplify Path](https://github.com/ZhengjunHUO/leetcode/tree/main/0071_Simplify_Path) | Stack  String | 简化文件路径 |
 |0073| [Set Matrix Zeroes](https://github.com/ZhengjunHUO/leetcode/tree/main/0073_Set_Matrix_Zeroes) | Array  HashTable  Matrix | 将矩阵中值为0的格子的行和列都置0 |
 |0074| [Search a 2D Matrix](https://github.com/ZhengjunHUO/leetcode/tree/main/0074_Search_a_2D_Matrix) | Array  BinarySearch  Matrix | 在排好序的矩阵中找元素 |
+|0075| [Sort Colors](https://github.com/ZhengjunHUO/leetcode/tree/main/0075_Sort_Colors) | Array  Sorting  TwoPointers | 三种颜色分类排序 |
 |0076| [Minimum Window Substring](https://github.com/ZhengjunHUO/leetcode/tree/main/0076_Minimum_Window_Substring) | HashTable  SlidingWindow  String  TwoPointers | 在A字符串中找到包含所有B字符串字母的最小子串 |
 |0077| [Combinations](https://github.com/ZhengjunHUO/leetcode/tree/main/0077_Combinations) | Array  Backtracking | 在1到n的范围内找出所有长度为k的组合 |
 |0078| [Subsets](https://github.com/ZhengjunHUO/leetcode/tree/main/0078_Subsets) | Array  Backtracking  BitManipulation | 找出数列的所有可能子集 |
@@ -137,7 +138,9 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0459| [Repeated Substring Pattern](https://github.com/ZhengjunHUO/leetcode/tree/main/0459_Repeated_Substring_Pattern) | String | 检查字符串是否由某个子串重复n次构成 |
 |0474| [Ones and Zeroes](https://github.com/ZhengjunHUO/leetcode/tree/main/0474_Ones_and_Zeroes) | DynamicProgramming | 字符串表示的二进制数组中，找出最大的包含至多m个0和n个1的子集合 |
 |0495| [Teemo Attacking](https://github.com/ZhengjunHUO/leetcode/tree/main/0495_Teemo_Attacking) | Array  Simulation | 计算进入异常状态的时间 |
+|0496| [Next Greater Element I](https://github.com/ZhengjunHUO/leetcode/tree/main/0496_Next_Greater_Element_I) | Array  HashTable  MonotonicStack  Stack | 找到下一个大于自己的元素 |
 |0502| [IPO](https://github.com/ZhengjunHUO/leetcode/tree/main/0502_IPO) | Array  Greedy  Heap  Sorting | 完成k个项目可以获得的最大纯利润 |
+|0503| [Next Greater Element II](https://github.com/ZhengjunHUO/leetcode/tree/main/0503_Next_Greater_Element_II) | Array  MonotonicStack  Stack | 首尾循环的列表寻找下一个大于自己的元素 |
 |0506| [Relative Ranks](https://github.com/ZhengjunHUO/leetcode/tree/main/0506_Relative_Ranks) | Array  Heap  Sorting | 把分数转换为名次 |
 |0523| [Continuous Subarray Sum](https://github.com/ZhengjunHUO/leetcode/tree/main/0523_Continuous_Subarray_Sum) | DynamicProgramming  Math | 求是否有一个长度至少为2的子串其和为给定值的倍数 |
 |0560| [Subarray Sum Equals K](https://github.com/ZhengjunHUO/leetcode/tree/main/0560_Subarray_Sum_Equals_K) | Array  HashTable | 求和为目标值的子串个数 |
