@@ -37,6 +37,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0022| [Generate Parentheses](https://github.com/ZhengjunHUO/leetcode/tree/main/0022_Generate_Parentheses) | Backtracking  DynamicProgramming  String | 生成括号对 |
 |0023| [Merge k Sorted Lists](https://github.com/ZhengjunHUO/leetcode/tree/main/0023_Merge_k_Sorted_Lists) | DivideAndConquer  Heap  LinkedList  MergeSort | 融合k个排好序的列表 |
 |0024| [Swap Nodes in Pairs](https://github.com/ZhengjunHUO/leetcode/tree/main/0024_Swap_Nodes_in_Pairs) | LinkedList  Recursion | 链表相邻两个结点对调 |
+|0025| [Reverse Nodes in k-Group](https://github.com/ZhengjunHUO/leetcode/tree/main/0025_Reverse_Nodes_in_kGroup) | LinkedList  Recursion | 链表中k个元素一组反转组内元素 |
 |0026| [Remove Duplicates from Sorted Array](https://github.com/ZhengjunHUO/leetcode/tree/main/0026_Remove_Duplicates_from_Sorted_Array) | Array  TwoPointers | 移除数组中多余的元素(in place) |
 |0027| [Remove Element](https://github.com/ZhengjunHUO/leetcode/tree/main/0027_Remove_Element) | Array  TwoPointers | 移除数组中指定元素(in place) |
 |0028| [Implement strStr()](https://github.com/ZhengjunHUO/leetcode/tree/main/0028_Implement_strStr) | String  TwoPointers | 找出pattern在字符串中第一次出现的位置 |
@@ -86,6 +87,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0084| [Largest Rectangle in Histogram](https://github.com/ZhengjunHUO/leetcode/tree/main/0084_Largest_Rectangle_in_Histogram) | Array  MonotonicStack  Stack | 直方图找到最到矩形 |
 |0088| [Merge Sorted Array](https://github.com/ZhengjunHUO/leetcode/tree/main/0088_Merge_Sorted_Array) | Array  Sorting  TwoPointers | 将两个排好序的字符串in-place融合 |
 |0090| [Subsets II](https://github.com/ZhengjunHUO/leetcode/tree/main/0090_Subsets_II) | Array  Backtracking  BitManipulation | 找出含重复元素数列的所有可能的不重复子集 |
+|0092| [Reverse Linked List II](https://github.com/ZhengjunHUO/leetcode/tree/main/0092_Reverse_Linked_List_II) | LinkedList | 反转部分链表 |
 |0093| [Restore IP Addresses](https://github.com/ZhengjunHUO/leetcode/tree/main/0093_Restore_IP_Addresses) | Backtracking  String | 从字符串还原IP地址 |
 |0111| [Minimum Depth of Binary Tree](https://github.com/ZhengjunHUO/leetcode/tree/main/0111_Minimum_Depth_of_Binary_Tree) | BinaryTree  BreadthFirstSearch  DepthFirstSearch  Tree | 求二叉树的最短深度 |
 |0114| [Flatten Binary Tree to Linked List](https://github.com/ZhengjunHUO/leetcode/tree/main/0114_Flatten_Binary_Tree_to_Linked_List) | BinaryTree  DepthFirstSearch  LinkedList  Stack  Tree | 把树压成链表 |
@@ -109,6 +111,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0195| [Tenth Line](https://github.com/ZhengjunHUO/leetcode/tree/main/0195_Tenth_Line) | Shell | 打印出文本的第10行 |
 |0198| [House Robber](https://github.com/ZhengjunHUO/leetcode/tree/main/0198_House_Robber) | DynamicProgramming | 抢劫不相邻房屋获得的最大收益 |
 |0204| [Count Primes](https://github.com/ZhengjunHUO/leetcode/tree/main/0204_Count_Primes) | Array  Enumeration  Math  NumberTheory | 统计小于n的质数个数 |
+|0206| [Reverse Linked List](https://github.com/ZhengjunHUO/leetcode/tree/main/0206_Reverse_Linked_List) | LinkedList  Recursion | 反转链表 |
 |0209| [Minimum Size Subarray Sum](https://github.com/ZhengjunHUO/leetcode/tree/main/0209_Minimum_Size_Subarray_Sum) | Array  BinarySearch  TwoPointers | 求和大于等于目标值的最短子串 |
 |0213| [House Robber II](https://github.com/ZhengjunHUO/leetcode/tree/main/0213_House_Robber_II) | DynamicProgramming | 抢劫不相邻房屋获得的最大收益 |
 |0214| [Shortest Palindrome](https://github.com/ZhengjunHUO/leetcode/tree/main/0214_Shortest_Palindrome) | HashFunction  RollingHash  String  StringMatching  | 找到从字符串头开始最长的回文组 |
