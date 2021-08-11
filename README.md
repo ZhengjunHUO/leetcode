@@ -89,6 +89,8 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0090| [Subsets II](https://github.com/ZhengjunHUO/leetcode/tree/main/0090_Subsets_II) | Array  Backtracking  BitManipulation | 找出含重复元素数列的所有可能的不重复子集 |
 |0092| [Reverse Linked List II](https://github.com/ZhengjunHUO/leetcode/tree/main/0092_Reverse_Linked_List_II) | LinkedList | 反转部分链表 |
 |0093| [Restore IP Addresses](https://github.com/ZhengjunHUO/leetcode/tree/main/0093_Restore_IP_Addresses) | Backtracking  String | 从字符串还原IP地址 |
+|0105| [Construct Binary Tree from Preorder and Inorder Traversal](https://github.com/ZhengjunHUO/leetcode/tree/main/0105_Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal) | Array  BinaryTree  DivideAndConquer  HashTable  Tree | 从前序遍历和中序遍历列表构建树 |
+|0106| [Construct Binary Tree from Inorder and Postorder Traversal](https://github.com/ZhengjunHUO/leetcode/tree/main/0106_Construct_Binary_Tree_from_Inorder_and_Postorder_Traversal) | Array  BinaryTree  DivideAndConquer  HashTable  Tree | 从中序遍历和后序遍历列表构建树 |
 |0111| [Minimum Depth of Binary Tree](https://github.com/ZhengjunHUO/leetcode/tree/main/0111_Minimum_Depth_of_Binary_Tree) | BinaryTree  BreadthFirstSearch  DepthFirstSearch  Tree | 求二叉树的最短深度 |
 |0114| [Flatten Binary Tree to Linked List](https://github.com/ZhengjunHUO/leetcode/tree/main/0114_Flatten_Binary_Tree_to_Linked_List) | BinaryTree  DepthFirstSearch  LinkedList  Stack  Tree | 把树压成链表 |
 |0116| [Populating Next Right Pointers in Each Node](https://github.com/ZhengjunHUO/leetcode/tree/main/0116_Populating_Next_Right_Pointers_in_Each_Node) | BinaryTree  BreadthFirstSearch  DepthFirstSearch  Tree | 树的同一层结点横向连接起来 |
@@ -117,6 +119,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0214| [Shortest Palindrome](https://github.com/ZhengjunHUO/leetcode/tree/main/0214_Shortest_Palindrome) | HashFunction  RollingHash  String  StringMatching  | 找到从字符串头开始最长的回文组 |
 |0215| [Kth Largest Element in an Array](https://github.com/ZhengjunHUO/leetcode/tree/main/0215_Kth_Largest_Element_in_an_Array) | Array  DivideAndConquer  Heap  Quickselect  Sorting | 数列中寻找第k大元素 |
 |0226| [Invert Binary Tree](https://github.com/ZhengjunHUO/leetcode/tree/main/0226_Invert_Binary_Tree) | BinaryTree  BreadthFirstSearch  DepthFirstSearch  Tree | 二叉树元素镜像转置 |
+|0234| [Palindrome Linked List](https://github.com/ZhengjunHUO/leetcode/tree/main/0234_Palindrome_Linked_List) | LinkedList  Recursion  Stack  TwoPointers | 判断链表是否是回文 |
 |0238| [Product of Array Except Self](https://github.com/ZhengjunHUO/leetcode/tree/main/0238_Product_of_Array_Except_Self) | Array | 返回数列所有元素乘积和除以各元素的数列 |
 |0239| [Sliding Window Maximum](https://github.com/ZhengjunHUO/leetcode/tree/main/0239_Sliding_Window_Maximum) | Dequeue  Heap  SlidingWindow | 返回定长的向右滑动的窗口每一步的局部最大值组成的数组 |
 |0242| [Valid Anagram](https://github.com/ZhengjunHUO/leetcode/tree/main/0242_Valid_Anagram) | HastTable  Sort | 判断一个字符串是否为另一个的易位词 |
@@ -161,7 +164,9 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0600| [Non-negative Integers without Consecutive Ones](https://github.com/ZhengjunHUO/leetcode/tree/main/0600_Non-negative_Integers_without_Consecutive_Ones) | DynamicProgramming | 从0到给定值之间所有数的二进制表示中没有连续1的数的个数 |
 |0628| [Maximum Product of Three Numbers](https://github.com/ZhengjunHUO/leetcode/tree/main/0628_Maximum_Product_of_Three_Numbers) | Array  Math | 数列中挑选三个数使其乘积最大 |
 |0632| [Smallest Range Covering Elements from K Lists](https://github.com/ZhengjunHUO/leetcode/tree/main/0632_Smallest_Range_Covering_Elements_from_K_Lists) | HashTable  String  TwoPointers | 找到一个最小范围覆盖所有K个数列中至少一个元素 |
+|0652| [Find Duplicate Subtrees](https://github.com/ZhengjunHUO/leetcode/tree/main/0652_Find_Duplicate_Subtrees) | BinaryTree  BreadthFirstSearch  DepthFirstSearch  Tree | 寻找重复的子树 |
 |0653| [Two Sum IV Input Is A BST](https://github.com/ZhengjunHUO/leetcode/tree/main/0653_Two_Sum_IV_Input_Is_A_BST) | Tree | 在BST中找到等于目标值的两个数 |
+|0654| [Maximum Binary Tree](https://github.com/ZhengjunHUO/leetcode/tree/main/0654_Maximum_Binary_Tree) | Array  BinaryTree  DivideAndConquer  MonotonicStack  Stack  Tree | 按要求构建二叉树 |
 |0686| [Repeated String Match](https://github.com/ZhengjunHUO/leetcode/tree/main/0686_Repeated_String_Match) | String | a字符串重复多少次可以包含b字符串 |
 |0689| [Maximum Sum of 3 Non-Overlapping Subarrays](https://github.com/ZhengjunHUO/leetcode/tree/main/0689_Maximum_Sum_of_3_Non-Overlapping_Subarrays) | Array  DynamicProgramming | 找到三个指定长度的和最大的独立子串 |
 |0692| [Top K Frequent Words](https://github.com/ZhengjunHUO/leetcode/tree/main/0692_Top_K_Frequent_Words) | BucketSort  Counting  HashTable  Heap  Sorting  String  Trie | 出现频率最高的k个词 |
