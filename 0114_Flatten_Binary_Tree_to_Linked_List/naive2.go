@@ -26,11 +26,11 @@ func flatten(root *godtype.TreeNode)  {
 }
 
 func main() {
-	tree := godtype.NewBTree([]interface{}{1,2,5,3,4,nil,6}, 0)
+	tree := godtype.NewBTree([]interface{}{1,2,5,3,4,nil,6})
 	flatten(tree)
-	godtype.PrintBtree(tree)
+	godtype.PrintBTreeDFS(tree)
 
-	tree1 := godtype.NewBTree([]interface{}{1,2,6,3,5,nil,7,4}, 0)
+	tree1 := godtype.NewBTree([]interface{}{1,2,6,3,5,nil,7,4})
 	flatten(tree1)
-	godtype.PrintBtree(tree1)
+	godtype.PrintBTreeDFS(tree1)
 }

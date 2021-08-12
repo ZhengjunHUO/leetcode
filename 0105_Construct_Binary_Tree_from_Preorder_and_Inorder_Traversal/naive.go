@@ -30,6 +30,6 @@ func buildTree(preorder []int, inorder []int) *godtype.TreeNode {
 }
 
 func main() {
-	godtype.PrintBtree(buildTree([]int{3,9,20,15,7}, []int{9,3,15,20,7}))
-	godtype.PrintBtree(buildTree([]int{-1}, []int{-1}))
+	godtype.PrintBTreeDFS(buildTree([]int{3,9,20,15,7}, []int{9,3,15,20,7}))
+	godtype.PrintBTreeDFS(buildTree([]int{-1}, []int{-1}))
 }

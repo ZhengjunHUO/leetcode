@@ -28,19 +28,19 @@ func findDuplicateSubtrees(root *godtype.TreeNode) []*godtype.TreeNode {
 }
 
 func main() {
-	list := findDuplicateSubtrees(godtype.NewBTree([]interface{}{1,2,3,4,nil,2,4,nil,nil,nil,nil,4}, 0))
+	list := findDuplicateSubtrees(godtype.NewBTree([]interface{}{1,2,3,4,nil,2,4,nil,nil,nil,nil,4}))
 	for _, v := range list {
-		godtype.PrintBtree(v)
+		godtype.PrintBTreeDFS(v)
 	}
 
 
-	list = findDuplicateSubtrees(godtype.NewBTree([]interface{}{2,1,1}, 0))
+	list = findDuplicateSubtrees(godtype.NewBTree([]interface{}{2,1,1}))
 	for _, v := range list {
-		godtype.PrintBtree(v)
+		godtype.PrintBTreeDFS(v)
 	}
 
-	list = findDuplicateSubtrees(godtype.NewBTree([]interface{}{2,2,2,3,nil,3,nil}, 0))
+	list = findDuplicateSubtrees(godtype.NewBTree([]interface{}{2,2,2,3,nil,3,nil}))
 	for _, v := range list {
-		godtype.PrintBtree(v)
+		godtype.PrintBTreeDFS(v)
 	}
 }

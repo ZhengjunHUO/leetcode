@@ -39,5 +39,5 @@ func minDepth(root *godtype.TreeNode) int {
 }
 
 func main() {
-	fmt.Println(minDepth(godtype.NewBTree([]interface{}{3,9,20,nil,nil,15,7}, 0)))
+	fmt.Println(minDepth(godtype.NewBTree([]interface{}{3,9,20,nil,nil,15,7})))
 }

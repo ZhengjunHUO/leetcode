@@ -5,6 +5,7 @@ import (
 )
 
 func main() {
-	godtype.PrintBtree(godtype.NewBTree([]interface{}{3,9,20,nil,nil,15,7}, 0))
-	godtype.PrintBtreeBFS(godtype.NewBTree([]interface{}{3,9,20,nil,nil,15,7}, 0))
+	tree := godtype.NewBTree([]interface{}{3,9,20,nil,nil,15,7})
+	godtype.PrintBTreeDFS(tree)
+	godtype.PrintBTreeBFS(tree)
 }

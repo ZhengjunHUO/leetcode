@@ -26,7 +26,7 @@ func invert(curr *godtype.TreeNode) {
 func main() {
 	trees := [][]interface{}{[]interface{}{4,2,7,1,3,6,9}, []interface{}{2,1,3}, []interface{}{}}
 	for i := range trees {
-		godtype.PrintBtreeBFS(invertTree(godtype.NewBTree(trees[i],0)))
+		godtype.PrintBTreeBFS(invertTree(godtype.NewBTree(trees[i])))
 	}
 	
 }

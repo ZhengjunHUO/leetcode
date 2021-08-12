@@ -32,6 +32,6 @@ func constructMaximumBinaryTree(nums []int) *godtype.TreeNode {
 func main() {
 	nums := [][]int{[]int{3,2,1,6,0,5}, []int{3,2,1}}
 	for i := range nums {
-		godtype.PrintBtree(constructMaximumBinaryTree(nums[i]))
+		godtype.PrintBTreeDFS(constructMaximumBinaryTree(nums[i]))
 	}
 }
