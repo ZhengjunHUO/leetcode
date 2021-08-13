@@ -89,6 +89,8 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0090| [Subsets II](https://github.com/ZhengjunHUO/leetcode/tree/main/0090_Subsets_II) | Array  Backtracking  BitManipulation | 找出含重复元素数列的所有可能的不重复子集 |
 |0092| [Reverse Linked List II](https://github.com/ZhengjunHUO/leetcode/tree/main/0092_Reverse_Linked_List_II) | LinkedList | 反转部分链表 |
 |0093| [Restore IP Addresses](https://github.com/ZhengjunHUO/leetcode/tree/main/0093_Restore_IP_Addresses) | Backtracking  String | 从字符串还原IP地址 |
+|0095| [Unique Binary Search Trees II](https://github.com/ZhengjunHUO/leetcode/tree/main/0095_Unique_Binary_Search_Trees_II) | Backtracking  BinarySearchTree  BinaryTree  DynamicProgramming  Tree | 返回从n个结点能构造的所有BST |
+|0096| [Unique Binary Search Trees](https://github.com/ZhengjunHUO/leetcode/tree/main/0096_Unique_Binary_Search_Trees) | BinarySearchTree  BinaryTree  DynamicProgramming  Math  Tree | 计算n个结点可以构造多少个BST |
 |0098| [Validate Binary Search Tree](https://github.com/ZhengjunHUO/leetcode/tree/main/0098_Validate_Binary_Search_Tree) | BinaryTree  BreadthFirstSearch  DepthFirstSearch  Tree | 判断树是否为BST |
 |0105| [Construct Binary Tree from Preorder and Inorder Traversal](https://github.com/ZhengjunHUO/leetcode/tree/main/0105_Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal) | Array  BinaryTree  DivideAndConquer  HashTable  Tree | 从前序遍历和中序遍历列表构建树 |
 |0106| [Construct Binary Tree from Inorder and Postorder Traversal](https://github.com/ZhengjunHUO/leetcode/tree/main/0106_Construct_Binary_Tree_from_Inorder_and_Postorder_Traversal) | Array  BinaryTree  DivideAndConquer  HashTable  Tree | 从中序遍历和后序遍历列表构建树 |
@@ -150,6 +152,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0435| [Non-overlapping Intervals](https://github.com/ZhengjunHUO/leetcode/tree/main/0435_Non-overlapping_Intervals) | Array  DynamicProgramming  Greedy  Sorting | 移除最少的区间使列表中的区间没有重叠 |
 |0438| [Find All Anagrams in a String](https://github.com/ZhengjunHUO/leetcode/tree/main/0438_Find_All_Anagrams_in_a_String) | HastTable | 在字符串A中找到所有字符串B的易位词 | 
 |0445| [Add Two Numbers II](https://github.com/ZhengjunHUO/leetcode/tree/main/0445_Add_Two_Numbers_II) | LinkedList | 以链表形式表示的两数之和 |
+|0450| [Delete Node in a BST](https://github.com/ZhengjunHUO/leetcode/tree/main/0450_Delete_Node_in_a_BST) | BinarySearchTree  BinaryTree  Tree | 在BST中删除一个结点 |
 |0451| [Sort Characters By Frequency](https://github.com/ZhengjunHUO/leetcode/tree/main/0451_Sort_Characters_By_Frequency) | BucketSort  Counting  HashTable  Heap  Sorting  String | 按字符出现的频率降序排列字符串 |
 |0454| [4Sum II](https://github.com/ZhengjunHUO/leetcode/tree/main/0454_4Sum_II) | BinarySearch  HastTable | 四个数列中分别取一个数q之和等于0的四元组个数 |
 |0459| [Repeated Substring Pattern](https://github.com/ZhengjunHUO/leetcode/tree/main/0459_Repeated_Substring_Pattern) | String | 检查字符串是否由某个子串重复n次构成 |
@@ -175,6 +178,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0692| [Top K Frequent Words](https://github.com/ZhengjunHUO/leetcode/tree/main/0692_Top_K_Frequent_Words) | BucketSort  Counting  HashTable  Heap  Sorting  String  Trie | 出现频率最高的k个词 |
 |0697| [Degree of an Array](https://github.com/ZhengjunHUO/leetcode/tree/main/0697_Degree_of_an_Array) | Array | 找到和字符串有相同度的子串 |
 |0700| [Search in a Binary Search Tree](https://github.com/ZhengjunHUO/leetcode/tree/main/0700_Search_in_a_Binary_Search_Tree) | BinarySearchTree  BinaryTree  Tree | 在BST中搜索一个元素 |
+|0701| [Insert into a Binary Search Tree](https://github.com/ZhengjunHUO/leetcode/tree/main/0701_Insert_into_a_Binary_Search_Tree) | BinarySearchTree  BinaryTree  Tree | 在BST中插入一个元素 |
 |0703| [Kth Largest Element in a Stream](https://github.com/ZhengjunHUO/leetcode/tree/main/0703_Kth_Largest_Element_in_a_Stream) | BinarySearchTree  BinaryTree  DataStream  Design  Heap  Tree | 不断插入新元素同时找到第k大的元素 |
 |0704| [Binary Search](https://github.com/ZhengjunHUO/leetcode/tree/main/0704_Binary_Search) | Array  BinarySearch | 二分搜索元素 |
 |0713| [Subarray Product Less Than K](https://github.com/ZhengjunHUO/leetcode/tree/main/0713_Subarray_Product_Less_Than_K) | Array  TwoPointers | 乘积小于目标值的子串的个数 |
