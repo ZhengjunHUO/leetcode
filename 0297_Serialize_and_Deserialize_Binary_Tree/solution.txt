@@ -1,0 +1,2 @@
+序列化和反序列化在刚接触树一类的题目时已经实现： 
+https://github.com/ZhengjunHUO/godtype/blob/main/btree.go
