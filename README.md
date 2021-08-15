@@ -100,6 +100,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0121| [Best Time to Buy and Sell Stock](https://github.com/ZhengjunHUO/leetcode/tree/main/0121_Best_Time_to_Buy_and_Sell_Stock) | Array  DynamicProgramming | 一次买卖交易获得的最大值 |
 |0122| [Best Time to Buy and Sell Stock II](https://github.com/ZhengjunHUO/leetcode/tree/main/0122_Best_Time_to_Buy_and_Sell_Stock_II) | Array  Greedy | 不限次数交易获得的最大值 |
 |0123| [Best Time to Buy and Sell Stock III](https://github.com/ZhengjunHUO/leetcode/tree/main/0123_Best_Time_to_Buy_and_Sell_Stock_III) | Array  DynamicProgramming | 至多两次交易获得的最大值 |
+|0130| [Surrounded Regions](https://github.com/ZhengjunHUO/leetcode/tree/main/0130_Surrounded_Regions) | Array  BreadthFirstSearch  DepthFirstSearch  Matrix  UnionFind | 把被X包围的O换成X |
 |0131| [Palindrome Partitioning](https://github.com/ZhengjunHUO/leetcode/tree/main/0131_Palindrome_Partitioning) | Backtracking  DynamicProgramming  String | 求字符串拆分成回文字符串数组的所有可能性 |
 |0141| [Linked List Cycle](https://github.com/ZhengjunHUO/leetcode/tree/main/0141_Linked_List_Cycle) | HashTable  LinkedList  TwoPointers | 判断链表是否有环 |
 |0142| [Linked List Cycle II](https://github.com/ZhengjunHUO/leetcode/tree/main/0142_Linked_List_Cycle_II) | HashTable  LinkedList  TwoPointers | 判断链表是否有环并找出环开始的地方 |
@@ -121,9 +122,12 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0213| [House Robber II](https://github.com/ZhengjunHUO/leetcode/tree/main/0213_House_Robber_II) | DynamicProgramming | 抢劫不相邻房屋获得的最大收益 |
 |0214| [Shortest Palindrome](https://github.com/ZhengjunHUO/leetcode/tree/main/0214_Shortest_Palindrome) | HashFunction  RollingHash  String  StringMatching  | 找到从字符串头开始最长的回文组 |
 |0215| [Kth Largest Element in an Array](https://github.com/ZhengjunHUO/leetcode/tree/main/0215_Kth_Largest_Element_in_an_Array) | Array  DivideAndConquer  Heap  Quickselect  Sorting | 数列中寻找第k大元素 |
+|0222| [Count Complete Tree Nodes](https://github.com/ZhengjunHUO/leetcode/tree/main/0222_Count_Complete_Tree_Nodes) | BinarySearch  BinaryTree  DepthFirstSearch  Tree | 数一颗Complete二叉树的结点个数 |
 |0226| [Invert Binary Tree](https://github.com/ZhengjunHUO/leetcode/tree/main/0226_Invert_Binary_Tree) | BinaryTree  BreadthFirstSearch  DepthFirstSearch  Tree | 二叉树元素镜像转置 |
 |0230| [Kth Smallest Element in a BST](https://github.com/ZhengjunHUO/leetcode/tree/main/0230_Kth_Smallest_Element_in_a_BST) | BinaryTree  BreadthFirstSearch  DepthFirstSearch  Tree | 在BST中找到第k小的元素 |
 |0234| [Palindrome Linked List](https://github.com/ZhengjunHUO/leetcode/tree/main/0234_Palindrome_Linked_List) | LinkedList  Recursion  Stack  TwoPointers | 判断链表是否是回文 |
+|0235| [Lowest Common Ancestor of a Binary Search Tree](https://github.com/ZhengjunHUO/leetcode/tree/main/0235_Lowest_Common_Ancestor_of_a_Binary_Search_Tree) | BinarySearchTree  BinaryTree  DepthFirstSearch  Tree | 找到BST中两个元素的LCA |
+|0236| [Lowest Common Ancestor of a Binary Tree](https://github.com/ZhengjunHUO/leetcode/tree/main/0236_Lowest_Common_Ancestor_of_a_Binary_Tree) | BinaryTree  DepthFirstSearch  Tree | 找到二叉树中两个元素的LCA |
 |0238| [Product of Array Except Self](https://github.com/ZhengjunHUO/leetcode/tree/main/0238_Product_of_Array_Except_Self) | Array | 返回数列所有元素乘积和除以各元素的数列 |
 |0239| [Sliding Window Maximum](https://github.com/ZhengjunHUO/leetcode/tree/main/0239_Sliding_Window_Maximum) | Dequeue  Heap  SlidingWindow | 返回定长的向右滑动的窗口每一步的局部最大值组成的数组 |
 |0242| [Valid Anagram](https://github.com/ZhengjunHUO/leetcode/tree/main/0242_Valid_Anagram) | HastTable  Sort | 判断一个字符串是否为另一个的易位词 |
