@@ -116,6 +116,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0193| [Valid Phone Numbers](https://github.com/ZhengjunHUO/leetcode/tree/main/0193_Valid_Phone_Numbers) | Shell | 从文本中找出合法的电话号码 |
 |0195| [Tenth Line](https://github.com/ZhengjunHUO/leetcode/tree/main/0195_Tenth_Line) | Shell | 打印出文本的第10行 |
 |0198| [House Robber](https://github.com/ZhengjunHUO/leetcode/tree/main/0198_House_Robber) | DynamicProgramming | 抢劫不相邻房屋获得的最大收益 |
+|0200| [Number of Islands](https://github.com/ZhengjunHUO/leetcode/tree/main/0200_Number_of_Islands) | Array  BreadthFirstSearch  DepthFirstSearch  Matrix  UnionFind | 找到有几个岛屿 |
 |0204| [Count Primes](https://github.com/ZhengjunHUO/leetcode/tree/main/0204_Count_Primes) | Array  Enumeration  Math  NumberTheory | 统计小于n的质数个数 |
 |0206| [Reverse Linked List](https://github.com/ZhengjunHUO/leetcode/tree/main/0206_Reverse_Linked_List) | LinkedList  Recursion | 反转链表 |
 |0209| [Minimum Size Subarray Sum](https://github.com/ZhengjunHUO/leetcode/tree/main/0209_Minimum_Size_Subarray_Sum) | Array  BinarySearch  TwoPointers | 求和大于等于目标值的最短子串 |
@@ -139,6 +140,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0283| [Move Zeroes](https://github.com/ZhengjunHUO/leetcode/tree/main/0283_Move_Zeroes) | Array  TwoPointers | 将数列中的0移到最后 |
 |0295| [Find Median from Data Stream](https://github.com/ZhengjunHUO/leetcode/tree/main/0295_Find_Median_from_Data_Stream) | DataStream  Design  Heap  Sorting  TwoPointers | 数据流中求中位数 |
 |0297| [Serialize and Deserialize Binary Tree](https://github.com/ZhengjunHUO/leetcode/tree/main/0297_Serialize_and_Deserialize_Binary_Tree) | BinaryTree  BreadthFirstSearch  DepthFirstSearch  Design  String  Tree | 序列化及反序列化一棵树 | 
+|0305| [Number of Islands II](https://github.com/ZhengjunHUO/leetcode/tree/main/0305_Number_of_Islands_II) | Array  BreadthFirstSearch  DepthFirstSearch  Matrix  UnionFind | 填海造岛过程中岛屿个数 |
 |0309| [Best Time to Buy and Sell Stock with Cooldown](https://github.com/ZhengjunHUO/leetcode/tree/main/0309_Best_Time_to_Buy_and_Sell_Stock_with_Cooldown) | DynamicProgramming | 不限次数交易获得的最大值，卖出后有一天冷却期 |
 |0313| [Super Ugly Number](https://github.com/ZhengjunHUO/leetcode/tree/main/0313_Super_Ugly_Number) | Array  DynamicProgramming  HashTable  Heap  Math | |
 |0322| [Coin Change](https://github.com/ZhengjunHUO/leetcode/tree/main/0322_Coin_Change) | Array  BreadthFirstSearch  DynamicProgramming | 最少能用几枚硬币凑成目标数额 |
@@ -182,6 +184,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0686| [Repeated String Match](https://github.com/ZhengjunHUO/leetcode/tree/main/0686_Repeated_String_Match) | String | a字符串重复多少次可以包含b字符串 |
 |0689| [Maximum Sum of 3 Non-Overlapping Subarrays](https://github.com/ZhengjunHUO/leetcode/tree/main/0689_Maximum_Sum_of_3_Non-Overlapping_Subarrays) | Array  DynamicProgramming | 找到三个指定长度的和最大的独立子串 |
 |0692| [Top K Frequent Words](https://github.com/ZhengjunHUO/leetcode/tree/main/0692_Top_K_Frequent_Words) | BucketSort  Counting  HashTable  Heap  Sorting  String  Trie | 出现频率最高的k个词 |
+|0695| [Max Area of Island](https://github.com/ZhengjunHUO/leetcode/tree/main/0695_Max_Area_of_Island) | Array  BreadthFirstSearch  DepthFirstSearch  Matrix  UnionFind | 找到最大的岛 |
 |0697| [Degree of an Array](https://github.com/ZhengjunHUO/leetcode/tree/main/0697_Degree_of_an_Array) | Array | 找到和字符串有相同度的子串 |
 |0700| [Search in a Binary Search Tree](https://github.com/ZhengjunHUO/leetcode/tree/main/0700_Search_in_a_Binary_Search_Tree) | BinarySearchTree  BinaryTree  Tree | 在BST中搜索一个元素 |
 |0701| [Insert into a Binary Search Tree](https://github.com/ZhengjunHUO/leetcode/tree/main/0701_Insert_into_a_Binary_Search_Tree) | BinarySearchTree  BinaryTree  Tree | 在BST中插入一个元素 |
@@ -205,6 +208,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0978| [Longest Turbulent Subarray](https://github.com/ZhengjunHUO/leetcode/tree/main/0978_Longest_Turbulent_Subarray) | Array  DynamicProgramming  SlidingWindow | 找到符合峰谷交替规律的最长的子串 |
 |0986| [Interval List Intersections](https://github.com/ZhengjunHUO/leetcode/tree/main/0986_Interval_List_Intersections) | Array  TwoPointers | 两个区间组成的列表找交集 |
 |0989| [Add to Array-Form of Integer](https://github.com/ZhengjunHUO/leetcode/tree/main/0989_Add_to_Array-Form_of_Integer) | Array | 求一个以数组形式表示的数和一个整数之和 |
+|0990| [Satisfiability of Equality Equations](https://github.com/ZhengjunHUO/leetcode/tree/main/0990_Satisfiability_of_Equality_Equations) | Array  Graph  String  UnionFind | 判断等式集合是否存在矛盾 |
 |1038| [Binary Search Tree to Greater Sum Tree](https://github.com/ZhengjunHUO/leetcode/tree/main/1038_Binary_Search_Tree_to_Greater_Sum_Tree) | BinaryTree  BreadthFirstSearch  DepthFirstSearch  Tree | 结点的值更新为整棵树所有大于等于该结点的值的和 |
 |1099| [Two Sum Less Than K](https://github.com/ZhengjunHUO/leetcode/tree/main/1099_Two_Sum_Less_Than_K) | Array | 数组中找到小于目标值的最大两数之和 | 
 |1201| [Ugly Number III](https://github.com/ZhengjunHUO/leetcode/tree/main/1201_Ugly_Number_III) | BinarySearch  Math  NumberTheory | |
