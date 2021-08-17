@@ -104,6 +104,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0131| [Palindrome Partitioning](https://github.com/ZhengjunHUO/leetcode/tree/main/0131_Palindrome_Partitioning) | Backtracking  DynamicProgramming  String | 求字符串拆分成回文字符串数组的所有可能性 |
 |0141| [Linked List Cycle](https://github.com/ZhengjunHUO/leetcode/tree/main/0141_Linked_List_Cycle) | HashTable  LinkedList  TwoPointers | 判断链表是否有环 |
 |0142| [Linked List Cycle II](https://github.com/ZhengjunHUO/leetcode/tree/main/0142_Linked_List_Cycle_II) | HashTable  LinkedList  TwoPointers | 判断链表是否有环并找出环开始的地方 |
+|0146| [LRU Cache](https://github.com/ZhengjunHUO/leetcode/tree/main/0146_LRU_Cache) | Design  DoublyLinkedList  HashTable  LinkedList | 实现一个LRU缓存 |
 |0152| [Maximum Product Subarray](https://github.com/ZhengjunHUO/leetcode/tree/main/0152_Maximum_Product_Subarray) | Array  DynamicProgramming | 找出所有元素乘积最大的子串 |
 |0155| [Min Stack](https://github.com/ZhengjunHUO/leetcode/tree/main/0155_Min_Stack) | Design  Stack | 构建能快速返回最小值的栈 |
 |0167| [Two Sum II](https://github.com/ZhengjunHUO/leetcode/tree/main/0167_Two_Sum_II) | Array  BinarySearch  TwoPointers | 递增数列中找出和为目标值的两个元素 |
@@ -164,6 +165,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0451| [Sort Characters By Frequency](https://github.com/ZhengjunHUO/leetcode/tree/main/0451_Sort_Characters_By_Frequency) | BucketSort  Counting  HashTable  Heap  Sorting  String | 按字符出现的频率降序排列字符串 |
 |0454| [4Sum II](https://github.com/ZhengjunHUO/leetcode/tree/main/0454_4Sum_II) | BinarySearch  HastTable | 四个数列中分别取一个数q之和等于0的四元组个数 |
 |0459| [Repeated Substring Pattern](https://github.com/ZhengjunHUO/leetcode/tree/main/0459_Repeated_Substring_Pattern) | String | 检查字符串是否由某个子串重复n次构成 |
+|0460| [LFU Cache](https://github.com/ZhengjunHUO/leetcode/tree/main/0460_LFU_Cache) | Design  DoublyLinkedList  HashTable  LinkedList | 实现一个LFU缓存 |
 |0474| [Ones and Zeroes](https://github.com/ZhengjunHUO/leetcode/tree/main/0474_Ones_and_Zeroes) | DynamicProgramming | 字符串表示的二进制数组中，找出最大的包含至多m个0和n个1的子集合 |
 |0495| [Teemo Attacking](https://github.com/ZhengjunHUO/leetcode/tree/main/0495_Teemo_Attacking) | Array  Simulation | 计算进入异常状态的时间 |
 |0496| [Next Greater Element I](https://github.com/ZhengjunHUO/leetcode/tree/main/0496_Next_Greater_Element_I) | Array  HashTable  MonotonicStack  Stack | 找到下一个大于自己的元素 |
@@ -201,7 +203,9 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0763| [Partition Labels](https://github.com/ZhengjunHUO/leetcode/tree/main/0763_Partition_Labels) | Greedy  HashTable  String  TwoPointers | 尽可能将字符串分段，且每个字母仅出现在某段中 |
 |0784| [Letter Case Permutation](https://github.com/ZhengjunHUO/leetcode/tree/main/0784_Letter_Case_Permutation) | Backtracking  BitManipulation  String | alnum字符串中字母大小写变换的排列组合 |
 |0797| [All Paths From Source to Target](https://github.com/ZhengjunHUO/leetcode/tree/main/0797_All_Paths_From_Source_to_Target) | Backtracking  BreadthFirstSearch  DepthFirstSearch  Graph | 找到DAG中起点到终点的所有路径 |
+|0827| [Making A Large Island](https://github.com/ZhengjunHUO/leetcode/tree/main/0827_Making_A_Large_Island) | Array  BreadthFirstSearch  DepthFirstSearch  Matrix  UnionFind | 海中最多填一个土能造出的最大岛 |
 |0876| [Middle of the Linked List](https://github.com/ZhengjunHUO/leetcode/tree/main/0876_Middle_of_the_Linked_List) | LinkedList  TwoPointers | 寻找链表的中点 |
+|0895| [Maximum Frequency Stack](https://github.com/ZhengjunHUO/leetcode/tree/main/0895_Maximum_Frequency_Stack) | Design  HashTable  OrderedSet  Stack | 实现一个Pop最大出现频率的值的栈 |
 |0912| [Sort an Array](https://github.com/ZhengjunHUO/leetcode/tree/main/0912_Sort_an_Array) | Array  BucketSort  CountingSort  DivideAndConquer  Heap  MergeSort  RadixSort  Sorting | 给数列排序 |
 |0974| [Subarray Sums Divisible by K](https://github.com/ZhengjunHUO/leetcode/tree/main/0974_Subarray_Sums_Divisible_by_K) | Array  HashTable | 和可以整除目标值的子串的个数 |
 |0977| [Squares of a Sorted Array](https://github.com/ZhengjunHUO/leetcode/tree/main/0977_Squares_of_a_Sorted_Array) | Array  Sorting  TwoPointers | 求排好序的数组各元素平方后得到的新升序数组 |
