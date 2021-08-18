@@ -125,8 +125,10 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0214| [Shortest Palindrome](https://github.com/ZhengjunHUO/leetcode/tree/main/0214_Shortest_Palindrome) | HashFunction  RollingHash  String  StringMatching  | 找到从字符串头开始最长的回文组 |
 |0215| [Kth Largest Element in an Array](https://github.com/ZhengjunHUO/leetcode/tree/main/0215_Kth_Largest_Element_in_an_Array) | Array  DivideAndConquer  Heap  Quickselect  Sorting | 数列中寻找第k大元素 |
 |0222| [Count Complete Tree Nodes](https://github.com/ZhengjunHUO/leetcode/tree/main/0222_Count_Complete_Tree_Nodes) | BinarySearch  BinaryTree  DepthFirstSearch  Tree | 数一颗Complete二叉树的结点个数 |
+|0225| [Implement Stack using Queues](https://github.com/ZhengjunHUO/leetcode/tree/main/0225_Implement_Stack_using_Queues) | Design  Queue  Stack | 用queue来实现stack |
 |0226| [Invert Binary Tree](https://github.com/ZhengjunHUO/leetcode/tree/main/0226_Invert_Binary_Tree) | BinaryTree  BreadthFirstSearch  DepthFirstSearch  Tree | 二叉树元素镜像转置 |
 |0230| [Kth Smallest Element in a BST](https://github.com/ZhengjunHUO/leetcode/tree/main/0230_Kth_Smallest_Element_in_a_BST) | BinaryTree  BreadthFirstSearch  DepthFirstSearch  Tree | 在BST中找到第k小的元素 |
+|0232| [Implement Queue using Stacks](https://github.com/ZhengjunHUO/leetcode/tree/main/0232_Implement_Queue_using_Stacks) | Design  Queue  Stack | 用stack来实现queue |
 |0234| [Palindrome Linked List](https://github.com/ZhengjunHUO/leetcode/tree/main/0234_Palindrome_Linked_List) | LinkedList  Recursion  Stack  TwoPointers | 判断链表是否是回文 |
 |0235| [Lowest Common Ancestor of a Binary Search Tree](https://github.com/ZhengjunHUO/leetcode/tree/main/0235_Lowest_Common_Ancestor_of_a_Binary_Search_Tree) | BinarySearchTree  BinaryTree  DepthFirstSearch  Tree | 找到BST中两个元素的LCA |
 |0236| [Lowest Common Ancestor of a Binary Tree](https://github.com/ZhengjunHUO/leetcode/tree/main/0236_Lowest_Common_Ancestor_of_a_Binary_Tree) | BinaryTree  DepthFirstSearch  Tree | 找到二叉树中两个元素的LCA |
@@ -204,6 +206,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0784| [Letter Case Permutation](https://github.com/ZhengjunHUO/leetcode/tree/main/0784_Letter_Case_Permutation) | Backtracking  BitManipulation  String | alnum字符串中字母大小写变换的排列组合 |
 |0797| [All Paths From Source to Target](https://github.com/ZhengjunHUO/leetcode/tree/main/0797_All_Paths_From_Source_to_Target) | Backtracking  BreadthFirstSearch  DepthFirstSearch  Graph | 找到DAG中起点到终点的所有路径 |
 |0827| [Making A Large Island](https://github.com/ZhengjunHUO/leetcode/tree/main/0827_Making_A_Large_Island) | Array  BreadthFirstSearch  DepthFirstSearch  Matrix  UnionFind | 海中最多填一个土能造出的最大岛 |
+|0870| [Advantage Shuffle](https://github.com/ZhengjunHUO/leetcode/tree/main/0870_Advantage_Shuffle) | Array  Greedy  Sorting | 交换数列中的元素使其对另一个数列逐元素比较大小占据最大优势 |
 |0876| [Middle of the Linked List](https://github.com/ZhengjunHUO/leetcode/tree/main/0876_Middle_of_the_Linked_List) | LinkedList  TwoPointers | 寻找链表的中点 |
 |0895| [Maximum Frequency Stack](https://github.com/ZhengjunHUO/leetcode/tree/main/0895_Maximum_Frequency_Stack) | Design  HashTable  OrderedSet  Stack | 实现一个Pop最大出现频率的值的栈 |
 |0912| [Sort an Array](https://github.com/ZhengjunHUO/leetcode/tree/main/0912_Sort_an_Array) | Array  BucketSort  CountingSort  DivideAndConquer  Heap  MergeSort  RadixSort  Sorting | 给数列排序 |
