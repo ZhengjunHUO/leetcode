@@ -147,6 +147,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0305| [Number of Islands II](https://github.com/ZhengjunHUO/leetcode/tree/main/0305_Number_of_Islands_II) | Array  BreadthFirstSearch  DepthFirstSearch  Matrix  UnionFind | 填海造岛过程中岛屿个数 |
 |0309| [Best Time to Buy and Sell Stock with Cooldown](https://github.com/ZhengjunHUO/leetcode/tree/main/0309_Best_Time_to_Buy_and_Sell_Stock_with_Cooldown) | DynamicProgramming | 不限次数交易获得的最大值，卖出后有一天冷却期 |
 |0313| [Super Ugly Number](https://github.com/ZhengjunHUO/leetcode/tree/main/0313_Super_Ugly_Number) | Array  DynamicProgramming  HashTable  Heap  Math | |
+|0316| [Remove Duplicate Letters](https://github.com/ZhengjunHUO/leetcode/tree/main/0316_Remove_Duplicate_Letters) | Greedy  MonotonicStack  Stack  String | 保持相对顺序的前提下移除重复字母，并且字典序最小 |
 |0322| [Coin Change](https://github.com/ZhengjunHUO/leetcode/tree/main/0322_Coin_Change) | Array  BreadthFirstSearch  DynamicProgramming | 最少能用几枚硬币凑成目标数额 |
 |0325| [Maximum Size Subarray Sum Equals k](https://github.com/ZhengjunHUO/leetcode/tree/main/0325_Maximum_Size_Subarray_Sum_Equals_k) | ??? | 求和等于目标值的最长子串 |
 |0337| [House Robber III](https://github.com/ZhengjunHUO/leetcode/tree/main/0337_House_Robber_III) | DepthFirstSearch  DynamicProgramming  Tree | 抢劫树形排列不相邻房屋获得的最大收益 |
@@ -179,6 +180,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0509| [Fibonacci Number](https://github.com/ZhengjunHUO/leetcode/tree/main/0509_Fibonacci_Number) | DynamicProgramming  Math  Memoization | 斐波那契数列 |
 |0523| [Continuous Subarray Sum](https://github.com/ZhengjunHUO/leetcode/tree/main/0523_Continuous_Subarray_Sum) | DynamicProgramming  Math | 求是否有一个长度至少为2的子串其和为给定值的倍数 |
 |0538| [Convert BST to Greater Tree](https://github.com/ZhengjunHUO/leetcode/tree/main/0538_Convert_BST_to_Greater_Tree) | BinaryTree  BreadthFirstSearch  DepthFirstSearch  Tree | 结点的值更新为整棵树所有大于等于该结点的值的和 |
+|0547| [Number of Provinces](https://github.com/ZhengjunHUO/leetcode/tree/main/0547_Number_of_Provinces) | BreadthFirstSearch  DepthFirstSearch  Graph  UnionFind | 统计有几个城市群 |
 |0560| [Subarray Sum Equals K](https://github.com/ZhengjunHUO/leetcode/tree/main/0560_Subarray_Sum_Equals_K) | Array  HashTable | 求和为目标值的子串个数 |
 |0567| [Permutation in String](https://github.com/ZhengjunHUO/leetcode/tree/main/0567_Permutation_in_String) | TwoPointer  SlidingWindow | 求字符串A是否包含字符串B的变种 |
 |0600| [Non-negative Integers without Consecutive Ones](https://github.com/ZhengjunHUO/leetcode/tree/main/0600_Non-negative_Integers_without_Consecutive_Ones) | DynamicProgramming | 从0到给定值之间所有数的二进制表示中没有连续1的数的个数 |
@@ -187,6 +189,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0652| [Find Duplicate Subtrees](https://github.com/ZhengjunHUO/leetcode/tree/main/0652_Find_Duplicate_Subtrees) | BinaryTree  BreadthFirstSearch  DepthFirstSearch  Tree | 寻找重复的子树 |
 |0653| [Two Sum IV Input Is A BST](https://github.com/ZhengjunHUO/leetcode/tree/main/0653_Two_Sum_IV_Input_Is_A_BST) | Tree | 在BST中找到等于目标值的两个数 |
 |0654| [Maximum Binary Tree](https://github.com/ZhengjunHUO/leetcode/tree/main/0654_Maximum_Binary_Tree) | Array  BinaryTree  DivideAndConquer  MonotonicStack  Stack  Tree | 按要求构建二叉树 |
+|0684| [Redundant Connection](https://github.com/ZhengjunHUO/leetcode/tree/main/0684_Redundant_Connection) | BreadthFirstSearch  DepthFirstSearch  Graph  UnionFind | 移除多余的边使带环的图成为树 |
 |0686| [Repeated String Match](https://github.com/ZhengjunHUO/leetcode/tree/main/0686_Repeated_String_Match) | String | a字符串重复多少次可以包含b字符串 |
 |0689| [Maximum Sum of 3 Non-Overlapping Subarrays](https://github.com/ZhengjunHUO/leetcode/tree/main/0689_Maximum_Sum_of_3_Non-Overlapping_Subarrays) | Array  DynamicProgramming | 找到三个指定长度的和最大的独立子串 |
 |0692| [Top K Frequent Words](https://github.com/ZhengjunHUO/leetcode/tree/main/0692_Top_K_Frequent_Words) | BucketSort  Counting  HashTable  Heap  Sorting  String  Trie | 出现频率最高的k个词 |
@@ -207,6 +210,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0752| [Open the Lock](https://github.com/ZhengjunHUO/leetcode/tree/main/0752_Open_the_Lock) | Array  BreadthFirstSearch  HashTable  String | 密码锁至少需要转动几下才能打开 |
 |0763| [Partition Labels](https://github.com/ZhengjunHUO/leetcode/tree/main/0763_Partition_Labels) | Greedy  HashTable  String  TwoPointers | 尽可能将字符串分段，且每个字母仅出现在某段中 |
 |0784| [Letter Case Permutation](https://github.com/ZhengjunHUO/leetcode/tree/main/0784_Letter_Case_Permutation) | Backtracking  BitManipulation  String | alnum字符串中字母大小写变换的排列组合 |
+|0785| [Is Graph Bipartite?](https://github.com/ZhengjunHUO/leetcode/tree/main/0785_Is_Graph_Bipartite) | BreadthFirstSearch  DepthFirstSearch  Graph  UnionFind | 能否把结点分为两组，使每条边的两边的结点分属两个组 |
 |0797| [All Paths From Source to Target](https://github.com/ZhengjunHUO/leetcode/tree/main/0797_All_Paths_From_Source_to_Target) | Backtracking  BreadthFirstSearch  DepthFirstSearch  Graph | 找到DAG中起点到终点的所有路径 |
 |0827| [Making A Large Island](https://github.com/ZhengjunHUO/leetcode/tree/main/0827_Making_A_Large_Island) | Array  BreadthFirstSearch  DepthFirstSearch  Matrix  UnionFind | 海中最多填一个土能造出的最大岛 |
 |0870| [Advantage Shuffle](https://github.com/ZhengjunHUO/leetcode/tree/main/0870_Advantage_Shuffle) | Array  Greedy  Sorting | 交换数列中的元素使其对另一个数列逐元素比较大小占据最大优势 |
@@ -220,6 +224,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0989| [Add to Array-Form of Integer](https://github.com/ZhengjunHUO/leetcode/tree/main/0989_Add_to_Array-Form_of_Integer) | Array | 求一个以数组形式表示的数和一个整数之和 |
 |0990| [Satisfiability of Equality Equations](https://github.com/ZhengjunHUO/leetcode/tree/main/0990_Satisfiability_of_Equality_Equations) | Array  Graph  String  UnionFind | 判断等式集合是否存在矛盾 |
 |1038| [Binary Search Tree to Greater Sum Tree](https://github.com/ZhengjunHUO/leetcode/tree/main/1038_Binary_Search_Tree_to_Greater_Sum_Tree) | BinaryTree  BreadthFirstSearch  DepthFirstSearch  Tree | 结点的值更新为整棵树所有大于等于该结点的值的和 |
+|1081| [Smallest Subsequence of Distinct Characters](https://github.com/ZhengjunHUO/leetcode/tree/main/1081_Smallest_Subsequence_of_Distinct_Characters) | Greedy  MonotonicStack  Stack  String | 保持相对顺序的前提下移除重复字母，并且字典序最小 |
 |1099| [Two Sum Less Than K](https://github.com/ZhengjunHUO/leetcode/tree/main/1099_Two_Sum_Less_Than_K) | Array | 数组中找到小于目标值的最大两数之和 | 
 |1201| [Ugly Number III](https://github.com/ZhengjunHUO/leetcode/tree/main/1201_Ugly_Number_III) | BinarySearch  Math  NumberTheory | |
 |1288| [Remove Covered Intervals](https://github.com/ZhengjunHUO/leetcode/tree/main/1288_Remove_Covered_Intervals) | Array  Sorting | 移除能被另一个区间覆盖的区间 |
