@@ -76,6 +76,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0069| [Sqrt(x)](https://github.com/ZhengjunHUO/leetcode/tree/main/0069_Sqrt_x) | Math  BinarySearch | 求平方根 |
 |0070| [Climbing Stairs](https://github.com/ZhengjunHUO/leetcode/tree/main/0070_Climbing_Stairs) | DynamicProgramming  Math  Memoization | 求共有几种方法到达n |
 |0071| [Simplify Path](https://github.com/ZhengjunHUO/leetcode/tree/main/0071_Simplify_Path) | Stack  String | 简化文件路径 |
+|0072| [Edit Distance](https://github.com/ZhengjunHUO/leetcode/tree/main/0072_Edit_Distance) | String  DynamicProgramming | 求两个字符串的距离（需要增删改操作的次数）|
 |0073| [Set Matrix Zeroes](https://github.com/ZhengjunHUO/leetcode/tree/main/0073_Set_Matrix_Zeroes) | Array  HashTable  Matrix | 将矩阵中值为0的格子的行和列都置0 |
 |0074| [Search a 2D Matrix](https://github.com/ZhengjunHUO/leetcode/tree/main/0074_Search_a_2D_Matrix) | Array  BinarySearch  Matrix | 在排好序的矩阵中找元素 |
 |0075| [Sort Colors](https://github.com/ZhengjunHUO/leetcode/tree/main/0075_Sort_Colors) | Array  Sorting  TwoPointers | 三种颜色分类排序 |
@@ -173,6 +174,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0459| [Repeated Substring Pattern](https://github.com/ZhengjunHUO/leetcode/tree/main/0459_Repeated_Substring_Pattern) | String | 检查字符串是否由某个子串重复n次构成 |
 |0460| [LFU Cache](https://github.com/ZhengjunHUO/leetcode/tree/main/0460_LFU_Cache) | Design  DoublyLinkedList  HashTable  LinkedList | 实现一个LFU缓存 |
 |0474| [Ones and Zeroes](https://github.com/ZhengjunHUO/leetcode/tree/main/0474_Ones_and_Zeroes) | DynamicProgramming | 字符串表示的二进制数组中，找出最大的包含至多m个0和n个1的子集合 |
+|0494| [Target Sum](https://github.com/ZhengjunHUO/leetcode/tree/main/0494_Target_Sum) | Array  Backtracking  DynamicProgramming | 数列中的数字可以取正负，求其和可以等于目标值的组合数 |
 |0495| [Teemo Attacking](https://github.com/ZhengjunHUO/leetcode/tree/main/0495_Teemo_Attacking) | Array  Simulation | 计算进入异常状态的时间 |
 |0496| [Next Greater Element I](https://github.com/ZhengjunHUO/leetcode/tree/main/0496_Next_Greater_Element_I) | Array  HashTable  MonotonicStack  Stack | 找到下一个大于自己的元素 |
 |0502| [IPO](https://github.com/ZhengjunHUO/leetcode/tree/main/0502_IPO) | Array  Greedy  Heap  Sorting | 完成k个项目可以获得的最大纯利润 |
@@ -184,6 +186,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0547| [Number of Provinces](https://github.com/ZhengjunHUO/leetcode/tree/main/0547_Number_of_Provinces) | BreadthFirstSearch  DepthFirstSearch  Graph  UnionFind | 统计有几个城市群 |
 |0560| [Subarray Sum Equals K](https://github.com/ZhengjunHUO/leetcode/tree/main/0560_Subarray_Sum_Equals_K) | Array  HashTable | 求和为目标值的子串个数 |
 |0567| [Permutation in String](https://github.com/ZhengjunHUO/leetcode/tree/main/0567_Permutation_in_String) | TwoPointer  SlidingWindow | 求字符串A是否包含字符串B的变种 |
+|0583| [Delete Operation for Two Strings](https://github.com/ZhengjunHUO/leetcode/tree/main/0583_Delete_Operation_for_Two_Strings) | String  DynamicProgramming | 求令两个字符串相等需要的删除操作数 |
 |0600| [Non-negative Integers without Consecutive Ones](https://github.com/ZhengjunHUO/leetcode/tree/main/0600_Non-negative_Integers_without_Consecutive_Ones) | DynamicProgramming | 从0到给定值之间所有数的二进制表示中没有连续1的数的个数 |
 |0628| [Maximum Product of Three Numbers](https://github.com/ZhengjunHUO/leetcode/tree/main/0628_Maximum_Product_of_Three_Numbers) | Array  Math | 数列中挑选三个数使其乘积最大 |
 |0632| [Smallest Range Covering Elements from K Lists](https://github.com/ZhengjunHUO/leetcode/tree/main/0632_Smallest_Range_Covering_Elements_from_K_Lists) | HashTable  String  TwoPointers | 找到一个最小范围覆盖所有K个数列中至少一个元素 |
@@ -220,6 +223,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0876| [Middle of the Linked List](https://github.com/ZhengjunHUO/leetcode/tree/main/0876_Middle_of_the_Linked_List) | LinkedList  TwoPointers | 寻找链表的中点 |
 |0895| [Maximum Frequency Stack](https://github.com/ZhengjunHUO/leetcode/tree/main/0895_Maximum_Frequency_Stack) | Design  HashTable  OrderedSet  Stack | 实现一个Pop最大出现频率的值的栈 |
 |0912| [Sort an Array](https://github.com/ZhengjunHUO/leetcode/tree/main/0912_Sort_an_Array) | Array  BucketSort  CountingSort  DivideAndConquer  Heap  MergeSort  RadixSort  Sorting | 给数列排序 |
+|0931| [Minimum Falling Path Sum](https://github.com/ZhengjunHUO/leetcode/tree/main/0931_Minimum_Falling_Path_Sum) | Array  DynamicProgramming  Matrix | 求坠落路径上数值之和最小的路径 |
 |0974| [Subarray Sums Divisible by K](https://github.com/ZhengjunHUO/leetcode/tree/main/0974_Subarray_Sums_Divisible_by_K) | Array  HashTable | 和可以整除目标值的子串的个数 |
 |0977| [Squares of a Sorted Array](https://github.com/ZhengjunHUO/leetcode/tree/main/0977_Squares_of_a_Sorted_Array) | Array  Sorting  TwoPointers | 求排好序的数组各元素平方后得到的新升序数组 |
 |0978| [Longest Turbulent Subarray](https://github.com/ZhengjunHUO/leetcode/tree/main/0978_Longest_Turbulent_Subarray) | Array  DynamicProgramming  SlidingWindow | 找到符合峰谷交替规律的最长的子串 |
@@ -245,3 +249,4 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |1711| [Count Good Meals](https://github.com/ZhengjunHUO/leetcode/tree/main/1711_Count_Good_Meals) | Array  HashTable  TwoPointers | 数列中和为2的次方的二元组的数量 |
 |1749| [Maximum Absolute Sum of Any Subarray](https://github.com/ZhengjunHUO/leetcode/tree/main/1749_Maximum_Absolute_Sum_of_Any_Subarray) | Greedy | 和的绝对值最大的子串 |
 |1871| [Jump Game VII](https://github.com/ZhengjunHUO/leetcode/tree/main/1871_Jump_Game_VII) | BreadthFirstSearch  Greedy  LineSweep | 从一个01字符串的头部出发，每次可以前进的距离介于[i,j]之间，且只能落在值为0的index上，求是否可以到达终点 |
+|1891| [Cutting Ribbons](https://github.com/ZhengjunHUO/leetcode/tree/main/1891_Cutting_Ribbons) | Array  BinarySearch | 切割一些绳子获得k条相同长度的绳子，求其长度的最大值 |
