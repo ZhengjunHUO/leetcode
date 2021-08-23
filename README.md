@@ -120,6 +120,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0195| [Tenth Line](https://github.com/ZhengjunHUO/leetcode/tree/main/0195_Tenth_Line) | Shell | 打印出文本的第10行 |
 |0198| [House Robber](https://github.com/ZhengjunHUO/leetcode/tree/main/0198_House_Robber) | DynamicProgramming | 抢劫不相邻房屋获得的最大收益 |
 |0200| [Number of Islands](https://github.com/ZhengjunHUO/leetcode/tree/main/0200_Number_of_Islands) | Array  BreadthFirstSearch  DepthFirstSearch  Matrix  UnionFind | 找到有几个岛屿 |
+|0203| [Remove Linked List Elements](https://github.com/ZhengjunHUO/leetcode/tree/main/0203_Remove_Linked_List_Elements) | LinkedList  Recursion | 链表中删除特定值的元素 |
 |0204| [Count Primes](https://github.com/ZhengjunHUO/leetcode/tree/main/0204_Count_Primes) | Array  Enumeration  Math  NumberTheory | 统计小于n的质数个数 |
 |0206| [Reverse Linked List](https://github.com/ZhengjunHUO/leetcode/tree/main/0206_Reverse_Linked_List) | LinkedList  Recursion | 反转链表 |
 |0209| [Minimum Size Subarray Sum](https://github.com/ZhengjunHUO/leetcode/tree/main/0209_Minimum_Size_Subarray_Sum) | Array  BinarySearch  TwoPointers | 求和大于等于目标值的最短子串 |
@@ -145,6 +146,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0283| [Move Zeroes](https://github.com/ZhengjunHUO/leetcode/tree/main/0283_Move_Zeroes) | Array  TwoPointers | 将数列中的0移到最后 |
 |0295| [Find Median from Data Stream](https://github.com/ZhengjunHUO/leetcode/tree/main/0295_Find_Median_from_Data_Stream) | DataStream  Design  Heap  Sorting  TwoPointers | 数据流中求中位数 |
 |0297| [Serialize and Deserialize Binary Tree](https://github.com/ZhengjunHUO/leetcode/tree/main/0297_Serialize_and_Deserialize_Binary_Tree) | BinaryTree  BreadthFirstSearch  DepthFirstSearch  Design  String  Tree | 序列化及反序列化一棵树 | 
+|0300| [Longest Increasing Subsequence](https://github.com/ZhengjunHUO/leetcode/tree/main/0300_Longest_Increasing_Subsequence) | Array  BinarySearch  DynamicProgramming | 求最长的递增子数列长度 |
 |0305| [Number of Islands II](https://github.com/ZhengjunHUO/leetcode/tree/main/0305_Number_of_Islands_II) | Array  BreadthFirstSearch  DepthFirstSearch  Matrix  UnionFind | 填海造岛过程中岛屿个数 |
 |0309| [Best Time to Buy and Sell Stock with Cooldown](https://github.com/ZhengjunHUO/leetcode/tree/main/0309_Best_Time_to_Buy_and_Sell_Stock_with_Cooldown) | DynamicProgramming | 不限次数交易获得的最大值，卖出后有一天冷却期 |
 |0313| [Super Ugly Number](https://github.com/ZhengjunHUO/leetcode/tree/main/0313_Super_Ugly_Number) | Array  DynamicProgramming  HashTable  Heap  Math | |
@@ -204,6 +206,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0703| [Kth Largest Element in a Stream](https://github.com/ZhengjunHUO/leetcode/tree/main/0703_Kth_Largest_Element_in_a_Stream) | BinarySearchTree  BinaryTree  DataStream  Design  Heap  Tree | 不断插入新元素同时找到第k大的元素 |
 |0704| [Binary Search](https://github.com/ZhengjunHUO/leetcode/tree/main/0704_Binary_Search) | Array  BinarySearch | 二分搜索元素 |
 |0710| [Random Pick with Blacklist](https://github.com/ZhengjunHUO/leetcode/tree/main/0710_Random_Pick_with_Blacklist) | BinarySearch  HashTable  Math  Randomized  Sorting | 随机返回数列中除黑名单以外的元素 |
+|0712| [Minimum ASCII Delete Sum for Two Strings](https://github.com/ZhengjunHUO/leetcode/tree/main/0712_Minimum_ASCII_Delete_Sum_for_Two_Strings) | String  DynamicProgramming | 删除字母使字符串相等，求删除的字母ASCII值最小 |
 |0713| [Subarray Product Less Than K](https://github.com/ZhengjunHUO/leetcode/tree/main/0713_Subarray_Product_Less_Than_K) | Array  TwoPointers | 乘积小于目标值的子串的个数 |
 |0714| [Best Time to Buy and Sell Stock with Transaction Fee](https://github.com/ZhengjunHUO/leetcode/tree/main/0714_Best_Time_to_Buy_and_Sell_Stock_with_Transaction_Fee) | Array  DynamicProgramming  Greedy | 不限次数交易获得的最大值，每笔交易有手续费 |
 |0718| [Maximum Length of Repeated Subarray](https://github.com/ZhengjunHUO/leetcode/tree/main/0718_Maximum_Length_of_Repeated_Subarray) | Array  BinarySearch  DynamicProgramming  HashTable | 寻找最大公共子串 | 
