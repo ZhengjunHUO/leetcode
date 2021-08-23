@@ -10,7 +10,7 @@ func coinChange(coins []int, amount int) int {
 	for i := range dp {
 		dp[i] = amount+1
 	}
-	// 确保dp[0]为0
+	// 确保dp[0]为0, 即amount为0时需要0枚硬币
 	dp[0] = 0
 
 	for i:=0; i<=amount; i++ {
@@ -19,6 +19,7 @@ func coinChange(coins []int, amount int) int {
 				continue
 			}
 
+			// dp[i]即凑到金额i需要的硬币数等于: min{dp[i-c]|c属于coins}+1
 			if temp := dp[i-c] + 1; temp < dp[i] {
 				dp[i] = temp
 			}
