@@ -157,6 +157,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0341| [Flatten Nested List Iterator](https://github.com/ZhengjunHUO/leetcode/tree/main/0341_Flatten_Nested_List_Iterator) | DepthFirstSearch  Design  Iterator  Queue  Stack  Tree | 实现一个iterator来扁平化输出一个嵌套的列表 |
 |0344| [Reverse String](https://github.com/ZhengjunHUO/leetcode/tree/main/0344_Reverse_String) | Recursion  String  TwoPointers | 将字符数组反转 |
 |0347| [Top K Frequent Elements](https://github.com/ZhengjunHUO/leetcode/tree/main/0347_Top_K_Frequent_Elements) | Array  BucketSort  Counting  DivideAndConquer  HashTable  Heap  Quickselect  Sorting | 返回前k个最常见的元素 |
+|0354| [Russian Doll Envelopes](https://github.com/ZhengjunHUO/leetcode/tree/main/0354_Russian_Doll_Envelopes) | Array  BinarySearch  DynamicProgramming  Sorting | 最多有多少小信封能塞进大信封 |
 |0355| [Design Twitter](https://github.com/ZhengjunHUO/leetcode/tree/main/0355_Design_Twitter) | Design  HashTable  Heap  LinkedList | 实现简单的推特应用 |
 |0371| [Sum of Two Integers](https://github.com/ZhengjunHUO/leetcode/tree/main/0371_Sum_of_Two_Integers) | BitManipulation | 位操作实现两数相加 |
 |0373| [Find K Pairs with Smallest Sums](https://github.com/ZhengjunHUO/leetcode/tree/main/0373_Find_K_Pairs_with_Smallest_Sums) | Array  Heap | 两个数列中找到和最小的k对元素 |
@@ -167,6 +168,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0410| [Split Array Largest Sum](https://github.com/ZhengjunHUO/leetcode/tree/main/0410_Split_Array_Largest_Sum) | Array  BinarySearch  DynamicProgramming  Greedy | 把数列切分成N个子数列，求令子数列和最大值最小化的方案 |
 |0414| [Third Maximum Number](https://github.com/ZhengjunHUO/leetcode/tree/main/0414_Third_Maximum_Number) | Array  Sorting | 第三大的数字 |
 |0415| [Add Strings](https://github.com/ZhengjunHUO/leetcode/tree/main/0415_Add_Strings) | String | 以字符串形式表示的两数之和 |
+|0416| [Partition Equal Subset Sum](https://github.com/ZhengjunHUO/leetcode/tree/main/0416_Partition_Equal_Subset_Sum) | Array  DynamicProgramming | 求数组能否分成两个和相等的子集 |
 |0435| [Non-overlapping Intervals](https://github.com/ZhengjunHUO/leetcode/tree/main/0435_Non-overlapping_Intervals) | Array  DynamicProgramming  Greedy  Sorting | 移除最少的区间使列表中的区间没有重叠 |
 |0438| [Find All Anagrams in a String](https://github.com/ZhengjunHUO/leetcode/tree/main/0438_Find_All_Anagrams_in_a_String) | HastTable | 在字符串A中找到所有字符串B的易位词 | 
 |0445| [Add Two Numbers II](https://github.com/ZhengjunHUO/leetcode/tree/main/0445_Add_Two_Numbers_II) | LinkedList | 以链表形式表示的两数之和 |
@@ -183,6 +185,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0503| [Next Greater Element II](https://github.com/ZhengjunHUO/leetcode/tree/main/0503_Next_Greater_Element_II) | Array  MonotonicStack  Stack | 首尾循环的列表寻找下一个大于自己的元素 |
 |0506| [Relative Ranks](https://github.com/ZhengjunHUO/leetcode/tree/main/0506_Relative_Ranks) | Array  Heap  Sorting | 把分数转换为名次 |
 |0509| [Fibonacci Number](https://github.com/ZhengjunHUO/leetcode/tree/main/0509_Fibonacci_Number) | DynamicProgramming  Math  Memoization | 斐波那契数列 |
+|0516| [Longest Palindromic Subsequence](https://github.com/ZhengjunHUO/leetcode/tree/main/0516_Longest_Palindromic_Subsequence) | DynamicProgramming  String | 求最长回文子序列 |
 |0523| [Continuous Subarray Sum](https://github.com/ZhengjunHUO/leetcode/tree/main/0523_Continuous_Subarray_Sum) | DynamicProgramming  Math | 求是否有一个长度至少为2的子串其和为给定值的倍数 |
 |0538| [Convert BST to Greater Tree](https://github.com/ZhengjunHUO/leetcode/tree/main/0538_Convert_BST_to_Greater_Tree) | BinaryTree  BreadthFirstSearch  DepthFirstSearch  Tree | 结点的值更新为整棵树所有大于等于该结点的值的和 |
 |0547| [Number of Provinces](https://github.com/ZhengjunHUO/leetcode/tree/main/0547_Number_of_Provinces) | BreadthFirstSearch  DepthFirstSearch  Graph  UnionFind | 统计有几个城市群 |
@@ -237,6 +240,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |1038| [Binary Search Tree to Greater Sum Tree](https://github.com/ZhengjunHUO/leetcode/tree/main/1038_Binary_Search_Tree_to_Greater_Sum_Tree) | BinaryTree  BreadthFirstSearch  DepthFirstSearch  Tree | 结点的值更新为整棵树所有大于等于该结点的值的和 |
 |1081| [Smallest Subsequence of Distinct Characters](https://github.com/ZhengjunHUO/leetcode/tree/main/1081_Smallest_Subsequence_of_Distinct_Characters) | Greedy  MonotonicStack  Stack  String | 保持相对顺序的前提下移除重复字母，并且字典序最小 |
 |1099| [Two Sum Less Than K](https://github.com/ZhengjunHUO/leetcode/tree/main/1099_Two_Sum_Less_Than_K) | Array | 数组中找到小于目标值的最大两数之和 | 
+|1143| [Longest Common Subsequence](https://github.com/ZhengjunHUO/leetcode/tree/main/1143_Longest_Common_Subsequence) | DynamicProgramming  String | 求最长公共子数列 |
 |1201| [Ugly Number III](https://github.com/ZhengjunHUO/leetcode/tree/main/1201_Ugly_Number_III) | BinarySearch  Math  NumberTheory | |
 |1288| [Remove Covered Intervals](https://github.com/ZhengjunHUO/leetcode/tree/main/1288_Remove_Covered_Intervals) | Array  Sorting | 移除能被另一个区间覆盖的区间 |
 |1306| [Jump Game III](https://github.com/ZhengjunHUO/leetcode/tree/main/1306_Jump_Game_III) | BreadthFirstSearch  DepthFirstSearch  Recursion | 从给定的出发点允许向前向后跳跃，判断是否能到终点 |
