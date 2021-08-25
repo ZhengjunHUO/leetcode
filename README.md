@@ -174,6 +174,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0445| [Add Two Numbers II](https://github.com/ZhengjunHUO/leetcode/tree/main/0445_Add_Two_Numbers_II) | LinkedList | 以链表形式表示的两数之和 |
 |0450| [Delete Node in a BST](https://github.com/ZhengjunHUO/leetcode/tree/main/0450_Delete_Node_in_a_BST) | BinarySearchTree  BinaryTree  Tree | 在BST中删除一个结点 |
 |0451| [Sort Characters By Frequency](https://github.com/ZhengjunHUO/leetcode/tree/main/0451_Sort_Characters_By_Frequency) | BucketSort  Counting  HashTable  Heap  Sorting  String | 按字符出现的频率降序排列字符串 |
+|0452| [Minimum Number of Arrows to Burst Balloons](https://github.com/ZhengjunHUO/leetcode/tree/main/0452_Minimum_Number_of_Arrows_to_Burst_Balloons) | Array  Greedy  Sorting | 射出最少的箭穿破所有气球 |
 |0454| [4Sum II](https://github.com/ZhengjunHUO/leetcode/tree/main/0454_4Sum_II) | BinarySearch  HastTable | 四个数列中分别取一个数q之和等于0的四元组个数 |
 |0459| [Repeated Substring Pattern](https://github.com/ZhengjunHUO/leetcode/tree/main/0459_Repeated_Substring_Pattern) | String | 检查字符串是否由某个子串重复n次构成 |
 |0460| [LFU Cache](https://github.com/ZhengjunHUO/leetcode/tree/main/0460_LFU_Cache) | Design  DoublyLinkedList  HashTable  LinkedList | 实现一个LFU缓存 |
@@ -186,6 +187,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0506| [Relative Ranks](https://github.com/ZhengjunHUO/leetcode/tree/main/0506_Relative_Ranks) | Array  Heap  Sorting | 把分数转换为名次 |
 |0509| [Fibonacci Number](https://github.com/ZhengjunHUO/leetcode/tree/main/0509_Fibonacci_Number) | DynamicProgramming  Math  Memoization | 斐波那契数列 |
 |0516| [Longest Palindromic Subsequence](https://github.com/ZhengjunHUO/leetcode/tree/main/0516_Longest_Palindromic_Subsequence) | DynamicProgramming  String | 求最长回文子序列 |
+|0518| [Coin Change 2](https://github.com/ZhengjunHUO/leetcode/tree/main/0518_Coin_Change_2) | Array  DynamicProgramming | 求用不同面值硬币能凑出给定总额的方法数 |
 |0523| [Continuous Subarray Sum](https://github.com/ZhengjunHUO/leetcode/tree/main/0523_Continuous_Subarray_Sum) | DynamicProgramming  Math | 求是否有一个长度至少为2的子串其和为给定值的倍数 |
 |0538| [Convert BST to Greater Tree](https://github.com/ZhengjunHUO/leetcode/tree/main/0538_Convert_BST_to_Greater_Tree) | BinaryTree  BreadthFirstSearch  DepthFirstSearch  Tree | 结点的值更新为整棵树所有大于等于该结点的值的和 |
 |0547| [Number of Provinces](https://github.com/ZhengjunHUO/leetcode/tree/main/0547_Number_of_Provinces) | BreadthFirstSearch  DepthFirstSearch  Graph  UnionFind | 统计有几个城市群 |
@@ -237,6 +239,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0989| [Add to Array-Form of Integer](https://github.com/ZhengjunHUO/leetcode/tree/main/0989_Add_to_Array-Form_of_Integer) | Array | 求一个以数组形式表示的数和一个整数之和 |
 |0990| [Satisfiability of Equality Equations](https://github.com/ZhengjunHUO/leetcode/tree/main/0990_Satisfiability_of_Equality_Equations) | Array  Graph  String  UnionFind | 判断等式集合是否存在矛盾 |
 |1011| [Capacity To Ship Packages Within D Days](https://github.com/ZhengjunHUO/leetcode/tree/main/1011_Capacity_To_Ship_Packages_Within_D_Days) | Array  BinarySearch  Greedy | 求在规定的天数内能装完所有货物的最小的船的容量 |
+|1024| [Video Stitching](https://github.com/ZhengjunHUO/leetcode/tree/main/1024_Video_Stitching) | Array  DynamicProgramming  Greedy | 拼接一段完整视屏需要的最少数量的片段 |
 |1038| [Binary Search Tree to Greater Sum Tree](https://github.com/ZhengjunHUO/leetcode/tree/main/1038_Binary_Search_Tree_to_Greater_Sum_Tree) | BinaryTree  BreadthFirstSearch  DepthFirstSearch  Tree | 结点的值更新为整棵树所有大于等于该结点的值的和 |
 |1081| [Smallest Subsequence of Distinct Characters](https://github.com/ZhengjunHUO/leetcode/tree/main/1081_Smallest_Subsequence_of_Distinct_Characters) | Greedy  MonotonicStack  Stack  String | 保持相对顺序的前提下移除重复字母，并且字典序最小 |
 |1099| [Two Sum Less Than K](https://github.com/ZhengjunHUO/leetcode/tree/main/1099_Two_Sum_Less_Than_K) | Array | 数组中找到小于目标值的最大两数之和 | 
