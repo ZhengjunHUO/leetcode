@@ -111,6 +111,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0155| [Min Stack](https://github.com/ZhengjunHUO/leetcode/tree/main/0155_Min_Stack) | Design  Stack | 构建能快速返回最小值的栈 |
 |0167| [Two Sum II](https://github.com/ZhengjunHUO/leetcode/tree/main/0167_Two_Sum_II) | Array  BinarySearch  TwoPointers | 递增数列中找出和为目标值的两个元素 |
 |0170| [Two Sum III Data Structure Design](https://github.com/ZhengjunHUO/leetcode/tree/main/0170_Two_Sum_III_Data_Structure_Design) | Design  HastTable | 设计可以插入数据并判断存储中是否有和为给定值的数据对的数据结构 |
+|0174| [Dungeon Game](https://github.com/ZhengjunHUO/leetcode/tree/main/0174_Dungeon_Game) | Array  DynamicProgramming  Matrix | 地牢游戏求能到达终点所需的最少初始生命值 |
 |0187| [Repeated DNA Sequences](https://github.com/ZhengjunHUO/leetcode/tree/main/0187_Repeated_DNA_Sequences) | BitManipulation  HashFunction  HashTable  RollingHash  SlidingWindow  String | 找到至少出现两次的基因段 |
 |0188| [Best Time to Buy and Sell Stock IV](https://github.com/ZhengjunHUO/leetcode/tree/main/0188_Best_Time_to_Buy_and_Sell_Stock_IV) | DynamicProgramming | 至多K次交易获得的最大值 |
 |0190| [Reverse Bits](https://github.com/ZhengjunHUO/leetcode/tree/main/0190_Reverse_Bits) | BitManipulation | 字符串表示的二进制数取反 |
@@ -224,6 +225,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0774| [Minimize Max Distance to Gas Station](https://github.com/ZhengjunHUO/leetcode/tree/main/0774_Minimize_Max_Distance_to_Gas_Station) | Array  BinarySearch | 插入K个加油站，找到两个加油站之间最大距离的最小值 |
 |0784| [Letter Case Permutation](https://github.com/ZhengjunHUO/leetcode/tree/main/0784_Letter_Case_Permutation) | Backtracking  BitManipulation  String | alnum字符串中字母大小写变换的排列组合 |
 |0785| [Is Graph Bipartite?](https://github.com/ZhengjunHUO/leetcode/tree/main/0785_Is_Graph_Bipartite) | BreadthFirstSearch  DepthFirstSearch  Graph  UnionFind | 能否把结点分为两组，使每条边的两边的结点分属两个组 |
+|0787| [Cheapest Flights Within K Stops](https://github.com/ZhengjunHUO/leetcode/tree/main/0787_Cheapest_Flights_Within_K_Stops) | BreadthFirstSearch  DepthFirstSearch  DynamicProgramming  Graph  Heap  ShortestPath | 求转机k次以内两地间最便宜的花费 |
 |0797| [All Paths From Source to Target](https://github.com/ZhengjunHUO/leetcode/tree/main/0797_All_Paths_From_Source_to_Target) | Backtracking  BreadthFirstSearch  DepthFirstSearch  Graph | 找到DAG中起点到终点的所有路径 |
 |0827| [Making A Large Island](https://github.com/ZhengjunHUO/leetcode/tree/main/0827_Making_A_Large_Island) | Array  BreadthFirstSearch  DepthFirstSearch  Matrix  UnionFind | 海中最多填一个土能造出的最大岛 |
 |0870| [Advantage Shuffle](https://github.com/ZhengjunHUO/leetcode/tree/main/0870_Advantage_Shuffle) | Array  Greedy  Sorting | 交换数列中的元素使其对另一个数列逐元素比较大小占据最大优势 |
