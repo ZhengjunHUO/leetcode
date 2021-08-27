@@ -94,6 +94,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0095| [Unique Binary Search Trees II](https://github.com/ZhengjunHUO/leetcode/tree/main/0095_Unique_Binary_Search_Trees_II) | Backtracking  BinarySearchTree  BinaryTree  DynamicProgramming  Tree | 返回从n个结点能构造的所有BST |
 |0096| [Unique Binary Search Trees](https://github.com/ZhengjunHUO/leetcode/tree/main/0096_Unique_Binary_Search_Trees) | BinarySearchTree  BinaryTree  DynamicProgramming  Math  Tree | 计算n个结点可以构造多少个BST |
 |0098| [Validate Binary Search Tree](https://github.com/ZhengjunHUO/leetcode/tree/main/0098_Validate_Binary_Search_Tree) | BinaryTree  BreadthFirstSearch  DepthFirstSearch  Tree | 判断树是否为BST |
+|0100| [Same Tree](https://github.com/ZhengjunHUO/leetcode/tree/main/0100_Same_Tree) | BinaryTree  BreadthFirstSearch  DepthFirstSearch  Tree | 判断两棵树是否相同 |
 |0105| [Construct Binary Tree from Preorder and Inorder Traversal](https://github.com/ZhengjunHUO/leetcode/tree/main/0105_Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal) | Array  BinaryTree  DivideAndConquer  HashTable  Tree | 从前序遍历和中序遍历列表构建树 |
 |0106| [Construct Binary Tree from Inorder and Postorder Traversal](https://github.com/ZhengjunHUO/leetcode/tree/main/0106_Construct_Binary_Tree_from_Inorder_and_Postorder_Traversal) | Array  BinaryTree  DivideAndConquer  HashTable  Tree | 从中序遍历和后序遍历列表构建树 |
 |0111| [Minimum Depth of Binary Tree](https://github.com/ZhengjunHUO/leetcode/tree/main/0111_Minimum_Depth_of_Binary_Tree) | BinaryTree  BreadthFirstSearch  DepthFirstSearch  Tree | 求二叉树的最短深度 |
@@ -190,7 +191,9 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0516| [Longest Palindromic Subsequence](https://github.com/ZhengjunHUO/leetcode/tree/main/0516_Longest_Palindromic_Subsequence) | DynamicProgramming  String | 求最长回文子序列 |
 |0518| [Coin Change 2](https://github.com/ZhengjunHUO/leetcode/tree/main/0518_Coin_Change_2) | Array  DynamicProgramming | 求用不同面值硬币能凑出给定总额的方法数 |
 |0523| [Continuous Subarray Sum](https://github.com/ZhengjunHUO/leetcode/tree/main/0523_Continuous_Subarray_Sum) | DynamicProgramming  Math | 求是否有一个长度至少为2的子串其和为给定值的倍数 |
+|0530| [Minimum Absolute Difference in BST](https://github.com/ZhengjunHUO/leetcode/tree/main/0530_Minimum_Absolute_Difference_in_BST) | BinarySearchTree  BinaryTree  BreadthFirstSearch  DepthFirstSearch  Tree | BST中搜索两个结点差的最小值 |
 |0538| [Convert BST to Greater Tree](https://github.com/ZhengjunHUO/leetcode/tree/main/0538_Convert_BST_to_Greater_Tree) | BinaryTree  BreadthFirstSearch  DepthFirstSearch  Tree | 结点的值更新为整棵树所有大于等于该结点的值的和 |
+|0543| [Diameter of Binary Tree](https://github.com/ZhengjunHUO/leetcode/tree/main/0543_Diameter_of_Binary_Tree) | BinaryTree  DepthFirstSearch  Tree | 计算相距最远的两个结点的距离 |
 |0547| [Number of Provinces](https://github.com/ZhengjunHUO/leetcode/tree/main/0547_Number_of_Provinces) | BreadthFirstSearch  DepthFirstSearch  Graph  UnionFind | 统计有几个城市群 |
 |0560| [Subarray Sum Equals K](https://github.com/ZhengjunHUO/leetcode/tree/main/0560_Subarray_Sum_Equals_K) | Array  HashTable | 求和为目标值的子串个数 |
 |0567| [Permutation in String](https://github.com/ZhengjunHUO/leetcode/tree/main/0567_Permutation_in_String) | TwoPointer  SlidingWindow | 求字符串A是否包含字符串B的变种 |
@@ -223,6 +226,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0752| [Open the Lock](https://github.com/ZhengjunHUO/leetcode/tree/main/0752_Open_the_Lock) | Array  BreadthFirstSearch  HashTable  String | 密码锁至少需要转动几下才能打开 |
 |0763| [Partition Labels](https://github.com/ZhengjunHUO/leetcode/tree/main/0763_Partition_Labels) | Greedy  HashTable  String  TwoPointers | 尽可能将字符串分段，且每个字母仅出现在某段中 |
 |0774| [Minimize Max Distance to Gas Station](https://github.com/ZhengjunHUO/leetcode/tree/main/0774_Minimize_Max_Distance_to_Gas_Station) | Array  BinarySearch | 插入K个加油站，找到两个加油站之间最大距离的最小值 |
+|0783| [Minimum Distance Between BST Nodes](https://github.com/ZhengjunHUO/leetcode/tree/main/0783_Minimum_Distance_Between_BST_Nodes) | BinarySearchTree  BinaryTree  BreadthFirstSearch  DepthFirstSearch  Tree | BST中搜索两个结点差的最小值 |
 |0784| [Letter Case Permutation](https://github.com/ZhengjunHUO/leetcode/tree/main/0784_Letter_Case_Permutation) | Backtracking  BitManipulation  String | alnum字符串中字母大小写变换的排列组合 |
 |0785| [Is Graph Bipartite?](https://github.com/ZhengjunHUO/leetcode/tree/main/0785_Is_Graph_Bipartite) | BreadthFirstSearch  DepthFirstSearch  Graph  UnionFind | 能否把结点分为两组，使每条边的两边的结点分属两个组 |
 |0787| [Cheapest Flights Within K Stops](https://github.com/ZhengjunHUO/leetcode/tree/main/0787_Cheapest_Flights_Within_K_Stops) | BreadthFirstSearch  DepthFirstSearch  DynamicProgramming  Graph  Heap  ShortestPath | 求转机k次以内两地间最便宜的花费 |
@@ -231,6 +235,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0870| [Advantage Shuffle](https://github.com/ZhengjunHUO/leetcode/tree/main/0870_Advantage_Shuffle) | Array  Greedy  Sorting | 交换数列中的元素使其对另一个数列逐元素比较大小占据最大优势 |
 |0875| [Koko Eating Bananas](https://github.com/ZhengjunHUO/leetcode/tree/main/0875_Koko_Eating_Bananas) | Array  BinarySearch | 求在规定时间内吃完所有香蕉堆的最小进食速度 |
 |0876| [Middle of the Linked List](https://github.com/ZhengjunHUO/leetcode/tree/main/0876_Middle_of_the_Linked_List) | LinkedList  TwoPointers | 寻找链表的中点 |
+|0887| [Super Egg Drop](https://github.com/ZhengjunHUO/leetcode/tree/main/0887_Super_Egg_Drop) | BinarySearch  DynamicProgramming  Math | 找到扔下鸡蛋刚好不会碎的楼层数需要的最少尝试次数 |
 |0895| [Maximum Frequency Stack](https://github.com/ZhengjunHUO/leetcode/tree/main/0895_Maximum_Frequency_Stack) | Design  HashTable  OrderedSet  Stack | 实现一个Pop最大出现频率的值的栈 |
 |0912| [Sort an Array](https://github.com/ZhengjunHUO/leetcode/tree/main/0912_Sort_an_Array) | Array  BucketSort  CountingSort  DivideAndConquer  Heap  MergeSort  RadixSort  Sorting | 给数列排序 |
 |0931| [Minimum Falling Path Sum](https://github.com/ZhengjunHUO/leetcode/tree/main/0931_Minimum_Falling_Path_Sum) | Array  DynamicProgramming  Matrix | 求坠落路径上数值之和最小的路径 |
