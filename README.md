@@ -197,6 +197,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0547| [Number of Provinces](https://github.com/ZhengjunHUO/leetcode/tree/main/0547_Number_of_Provinces) | BreadthFirstSearch  DepthFirstSearch  Graph  UnionFind | 统计有几个城市群 |
 |0560| [Subarray Sum Equals K](https://github.com/ZhengjunHUO/leetcode/tree/main/0560_Subarray_Sum_Equals_K) | Array  HashTable | 求和为目标值的子串个数 |
 |0567| [Permutation in String](https://github.com/ZhengjunHUO/leetcode/tree/main/0567_Permutation_in_String) | TwoPointer  SlidingWindow | 求字符串A是否包含字符串B的变种 |
+|0572| [Subtree of Another Tree](https://github.com/ZhengjunHUO/leetcode/tree/main/0572_Subtree_of_Another_Tree) | BinaryTree  DepthFirstSearch  HashFunction  StringMatching  Tree | 判断一棵树是否为另一棵的子树 |
 |0583| [Delete Operation for Two Strings](https://github.com/ZhengjunHUO/leetcode/tree/main/0583_Delete_Operation_for_Two_Strings) | String  DynamicProgramming | 求令两个字符串相等需要的删除操作数 |
 |0600| [Non-negative Integers without Consecutive Ones](https://github.com/ZhengjunHUO/leetcode/tree/main/0600_Non-negative_Integers_without_Consecutive_Ones) | DynamicProgramming | 从0到给定值之间所有数的二进制表示中没有连续1的数的个数 |
 |0628| [Maximum Product of Three Numbers](https://github.com/ZhengjunHUO/leetcode/tree/main/0628_Maximum_Product_of_Three_Numbers) | Array  Math | 数列中挑选三个数使其乘积最大 |
@@ -230,6 +231,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0784| [Letter Case Permutation](https://github.com/ZhengjunHUO/leetcode/tree/main/0784_Letter_Case_Permutation) | Backtracking  BitManipulation  String | alnum字符串中字母大小写变换的排列组合 |
 |0785| [Is Graph Bipartite?](https://github.com/ZhengjunHUO/leetcode/tree/main/0785_Is_Graph_Bipartite) | BreadthFirstSearch  DepthFirstSearch  Graph  UnionFind | 能否把结点分为两组，使每条边的两边的结点分属两个组 |
 |0787| [Cheapest Flights Within K Stops](https://github.com/ZhengjunHUO/leetcode/tree/main/0787_Cheapest_Flights_Within_K_Stops) | BreadthFirstSearch  DepthFirstSearch  DynamicProgramming  Graph  Heap  ShortestPath | 求转机k次以内两地间最便宜的花费 |
+|0796| [Rotate String](https://github.com/ZhengjunHUO/leetcode/tree/main/0796_Rotate_String) | String  StringMatching | 判断一个字符串是否是另一个字符串shift后的形态 |
 |0797| [All Paths From Source to Target](https://github.com/ZhengjunHUO/leetcode/tree/main/0797_All_Paths_From_Source_to_Target) | Backtracking  BreadthFirstSearch  DepthFirstSearch  Graph | 找到DAG中起点到终点的所有路径 |
 |0827| [Making A Large Island](https://github.com/ZhengjunHUO/leetcode/tree/main/0827_Making_A_Large_Island) | Array  BreadthFirstSearch  DepthFirstSearch  Matrix  UnionFind | 海中最多填一个土能造出的最大岛 |
 |0870| [Advantage Shuffle](https://github.com/ZhengjunHUO/leetcode/tree/main/0870_Advantage_Shuffle) | Array  Greedy  Sorting | 交换数列中的元素使其对另一个数列逐元素比较大小占据最大优势 |
@@ -257,6 +259,8 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |1340| [Jump Game V](https://github.com/ZhengjunHUO/leetcode/tree/main/1340_Jump_Game_V) | DynamicProgramming | 从任意点出发允许向前向后最远跳d的距离且只能从大数跳向小数，求最多能覆盖几个index ｜
 |1345| [Jump Game IV](https://github.com/ZhengjunHUO/leetcode/tree/main/1345_Jump_Game_IV) | BreadthFirstSearch | 从头开始，每一条可以向前向后一格，或传送到其他值相等的index，求到达终点最少的跳跃次数 |
 |1373| [Maximum Sum BST in Binary Tree](https://github.com/ZhengjunHUO/leetcode/tree/main/1373_Maximum_Sum_BST_in_Binary_Tree) | BinarySearchTree  BinaryTree  DepthFirstSearch  DynamicProgramming  Tree | 找到和最大的BST子树 |
+|1392| [Longest Happy Prefix](https://github.com/ZhengjunHUO/leetcode/tree/main/1392_Longest_Happy_Prefix) | HashFunction  RollingHash  String  StringMatching | KMP算法的应用 |
+|1408| [String Matching in an Array](https://github.com/ZhengjunHUO/leetcode/tree/main/1408_String_Matching_in_an_Array) | String  StringMatching | 在一组字符串中找出所有能成为其他字符串的子串的串 |
 |1590| [Make Sum Divisible by P](https://github.com/ZhengjunHUO/leetcode/tree/main/1590_Make_Sum_Divisible_by_P) | Array  BinarySearch  HashTable  Math | 字符串中删除最小的子串使剩下的元素和可以整除目标值 |
 |1636| [Sort Array by Increasing Frequency](https://github.com/ZhengjunHUO/leetcode/tree/main/1636_Sort_Array_by_Increasing_Frequency) | Array  HashTable  Sorting | 按照元素出现的频率对字符串升序排序，如果频率相同则按数字大小降序排列 |
 |1658| [Minimum Operations to Reduce X to Zero](https://github.com/ZhengjunHUO/leetcode/tree/main/1658_Minimum_Operations_to_Reduce_X_to_Zero) | BinarySearch  Greedy  SlidingWindow  TwoPointers | 每一步可以移除字符串头或尾的元素，目标值减去该元素，求将目标值减为0的最少步数 |
