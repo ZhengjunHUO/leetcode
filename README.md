@@ -94,9 +94,11 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0095| [Unique Binary Search Trees II](https://github.com/ZhengjunHUO/leetcode/tree/main/0095_Unique_Binary_Search_Trees_II) | Backtracking  BinarySearchTree  BinaryTree  DynamicProgramming  Tree | 返回从n个结点能构造的所有BST |
 |0096| [Unique Binary Search Trees](https://github.com/ZhengjunHUO/leetcode/tree/main/0096_Unique_Binary_Search_Trees) | BinarySearchTree  BinaryTree  DynamicProgramming  Math  Tree | 计算n个结点可以构造多少个BST |
 |0098| [Validate Binary Search Tree](https://github.com/ZhengjunHUO/leetcode/tree/main/0098_Validate_Binary_Search_Tree) | BinaryTree  BreadthFirstSearch  DepthFirstSearch  Tree | 判断树是否为BST |
+|0099| [Recover Binary Search Tree](https://github.com/ZhengjunHUO/leetcode/tree/main/0099_Recover_Binary_Search_Tree) | BinaryTree  BinarySearchTree  DepthFirstSearch  Tree | swap一对错位的结点使树成为BST |
 |0100| [Same Tree](https://github.com/ZhengjunHUO/leetcode/tree/main/0100_Same_Tree) | BinaryTree  BreadthFirstSearch  DepthFirstSearch  Tree | 判断两棵树是否相同 |
 |0105| [Construct Binary Tree from Preorder and Inorder Traversal](https://github.com/ZhengjunHUO/leetcode/tree/main/0105_Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal) | Array  BinaryTree  DivideAndConquer  HashTable  Tree | 从前序遍历和中序遍历列表构建树 |
 |0106| [Construct Binary Tree from Inorder and Postorder Traversal](https://github.com/ZhengjunHUO/leetcode/tree/main/0106_Construct_Binary_Tree_from_Inorder_and_Postorder_Traversal) | Array  BinaryTree  DivideAndConquer  HashTable  Tree | 从中序遍历和后序遍历列表构建树 |
+|0108| [Convert Sorted Array to Binary Search Tree](https://github.com/ZhengjunHUO/leetcode/tree/main/0108_Convert_Sorted_Array_to_Binary_Search_Tree) | Array  DivideAndConquer  BinaryTree  BinarySearchTree  Tree | 从有序数列构建BST |
 |0111| [Minimum Depth of Binary Tree](https://github.com/ZhengjunHUO/leetcode/tree/main/0111_Minimum_Depth_of_Binary_Tree) | BinaryTree  BreadthFirstSearch  DepthFirstSearch  Tree | 求二叉树的最短深度 |
 |0114| [Flatten Binary Tree to Linked List](https://github.com/ZhengjunHUO/leetcode/tree/main/0114_Flatten_Binary_Tree_to_Linked_List) | BinaryTree  DepthFirstSearch  LinkedList  Stack  Tree | 把树压成链表 |
 |0116| [Populating Next Right Pointers in Each Node](https://github.com/ZhengjunHUO/leetcode/tree/main/0116_Populating_Next_Right_Pointers_in_Each_Node) | BinaryTree  BreadthFirstSearch  DepthFirstSearch  Tree | 树的同一层结点横向连接起来 |
@@ -261,9 +263,11 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |1373| [Maximum Sum BST in Binary Tree](https://github.com/ZhengjunHUO/leetcode/tree/main/1373_Maximum_Sum_BST_in_Binary_Tree) | BinarySearchTree  BinaryTree  DepthFirstSearch  DynamicProgramming  Tree | 找到和最大的BST子树 |
 |1392| [Longest Happy Prefix](https://github.com/ZhengjunHUO/leetcode/tree/main/1392_Longest_Happy_Prefix) | HashFunction  RollingHash  String  StringMatching | KMP算法的应用 |
 |1408| [String Matching in an Array](https://github.com/ZhengjunHUO/leetcode/tree/main/1408_String_Matching_in_an_Array) | String  StringMatching | 在一组字符串中找出所有能成为其他字符串的子串的串 |
+|1455| [Check If a Word Occurs As a Prefix of Any Word in a Sentence](https://github.com/ZhengjunHUO/leetcode/tree/main/1455_Check_If_a_Word_Occurs_As_a_Prefix_of_Any_Word_in_a_Sentence) | String  StringMatching | 找到以某个pattern为前缀的词的序号 |
 |1590| [Make Sum Divisible by P](https://github.com/ZhengjunHUO/leetcode/tree/main/1590_Make_Sum_Divisible_by_P) | Array  BinarySearch  HashTable  Math | 字符串中删除最小的子串使剩下的元素和可以整除目标值 |
 |1636| [Sort Array by Increasing Frequency](https://github.com/ZhengjunHUO/leetcode/tree/main/1636_Sort_Array_by_Increasing_Frequency) | Array  HashTable  Sorting | 按照元素出现的频率对字符串升序排序，如果频率相同则按数字大小降序排列 |
 |1658| [Minimum Operations to Reduce X to Zero](https://github.com/ZhengjunHUO/leetcode/tree/main/1658_Minimum_Operations_to_Reduce_X_to_Zero) | BinarySearch  Greedy  SlidingWindow  TwoPointers | 每一步可以移除字符串头或尾的元素，目标值减去该元素，求将目标值减为0的最少步数 |
+|1668| [Maximum Repeating Substring](https://github.com/ZhengjunHUO/leetcode/tree/main/1668_Maximum_Repeating_Substring) | String  StringMatching | 保持作为某字符串子串的前提下pattern自身最多能重复多少次 |
 |1679| [Max Number of K-Sum Pairs](https://github.com/ZhengjunHUO/leetcode/tree/main/1679_Max_Number_of_K-Sum_Pairs) | HashTable | 数组中每一步可以移除和为K的两个元素，求最大可执行次数 |
 |1695| [Maximum_Erasure_Value](https://github.com/ZhengjunHUO/leetcode/tree/main/1695_Maximum_Erasure_Value) | TwoPointers | 找到不含重复元素的且和为最大的子串 |
 |1696| [Jump Game VI](https://github.com/ZhengjunHUO/leetcode/tree/main/1696_Jump_Game_VI) | Dequeue | 从头出发，每次最远可以前进k，求到终点经过的index对应的值之和的最大值 |
