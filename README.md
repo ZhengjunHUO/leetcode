@@ -47,6 +47,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0033| [Search in Rotated Sorted Array](https://github.com/ZhengjunHUO/leetcode/tree/main/0033_Search_in_Rotated_Sorted_Array) | Array  BinarySearch | 在一个循环升序数列中寻找某数 |
 |0034| [Find First and Last Position of Element in Sorted Array](https://github.com/ZhengjunHUO/leetcode/tree/main/0034_Find_First_and_Last_Position_of_Element_in_Sorted_Array) | Array  BinarySearch | 在有序数列中找到某元素的起始和中止index |
 |0035| [Search Insert Position](https://github.com/ZhengjunHUO/leetcode/tree/main/0035_Search_Insert_Position) | Array  BinarySearch | 为某数在一个升序数列中寻找插入位置 |
+|0037| [Sudoku Solver](https://github.com/ZhengjunHUO/leetcode/tree/main/0035_Search_Insert_Position) | Array  Backtracking  Matrix | 数独 |
 |0039| [Combination Sum](https://github.com/ZhengjunHUO/leetcode/tree/main/0039_Combination_Sum) | Array  Backtracking | 找出所有和为目标值的元素（元素可重复使用）组成的列表 |
 |0041| [First Missing Positive](https://github.com/ZhengjunHUO/leetcode/tree/main/0041_First_Missing_Positive) | Array  HashTable | 找到数列缺失的最小正整数 |
 |0040| [Combination Sum II](https://github.com/ZhengjunHUO/leetcode/tree/main/0040_Combination_Sum_II) | Array  Backtracking | 找出所有和为目标值的元素（元素不可重复使用）组成的列表 |
@@ -58,6 +59,8 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0048| [Rotate Image](https://github.com/ZhengjunHUO/leetcode/tree/main/0048_Rotate_Image) | Array  Math  Matrix | 顺时针旋转矩阵 |
 |0049| [Group Anagrams](https://github.com/ZhengjunHUO/leetcode/tree/main/0049_Group_Anagrams) | HashTable  String | 将相关联的易位词组合起来 |
 |0050| [Pow(x, n)](https://github.com/ZhengjunHUO/leetcode/tree/main/0050_Pow) | Math  Recursion | 实现次方运算 |
+|0051| [N-Queens](https://github.com/ZhengjunHUO/leetcode/tree/main/0051_N-Queens) | Array  Backtracking | 计算N*N的棋盘上部署N皇后的所有可能性 |
+|0052| [N-Queens II](https://github.com/ZhengjunHUO/leetcode/tree/main/0052_N-Queens_II) | Backtracking | 计算N*N的棋盘上部署N皇后的所有可能性的数量 |
 |0053| [Maximum Subarray](https://github.com/ZhengjunHUO/leetcode/tree/main/0053_Maximum_Subarray) | Array  DivideAndConquer  DynamicProgramming | 找到和最大的子数列 |
 |0054| [Spiral Matrix](https://github.com/ZhengjunHUO/leetcode/tree/main/0054_Spiral_Matrix) | Array  Matrix  Simulation | 按顺时针螺旋输出矩阵所有元素 |
 |0055| [Jump Game](https://github.com/ZhengjunHUO/leetcode/tree/main/0055_Jump_Game) | Array  Greedy | 求是否可以跳到终点 |
@@ -108,6 +111,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0123| [Best Time to Buy and Sell Stock III](https://github.com/ZhengjunHUO/leetcode/tree/main/0123_Best_Time_to_Buy_and_Sell_Stock_III) | Array  DynamicProgramming | 至多两次交易获得的最大值 |
 |0130| [Surrounded Regions](https://github.com/ZhengjunHUO/leetcode/tree/main/0130_Surrounded_Regions) | Array  BreadthFirstSearch  DepthFirstSearch  Matrix  UnionFind | 把被X包围的O换成X |
 |0131| [Palindrome Partitioning](https://github.com/ZhengjunHUO/leetcode/tree/main/0131_Palindrome_Partitioning) | Backtracking  DynamicProgramming  String | 求字符串拆分成回文字符串数组的所有可能性 |
+|0136| [Single Number](https://github.com/ZhengjunHUO/leetcode/tree/main/0136_Single_Number) | Array  BitManipulation | 找出数列中只出现一次的元素 |
 |0141| [Linked List Cycle](https://github.com/ZhengjunHUO/leetcode/tree/main/0141_Linked_List_Cycle) | HashTable  LinkedList  TwoPointers | 判断链表是否有环 |
 |0142| [Linked List Cycle II](https://github.com/ZhengjunHUO/leetcode/tree/main/0142_Linked_List_Cycle_II) | HashTable  LinkedList  TwoPointers | 判断链表是否有环并找出环开始的地方 |
 |0146| [LRU Cache](https://github.com/ZhengjunHUO/leetcode/tree/main/0146_LRU_Cache) | Design  DoublyLinkedList  HashTable  LinkedList | 实现一个LRU缓存 |
@@ -137,6 +141,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0225| [Implement Stack using Queues](https://github.com/ZhengjunHUO/leetcode/tree/main/0225_Implement_Stack_using_Queues) | Design  Queue  Stack | 用queue来实现stack |
 |0226| [Invert Binary Tree](https://github.com/ZhengjunHUO/leetcode/tree/main/0226_Invert_Binary_Tree) | BinaryTree  BreadthFirstSearch  DepthFirstSearch  Tree | 二叉树元素镜像转置 |
 |0230| [Kth Smallest Element in a BST](https://github.com/ZhengjunHUO/leetcode/tree/main/0230_Kth_Smallest_Element_in_a_BST) | BinaryTree  BreadthFirstSearch  DepthFirstSearch  Tree | 在BST中找到第k小的元素 |
+|0231| [Power of Two](https://github.com/ZhengjunHUO/leetcode/tree/main/0231_Power_of_Two) | BitManipulation  Math  Recursion | 判断数是否为2的次方 |
 |0232| [Implement Queue using Stacks](https://github.com/ZhengjunHUO/leetcode/tree/main/0232_Implement_Queue_using_Stacks) | Design  Queue  Stack | 用stack来实现queue |
 |0234| [Palindrome Linked List](https://github.com/ZhengjunHUO/leetcode/tree/main/0234_Palindrome_Linked_List) | LinkedList  Recursion  Stack  TwoPointers | 判断链表是否是回文 |
 |0235| [Lowest Common Ancestor of a Binary Search Tree](https://github.com/ZhengjunHUO/leetcode/tree/main/0235_Lowest_Common_Ancestor_of_a_Binary_Search_Tree) | BinarySearchTree  BinaryTree  DepthFirstSearch  Tree | 找到BST中两个元素的LCA |
@@ -216,6 +221,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0692| [Top K Frequent Words](https://github.com/ZhengjunHUO/leetcode/tree/main/0692_Top_K_Frequent_Words) | BucketSort  Counting  HashTable  Heap  Sorting  String  Trie | 出现频率最高的k个词 |
 |0695| [Max Area of Island](https://github.com/ZhengjunHUO/leetcode/tree/main/0695_Max_Area_of_Island) | Array  BreadthFirstSearch  DepthFirstSearch  Matrix  UnionFind | 找到最大的岛 |
 |0697| [Degree of an Array](https://github.com/ZhengjunHUO/leetcode/tree/main/0697_Degree_of_an_Array) | Array | 找到和字符串有相同度的子串 |
+|0698| [Partition to K Equal Sum Subsets](https://github.com/ZhengjunHUO/leetcode/tree/main/0698_Partition_to_K_Equal_Sum_Subsets) | Array  Backtracking  BitManipulation  Bitmask  DynamicProgramming  Memoization | 能否把集合分成k个和相等的子集 |
 |0700| [Search in a Binary Search Tree](https://github.com/ZhengjunHUO/leetcode/tree/main/0700_Search_in_a_Binary_Search_Tree) | BinarySearchTree  BinaryTree  Tree | 在BST中搜索一个元素 |
 |0701| [Insert into a Binary Search Tree](https://github.com/ZhengjunHUO/leetcode/tree/main/0701_Insert_into_a_Binary_Search_Tree) | BinarySearchTree  BinaryTree  Tree | 在BST中插入一个元素 |
 |0703| [Kth Largest Element in a Stream](https://github.com/ZhengjunHUO/leetcode/tree/main/0703_Kth_Largest_Element_in_a_Stream) | BinarySearchTree  BinaryTree  DataStream  Design  Heap  Tree | 不断插入新元素同时找到第k大的元素 |
