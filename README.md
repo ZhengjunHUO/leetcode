@@ -171,6 +171,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0354| [Russian Doll Envelopes](https://github.com/ZhengjunHUO/leetcode/tree/main/0354_Russian_Doll_Envelopes) | Array  BinarySearch  DynamicProgramming  Sorting | 最多有多少小信封能塞进大信封 |
 |0355| [Design Twitter](https://github.com/ZhengjunHUO/leetcode/tree/main/0355_Design_Twitter) | Design  HashTable  Heap  LinkedList | 实现简单的推特应用 |
 |0371| [Sum of Two Integers](https://github.com/ZhengjunHUO/leetcode/tree/main/0371_Sum_of_Two_Integers) | BitManipulation | 位操作实现两数相加 |
+|0372| [Super Pow](https://github.com/ZhengjunHUO/leetcode/tree/main/0371_Sum_of_Two_Integers) | DivideAndConquer  Math | 求大数的高次方 |
 |0373| [Find K Pairs with Smallest Sums](https://github.com/ZhengjunHUO/leetcode/tree/main/0373_Find_K_Pairs_with_Smallest_Sums) | Array  Heap | 两个数列中找到和最小的k对元素 |
 |0378| [Kth Smallest Element in a Sorted Matrix](https://github.com/ZhengjunHUO/leetcode/tree/main/0378_Kth_Smallest_Element_in_a_Sorted_Matrix) | Array  BinarySearch  Heap  Matrix  Sorting | 在行和列都是升序的矩阵中找到第k小的元素 |
 |0380| [Insert Delete GetRandom O(1)](https://github.com/ZhengjunHUO/leetcode/tree/main/0380_Insert_Delete_GetRandom_O1) | Array  Design  HashTable  Math  Randomized | 实现增删随机读的复杂度都为O(1)的数据结构 |
@@ -183,6 +184,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0435| [Non-overlapping Intervals](https://github.com/ZhengjunHUO/leetcode/tree/main/0435_Non-overlapping_Intervals) | Array  DynamicProgramming  Greedy  Sorting | 移除最少的区间使列表中的区间没有重叠 |
 |0438| [Find All Anagrams in a String](https://github.com/ZhengjunHUO/leetcode/tree/main/0438_Find_All_Anagrams_in_a_String) | HastTable | 在字符串A中找到所有字符串B的易位词 | 
 |0445| [Add Two Numbers II](https://github.com/ZhengjunHUO/leetcode/tree/main/0445_Add_Two_Numbers_II) | LinkedList | 以链表形式表示的两数之和 |
+|0448| [Find All Numbers Disappeared in an Array](https://github.com/ZhengjunHUO/leetcode/tree/main/0448_Find_All_Numbers_Disappeared_in_an_Array) | Array  HashTable | 找到所有缺失的数 |
 |0449| [Serialize and Deserialize BST](https://github.com/ZhengjunHUO/leetcode/tree/main/0449_Serialize_and_Deserialize_BST) | BinarySearchTree  BinaryTree  BreadthFirstSearch  DepthFirstSearch  Design  String  Tree | 序列化反序列化BST |
 |0450| [Delete Node in a BST](https://github.com/ZhengjunHUO/leetcode/tree/main/0450_Delete_Node_in_a_BST) | BinarySearchTree  BinaryTree  Tree | 在BST中删除一个结点 |
 |0451| [Sort Characters By Frequency](https://github.com/ZhengjunHUO/leetcode/tree/main/0451_Sort_Characters_By_Frequency) | BucketSort  Counting  HashTable  Heap  Sorting  String | 按字符出现的频率降序排列字符串 |
@@ -212,6 +214,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0600| [Non-negative Integers without Consecutive Ones](https://github.com/ZhengjunHUO/leetcode/tree/main/0600_Non-negative_Integers_without_Consecutive_Ones) | DynamicProgramming | 从0到给定值之间所有数的二进制表示中没有连续1的数的个数 |
 |0628| [Maximum Product of Three Numbers](https://github.com/ZhengjunHUO/leetcode/tree/main/0628_Maximum_Product_of_Three_Numbers) | Array  Math | 数列中挑选三个数使其乘积最大 |
 |0632| [Smallest Range Covering Elements from K Lists](https://github.com/ZhengjunHUO/leetcode/tree/main/0632_Smallest_Range_Covering_Elements_from_K_Lists) | HashTable  String  TwoPointers | 找到一个最小范围覆盖所有K个数列中至少一个元素 |
+|0645| [Set Mismatch](https://github.com/ZhengjunHUO/leetcode/tree/main/0645_Set_Mismatch) | Array  BitManipulation  HashTable  Sorting | 集合中找出出现两次的元素和缺少的元素 |
 |0652| [Find Duplicate Subtrees](https://github.com/ZhengjunHUO/leetcode/tree/main/0652_Find_Duplicate_Subtrees) | BinaryTree  BreadthFirstSearch  DepthFirstSearch  Tree | 寻找重复的子树 |
 |0653| [Two Sum IV Input Is A BST](https://github.com/ZhengjunHUO/leetcode/tree/main/0653_Two_Sum_IV_Input_Is_A_BST) | Tree | 在BST中找到等于目标值的两个数 |
 |0654| [Maximum Binary Tree](https://github.com/ZhengjunHUO/leetcode/tree/main/0654_Maximum_Binary_Tree) | Array  BinaryTree  DivideAndConquer  MonotonicStack  Stack  Tree | 按要求构建二叉树 |
@@ -242,6 +245,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0784| [Letter Case Permutation](https://github.com/ZhengjunHUO/leetcode/tree/main/0784_Letter_Case_Permutation) | Backtracking  BitManipulation  String | alnum字符串中字母大小写变换的排列组合 |
 |0785| [Is Graph Bipartite?](https://github.com/ZhengjunHUO/leetcode/tree/main/0785_Is_Graph_Bipartite) | BreadthFirstSearch  DepthFirstSearch  Graph  UnionFind | 能否把结点分为两组，使每条边的两边的结点分属两个组 |
 |0787| [Cheapest Flights Within K Stops](https://github.com/ZhengjunHUO/leetcode/tree/main/0787_Cheapest_Flights_Within_K_Stops) | BreadthFirstSearch  DepthFirstSearch  DynamicProgramming  Graph  Heap  ShortestPath | 求转机k次以内两地间最便宜的花费 |
+|0793| [Preimage Size of Factorial Zeroes Function](https://github.com/ZhengjunHUO/leetcode/tree/main/0793_Preimage_Size_of_Factorial_Zeroes_Function) | Math  BinarySearch | 求阶乘值的末尾有k个0的数的个数 |
 |0796| [Rotate String](https://github.com/ZhengjunHUO/leetcode/tree/main/0796_Rotate_String) | String  StringMatching | 判断一个字符串是否是另一个字符串shift后的形态 |
 |0797| [All Paths From Source to Target](https://github.com/ZhengjunHUO/leetcode/tree/main/0797_All_Paths_From_Source_to_Target) | Backtracking  BreadthFirstSearch  DepthFirstSearch  Graph | 找到DAG中起点到终点的所有路径 |
 |0827| [Making A Large Island](https://github.com/ZhengjunHUO/leetcode/tree/main/0827_Making_A_Large_Island) | Array  BreadthFirstSearch  DepthFirstSearch  Matrix  UnionFind | 海中最多填一个土能造出的最大岛 |
