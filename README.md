@@ -119,6 +119,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0155| [Min Stack](https://github.com/ZhengjunHUO/leetcode/tree/main/0155_Min_Stack) | Design  Stack | 构建能快速返回最小值的栈 |
 |0167| [Two Sum II](https://github.com/ZhengjunHUO/leetcode/tree/main/0167_Two_Sum_II) | Array  BinarySearch  TwoPointers | 递增数列中找出和为目标值的两个元素 |
 |0170| [Two Sum III Data Structure Design](https://github.com/ZhengjunHUO/leetcode/tree/main/0170_Two_Sum_III_Data_Structure_Design) | Design  HastTable | 设计可以插入数据并判断存储中是否有和为给定值的数据对的数据结构 |
+|0172| [Factorial Trailing Zeroes](https://github.com/ZhengjunHUO/leetcode/tree/main/0172_Factorial_Trailing_Zeroes) | Math | 求n!的末尾0的个数 |
 |0173| [Binary Search Tree Iterator](https://github.com/ZhengjunHUO/leetcode/tree/main/0173_Binary_Search_Tree_Iterator) | BinarySearchTree  BinaryTree  Design  Iterator  Stack  Tree | 设计一个返回BST中序遍历元素的生成器 |
 |0174| [Dungeon Game](https://github.com/ZhengjunHUO/leetcode/tree/main/0174_Dungeon_Game) | Array  DynamicProgramming  Matrix | 地牢游戏求能到达终点所需的最少初始生命值 |
 |0187| [Repeated DNA Sequences](https://github.com/ZhengjunHUO/leetcode/tree/main/0187_Repeated_DNA_Sequences) | BitManipulation  HashFunction  HashTable  RollingHash  SlidingWindow  String | 找到至少出现两次的基因段 |
@@ -153,6 +154,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0259| [3Sum Smaller](https://github.com/ZhengjunHUO/leetcode/tree/main/0259_3Sum_Smaller) | Array  TwoPointers | 求数组中三元组和小于目标值的个数 |
 |0263| [Ugly Number](https://github.com/ZhengjunHUO/leetcode/tree/main/0263_Ugly_Number) | Math | 判断一个数的质因数是否限定在2,3,5之中 |
 |0264| [Ugly Number II](https://github.com/ZhengjunHUO/leetcode/tree/main/0264_Ugly_Number_II) | DynamicProgramming  HashTable  Heap  Math | 求从1开始第n个题0263中描述的数字 |
+|0268| [Missing Number](https://github.com/ZhengjunHUO/leetcode/tree/main/0268_Missing_Number) | Array  BitManipulation  HashTable  Math  Sorting | 找出缺失元素 |
 |0279| [Perfect Squares](https://github.com/ZhengjunHUO/leetcode/tree/main/0279_Perfect_Squares) | BreadthFirstSearch  DynamicProgramming  Math | 把数分解为最短的平方和 |
 |0283| [Move Zeroes](https://github.com/ZhengjunHUO/leetcode/tree/main/0283_Move_Zeroes) | Array  TwoPointers | 将数列中的0移到最后 |
 |0295| [Find Median from Data Stream](https://github.com/ZhengjunHUO/leetcode/tree/main/0295_Find_Median_from_Data_Stream) | DataStream  Design  Heap  Sorting  TwoPointers | 数据流中求中位数 |
@@ -175,6 +177,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0373| [Find K Pairs with Smallest Sums](https://github.com/ZhengjunHUO/leetcode/tree/main/0373_Find_K_Pairs_with_Smallest_Sums) | Array  Heap | 两个数列中找到和最小的k对元素 |
 |0378| [Kth Smallest Element in a Sorted Matrix](https://github.com/ZhengjunHUO/leetcode/tree/main/0378_Kth_Smallest_Element_in_a_Sorted_Matrix) | Array  BinarySearch  Heap  Matrix  Sorting | 在行和列都是升序的矩阵中找到第k小的元素 |
 |0380| [Insert Delete GetRandom O(1)](https://github.com/ZhengjunHUO/leetcode/tree/main/0380_Insert_Delete_GetRandom_O1) | Array  Design  HashTable  Math  Randomized | 实现增删随机读的复杂度都为O(1)的数据结构 |
+|0382| [Linked List Random Node](https://github.com/ZhengjunHUO/leetcode/tree/main/0382_Linked_List_Random_Node) | LinkedList  Math  Randomized  ReservoirSampling | 随机均匀选取链表中的某结点 | 
 |0387| [First Unique Character in a String](https://github.com/ZhengjunHUO/leetcode/tree/main/0387_First_Unique_Character_in_a_String) | Counting  HashTable  Queue  String | 找到第一个只出现一次的字符 |
 |0407| [Trapping Rain Water II](https://github.com/ZhengjunHUO/leetcode/tree/main/0407_Trapping_Rain_Water_II) | BreadthFirstSearch  Heap | 计算三维地形的积水量 |
 |0410| [Split Array Largest Sum](https://github.com/ZhengjunHUO/leetcode/tree/main/0410_Split_Array_Largest_Sum) | Array  BinarySearch  DynamicProgramming  Greedy | 把数列切分成N个子数列，求令子数列和最大值最小化的方案 |
