@@ -157,6 +157,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0268| [Missing Number](https://github.com/ZhengjunHUO/leetcode/tree/main/0268_Missing_Number) | Array  BitManipulation  HashTable  Math  Sorting | 找出缺失元素 |
 |0279| [Perfect Squares](https://github.com/ZhengjunHUO/leetcode/tree/main/0279_Perfect_Squares) | BreadthFirstSearch  DynamicProgramming  Math | 把数分解为最短的平方和 |
 |0283| [Move Zeroes](https://github.com/ZhengjunHUO/leetcode/tree/main/0283_Move_Zeroes) | Array  TwoPointers | 将数列中的0移到最后 |
+|0292| [Nim Game](https://github.com/ZhengjunHUO/leetcode/tree/main/0292_Nim_Game) | Brainteaser  GameTheory  Math | 拿走最后一个石子获胜的游戏 |
 |0295| [Find Median from Data Stream](https://github.com/ZhengjunHUO/leetcode/tree/main/0295_Find_Median_from_Data_Stream) | DataStream  Design  Heap  Sorting  TwoPointers | 数据流中求中位数 |
 |0297| [Serialize and Deserialize Binary Tree](https://github.com/ZhengjunHUO/leetcode/tree/main/0297_Serialize_and_Deserialize_Binary_Tree) | BinaryTree  BreadthFirstSearch  DepthFirstSearch  Design  String  Tree | 序列化及反序列化一棵树 | 
 |0300| [Longest Increasing Subsequence](https://github.com/ZhengjunHUO/leetcode/tree/main/0300_Longest_Increasing_Subsequence) | Array  BinarySearch  DynamicProgramming | 求最长的递增子数列长度 |
@@ -164,6 +165,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0309| [Best Time to Buy and Sell Stock with Cooldown](https://github.com/ZhengjunHUO/leetcode/tree/main/0309_Best_Time_to_Buy_and_Sell_Stock_with_Cooldown) | DynamicProgramming | 不限次数交易获得的最大值，卖出后有一天冷却期 |
 |0313| [Super Ugly Number](https://github.com/ZhengjunHUO/leetcode/tree/main/0313_Super_Ugly_Number) | Array  DynamicProgramming  HashTable  Heap  Math | |
 |0316| [Remove Duplicate Letters](https://github.com/ZhengjunHUO/leetcode/tree/main/0316_Remove_Duplicate_Letters) | Greedy  MonotonicStack  Stack  String | 保持相对顺序的前提下移除重复字母，并且字典序最小 |
+|0319| [Bulb Switcher](https://github.com/ZhengjunHUO/leetcode/tree/main/0319_Bulb_Switcher) | Math  Brainteaser | 开关灯游戏 |
 |0322| [Coin Change](https://github.com/ZhengjunHUO/leetcode/tree/main/0322_Coin_Change) | Array  BreadthFirstSearch  DynamicProgramming | 最少能用几枚硬币凑成目标数额 |
 |0325| [Maximum Size Subarray Sum Equals k](https://github.com/ZhengjunHUO/leetcode/tree/main/0325_Maximum_Size_Subarray_Sum_Equals_k) | ??? | 求和等于目标值的最长子串 |
 |0337| [House Robber III](https://github.com/ZhengjunHUO/leetcode/tree/main/0337_House_Robber_III) | DepthFirstSearch  DynamicProgramming  Tree | 抢劫树形排列不相邻房屋获得的最大收益 |
@@ -178,6 +180,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0378| [Kth Smallest Element in a Sorted Matrix](https://github.com/ZhengjunHUO/leetcode/tree/main/0378_Kth_Smallest_Element_in_a_Sorted_Matrix) | Array  BinarySearch  Heap  Matrix  Sorting | 在行和列都是升序的矩阵中找到第k小的元素 |
 |0380| [Insert Delete GetRandom O(1)](https://github.com/ZhengjunHUO/leetcode/tree/main/0380_Insert_Delete_GetRandom_O1) | Array  Design  HashTable  Math  Randomized | 实现增删随机读的复杂度都为O(1)的数据结构 |
 |0382| [Linked List Random Node](https://github.com/ZhengjunHUO/leetcode/tree/main/0382_Linked_List_Random_Node) | LinkedList  Math  Randomized  ReservoirSampling | 随机均匀选取链表中的某结点 | 
+|0384| [Shuffle an Array](https://github.com/ZhengjunHUO/leetcode/tree/main/0384_Shuffle_an_Array) | Array  Math  Randomized | 随机均匀地洗牌 |
 |0387| [First Unique Character in a String](https://github.com/ZhengjunHUO/leetcode/tree/main/0387_First_Unique_Character_in_a_String) | Counting  HashTable  Queue  String | 找到第一个只出现一次的字符 |
 |0407| [Trapping Rain Water II](https://github.com/ZhengjunHUO/leetcode/tree/main/0407_Trapping_Rain_Water_II) | BreadthFirstSearch  Heap | 计算三维地形的积水量 |
 |0410| [Split Array Largest Sum](https://github.com/ZhengjunHUO/leetcode/tree/main/0410_Split_Array_Largest_Sum) | Array  BinarySearch  DynamicProgramming  Greedy | 把数列切分成N个子数列，求令子数列和最大值最小化的方案 |
@@ -206,6 +209,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0516| [Longest Palindromic Subsequence](https://github.com/ZhengjunHUO/leetcode/tree/main/0516_Longest_Palindromic_Subsequence) | DynamicProgramming  String | 求最长回文子序列 |
 |0518| [Coin Change 2](https://github.com/ZhengjunHUO/leetcode/tree/main/0518_Coin_Change_2) | Array  DynamicProgramming | 求用不同面值硬币能凑出给定总额的方法数 |
 |0523| [Continuous Subarray Sum](https://github.com/ZhengjunHUO/leetcode/tree/main/0523_Continuous_Subarray_Sum) | DynamicProgramming  Math | 求是否有一个长度至少为2的子串其和为给定值的倍数 |
+|0528| [Random Pick with Weight](https://github.com/ZhengjunHUO/leetcode/tree/main/0528_Random_Pick_with_Weight) | BinarySearch  Math  PrefixSum  Randomized | 按照权重随机选取元素 |
 |0530| [Minimum Absolute Difference in BST](https://github.com/ZhengjunHUO/leetcode/tree/main/0530_Minimum_Absolute_Difference_in_BST) | BinarySearchTree  BinaryTree  BreadthFirstSearch  DepthFirstSearch  Tree | BST中搜索两个结点差的最小值 |
 |0538| [Convert BST to Greater Tree](https://github.com/ZhengjunHUO/leetcode/tree/main/0538_Convert_BST_to_Greater_Tree) | BinaryTree  BreadthFirstSearch  DepthFirstSearch  Tree | 结点的值更新为整棵树所有大于等于该结点的值的和 |
 |0543| [Diameter of Binary Tree](https://github.com/ZhengjunHUO/leetcode/tree/main/0543_Diameter_of_Binary_Tree) | BinaryTree  DepthFirstSearch  Tree | 计算相距最远的两个结点的距离 |
@@ -255,6 +259,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0870| [Advantage Shuffle](https://github.com/ZhengjunHUO/leetcode/tree/main/0870_Advantage_Shuffle) | Array  Greedy  Sorting | 交换数列中的元素使其对另一个数列逐元素比较大小占据最大优势 |
 |0875| [Koko Eating Bananas](https://github.com/ZhengjunHUO/leetcode/tree/main/0875_Koko_Eating_Bananas) | Array  BinarySearch | 求在规定时间内吃完所有香蕉堆的最小进食速度 |
 |0876| [Middle of the Linked List](https://github.com/ZhengjunHUO/leetcode/tree/main/0876_Middle_of_the_Linked_List) | LinkedList  TwoPointers | 寻找链表的中点 |
+|0877| [Stone Game](https://github.com/ZhengjunHUO/leetcode/tree/main/0877_Stone_Game) | Array  DynamicProgramming  GameTheory  Math | 拿石头堆的游戏 |
 |0887| [Super Egg Drop](https://github.com/ZhengjunHUO/leetcode/tree/main/0887_Super_Egg_Drop) | BinarySearch  DynamicProgramming  Math | 找到扔下鸡蛋刚好不会碎的楼层数需要的最少尝试次数 |
 |0895| [Maximum Frequency Stack](https://github.com/ZhengjunHUO/leetcode/tree/main/0895_Maximum_Frequency_Stack) | Design  HashTable  OrderedSet  Stack | 实现一个Pop最大出现频率的值的栈 |
 |0912| [Sort an Array](https://github.com/ZhengjunHUO/leetcode/tree/main/0912_Sort_an_Array) | Array  BucketSort  CountingSort  DivideAndConquer  Heap  MergeSort  RadixSort  Sorting | 给数列排序 |
