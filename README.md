@@ -149,6 +149,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0236| [Lowest Common Ancestor of a Binary Tree](https://github.com/ZhengjunHUO/leetcode/tree/main/0236_Lowest_Common_Ancestor_of_a_Binary_Tree) | BinaryTree  DepthFirstSearch  Tree | 找到二叉树中两个元素的LCA |
 |0238| [Product of Array Except Self](https://github.com/ZhengjunHUO/leetcode/tree/main/0238_Product_of_Array_Except_Self) | Array | 返回数列所有元素乘积和除以各元素的数列 |
 |0239| [Sliding Window Maximum](https://github.com/ZhengjunHUO/leetcode/tree/main/0239_Sliding_Window_Maximum) | Dequeue  Heap  SlidingWindow | 返回定长的向右滑动的窗口每一步的局部最大值组成的数组 |
+|0241| [Different Ways to Add Parentheses](https://github.com/ZhengjunHUO/leetcode/tree/main/0241_Different_Ways_to_Add_Parentheses) | DynamicProgramming  Math  Memoization  Recursion  String | 给算式任意位置添加括号得到的所有可能解 |
 |0242| [Valid Anagram](https://github.com/ZhengjunHUO/leetcode/tree/main/0242_Valid_Anagram) | HastTable  Sort | 判断一个字符串是否为另一个的易位词 |
 |0252| [Meeting Rooms](https://github.com/ZhengjunHUO/leetcode/tree/main/0252_Meeting_Rooms) | Array  Sorting | 会议时间是否重合 |
 |0259| [3Sum Smaller](https://github.com/ZhengjunHUO/leetcode/tree/main/0259_3Sum_Smaller) | Array  TwoPointers | 求数组中三元组和小于目标值的个数 |
@@ -225,6 +226,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0652| [Find Duplicate Subtrees](https://github.com/ZhengjunHUO/leetcode/tree/main/0652_Find_Duplicate_Subtrees) | BinaryTree  BreadthFirstSearch  DepthFirstSearch  Tree | 寻找重复的子树 |
 |0653| [Two Sum IV Input Is A BST](https://github.com/ZhengjunHUO/leetcode/tree/main/0653_Two_Sum_IV_Input_Is_A_BST) | Tree | 在BST中找到等于目标值的两个数 |
 |0654| [Maximum Binary Tree](https://github.com/ZhengjunHUO/leetcode/tree/main/0654_Maximum_Binary_Tree) | Array  BinaryTree  DivideAndConquer  MonotonicStack  Stack  Tree | 按要求构建二叉树 |
+|0659| [Split Array into Consecutive Subsequences](https://github.com/ZhengjunHUO/leetcode/tree/main/0659_Split_Array_into_Consecutive_Subsequences) | Array  Greedy  HashTable  Heap | 能否将数组分成数个递增的子数组 |
 |0684| [Redundant Connection](https://github.com/ZhengjunHUO/leetcode/tree/main/0684_Redundant_Connection) | BreadthFirstSearch  DepthFirstSearch  Graph  UnionFind | 移除多余的边使带环的图成为树 |
 |0686| [Repeated String Match](https://github.com/ZhengjunHUO/leetcode/tree/main/0686_Repeated_String_Match) | String | a字符串重复多少次可以包含b字符串 |
 |0689| [Maximum Sum of 3 Non-Overlapping Subarrays](https://github.com/ZhengjunHUO/leetcode/tree/main/0689_Maximum_Sum_of_3_Non-Overlapping_Subarrays) | Array  DynamicProgramming | 找到三个指定长度的和最大的独立子串 |
@@ -275,6 +277,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |1038| [Binary Search Tree to Greater Sum Tree](https://github.com/ZhengjunHUO/leetcode/tree/main/1038_Binary_Search_Tree_to_Greater_Sum_Tree) | BinaryTree  BreadthFirstSearch  DepthFirstSearch  Tree | 结点的值更新为整棵树所有大于等于该结点的值的和 |
 |1081| [Smallest Subsequence of Distinct Characters](https://github.com/ZhengjunHUO/leetcode/tree/main/1081_Smallest_Subsequence_of_Distinct_Characters) | Greedy  MonotonicStack  Stack  String | 保持相对顺序的前提下移除重复字母，并且字典序最小 |
 |1099| [Two Sum Less Than K](https://github.com/ZhengjunHUO/leetcode/tree/main/1099_Two_Sum_Less_Than_K) | Array | 数组中找到小于目标值的最大两数之和 | 
+|1109| [Corporate Flight Bookings](https://github.com/ZhengjunHUO/leetcode/tree/main/1109_Corporate_Flight_Bookings) | Array  PrefixSum | 从订单中统计各航班座位预定总数 |
 |1143| [Longest Common Subsequence](https://github.com/ZhengjunHUO/leetcode/tree/main/1143_Longest_Common_Subsequence) | DynamicProgramming  String | 求最长公共子数列 |
 |1201| [Ugly Number III](https://github.com/ZhengjunHUO/leetcode/tree/main/1201_Ugly_Number_III) | BinarySearch  Math  NumberTheory | |
 |1288| [Remove Covered Intervals](https://github.com/ZhengjunHUO/leetcode/tree/main/1288_Remove_Covered_Intervals) | Array  Sorting | 移除能被另一个区间覆盖的区间 |
