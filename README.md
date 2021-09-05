@@ -139,8 +139,10 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0214| [Shortest Palindrome](https://github.com/ZhengjunHUO/leetcode/tree/main/0214_Shortest_Palindrome) | HashFunction  RollingHash  String  StringMatching  | 找到从字符串头开始最长的回文组 |
 |0215| [Kth Largest Element in an Array](https://github.com/ZhengjunHUO/leetcode/tree/main/0215_Kth_Largest_Element_in_an_Array) | Array  DivideAndConquer  Heap  Quickselect  Sorting | 数列中寻找第k大元素 |
 |0222| [Count Complete Tree Nodes](https://github.com/ZhengjunHUO/leetcode/tree/main/0222_Count_Complete_Tree_Nodes) | BinarySearch  BinaryTree  DepthFirstSearch  Tree | 数一颗Complete二叉树的结点个数 |
+|0224| [Basic Calculator](https://github.com/ZhengjunHUO/leetcode/tree/main/0224_Basic_Calculator) | Math  Recursion  Stack  String | 实现一个基础的加减计算器 |
 |0225| [Implement Stack using Queues](https://github.com/ZhengjunHUO/leetcode/tree/main/0225_Implement_Stack_using_Queues) | Design  Queue  Stack | 用queue来实现stack |
 |0226| [Invert Binary Tree](https://github.com/ZhengjunHUO/leetcode/tree/main/0226_Invert_Binary_Tree) | BinaryTree  BreadthFirstSearch  DepthFirstSearch  Tree | 二叉树元素镜像转置 |
+|0227| [Basic Calculator II](https://github.com/ZhengjunHUO/leetcode/tree/main/0227_Basic_Calculator_II) | Math  Stack  String | 实现一个基础的加减乘除计算器 |
 |0230| [Kth Smallest Element in a BST](https://github.com/ZhengjunHUO/leetcode/tree/main/0230_Kth_Smallest_Element_in_a_BST) | BinaryTree  BreadthFirstSearch  DepthFirstSearch  Tree | 在BST中找到第k小的元素 |
 |0231| [Power of Two](https://github.com/ZhengjunHUO/leetcode/tree/main/0231_Power_of_Two) | BitManipulation  Math  Recursion | 判断数是否为2的次方 |
 |0232| [Implement Queue using Stacks](https://github.com/ZhengjunHUO/leetcode/tree/main/0232_Implement_Queue_using_Stacks) | Design  Queue  Stack | 用stack来实现queue |
@@ -249,6 +251,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0740| [Delete and Earn](https://github.com/ZhengjunHUO/leetcode/tree/main/0740_Delete_and_Earn) | DynamicProgramming | 在数组中取一个数可得分，但是要删除它和如果存在的它+-1的值，求最大得分 |
 |0752| [Open the Lock](https://github.com/ZhengjunHUO/leetcode/tree/main/0752_Open_the_Lock) | Array  BreadthFirstSearch  HashTable  String | 密码锁至少需要转动几下才能打开 |
 |0763| [Partition Labels](https://github.com/ZhengjunHUO/leetcode/tree/main/0763_Partition_Labels) | Greedy  HashTable  String  TwoPointers | 尽可能将字符串分段，且每个字母仅出现在某段中 |
+|0772| [Basic Calculator III](https://github.com/ZhengjunHUO/leetcode/tree/main/0772_Basic_Calculator_III) | Math  Stack  String | 实现一个基础的加减乘除计算器 |
 |0774| [Minimize Max Distance to Gas Station](https://github.com/ZhengjunHUO/leetcode/tree/main/0774_Minimize_Max_Distance_to_Gas_Station) | Array  BinarySearch | 插入K个加油站，找到两个加油站之间最大距离的最小值 |
 |0783| [Minimum Distance Between BST Nodes](https://github.com/ZhengjunHUO/leetcode/tree/main/0783_Minimum_Distance_Between_BST_Nodes) | BinarySearchTree  BinaryTree  BreadthFirstSearch  DepthFirstSearch  Tree | BST中搜索两个结点差的最小值 |
 |0784| [Letter Case Permutation](https://github.com/ZhengjunHUO/leetcode/tree/main/0784_Letter_Case_Permutation) | Backtracking  BitManipulation  String | alnum字符串中字母大小写变换的排列组合 |
@@ -266,6 +269,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0895| [Maximum Frequency Stack](https://github.com/ZhengjunHUO/leetcode/tree/main/0895_Maximum_Frequency_Stack) | Design  HashTable  OrderedSet  Stack | 实现一个Pop最大出现频率的值的栈 |
 |0912| [Sort an Array](https://github.com/ZhengjunHUO/leetcode/tree/main/0912_Sort_an_Array) | Array  BucketSort  CountingSort  DivideAndConquer  Heap  MergeSort  RadixSort  Sorting | 给数列排序 |
 |0931| [Minimum Falling Path Sum](https://github.com/ZhengjunHUO/leetcode/tree/main/0931_Minimum_Falling_Path_Sum) | Array  DynamicProgramming  Matrix | 求坠落路径上数值之和最小的路径 |
+|0969| [Pancake Sorting](https://github.com/ZhengjunHUO/leetcode/tree/main/0969_Pancake_Sorting) | Array  Greedy  Sorting  TwoPointers | 煎饼排序 |
 |0974| [Subarray Sums Divisible by K](https://github.com/ZhengjunHUO/leetcode/tree/main/0974_Subarray_Sums_Divisible_by_K) | Array  HashTable | 和可以整除目标值的子串的个数 |
 |0977| [Squares of a Sorted Array](https://github.com/ZhengjunHUO/leetcode/tree/main/0977_Squares_of_a_Sorted_Array) | Array  Sorting  TwoPointers | 求排好序的数组各元素平方后得到的新升序数组 |
 |0978| [Longest Turbulent Subarray](https://github.com/ZhengjunHUO/leetcode/tree/main/0978_Longest_Turbulent_Subarray) | Array  DynamicProgramming  SlidingWindow | 找到符合峰谷交替规律的最长的子串 |
