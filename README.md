@@ -185,6 +185,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0382| [Linked List Random Node](https://github.com/ZhengjunHUO/leetcode/tree/main/0382_Linked_List_Random_Node) | LinkedList  Math  Randomized  ReservoirSampling | 随机均匀选取链表中的某结点 | 
 |0384| [Shuffle an Array](https://github.com/ZhengjunHUO/leetcode/tree/main/0384_Shuffle_an_Array) | Array  Math  Randomized | 随机均匀地洗牌 |
 |0387| [First Unique Character in a String](https://github.com/ZhengjunHUO/leetcode/tree/main/0387_First_Unique_Character_in_a_String) | Counting  HashTable  Queue  String | 找到第一个只出现一次的字符 |
+|0392| [Is Subsequence](https://github.com/ZhengjunHUO/leetcode/tree/main/0392_Is_Subsequence) | DynamicProgramming  String  TwoPointers | 判断是否是子串 |
 |0407| [Trapping Rain Water II](https://github.com/ZhengjunHUO/leetcode/tree/main/0407_Trapping_Rain_Water_II) | BreadthFirstSearch  Heap | 计算三维地形的积水量 |
 |0410| [Split Array Largest Sum](https://github.com/ZhengjunHUO/leetcode/tree/main/0410_Split_Array_Largest_Sum) | Array  BinarySearch  DynamicProgramming  Greedy | 把数列切分成N个子数列，求令子数列和最大值最小化的方案 |
 |0414| [Third Maximum Number](https://github.com/ZhengjunHUO/leetcode/tree/main/0414_Third_Maximum_Number) | Array  Sorting | 第三大的数字 |
@@ -268,6 +269,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0887| [Super Egg Drop](https://github.com/ZhengjunHUO/leetcode/tree/main/0887_Super_Egg_Drop) | BinarySearch  DynamicProgramming  Math | 找到扔下鸡蛋刚好不会碎的楼层数需要的最少尝试次数 |
 |0895| [Maximum Frequency Stack](https://github.com/ZhengjunHUO/leetcode/tree/main/0895_Maximum_Frequency_Stack) | Design  HashTable  OrderedSet  Stack | 实现一个Pop最大出现频率的值的栈 |
 |0912| [Sort an Array](https://github.com/ZhengjunHUO/leetcode/tree/main/0912_Sort_an_Array) | Array  BucketSort  CountingSort  DivideAndConquer  Heap  MergeSort  RadixSort  Sorting | 给数列排序 |
+|0921| [Minimum Add to Make Parentheses Valid](https://github.com/ZhengjunHUO/leetcode/tree/main/0921_Minimum_Add_to_Make_Parentheses_Valid) | Greedy  Stack  String | 添加最小的括号数时括号合法成对 |
 |0931| [Minimum Falling Path Sum](https://github.com/ZhengjunHUO/leetcode/tree/main/0931_Minimum_Falling_Path_Sum) | Array  DynamicProgramming  Matrix | 求坠落路径上数值之和最小的路径 |
 |0969| [Pancake Sorting](https://github.com/ZhengjunHUO/leetcode/tree/main/0969_Pancake_Sorting) | Array  Greedy  Sorting  TwoPointers | 煎饼排序 |
 |0974| [Subarray Sums Divisible by K](https://github.com/ZhengjunHUO/leetcode/tree/main/0974_Subarray_Sums_Divisible_by_K) | Array  HashTable | 和可以整除目标值的子串的个数 |
@@ -292,6 +294,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |1392| [Longest Happy Prefix](https://github.com/ZhengjunHUO/leetcode/tree/main/1392_Longest_Happy_Prefix) | HashFunction  RollingHash  String  StringMatching | KMP算法的应用 |
 |1408| [String Matching in an Array](https://github.com/ZhengjunHUO/leetcode/tree/main/1408_String_Matching_in_an_Array) | String  StringMatching | 在一组字符串中找出所有能成为其他字符串的子串的串 |
 |1455| [Check If a Word Occurs As a Prefix of Any Word in a Sentence](https://github.com/ZhengjunHUO/leetcode/tree/main/1455_Check_If_a_Word_Occurs_As_a_Prefix_of_Any_Word_in_a_Sentence) | String  StringMatching | 找到以某个pattern为前缀的词的序号 |
+|1541| [Minimum Insertions to Balance a Parentheses String](https://github.com/ZhengjunHUO/leetcode/tree/main/1541_Minimum_Insertions_to_Balance_a_Parentheses_String) | Greedy  Stack  String | 添加最小的括号数时括号合法成对 |
 |1590| [Make Sum Divisible by P](https://github.com/ZhengjunHUO/leetcode/tree/main/1590_Make_Sum_Divisible_by_P) | Array  BinarySearch  HashTable  Math | 字符串中删除最小的子串使剩下的元素和可以整除目标值 |
 |1636| [Sort Array by Increasing Frequency](https://github.com/ZhengjunHUO/leetcode/tree/main/1636_Sort_Array_by_Increasing_Frequency) | Array  HashTable  Sorting | 按照元素出现的频率对字符串升序排序，如果频率相同则按数字大小降序排列 |
 |1658| [Minimum Operations to Reduce X to Zero](https://github.com/ZhengjunHUO/leetcode/tree/main/1658_Minimum_Operations_to_Reduce_X_to_Zero) | BinarySearch  Greedy  SlidingWindow  TwoPointers | 每一步可以移除字符串头或尾的元素，目标值减去该元素，求将目标值减为0的最少步数 |
