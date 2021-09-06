@@ -26,15 +26,15 @@ func Constructor(w []int) Solution {
 }
 
 func (this *Solution) PickIndex() int {
-	p := rand.Intn(this.max)
+	p := rand.Intn(this.max) + 1
 
 	l, r := 0, len(this.cumsum)
 	for l < r {
 		m := l + (r-l)/2
-		if this.cumsum[m] <= p {
-			l = m + 1	
-		}else{
+		if this.cumsum[m] >= p {
 			r = m
+		}else{
+			l = m + 1	
 		}
 	}
 
