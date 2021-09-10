@@ -118,7 +118,10 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0152| [Maximum Product Subarray](https://github.com/ZhengjunHUO/leetcode/tree/main/0152_Maximum_Product_Subarray) | Array  DynamicProgramming | 找出所有元素乘积最大的子串 |
 |0155| [Min Stack](https://github.com/ZhengjunHUO/leetcode/tree/main/0155_Min_Stack) | Design  Stack | 构建能快速返回最小值的栈 |
 |0167| [Two Sum II](https://github.com/ZhengjunHUO/leetcode/tree/main/0167_Two_Sum_II) | Array  BinarySearch  TwoPointers | 递增数列中找出和为目标值的两个元素 |
+|0168| [Excel Sheet Column Title](https://github.com/ZhengjunHUO/leetcode/tree/main/0168_Excel_Sheet_Column_Title) | Math  String | 把数字转化为excel列名 |
+|0169| [Majority Element](https://github.com/ZhengjunHUO/leetcode/tree/main/0169_Majority_Element) | Array  Counting  DivideAndConquer  HashTable  Sorting | 找到多数元素 |
 |0170| [Two Sum III Data Structure Design](https://github.com/ZhengjunHUO/leetcode/tree/main/0170_Two_Sum_III_Data_Structure_Design) | Design  HastTable | 设计可以插入数据并判断存储中是否有和为给定值的数据对的数据结构 |
+|0171| [Excel Sheet Column Number](https://github.com/ZhengjunHUO/leetcode/tree/main/0171_Excel_Sheet_Column_Number) | Math  String | 把excel列名转化为数字 |
 |0172| [Factorial Trailing Zeroes](https://github.com/ZhengjunHUO/leetcode/tree/main/0172_Factorial_Trailing_Zeroes) | Math | 求n!的末尾0的个数 |
 |0173| [Binary Search Tree Iterator](https://github.com/ZhengjunHUO/leetcode/tree/main/0173_Binary_Search_Tree_Iterator) | BinarySearchTree  BinaryTree  Design  Iterator  Stack  Tree | 设计一个返回BST中序遍历元素的生成器 |
 |0174| [Dungeon Game](https://github.com/ZhengjunHUO/leetcode/tree/main/0174_Dungeon_Game) | Array  DynamicProgramming  Matrix | 地牢游戏求能到达终点所需的最少初始生命值 |
@@ -253,6 +256,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0752| [Open the Lock](https://github.com/ZhengjunHUO/leetcode/tree/main/0752_Open_the_Lock) | Array  BreadthFirstSearch  HashTable  String | 密码锁至少需要转动几下才能打开 |
 |0763| [Partition Labels](https://github.com/ZhengjunHUO/leetcode/tree/main/0763_Partition_Labels) | Greedy  HashTable  String  TwoPointers | 尽可能将字符串分段，且每个字母仅出现在某段中 |
 |0772| [Basic Calculator III](https://github.com/ZhengjunHUO/leetcode/tree/main/0772_Basic_Calculator_III) | Math  Stack  String | 实现一个基础的加减乘除计算器 |
+|0773| [Sliding Puzzle](https://github.com/ZhengjunHUO/leetcode/tree/main/0773_Sliding_Puzzle) | Array  BreadthFirstSearch  Matrix | 滑块游戏 |
 |0774| [Minimize Max Distance to Gas Station](https://github.com/ZhengjunHUO/leetcode/tree/main/0774_Minimize_Max_Distance_to_Gas_Station) | Array  BinarySearch | 插入K个加油站，找到两个加油站之间最大距离的最小值 |
 |0783| [Minimum Distance Between BST Nodes](https://github.com/ZhengjunHUO/leetcode/tree/main/0783_Minimum_Distance_Between_BST_Nodes) | BinarySearchTree  BinaryTree  BreadthFirstSearch  DepthFirstSearch  Tree | BST中搜索两个结点差的最小值 |
 |0784| [Letter Case Permutation](https://github.com/ZhengjunHUO/leetcode/tree/main/0784_Letter_Case_Permutation) | Backtracking  BitManipulation  String | alnum字符串中字母大小写变换的排列组合 |
