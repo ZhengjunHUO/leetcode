@@ -94,6 +94,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0090| [Subsets II](https://github.com/ZhengjunHUO/leetcode/tree/main/0090_Subsets_II) | Array  Backtracking  BitManipulation | 找出含重复元素数列的所有可能的不重复子集 |
 |0092| [Reverse Linked List II](https://github.com/ZhengjunHUO/leetcode/tree/main/0092_Reverse_Linked_List_II) | LinkedList | 反转部分链表 |
 |0093| [Restore IP Addresses](https://github.com/ZhengjunHUO/leetcode/tree/main/0093_Restore_IP_Addresses) | Backtracking  String | 从字符串还原IP地址 |
+|0094| [Binary Tree Inorder Traversal](https://github.com/ZhengjunHUO/leetcode/tree/main/0094_Binary_Tree_Inorder_Traversal) | BinaryTree  DepthFirstSearch  Stack  Tree | 中序遍历输出 |
 |0095| [Unique Binary Search Trees II](https://github.com/ZhengjunHUO/leetcode/tree/main/0095_Unique_Binary_Search_Trees_II) | Backtracking  BinarySearchTree  BinaryTree  DynamicProgramming  Tree | 返回从n个结点能构造的所有BST |
 |0096| [Unique Binary Search Trees](https://github.com/ZhengjunHUO/leetcode/tree/main/0096_Unique_Binary_Search_Trees) | BinarySearchTree  BinaryTree  DynamicProgramming  Math  Tree | 计算n个结点可以构造多少个BST |
 |0098| [Validate Binary Search Tree](https://github.com/ZhengjunHUO/leetcode/tree/main/0098_Validate_Binary_Search_Tree) | BinaryTree  BreadthFirstSearch  DepthFirstSearch  Tree | 判断树是否为BST |
@@ -114,6 +115,8 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0136| [Single Number](https://github.com/ZhengjunHUO/leetcode/tree/main/0136_Single_Number) | Array  BitManipulation | 找出数列中只出现一次的元素 |
 |0141| [Linked List Cycle](https://github.com/ZhengjunHUO/leetcode/tree/main/0141_Linked_List_Cycle) | HashTable  LinkedList  TwoPointers | 判断链表是否有环 |
 |0142| [Linked List Cycle II](https://github.com/ZhengjunHUO/leetcode/tree/main/0142_Linked_List_Cycle_II) | HashTable  LinkedList  TwoPointers | 判断链表是否有环并找出环开始的地方 |
+|0144| [Binary Tree Preorder Traversal](https://github.com/ZhengjunHUO/leetcode/tree/main/0144_Binary_Tree_Preorder_Traversal) | BinaryTree  DepthFirstSearch  Stack  Tree | 前序遍历输出 |
+|0145| [Binary Tree Postorder Traversal](https://github.com/ZhengjunHUO/leetcode/tree/main/0145_Binary_Tree_Postorder_Traversal) | BinaryTree  DepthFirstSearch  Stack  Tree | 后序遍历输出 |
 |0146| [LRU Cache](https://github.com/ZhengjunHUO/leetcode/tree/main/0146_LRU_Cache) | Design  DoublyLinkedList  HashTable  LinkedList | 实现一个LRU缓存 |
 |0152| [Maximum Product Subarray](https://github.com/ZhengjunHUO/leetcode/tree/main/0152_Maximum_Product_Subarray) | Array  DynamicProgramming | 找出所有元素乘积最大的子串 |
 |0155| [Min Stack](https://github.com/ZhengjunHUO/leetcode/tree/main/0155_Min_Stack) | Design  Stack | 构建能快速返回最小值的栈 |
