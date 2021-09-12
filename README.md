@@ -149,6 +149,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0225| [Implement Stack using Queues](https://github.com/ZhengjunHUO/leetcode/tree/main/0225_Implement_Stack_using_Queues) | Design  Queue  Stack | 用queue来实现stack |
 |0226| [Invert Binary Tree](https://github.com/ZhengjunHUO/leetcode/tree/main/0226_Invert_Binary_Tree) | BinaryTree  BreadthFirstSearch  DepthFirstSearch  Tree | 二叉树元素镜像转置 |
 |0227| [Basic Calculator II](https://github.com/ZhengjunHUO/leetcode/tree/main/0227_Basic_Calculator_II) | Math  Stack  String | 实现一个基础的加减乘除计算器 |
+|0228| [Summary Ranges](https://github.com/ZhengjunHUO/leetcode/tree/main/0228_Summary_Ranges) | Array | 把递增数列中连续的数字用范围表示 |
 |0230| [Kth Smallest Element in a BST](https://github.com/ZhengjunHUO/leetcode/tree/main/0230_Kth_Smallest_Element_in_a_BST) | BinaryTree  BreadthFirstSearch  DepthFirstSearch  Tree | 在BST中找到第k小的元素 |
 |0231| [Power of Two](https://github.com/ZhengjunHUO/leetcode/tree/main/0231_Power_of_Two) | BitManipulation  Math  Recursion | 判断数是否为2的次方 |
 |0232| [Implement Queue using Stacks](https://github.com/ZhengjunHUO/leetcode/tree/main/0232_Implement_Queue_using_Stacks) | Design  Queue  Stack | 用stack来实现queue |
@@ -160,10 +161,12 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0241| [Different Ways to Add Parentheses](https://github.com/ZhengjunHUO/leetcode/tree/main/0241_Different_Ways_to_Add_Parentheses) | DynamicProgramming  Math  Memoization  Recursion  String | 给算式任意位置添加括号得到的所有可能解 |
 |0242| [Valid Anagram](https://github.com/ZhengjunHUO/leetcode/tree/main/0242_Valid_Anagram) | HastTable  Sort | 判断一个字符串是否为另一个的易位词 |
 |0252| [Meeting Rooms](https://github.com/ZhengjunHUO/leetcode/tree/main/0252_Meeting_Rooms) | Array  Sorting | 会议时间是否重合 |
+|0257| [Binary Tree Paths](https://github.com/ZhengjunHUO/leetcode/tree/main/0257_Binary_Tree_Paths) | BinaryTree  DepthFirstSearch  String  Tree | 打印出从根到叶子的所有路径 |
 |0259| [3Sum Smaller](https://github.com/ZhengjunHUO/leetcode/tree/main/0259_3Sum_Smaller) | Array  TwoPointers | 求数组中三元组和小于目标值的个数 |
 |0263| [Ugly Number](https://github.com/ZhengjunHUO/leetcode/tree/main/0263_Ugly_Number) | Math | 判断一个数的质因数是否限定在2,3,5之中 |
 |0264| [Ugly Number II](https://github.com/ZhengjunHUO/leetcode/tree/main/0264_Ugly_Number_II) | DynamicProgramming  HashTable  Heap  Math | 求从1开始第n个题0263中描述的数字 |
 |0268| [Missing Number](https://github.com/ZhengjunHUO/leetcode/tree/main/0268_Missing_Number) | Array  BitManipulation  HashTable  Math  Sorting | 找出缺失元素 |
+|0278| [First Bad Version](https://github.com/ZhengjunHUO/leetcode/tree/main/0278_First_Bad_Version) | BinarySearch  Interactive | 找到第一个坏版本 |
 |0279| [Perfect Squares](https://github.com/ZhengjunHUO/leetcode/tree/main/0279_Perfect_Squares) | BreadthFirstSearch  DynamicProgramming  Math | 把数分解为最短的平方和 |
 |0283| [Move Zeroes](https://github.com/ZhengjunHUO/leetcode/tree/main/0283_Move_Zeroes) | Array  TwoPointers | 将数列中的0移到最后 |
 |0292| [Nim Game](https://github.com/ZhengjunHUO/leetcode/tree/main/0292_Nim_Game) | Brainteaser  GameTheory  Math | 拿走最后一个石子获胜的游戏 |
