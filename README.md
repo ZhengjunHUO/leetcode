@@ -182,6 +182,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0325| [Maximum Size Subarray Sum Equals k](https://github.com/ZhengjunHUO/leetcode/tree/main/0325_Maximum_Size_Subarray_Sum_Equals_k) | ??? | 求和等于目标值的最长子串 |
 |0337| [House Robber III](https://github.com/ZhengjunHUO/leetcode/tree/main/0337_House_Robber_III) | DepthFirstSearch  DynamicProgramming  Tree | 抢劫树形排列不相邻房屋获得的最大收益 |
 |0341| [Flatten Nested List Iterator](https://github.com/ZhengjunHUO/leetcode/tree/main/0341_Flatten_Nested_List_Iterator) | DepthFirstSearch  Design  Iterator  Queue  Stack  Tree | 实现一个iterator来扁平化输出一个嵌套的列表 |
+|0342| [Power of Four](https://github.com/ZhengjunHUO/leetcode/tree/main/0342_Power_of_Four) | BitManipulation  Math  Recursion | 判断某数是否是4的次方 |
 |0344| [Reverse String](https://github.com/ZhengjunHUO/leetcode/tree/main/0344_Reverse_String) | Recursion  String  TwoPointers | 将字符数组反转 |
 |0347| [Top K Frequent Elements](https://github.com/ZhengjunHUO/leetcode/tree/main/0347_Top_K_Frequent_Elements) | Array  BucketSort  Counting  DivideAndConquer  HashTable  Heap  Quickselect  Sorting | 返回前k个最常见的元素 |
 |0354| [Russian Doll Envelopes](https://github.com/ZhengjunHUO/leetcode/tree/main/0354_Russian_Doll_Envelopes) | Array  BinarySearch  DynamicProgramming  Sorting | 最多有多少小信封能塞进大信封 |
@@ -194,6 +195,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0382| [Linked List Random Node](https://github.com/ZhengjunHUO/leetcode/tree/main/0382_Linked_List_Random_Node) | LinkedList  Math  Randomized  ReservoirSampling | 随机均匀选取链表中的某结点 | 
 |0384| [Shuffle an Array](https://github.com/ZhengjunHUO/leetcode/tree/main/0384_Shuffle_an_Array) | Array  Math  Randomized | 随机均匀地洗牌 |
 |0387| [First Unique Character in a String](https://github.com/ZhengjunHUO/leetcode/tree/main/0387_First_Unique_Character_in_a_String) | Counting  HashTable  Queue  String | 找到第一个只出现一次的字符 |
+|0389| [Find the Difference](https://github.com/ZhengjunHUO/leetcode/tree/main/0389_Find_the_Difference) | BitManipulation  HastTable  Sorting  String | 找出多余的一个字符 |
 |0392| [Is Subsequence](https://github.com/ZhengjunHUO/leetcode/tree/main/0392_Is_Subsequence) | DynamicProgramming  String  TwoPointers | 判断是否是子串 |
 |0407| [Trapping Rain Water II](https://github.com/ZhengjunHUO/leetcode/tree/main/0407_Trapping_Rain_Water_II) | BreadthFirstSearch  Heap | 计算三维地形的积水量 |
 |0410| [Split Array Largest Sum](https://github.com/ZhengjunHUO/leetcode/tree/main/0410_Split_Array_Largest_Sum) | Array  BinarySearch  DynamicProgramming  Greedy | 把数列切分成N个子数列，求令子数列和最大值最小化的方案 |
