@@ -180,6 +180,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0319| [Bulb Switcher](https://github.com/ZhengjunHUO/leetcode/tree/main/0319_Bulb_Switcher) | Math  Brainteaser | 开关灯游戏 |
 |0322| [Coin Change](https://github.com/ZhengjunHUO/leetcode/tree/main/0322_Coin_Change) | Array  BreadthFirstSearch  DynamicProgramming | 最少能用几枚硬币凑成目标数额 |
 |0325| [Maximum Size Subarray Sum Equals k](https://github.com/ZhengjunHUO/leetcode/tree/main/0325_Maximum_Size_Subarray_Sum_Equals_k) | ??? | 求和等于目标值的最长子串 |
+|0326| [Power of Three](https://github.com/ZhengjunHUO/leetcode/tree/main/0326_Power_of_Three) | Math  Recursion | 判断某数是否是3的次方 |
 |0337| [House Robber III](https://github.com/ZhengjunHUO/leetcode/tree/main/0337_House_Robber_III) | DepthFirstSearch  DynamicProgramming  Tree | 抢劫树形排列不相邻房屋获得的最大收益 |
 |0341| [Flatten Nested List Iterator](https://github.com/ZhengjunHUO/leetcode/tree/main/0341_Flatten_Nested_List_Iterator) | DepthFirstSearch  Design  Iterator  Queue  Stack  Tree | 实现一个iterator来扁平化输出一个嵌套的列表 |
 |0342| [Power of Four](https://github.com/ZhengjunHUO/leetcode/tree/main/0342_Power_of_Four) | BitManipulation  Math  Recursion | 判断某数是否是4的次方 |
@@ -211,8 +212,10 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0451| [Sort Characters By Frequency](https://github.com/ZhengjunHUO/leetcode/tree/main/0451_Sort_Characters_By_Frequency) | BucketSort  Counting  HashTable  Heap  Sorting  String | 按字符出现的频率降序排列字符串 |
 |0452| [Minimum Number of Arrows to Burst Balloons](https://github.com/ZhengjunHUO/leetcode/tree/main/0452_Minimum_Number_of_Arrows_to_Burst_Balloons) | Array  Greedy  Sorting | 射出最少的箭穿破所有气球 |
 |0454| [4Sum II](https://github.com/ZhengjunHUO/leetcode/tree/main/0454_4Sum_II) | BinarySearch  HastTable | 四个数列中分别取一个数q之和等于0的四元组个数 |
+|0455| [Assign Cookies](https://github.com/ZhengjunHUO/leetcode/tree/main/0455_Assign_Cookies) | Array  Greedy  Sorting | 分配饼干 |
 |0459| [Repeated Substring Pattern](https://github.com/ZhengjunHUO/leetcode/tree/main/0459_Repeated_Substring_Pattern) | String | 检查字符串是否由某个子串重复n次构成 |
 |0460| [LFU Cache](https://github.com/ZhengjunHUO/leetcode/tree/main/0460_LFU_Cache) | Design  DoublyLinkedList  HashTable  LinkedList | 实现一个LFU缓存 |
+|0463| [Island Perimeter](https://github.com/ZhengjunHUO/leetcode/tree/main/0463_Island_Perimeter) | Array  BreadthFirstSearch  DepthFirstSearch  Matrix | 计算岛屿的周长 |
 |0474| [Ones and Zeroes](https://github.com/ZhengjunHUO/leetcode/tree/main/0474_Ones_and_Zeroes) | DynamicProgramming | 字符串表示的二进制数组中，找出最大的包含至多m个0和n个1的子集合 |
 |0494| [Target Sum](https://github.com/ZhengjunHUO/leetcode/tree/main/0494_Target_Sum) | Array  Backtracking  DynamicProgramming | 数列中的数字可以取正负，求其和可以等于目标值的组合数 |
 |0495| [Teemo Attacking](https://github.com/ZhengjunHUO/leetcode/tree/main/0495_Teemo_Attacking) | Array  Simulation | 计算进入异常状态的时间 |
