@@ -205,6 +205,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0416| [Partition Equal Subset Sum](https://github.com/ZhengjunHUO/leetcode/tree/main/0416_Partition_Equal_Subset_Sum) | Array  DynamicProgramming | 求数组能否分成两个和相等的子集 |
 |0435| [Non-overlapping Intervals](https://github.com/ZhengjunHUO/leetcode/tree/main/0435_Non-overlapping_Intervals) | Array  DynamicProgramming  Greedy  Sorting | 移除最少的区间使列表中的区间没有重叠 |
 |0438| [Find All Anagrams in a String](https://github.com/ZhengjunHUO/leetcode/tree/main/0438_Find_All_Anagrams_in_a_String) | HastTable | 在字符串A中找到所有字符串B的易位词 | 
+|0441| [Arranging Coins](https://github.com/ZhengjunHUO/leetcode/tree/main/0441_Arranging_Coins) | BinarySearchTree  Math | 用硬币填满阶梯 |
 |0445| [Add Two Numbers II](https://github.com/ZhengjunHUO/leetcode/tree/main/0445_Add_Two_Numbers_II) | LinkedList | 以链表形式表示的两数之和 |
 |0448| [Find All Numbers Disappeared in an Array](https://github.com/ZhengjunHUO/leetcode/tree/main/0448_Find_All_Numbers_Disappeared_in_an_Array) | Array  HashTable | 找到所有缺失的数 |
 |0449| [Serialize and Deserialize BST](https://github.com/ZhengjunHUO/leetcode/tree/main/0449_Serialize_and_Deserialize_BST) | BinarySearchTree  BinaryTree  BreadthFirstSearch  DepthFirstSearch  Design  String  Tree | 序列化反序列化BST |
@@ -217,6 +218,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0460| [LFU Cache](https://github.com/ZhengjunHUO/leetcode/tree/main/0460_LFU_Cache) | Design  DoublyLinkedList  HashTable  LinkedList | 实现一个LFU缓存 |
 |0463| [Island Perimeter](https://github.com/ZhengjunHUO/leetcode/tree/main/0463_Island_Perimeter) | Array  BreadthFirstSearch  DepthFirstSearch  Matrix | 计算岛屿的周长 |
 |0474| [Ones and Zeroes](https://github.com/ZhengjunHUO/leetcode/tree/main/0474_Ones_and_Zeroes) | DynamicProgramming | 字符串表示的二进制数组中，找出最大的包含至多m个0和n个1的子集合 |
+|0476| [Number Complement](https://github.com/ZhengjunHUO/leetcode/tree/main/0476_Number_Complement) | BitManipulation | 求数的二进制反转 |
 |0494| [Target Sum](https://github.com/ZhengjunHUO/leetcode/tree/main/0494_Target_Sum) | Array  Backtracking  DynamicProgramming | 数列中的数字可以取正负，求其和可以等于目标值的组合数 |
 |0495| [Teemo Attacking](https://github.com/ZhengjunHUO/leetcode/tree/main/0495_Teemo_Attacking) | Array  Simulation | 计算进入异常状态的时间 |
 |0496| [Next Greater Element I](https://github.com/ZhengjunHUO/leetcode/tree/main/0496_Next_Greater_Element_I) | Array  HashTable  MonotonicStack  Stack | 找到下一个大于自己的元素 |
@@ -294,6 +296,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0986| [Interval List Intersections](https://github.com/ZhengjunHUO/leetcode/tree/main/0986_Interval_List_Intersections) | Array  TwoPointers | 两个区间组成的列表找交集 |
 |0989| [Add to Array-Form of Integer](https://github.com/ZhengjunHUO/leetcode/tree/main/0989_Add_to_Array-Form_of_Integer) | Array | 求一个以数组形式表示的数和一个整数之和 |
 |0990| [Satisfiability of Equality Equations](https://github.com/ZhengjunHUO/leetcode/tree/main/0990_Satisfiability_of_Equality_Equations) | Array  Graph  String  UnionFind | 判断等式集合是否存在矛盾 |
+|1009| [Complement of Base 10 Integer](https://github.com/ZhengjunHUO/leetcode/tree/main/1009_Complement_of_Base_10_Integer) | BitManipulation | 求数的二进制反转 |
 |1011| [Capacity To Ship Packages Within D Days](https://github.com/ZhengjunHUO/leetcode/tree/main/1011_Capacity_To_Ship_Packages_Within_D_Days) | Array  BinarySearch  Greedy | 求在规定的天数内能装完所有货物的最小的船的容量 |
 |1024| [Video Stitching](https://github.com/ZhengjunHUO/leetcode/tree/main/1024_Video_Stitching) | Array  DynamicProgramming  Greedy | 拼接一段完整视屏需要的最少数量的片段 |
 |1038| [Binary Search Tree to Greater Sum Tree](https://github.com/ZhengjunHUO/leetcode/tree/main/1038_Binary_Search_Tree_to_Greater_Sum_Tree) | BinaryTree  BreadthFirstSearch  DepthFirstSearch  Tree | 结点的值更新为整棵树所有大于等于该结点的值的和 |
