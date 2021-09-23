@@ -251,6 +251,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0686| [Repeated String Match](https://github.com/ZhengjunHUO/leetcode/tree/main/0686_Repeated_String_Match) | String | a字符串重复多少次可以包含b字符串 |
 |0689| [Maximum Sum of 3 Non-Overlapping Subarrays](https://github.com/ZhengjunHUO/leetcode/tree/main/0689_Maximum_Sum_of_3_Non-Overlapping_Subarrays) | Array  DynamicProgramming | 找到三个指定长度的和最大的独立子串 |
 |0692| [Top K Frequent Words](https://github.com/ZhengjunHUO/leetcode/tree/main/0692_Top_K_Frequent_Words) | BucketSort  Counting  HashTable  Heap  Sorting  String  Trie | 出现频率最高的k个词 |
+|0693| [Binary Number with Alternating Bits](https://github.com/ZhengjunHUO/leetcode/tree/main/0693_Binary_Number_with_Alternating_Bits) | BitManipulation | 判断数的二进制表示是否为0和1相间 |
 |0695| [Max Area of Island](https://github.com/ZhengjunHUO/leetcode/tree/main/0695_Max_Area_of_Island) | Array  BreadthFirstSearch  DepthFirstSearch  Matrix  UnionFind | 找到最大的岛 |
 |0697| [Degree of an Array](https://github.com/ZhengjunHUO/leetcode/tree/main/0697_Degree_of_an_Array) | Array | 找到和字符串有相同度的子串 |
 |0698| [Partition to K Equal Sum Subsets](https://github.com/ZhengjunHUO/leetcode/tree/main/0698_Partition_to_K_Equal_Sum_Subsets) | Array  Backtracking  BitManipulation  Bitmask  DynamicProgramming  Memoization | 能否把集合分成k个和相等的子集 |
