@@ -59,6 +59,10 @@ func minimumEffortPath(heights [][]int) int {
 		currCord, costToCurr := curr[0].([2]int), curr[1].(int)
 		currIdx := currCord[0]*n+currCord[1]
 
+		if currIdx == len(costTo)-1 {
+			return costToCurr
+		}
+
 		// 如到达当前节点所需气力大于记录中对应的值，则忽略这条分支
 		if costToCurr > costTo[currIdx] {
 			continue
@@ -67,7 +71,7 @@ func minimumEffortPath(heights [][]int) int {
 		if v, ok := dict[currCord]; ok {
 			for i := range v {
 				nextIdx := v[i].cord[0]*n+v[i].cord[1]
-	
+
 				// 到达邻居节点所花费的气力，需要考虑从开始到当前的值 和 当前到邻居节点所需的值
 				costToNext := max(costTo[currIdx], v[i].effort)
 				// 如果小于记录中的值，更新该值，并加入优先队列

@@ -23,6 +23,10 @@ func maxProbability(n int, edges [][]int, succProb []float64, start int, end int
 		curr := pq.PopWithPrio()
 		currNode, probToCurr := curr[0].(int), curr[1].(float64)
 
+		if currNode == end {
+			return probToCurr
+		}
+
 		if probToCurr < probTo[currNode] {
 			continue
 		}
