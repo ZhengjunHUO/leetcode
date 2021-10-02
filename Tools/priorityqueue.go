@@ -19,6 +19,7 @@ func main() {
 	}
 	fmt.Println("")
 
+	/*
 	fmt.Println("Update elem.")
 	pq.Update("orange", 10)
 
@@ -27,6 +28,7 @@ func main() {
 		fmt.Printf("%.2d:%v [index: %v]\n", v.Priority, v.Value, v.Index)
 	}
 	fmt.Println("")
+	*/
 
 	fmt.Println("Peek: ", pq.Peek())
 

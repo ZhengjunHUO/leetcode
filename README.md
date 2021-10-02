@@ -316,8 +316,10 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |1392| [Longest Happy Prefix](https://github.com/ZhengjunHUO/leetcode/tree/main/1392_Longest_Happy_Prefix) | HashFunction  RollingHash  String  StringMatching | KMP算法的应用 |
 |1408| [String Matching in an Array](https://github.com/ZhengjunHUO/leetcode/tree/main/1408_String_Matching_in_an_Array) | String  StringMatching | 在一组字符串中找出所有能成为其他字符串的子串的串 |
 |1455| [Check If a Word Occurs As a Prefix of Any Word in a Sentence](https://github.com/ZhengjunHUO/leetcode/tree/main/1455_Check_If_a_Word_Occurs_As_a_Prefix_of_Any_Word_in_a_Sentence) | String  StringMatching | 找到以某个pattern为前缀的词的序号 |
+|1514| [Path with Maximum Probability](https://github.com/ZhengjunHUO/leetcode/tree/main/1514_Path_with_Maximum_Probability) | Graph  Heap  ShortestPath | 找到到达终点成功率最高的路径 |
 |1541| [Minimum Insertions to Balance a Parentheses String](https://github.com/ZhengjunHUO/leetcode/tree/main/1541_Minimum_Insertions_to_Balance_a_Parentheses_String) | Greedy  Stack  String | 添加最小的括号数时括号合法成对 |
 |1590| [Make Sum Divisible by P](https://github.com/ZhengjunHUO/leetcode/tree/main/1590_Make_Sum_Divisible_by_P) | Array  BinarySearch  HashTable  Math | 字符串中删除最小的子串使剩下的元素和可以整除目标值 |
+|1631| [Path With Minimum Effort](https://github.com/ZhengjunHUO/leetcode/tree/main/1631_Path_With_Minimum_Effort) | Array  BinarySearch  BreadthFirstSearch  DepthFirstSearch  Heap  Matrix  UnionFind | 寻找一条消耗体力最少的登山路径 |
 |1636| [Sort Array by Increasing Frequency](https://github.com/ZhengjunHUO/leetcode/tree/main/1636_Sort_Array_by_Increasing_Frequency) | Array  HashTable  Sorting | 按照元素出现的频率对字符串升序排序，如果频率相同则按数字大小降序排列 |
 |1658| [Minimum Operations to Reduce X to Zero](https://github.com/ZhengjunHUO/leetcode/tree/main/1658_Minimum_Operations_to_Reduce_X_to_Zero) | BinarySearch  Greedy  SlidingWindow  TwoPointers | 每一步可以移除字符串头或尾的元素，目标值减去该元素，求将目标值减为0的最少步数 |
 |1668| [Maximum Repeating Substring](https://github.com/ZhengjunHUO/leetcode/tree/main/1668_Maximum_Repeating_Substring) | String  StringMatching | 保持作为某字符串子串的前提下pattern自身最多能重复多少次 |
