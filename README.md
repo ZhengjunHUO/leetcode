@@ -328,5 +328,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |1696| [Jump Game VI](https://github.com/ZhengjunHUO/leetcode/tree/main/1696_Jump_Game_VI) | Dequeue | 从头出发，每次最远可以前进k，求到终点经过的index对应的值之和的最大值 |
 |1711| [Count Good Meals](https://github.com/ZhengjunHUO/leetcode/tree/main/1711_Count_Good_Meals) | Array  HashTable  TwoPointers | 数列中和为2的次方的二元组的数量 |
 |1749| [Maximum Absolute Sum of Any Subarray](https://github.com/ZhengjunHUO/leetcode/tree/main/1749_Maximum_Absolute_Sum_of_Any_Subarray) | Greedy | 和的绝对值最大的子串 |
+|1786| [Number of Restricted Paths From First to Last Node](https://github.com/ZhengjunHUO/leetcode/tree/main/1786_Number_of_Restricted_Paths_From_First_to_Last_Node) | DynamicProgramming  Graph  Heap  ShortestPath  TopologicalSort | 起点到终点之间的有条件的路径数 |
 |1871| [Jump Game VII](https://github.com/ZhengjunHUO/leetcode/tree/main/1871_Jump_Game_VII) | BreadthFirstSearch  Greedy  LineSweep | 从一个01字符串的头部出发，每次可以前进的距离介于[i,j]之间，且只能落在值为0的index上，求是否可以到达终点 |
 |1891| [Cutting Ribbons](https://github.com/ZhengjunHUO/leetcode/tree/main/1891_Cutting_Ribbons) | Array  BinarySearch | 切割一些绳子获得k条相同长度的绳子，求其长度的最大值 |
+|1976| [Number of Ways to Arrive at Destination](https://github.com/ZhengjunHUO/leetcode/tree/main/1976_Number_of_Ways_to_Arrive_at_Destination) | DynamicProgramming  Graph  ShortestPath  TopologicalSort | 到达终点最短的距离的路径数 |
