@@ -140,6 +140,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0203| [Remove Linked List Elements](https://github.com/ZhengjunHUO/leetcode/tree/main/0203_Remove_Linked_List_Elements) | LinkedList  Recursion | 链表中删除特定值的元素 |
 |0204| [Count Primes](https://github.com/ZhengjunHUO/leetcode/tree/main/0204_Count_Primes) | Array  Enumeration  Math  NumberTheory | 统计小于n的质数个数 |
 |0206| [Reverse Linked List](https://github.com/ZhengjunHUO/leetcode/tree/main/0206_Reverse_Linked_List) | LinkedList  Recursion | 反转链表 |
+|0207| [Course Schedule](https://github.com/ZhengjunHUO/leetcode/tree/main/0207_Course_Schedule) | BreadthFirstSearch  DepthFirstSearch  Graph  TopologicalSort | 是否能顺利完成所有课程 |
 |0209| [Minimum Size Subarray Sum](https://github.com/ZhengjunHUO/leetcode/tree/main/0209_Minimum_Size_Subarray_Sum) | Array  BinarySearch  TwoPointers | 求和大于等于目标值的最短子串 |
 |0213| [House Robber II](https://github.com/ZhengjunHUO/leetcode/tree/main/0213_House_Robber_II) | DynamicProgramming | 抢劫不相邻房屋获得的最大收益 |
 |0214| [Shortest Palindrome](https://github.com/ZhengjunHUO/leetcode/tree/main/0214_Shortest_Palindrome) | HashFunction  RollingHash  String  StringMatching  | 找到从字符串头开始最长的回文组 |
