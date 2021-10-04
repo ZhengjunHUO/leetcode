@@ -142,6 +142,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0206| [Reverse Linked List](https://github.com/ZhengjunHUO/leetcode/tree/main/0206_Reverse_Linked_List) | LinkedList  Recursion | 反转链表 |
 |0207| [Course Schedule](https://github.com/ZhengjunHUO/leetcode/tree/main/0207_Course_Schedule) | BreadthFirstSearch  DepthFirstSearch  Graph  TopologicalSort | 是否能顺利完成所有课程 |
 |0209| [Minimum Size Subarray Sum](https://github.com/ZhengjunHUO/leetcode/tree/main/0209_Minimum_Size_Subarray_Sum) | Array  BinarySearch  TwoPointers | 求和大于等于目标值的最短子串 |
+|0210| [Course Schedule II](https://github.com/ZhengjunHUO/leetcode/tree/main/0210_Course_Schedule_II) | BreadthFirstSearch  DepthFirstSearch  Graph  TopologicalSort | 如能完成所有课程给出完成顺序 |
 |0213| [House Robber II](https://github.com/ZhengjunHUO/leetcode/tree/main/0213_House_Robber_II) | DynamicProgramming | 抢劫不相邻房屋获得的最大收益 |
 |0214| [Shortest Palindrome](https://github.com/ZhengjunHUO/leetcode/tree/main/0214_Shortest_Palindrome) | HashFunction  RollingHash  String  StringMatching  | 找到从字符串头开始最长的回文组 |
 |0215| [Kth Largest Element in an Array](https://github.com/ZhengjunHUO/leetcode/tree/main/0215_Kth_Largest_Element_in_an_Array) | Array  DivideAndConquer  Heap  Quickselect  Sorting | 数列中寻找第k大元素 |
