@@ -177,6 +177,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0300| [Longest Increasing Subsequence](https://github.com/ZhengjunHUO/leetcode/tree/main/0300_Longest_Increasing_Subsequence) | Array  BinarySearch  DynamicProgramming | 求最长的递增子数列长度 |
 |0305| [Number of Islands II](https://github.com/ZhengjunHUO/leetcode/tree/main/0305_Number_of_Islands_II) | Array  BreadthFirstSearch  DepthFirstSearch  Matrix  UnionFind | 填海造岛过程中岛屿个数 |
 |0309| [Best Time to Buy and Sell Stock with Cooldown](https://github.com/ZhengjunHUO/leetcode/tree/main/0309_Best_Time_to_Buy_and_Sell_Stock_with_Cooldown) | DynamicProgramming | 不限次数交易获得的最大值，卖出后有一天冷却期 |
+|0310| [Minimum Height Trees](https://github.com/ZhengjunHUO/leetcode/tree/main/0310_Minimum_Height_Trees) | BreadthFirstSearch  DepthFirstSearch  Graph  TopologicalSort | 找到最矮的树 |
 |0313| [Super Ugly Number](https://github.com/ZhengjunHUO/leetcode/tree/main/0313_Super_Ugly_Number) | Array  DynamicProgramming  HashTable  Heap  Math | |
 |0316| [Remove Duplicate Letters](https://github.com/ZhengjunHUO/leetcode/tree/main/0316_Remove_Duplicate_Letters) | Greedy  MonotonicStack  Stack  String | 保持相对顺序的前提下移除重复字母，并且字典序最小 |
 |0319| [Bulb Switcher](https://github.com/ZhengjunHUO/leetcode/tree/main/0319_Bulb_Switcher) | Math  Brainteaser | 开关灯游戏 |
