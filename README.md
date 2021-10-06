@@ -334,4 +334,6 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |1786| [Number of Restricted Paths From First to Last Node](https://github.com/ZhengjunHUO/leetcode/tree/main/1786_Number_of_Restricted_Paths_From_First_to_Last_Node) | DynamicProgramming  Graph  Heap  ShortestPath  TopologicalSort | 起点到终点之间的有条件的路径数 |
 |1871| [Jump Game VII](https://github.com/ZhengjunHUO/leetcode/tree/main/1871_Jump_Game_VII) | BreadthFirstSearch  Greedy  LineSweep | 从一个01字符串的头部出发，每次可以前进的距离介于[i,j]之间，且只能落在值为0的index上，求是否可以到达终点 |
 |1891| [Cutting Ribbons](https://github.com/ZhengjunHUO/leetcode/tree/main/1891_Cutting_Ribbons) | Array  BinarySearch | 切割一些绳子获得k条相同长度的绳子，求其长度的最大值 |
+|1928| [Minimum Cost to Reach Destination in Time](https://github.com/ZhengjunHUO/leetcode/tree/main/1928_Minimum_Cost_to_Reach_Destination_in_Time) | DynamicProgramming  Graph | 在规定时间内到达目的地的最小花费 |
+|1971| [Find if Path Exists in Graph](https://github.com/ZhengjunHUO/leetcode/tree/main/1971_Find_if_Path_Exists_in_Graph) | BreadthFirstSearch  DepthFirstSearch  Graph | 判断图中两点是否有通路 |
 |1976| [Number of Ways to Arrive at Destination](https://github.com/ZhengjunHUO/leetcode/tree/main/1976_Number_of_Ways_to_Arrive_at_Destination) | DynamicProgramming  Graph  ShortestPath  TopologicalSort | 到达终点最短的距离的路径数 |
