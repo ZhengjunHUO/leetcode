@@ -322,6 +322,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |1514| [Path with Maximum Probability](https://github.com/ZhengjunHUO/leetcode/tree/main/1514_Path_with_Maximum_Probability) | Graph  Heap  ShortestPath | 找到到达终点成功率最高的路径 |
 |1541| [Minimum Insertions to Balance a Parentheses String](https://github.com/ZhengjunHUO/leetcode/tree/main/1541_Minimum_Insertions_to_Balance_a_Parentheses_String) | Greedy  Stack  String | 添加最小的括号数时括号合法成对 |
 |1590| [Make Sum Divisible by P](https://github.com/ZhengjunHUO/leetcode/tree/main/1590_Make_Sum_Divisible_by_P) | Array  BinarySearch  HashTable  Math | 字符串中删除最小的子串使剩下的元素和可以整除目标值 |
+|1615| [Maximal Network Rank](https://github.com/ZhengjunHUO/leetcode/tree/main/1615_Maximal_Network_Rank) | Graph | 图中两个节点出度和的最大值 |
 |1631| [Path With Minimum Effort](https://github.com/ZhengjunHUO/leetcode/tree/main/1631_Path_With_Minimum_Effort) | Array  BinarySearch  BreadthFirstSearch  DepthFirstSearch  Heap  Matrix  UnionFind | 寻找一条消耗体力最少的登山路径 |
 |1636| [Sort Array by Increasing Frequency](https://github.com/ZhengjunHUO/leetcode/tree/main/1636_Sort_Array_by_Increasing_Frequency) | Array  HashTable  Sorting | 按照元素出现的频率对字符串升序排序，如果频率相同则按数字大小降序排列 |
 |1658| [Minimum Operations to Reduce X to Zero](https://github.com/ZhengjunHUO/leetcode/tree/main/1658_Minimum_Operations_to_Reduce_X_to_Zero) | BinarySearch  Greedy  SlidingWindow  TwoPointers | 每一步可以移除字符串头或尾的元素，目标值减去该元素，求将目标值减为0的最少步数 |
@@ -332,6 +333,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |1711| [Count Good Meals](https://github.com/ZhengjunHUO/leetcode/tree/main/1711_Count_Good_Meals) | Array  HashTable  TwoPointers | 数列中和为2的次方的二元组的数量 |
 |1749| [Maximum Absolute Sum of Any Subarray](https://github.com/ZhengjunHUO/leetcode/tree/main/1749_Maximum_Absolute_Sum_of_Any_Subarray) | Greedy | 和的绝对值最大的子串 |
 |1786| [Number of Restricted Paths From First to Last Node](https://github.com/ZhengjunHUO/leetcode/tree/main/1786_Number_of_Restricted_Paths_From_First_to_Last_Node) | DynamicProgramming  Graph  Heap  ShortestPath  TopologicalSort | 起点到终点之间的有条件的路径数 |
+|1791| [Find Center of Star Graph](https://github.com/ZhengjunHUO/leetcode/tree/main/1791_Find_Center_of_Star_Graph) | Graph | 找出星型图的中点 |
 |1871| [Jump Game VII](https://github.com/ZhengjunHUO/leetcode/tree/main/1871_Jump_Game_VII) | BreadthFirstSearch  Greedy  LineSweep | 从一个01字符串的头部出发，每次可以前进的距离介于[i,j]之间，且只能落在值为0的index上，求是否可以到达终点 |
 |1891| [Cutting Ribbons](https://github.com/ZhengjunHUO/leetcode/tree/main/1891_Cutting_Ribbons) | Array  BinarySearch | 切割一些绳子获得k条相同长度的绳子，求其长度的最大值 |
 |1928| [Minimum Cost to Reach Destination in Time](https://github.com/ZhengjunHUO/leetcode/tree/main/1928_Minimum_Cost_to_Reach_Destination_in_Time) | DynamicProgramming  Graph | 在规定时间内到达目的地的最小花费 |
