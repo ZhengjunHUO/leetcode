@@ -295,6 +295,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0912| [Sort an Array](https://github.com/ZhengjunHUO/leetcode/tree/main/0912_Sort_an_Array) | Array  BucketSort  CountingSort  DivideAndConquer  Heap  MergeSort  RadixSort  Sorting | 给数列排序 |
 |0921| [Minimum Add to Make Parentheses Valid](https://github.com/ZhengjunHUO/leetcode/tree/main/0921_Minimum_Add_to_Make_Parentheses_Valid) | Greedy  Stack  String | 添加最小的括号数时括号合法成对 |
 |0931| [Minimum Falling Path Sum](https://github.com/ZhengjunHUO/leetcode/tree/main/0931_Minimum_Falling_Path_Sum) | Array  DynamicProgramming  Matrix | 求坠落路径上数值之和最小的路径 |
+|0938| [Range_Sum_of_BST](https://github.com/ZhengjunHUO/leetcode/tree/main/0938_Range_Sum_of_BST) | BinarySearchTree  BinaryTree  DepthFirstSearch  Tree | 范围内BST节点值的和 |
 |0969| [Pancake Sorting](https://github.com/ZhengjunHUO/leetcode/tree/main/0969_Pancake_Sorting) | Array  Greedy  Sorting  TwoPointers | 煎饼排序 |
 |0974| [Subarray Sums Divisible by K](https://github.com/ZhengjunHUO/leetcode/tree/main/0974_Subarray_Sums_Divisible_by_K) | Array  HashTable | 和可以整除目标值的子串的个数 |
 |0977| [Squares of a Sorted Array](https://github.com/ZhengjunHUO/leetcode/tree/main/0977_Squares_of_a_Sorted_Array) | Array  Sorting  TwoPointers | 求排好序的数组各元素平方后得到的新升序数组 |
