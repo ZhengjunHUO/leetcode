@@ -105,6 +105,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0108| [Convert Sorted Array to Binary Search Tree](https://github.com/ZhengjunHUO/leetcode/tree/main/0108_Convert_Sorted_Array_to_Binary_Search_Tree) | Array  BinaryTree  BinarySearchTree  DivideAndConquer  Tree | 从升序数列构建BST |
 |0109| [Convert Sorted List to Binary Search Tree](https://github.com/ZhengjunHUO/leetcode/tree/main/0109_Convert_Sorted_List_to_Binary_Search_Tree) | BinaryTree  BinarySearchTree  DivideAndConquer  LinkedList  Tree | 从升序链表构建BST |
 |0111| [Minimum Depth of Binary Tree](https://github.com/ZhengjunHUO/leetcode/tree/main/0111_Minimum_Depth_of_Binary_Tree) | BinaryTree  BreadthFirstSearch  DepthFirstSearch  Tree | 求二叉树的最短深度 |
+|0112| [Path Sum](https://github.com/ZhengjunHUO/leetcode/tree/main/0112_Path_Sum) | BinaryTree  DepthFirstSearch  Tree | 是否存在从根到叶节点值的和等于某值的路径 |
 |0114| [Flatten Binary Tree to Linked List](https://github.com/ZhengjunHUO/leetcode/tree/main/0114_Flatten_Binary_Tree_to_Linked_List) | BinaryTree  DepthFirstSearch  LinkedList  Stack  Tree | 把树压成链表 |
 |0116| [Populating Next Right Pointers in Each Node](https://github.com/ZhengjunHUO/leetcode/tree/main/0116_Populating_Next_Right_Pointers_in_Each_Node) | BinaryTree  BreadthFirstSearch  DepthFirstSearch  Tree | 树的同一层结点横向连接起来 |
 |0121| [Best Time to Buy and Sell Stock](https://github.com/ZhengjunHUO/leetcode/tree/main/0121_Best_Time_to_Buy_and_Sell_Stock) | Array  DynamicProgramming | 一次买卖交易获得的最大值 |
