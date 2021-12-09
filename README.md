@@ -100,6 +100,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0098| [Validate Binary Search Tree](https://github.com/ZhengjunHUO/leetcode/tree/main/0098_Validate_Binary_Search_Tree) | BinaryTree  BreadthFirstSearch  DepthFirstSearch  Tree | 判断树是否为BST |
 |0099| [Recover Binary Search Tree](https://github.com/ZhengjunHUO/leetcode/tree/main/0099_Recover_Binary_Search_Tree) | BinaryTree  BinarySearchTree  DepthFirstSearch  Tree | swap一对错位的结点使树成为BST |
 |0100| [Same Tree](https://github.com/ZhengjunHUO/leetcode/tree/main/0100_Same_Tree) | BinaryTree  BreadthFirstSearch  DepthFirstSearch  Tree | 判断两棵树是否相同 |
+|0101| [Symmetric Tree](https://github.com/ZhengjunHUO/leetcode/tree/main/0101_Symmetric_Tree) | BinaryTree  BreadthFirstSearch  DepthFirstSearch  Tree | 判断树是否对称 |
 |0105| [Construct Binary Tree from Preorder and Inorder Traversal](https://github.com/ZhengjunHUO/leetcode/tree/main/0105_Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal) | Array  BinaryTree  DivideAndConquer  HashTable  Tree | 从前序遍历和中序遍历列表构建树 |
 |0106| [Construct Binary Tree from Inorder and Postorder Traversal](https://github.com/ZhengjunHUO/leetcode/tree/main/0106_Construct_Binary_Tree_from_Inorder_and_Postorder_Traversal) | Array  BinaryTree  DivideAndConquer  HashTable  Tree | 从中序遍历和后序遍历列表构建树 |
 |0108| [Convert Sorted Array to Binary Search Tree](https://github.com/ZhengjunHUO/leetcode/tree/main/0108_Convert_Sorted_Array_to_Binary_Search_Tree) | Array  BinaryTree  BinarySearchTree  DivideAndConquer  Tree | 从升序数列构建BST |
