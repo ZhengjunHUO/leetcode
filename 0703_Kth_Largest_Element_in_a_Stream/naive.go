@@ -49,7 +49,7 @@ func Constructor(k int, nums []int) KthLargest {
 
 	heap.Init(kl.ih)
 
-	for i:=0; i<len(nums)-3; i++ {
+	for i:=0; i<len(nums)-k; i++ {
 		heap.Pop(kl.ih)
 	}
 
