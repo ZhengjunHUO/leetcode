@@ -307,6 +307,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0990| [Satisfiability of Equality Equations](https://github.com/ZhengjunHUO/leetcode/tree/main/0990_Satisfiability_of_Equality_Equations) | Array  Graph  String  UnionFind | 判断等式集合是否存在矛盾 |
 |1009| [Complement of Base 10 Integer](https://github.com/ZhengjunHUO/leetcode/tree/main/1009_Complement_of_Base_10_Integer) | BitManipulation | 求数的二进制反转 |
 |1011| [Capacity To Ship Packages Within D Days](https://github.com/ZhengjunHUO/leetcode/tree/main/1011_Capacity_To_Ship_Packages_Within_D_Days) | Array  BinarySearch  Greedy | 求在规定的天数内能装完所有货物的最小的船的容量 |
+|1023| [Camelcase Matching](https://github.com/ZhengjunHUO/leetcode/tree/main/1023_Camelcase_Matching) | String  StringMatching  Trie  TwoPointers | 字符串匹配 |
 |1024| [Video Stitching](https://github.com/ZhengjunHUO/leetcode/tree/main/1024_Video_Stitching) | Array  DynamicProgramming  Greedy | 拼接一段完整视屏需要的最少数量的片段 |
 |1038| [Binary Search Tree to Greater Sum Tree](https://github.com/ZhengjunHUO/leetcode/tree/main/1038_Binary_Search_Tree_to_Greater_Sum_Tree) | BinaryTree  BreadthFirstSearch  DepthFirstSearch  Tree | 结点的值更新为整棵树所有大于等于该结点的值的和 |
 |1081| [Smallest Subsequence of Distinct Characters](https://github.com/ZhengjunHUO/leetcode/tree/main/1081_Smallest_Subsequence_of_Distinct_Characters) | Greedy  MonotonicStack  Stack  String | 保持相对顺序的前提下移除重复字母，并且字典序最小 |
