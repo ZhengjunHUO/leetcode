@@ -310,6 +310,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |1023| [Camelcase Matching](https://github.com/ZhengjunHUO/leetcode/tree/main/1023_Camelcase_Matching) | String  StringMatching  Trie  TwoPointers | 字符串匹配 |
 |1024| [Video Stitching](https://github.com/ZhengjunHUO/leetcode/tree/main/1024_Video_Stitching) | Array  DynamicProgramming  Greedy | 拼接一段完整视屏需要的最少数量的片段 |
 |1038| [Binary Search Tree to Greater Sum Tree](https://github.com/ZhengjunHUO/leetcode/tree/main/1038_Binary_Search_Tree_to_Greater_Sum_Tree) | BinaryTree  BreadthFirstSearch  DepthFirstSearch  Tree | 结点的值更新为整棵树所有大于等于该结点的值的和 |
+|1049| [Last Stone Weight II](https://github.com/ZhengjunHUO/leetcode/tree/main/1049_Last_Stone_Weight_II) | Array  DynamicProgramming |求石头互相碰撞湮灭后剩余重量的最小值 |
 |1081| [Smallest Subsequence of Distinct Characters](https://github.com/ZhengjunHUO/leetcode/tree/main/1081_Smallest_Subsequence_of_Distinct_Characters) | Greedy  MonotonicStack  Stack  String | 保持相对顺序的前提下移除重复字母，并且字典序最小 |
 |1099| [Two Sum Less Than K](https://github.com/ZhengjunHUO/leetcode/tree/main/1099_Two_Sum_Less_Than_K) | Array | 数组中找到小于目标值的最大两数之和 | 
 |1109| [Corporate Flight Bookings](https://github.com/ZhengjunHUO/leetcode/tree/main/1109_Corporate_Flight_Bookings) | Array  PrefixSum | 从订单中统计各航班座位预定总数 |
