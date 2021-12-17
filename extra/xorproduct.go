@@ -1,4 +1,4 @@
-package main
+package extra
 
 /* 
   do a XOR production from 0 we can observe a rule of cycle of 4 
