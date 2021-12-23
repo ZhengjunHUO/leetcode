@@ -148,6 +148,8 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0213| [House Robber II](https://github.com/ZhengjunHUO/leetcode/tree/main/0213_House_Robber_II) | DynamicProgramming | 抢劫不相邻房屋获得的最大收益 |
 |0214| [Shortest Palindrome](https://github.com/ZhengjunHUO/leetcode/tree/main/0214_Shortest_Palindrome) | HashFunction  RollingHash  String  StringMatching  | 找到从字符串头开始最长的回文组 |
 |0215| [Kth Largest Element in an Array](https://github.com/ZhengjunHUO/leetcode/tree/main/0215_Kth_Largest_Element_in_an_Array) | Array  DivideAndConquer  Heap  Quickselect  Sorting | 数列中寻找第k大元素 |
+|0217| [Contains Duplicate](https://github.com/ZhengjunHUO/leetcode/tree/main/0217_Contains_Duplicate) | Array  HashTable  Sorting | 查看数列是否包含重复元素 |
+|0219| [Contains Duplicate II](https://github.com/ZhengjunHUO/leetcode/tree/main/0219_Contains_Duplicate_II) | Array  HashTable  SlidingWindow | 查看数列是否包含重复元素且其距离小于k |
 |0222| [Count Complete Tree Nodes](https://github.com/ZhengjunHUO/leetcode/tree/main/0222_Count_Complete_Tree_Nodes) | BinarySearch  BinaryTree  DepthFirstSearch  Tree | 数一颗Complete二叉树的结点个数 |
 |0224| [Basic Calculator](https://github.com/ZhengjunHUO/leetcode/tree/main/0224_Basic_Calculator) | Math  Recursion  Stack  String | 实现一个基础的加减计算器 |
 |0225| [Implement Stack using Queues](https://github.com/ZhengjunHUO/leetcode/tree/main/0225_Implement_Stack_using_Queues) | Design  Queue  Stack | 用queue来实现stack |
