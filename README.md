@@ -175,6 +175,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0278| [First Bad Version](https://github.com/ZhengjunHUO/leetcode/tree/main/0278_First_Bad_Version) | BinarySearch  Interactive | 找到第一个坏版本 |
 |0279| [Perfect Squares](https://github.com/ZhengjunHUO/leetcode/tree/main/0279_Perfect_Squares) | BreadthFirstSearch  DynamicProgramming  Math | 把数分解为最短的平方和 |
 |0283| [Move Zeroes](https://github.com/ZhengjunHUO/leetcode/tree/main/0283_Move_Zeroes) | Array  TwoPointers | 将数列中的0移到最后 |
+|0290| [Word Pattern](https://github.com/ZhengjunHUO/leetcode/tree/main/0290_Word_Pattern) | HashTable  String | 查看字符串是否按规律排列 |
 |0292| [Nim Game](https://github.com/ZhengjunHUO/leetcode/tree/main/0292_Nim_Game) | Brainteaser  GameTheory  Math | 拿走最后一个石子获胜的游戏 |
 |0295| [Find Median from Data Stream](https://github.com/ZhengjunHUO/leetcode/tree/main/0295_Find_Median_from_Data_Stream) | DataStream  Design  Heap  Sorting  TwoPointers | 数据流中求中位数 |
 |0297| [Serialize and Deserialize Binary Tree](https://github.com/ZhengjunHUO/leetcode/tree/main/0297_Serialize_and_Deserialize_Binary_Tree) | BinaryTree  BreadthFirstSearch  DepthFirstSearch  Design  String  Tree | 序列化及反序列化一棵树 | 
