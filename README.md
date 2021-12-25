@@ -109,6 +109,8 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0112| [Path Sum](https://github.com/ZhengjunHUO/leetcode/tree/main/0112_Path_Sum) | BinaryTree  DepthFirstSearch  Tree | 是否存在从根到叶节点值的和等于某值的路径 |
 |0114| [Flatten Binary Tree to Linked List](https://github.com/ZhengjunHUO/leetcode/tree/main/0114_Flatten_Binary_Tree_to_Linked_List) | BinaryTree  DepthFirstSearch  LinkedList  Stack  Tree | 把树压成链表 |
 |0116| [Populating Next Right Pointers in Each Node](https://github.com/ZhengjunHUO/leetcode/tree/main/0116_Populating_Next_Right_Pointers_in_Each_Node) | BinaryTree  BreadthFirstSearch  DepthFirstSearch  Tree | 树的同一层结点横向连接起来 |
+|0118| [Yanghui's Triangle](https://github.com/ZhengjunHUO/leetcode/tree/main/0118_Yanghui_Triangle) | Array  DynamicProgramming | 生成杨辉三角 |
+|0119| [Yanghui's Triangle II](https://github.com/ZhengjunHUO/leetcode/tree/main/0119_Yanghui_Triangle_II) | Array  DynamicProgramming | 生成杨辉三角的某一行 |
 |0121| [Best Time to Buy and Sell Stock](https://github.com/ZhengjunHUO/leetcode/tree/main/0121_Best_Time_to_Buy_and_Sell_Stock) | Array  DynamicProgramming | 一次买卖交易获得的最大值 |
 |0122| [Best Time to Buy and Sell Stock II](https://github.com/ZhengjunHUO/leetcode/tree/main/0122_Best_Time_to_Buy_and_Sell_Stock_II) | Array  Greedy | 不限次数交易获得的最大值 |
 |0123| [Best Time to Buy and Sell Stock III](https://github.com/ZhengjunHUO/leetcode/tree/main/0123_Best_Time_to_Buy_and_Sell_Stock_III) | Array  DynamicProgramming | 至多两次交易获得的最大值 |
