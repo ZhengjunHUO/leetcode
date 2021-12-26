@@ -192,6 +192,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0325| [Maximum Size Subarray Sum Equals k](https://github.com/ZhengjunHUO/leetcode/tree/main/0325_Maximum_Size_Subarray_Sum_Equals_k) | ??? | 求和等于目标值的最长子串 |
 |0326| [Power of Three](https://github.com/ZhengjunHUO/leetcode/tree/main/0326_Power_of_Three) | Math  Recursion | 判断某数是否是3的次方 |
 |0337| [House Robber III](https://github.com/ZhengjunHUO/leetcode/tree/main/0337_House_Robber_III) | DepthFirstSearch  DynamicProgramming  Tree | 抢劫树形排列不相邻房屋获得的最大收益 |
+|0338| [Counting Bits](https://github.com/ZhengjunHUO/leetcode/tree/main/0338_Counting_Bits) | BitManipulation  DynamicProgramming | 统计0到n每个数包含1的个数 |
 |0341| [Flatten Nested List Iterator](https://github.com/ZhengjunHUO/leetcode/tree/main/0341_Flatten_Nested_List_Iterator) | DepthFirstSearch  Design  Iterator  Queue  Stack  Tree | 实现一个iterator来扁平化输出一个嵌套的列表 |
 |0342| [Power of Four](https://github.com/ZhengjunHUO/leetcode/tree/main/0342_Power_of_Four) | BitManipulation  Math  Recursion | 判断某数是否是4的次方 |
 |0344| [Reverse String](https://github.com/ZhengjunHUO/leetcode/tree/main/0344_Reverse_String) | Recursion  String  TwoPointers | 将字符数组反转 |
