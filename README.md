@@ -281,6 +281,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0739| [Daily Temperatures](https://github.com/ZhengjunHUO/leetcode/tree/main/0739_Daily_Temperatures) | Array  MonotonicStack  Stack | 求等待几天可以比今天更热 |
 |0740| [Delete and Earn](https://github.com/ZhengjunHUO/leetcode/tree/main/0740_Delete_and_Earn) | DynamicProgramming | 在数组中取一个数可得分，但是要删除它和如果存在的它+-1的值，求最大得分 |
 |0743| [Network Delay Time](https://github.com/ZhengjunHUO/leetcode/tree/main/0743_Network_Delay_Time) | BreadthFirstSearch  DepthFirstSearch  Graph  Heap  ShortestPath | 从一个点出发遍历所有网络需要花费的时间 |
+|0746| [Min Cost Climbing Stairs](https://github.com/ZhengjunHUO/leetcode/tree/main/0746_Min_Cost_Climbing_Stairs) | Array  DynamicProgramming | 计算爬上阶梯需要的最小精力 |
 |0752| [Open the Lock](https://github.com/ZhengjunHUO/leetcode/tree/main/0752_Open_the_Lock) | Array  BreadthFirstSearch  HashTable  String | 密码锁至少需要转动几下才能打开 |
 |0763| [Partition Labels](https://github.com/ZhengjunHUO/leetcode/tree/main/0763_Partition_Labels) | Greedy  HashTable  String  TwoPointers | 尽可能将字符串分段，且每个字母仅出现在某段中 |
 |0772| [Basic Calculator III](https://github.com/ZhengjunHUO/leetcode/tree/main/0772_Basic_Calculator_III) | Math  Stack  String | 实现一个基础的加减乘除计算器 |
