@@ -111,6 +111,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0116| [Populating Next Right Pointers in Each Node](https://github.com/ZhengjunHUO/leetcode/tree/main/0116_Populating_Next_Right_Pointers_in_Each_Node) | BinaryTree  BreadthFirstSearch  DepthFirstSearch  Tree | 树的同一层结点横向连接起来 |
 |0118| [Yanghui's Triangle](https://github.com/ZhengjunHUO/leetcode/tree/main/0118_Yanghui_Triangle) | Array  DynamicProgramming | 生成杨辉三角 |
 |0119| [Yanghui's Triangle II](https://github.com/ZhengjunHUO/leetcode/tree/main/0119_Yanghui_Triangle_II) | Array  DynamicProgramming | 生成杨辉三角的某一行 |
+|0120| [Triangle](https://github.com/ZhengjunHUO/leetcode/tree/main/0120_Triangle) | Array  DynamicProgramming | 计算三角形二维数列从上到下最小的路径和 |
 |0121| [Best Time to Buy and Sell Stock](https://github.com/ZhengjunHUO/leetcode/tree/main/0121_Best_Time_to_Buy_and_Sell_Stock) | Array  DynamicProgramming | 一次买卖交易获得的最大值 |
 |0122| [Best Time to Buy and Sell Stock II](https://github.com/ZhengjunHUO/leetcode/tree/main/0122_Best_Time_to_Buy_and_Sell_Stock_II) | Array  Greedy | 不限次数交易获得的最大值 |
 |0123| [Best Time to Buy and Sell Stock III](https://github.com/ZhengjunHUO/leetcode/tree/main/0123_Best_Time_to_Buy_and_Sell_Stock_III) | Array  DynamicProgramming | 至多两次交易获得的最大值 |
@@ -337,6 +338,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |1615| [Maximal Network Rank](https://github.com/ZhengjunHUO/leetcode/tree/main/1615_Maximal_Network_Rank) | Graph | 图中两个节点出度和的最大值 |
 |1631| [Path With Minimum Effort](https://github.com/ZhengjunHUO/leetcode/tree/main/1631_Path_With_Minimum_Effort) | Array  BinarySearch  BreadthFirstSearch  DepthFirstSearch  Heap  Matrix  UnionFind | 寻找一条消耗体力最少的登山路径 |
 |1636| [Sort Array by Increasing Frequency](https://github.com/ZhengjunHUO/leetcode/tree/main/1636_Sort_Array_by_Increasing_Frequency) | Array  HashTable  Sorting | 按照元素出现的频率对字符串升序排序，如果频率相同则按数字大小降序排列 |
+|1646| [Get Maximum in Generated Array](https://github.com/ZhengjunHUO/leetcode/tree/main/1646_Get_Maximum_in_Generated_Array) | Array  DynamicProgramming  Simulation | 获得一个自生成数列的最大值 |
 |1658| [Minimum Operations to Reduce X to Zero](https://github.com/ZhengjunHUO/leetcode/tree/main/1658_Minimum_Operations_to_Reduce_X_to_Zero) | BinarySearch  Greedy  SlidingWindow  TwoPointers | 每一步可以移除字符串头或尾的元素，目标值减去该元素，求将目标值减为0的最少步数 |
 |1668| [Maximum Repeating Substring](https://github.com/ZhengjunHUO/leetcode/tree/main/1668_Maximum_Repeating_Substring) | String  StringMatching | 保持作为某字符串子串的前提下pattern自身最多能重复多少次 |
 |1679| [Max Number of K-Sum Pairs](https://github.com/ZhengjunHUO/leetcode/tree/main/1679_Max_Number_of_K-Sum_Pairs) | HashTable | 数组中每一步可以移除和为K的两个元素，求最大可执行次数 |
