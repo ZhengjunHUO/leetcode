@@ -118,6 +118,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0130| [Surrounded Regions](https://github.com/ZhengjunHUO/leetcode/tree/main/0130_Surrounded_Regions) | Array  BreadthFirstSearch  DepthFirstSearch  Matrix  UnionFind | 把被X包围的O换成X |
 |0131| [Palindrome Partitioning](https://github.com/ZhengjunHUO/leetcode/tree/main/0131_Palindrome_Partitioning) | Backtracking  DynamicProgramming  String | 求字符串拆分成回文字符串数组的所有可能性 |
 |0136| [Single Number](https://github.com/ZhengjunHUO/leetcode/tree/main/0136_Single_Number) | Array  BitManipulation | 找出数列中只出现一次的元素 |
+|0139| [Word Break](https://github.com/ZhengjunHUO/leetcode/tree/main/0139_Word_Break) | DynamicProgramming  HashTable  Memoization  String  Trie | 单词是否能完美拆分成存在字典中的pattern |
 |0141| [Linked List Cycle](https://github.com/ZhengjunHUO/leetcode/tree/main/0141_Linked_List_Cycle) | HashTable  LinkedList  TwoPointers | 判断链表是否有环 |
 |0142| [Linked List Cycle II](https://github.com/ZhengjunHUO/leetcode/tree/main/0142_Linked_List_Cycle_II) | HashTable  LinkedList  TwoPointers | 判断链表是否有环并找出环开始的地方 |
 |0144| [Binary Tree Preorder Traversal](https://github.com/ZhengjunHUO/leetcode/tree/main/0144_Binary_Tree_Preorder_Traversal) | BinaryTree  DepthFirstSearch  Stack  Tree | 前序遍历输出 |
