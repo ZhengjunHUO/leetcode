@@ -11,8 +11,10 @@ func main() {
 	
 	uf.Union(0,1)
 	uf.Union(0,6)
-	uf.Union(0,3)
+	uf.Union(2,3)
 	uf.Union(2,5)
+	uf.Union(1,3)
+	uf.FindRoot(3)
 	c, p, s := uf.Count(), uf.Parent(), uf.Size()
 	fmt.Println(uf.Count(), uf.Parent(), uf.Size())
 	fmt.Println("Saved")
