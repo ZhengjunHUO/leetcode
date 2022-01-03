@@ -198,6 +198,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0338| [Counting Bits](https://github.com/ZhengjunHUO/leetcode/tree/main/0338_Counting_Bits) | BitManipulation  DynamicProgramming | 统计0到n每个数包含1的个数 |
 |0341| [Flatten Nested List Iterator](https://github.com/ZhengjunHUO/leetcode/tree/main/0341_Flatten_Nested_List_Iterator) | DepthFirstSearch  Design  Iterator  Queue  Stack  Tree | 实现一个iterator来扁平化输出一个嵌套的列表 |
 |0342| [Power of Four](https://github.com/ZhengjunHUO/leetcode/tree/main/0342_Power_of_Four) | BitManipulation  Math  Recursion | 判断某数是否是4的次方 |
+|0343| [Integer Break](https://github.com/ZhengjunHUO/leetcode/tree/main/0343_Integer_Break) | DynamicProgramming  Math | 数拆分后的因子的乘积最大值 |
 |0344| [Reverse String](https://github.com/ZhengjunHUO/leetcode/tree/main/0344_Reverse_String) | Recursion  String  TwoPointers | 将字符数组反转 |
 |0347| [Top K Frequent Elements](https://github.com/ZhengjunHUO/leetcode/tree/main/0347_Top_K_Frequent_Elements) | Array  BucketSort  Counting  DivideAndConquer  HashTable  Heap  Quickselect  Sorting | 返回前k个最常见的元素 |
 |0354| [Russian Doll Envelopes](https://github.com/ZhengjunHUO/leetcode/tree/main/0354_Russian_Doll_Envelopes) | Array  BinarySearch  DynamicProgramming  Sorting | 最多有多少小信封能塞进大信封 |
