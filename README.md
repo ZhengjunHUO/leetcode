@@ -327,6 +327,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |1109| [Corporate Flight Bookings](https://github.com/ZhengjunHUO/leetcode/tree/main/1109_Corporate_Flight_Bookings) | Array  PrefixSum | 从订单中统计各航班座位预定总数 |
 |1143| [Longest Common Subsequence](https://github.com/ZhengjunHUO/leetcode/tree/main/1143_Longest_Common_Subsequence) | DynamicProgramming  String | 求最长公共子数列 |
 |1201| [Ugly Number III](https://github.com/ZhengjunHUO/leetcode/tree/main/1201_Ugly_Number_III) | BinarySearch  Math  NumberTheory | |
+|1235| [Maximum Profit in Job Scheduling](https://github.com/ZhengjunHUO/leetcode/tree/main/1235_Maximum_Profit_in_Job_Scheduling) | Array  BinarySearch  DynamicProgramming  Sorting | 在时间段不冲突的前提下接受任务的最大利润 |
 |1288| [Remove Covered Intervals](https://github.com/ZhengjunHUO/leetcode/tree/main/1288_Remove_Covered_Intervals) | Array  Sorting | 移除能被另一个区间覆盖的区间 |
 |1306| [Jump Game III](https://github.com/ZhengjunHUO/leetcode/tree/main/1306_Jump_Game_III) | BreadthFirstSearch  DepthFirstSearch  Recursion | 从给定的出发点允许向前向后跳跃，判断是否能到终点 |
 |1340| [Jump Game V](https://github.com/ZhengjunHUO/leetcode/tree/main/1340_Jump_Game_V) | DynamicProgramming | 从任意点出发允许向前向后最远跳d的距离且只能从大数跳向小数，求最多能覆盖几个index ｜
@@ -357,5 +358,6 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |1928| [Minimum Cost to Reach Destination in Time](https://github.com/ZhengjunHUO/leetcode/tree/main/1928_Minimum_Cost_to_Reach_Destination_in_Time) | DynamicProgramming  Graph | 在规定时间内到达目的地的最小花费 |
 |1971| [Find if Path Exists in Graph](https://github.com/ZhengjunHUO/leetcode/tree/main/1971_Find_if_Path_Exists_in_Graph) | BreadthFirstSearch  DepthFirstSearch  Graph | 判断图中两点是否有通路 |
 |1976| [Number of Ways to Arrive at Destination](https://github.com/ZhengjunHUO/leetcode/tree/main/1976_Number_of_Ways_to_Arrive_at_Destination) | DynamicProgramming  Graph  ShortestPath  TopologicalSort | 到达终点最短的距离的路径数 |
+|2054| [Two Best Non-Overlapping Events](https://github.com/ZhengjunHUO/leetcode/tree/main/2054_Two_Best_Non_Overlapping_Events) | Array  BinarySearch  DynamicProgramming  Heap  Sorting | 找到权重和最大的不重叠的两段事件 |
 |2063| [Vowels of All Substrings](https://github.com/ZhengjunHUO/leetcode/tree/main/2063_Vowels_of_All_Substrings) | Combinatorics  DynamicProgramming  Math  String | 所有子字符串中元音出现的次数 |
 |2100| [Find Good Days to Rob the Bank](https://github.com/ZhengjunHUO/leetcode/tree/main/2100_Find_Good_Days_to_Rob_the_Bank) | Array  DynamicProgramming  PrefixSum | 数列中寻找一个值的谷底 |
