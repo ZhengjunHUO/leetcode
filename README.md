@@ -332,6 +332,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |1306| [Jump Game III](https://github.com/ZhengjunHUO/leetcode/tree/main/1306_Jump_Game_III) | BreadthFirstSearch  DepthFirstSearch  Recursion | 从给定的出发点允许向前向后跳跃，判断是否能到终点 |
 |1340| [Jump Game V](https://github.com/ZhengjunHUO/leetcode/tree/main/1340_Jump_Game_V) | DynamicProgramming | 从任意点出发允许向前向后最远跳d的距离且只能从大数跳向小数，求最多能覆盖几个index ｜
 |1345| [Jump Game IV](https://github.com/ZhengjunHUO/leetcode/tree/main/1345_Jump_Game_IV) | BreadthFirstSearch | 从头开始，每一条可以向前向后一格，或传送到其他值相等的index，求到达终点最少的跳跃次数 |
+|1353| [Maximum Number of Events That Can Be Attended](https://github.com/ZhengjunHUO/leetcode/tree/main/1353_Maximum_Number_of_Events_That_Can_Be_Attended) | Array  Greedy  Heap | 最多可以参加几个活动 |
 |1373| [Maximum Sum BST in Binary Tree](https://github.com/ZhengjunHUO/leetcode/tree/main/1373_Maximum_Sum_BST_in_Binary_Tree) | BinarySearchTree  BinaryTree  DepthFirstSearch  DynamicProgramming  Tree | 找到和最大的BST子树 |
 |1392| [Longest Happy Prefix](https://github.com/ZhengjunHUO/leetcode/tree/main/1392_Longest_Happy_Prefix) | HashFunction  RollingHash  String  StringMatching | KMP算法的应用 |
 |1408| [String Matching in an Array](https://github.com/ZhengjunHUO/leetcode/tree/main/1408_String_Matching_in_an_Array) | String  StringMatching | 在一组字符串中找出所有能成为其他字符串的子串的串 |
