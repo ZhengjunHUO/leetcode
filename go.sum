@@ -1,6 +1,4 @@
-github.com/ZhengjunHUO/godtype v0.0.0-20211110215426-28d181d67524 h1:1fT0Ey2PhzsO4r7xAMJHw+zqnii8soQ+Zm1Eg8bzSa4=
-github.com/ZhengjunHUO/godtype v0.0.0-20211110215426-28d181d67524/go.mod h1:kWLCUCjKWDNYJquJq4VQA16pRVtSgcsAWRQ0NyS+CfY=
-github.com/ZhengjunHUO/godtype v0.0.0-20220102214753-441be8f364e3 h1:2I9tA9uyDw6X81/GDMH3d0j7HCfTzuO076zdtQahS4I=
-github.com/ZhengjunHUO/godtype v0.0.0-20220102214753-441be8f364e3/go.mod h1:kWLCUCjKWDNYJquJq4VQA16pRVtSgcsAWRQ0NyS+CfY=
-github.com/ZhengjunHUO/gtoolkit v0.0.0-20211208145911-2afcebe9b479 h1:No/7K51WCYbisl0eDX+3I10ZZudCay18TIy1VwSb+x8=
-github.com/ZhengjunHUO/gtoolkit v0.0.0-20211208145911-2afcebe9b479/go.mod h1:cTA/r4x2Yy6owNMqTc9K52NaFC7y6xMlhTIl90GRUoo=
+github.com/ZhengjunHUO/godtype v0.0.0-20220109090351-fb549ea1916d h1:b8LYPDyotddDPGAjU4iveFVdRu1mvlgwj9QDBgnOymk=
+github.com/ZhengjunHUO/godtype v0.0.0-20220109090351-fb549ea1916d/go.mod h1:kWLCUCjKWDNYJquJq4VQA16pRVtSgcsAWRQ0NyS+CfY=
+github.com/ZhengjunHUO/gtoolkit v0.0.0-20220109104721-44e8f7dd97c9 h1:fUOk6DsOUpzPKr8aNW1M53evEBdUaaBNf0IlBZeLHYY=
+github.com/ZhengjunHUO/gtoolkit v0.0.0-20220109104721-44e8f7dd97c9/go.mod h1:cTA/r4x2Yy6owNMqTc9K52NaFC7y6xMlhTIl90GRUoo=
