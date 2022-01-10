@@ -351,6 +351,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |1696| [Jump Game VI](https://github.com/ZhengjunHUO/leetcode/tree/main/1696_Jump_Game_VI) | Dequeue | 从头出发，每次最远可以前进k，求到终点经过的index对应的值之和的最大值 |
 |1711| [Count Good Meals](https://github.com/ZhengjunHUO/leetcode/tree/main/1711_Count_Good_Meals) | Array  HashTable  TwoPointers | 数列中和为2的次方的二元组的数量 |
 |1749| [Maximum Absolute Sum of Any Subarray](https://github.com/ZhengjunHUO/leetcode/tree/main/1749_Maximum_Absolute_Sum_of_Any_Subarray) | Greedy | 和的绝对值最大的子串 |
+|1751| [Maximum Number of Events That Can Be Attended II](https://github.com/ZhengjunHUO/leetcode/tree/main/1751_Maximum_Number_of_Events_That_Can_Be_Attended_II) | Array  BinarySearch  DynamicProgramming | 在次数限制内最多可以参加几个活动 |
 |1764| [Form Array by Concatenating Subarrays of Another Array](https://github.com/ZhengjunHUO/leetcode/tree/main/1764_Form_Array_by_Concatenating_Subarrays_of_Another_Array) | Array  Greedy  StringMatching | |
 |1786| [Number of Restricted Paths From First to Last Node](https://github.com/ZhengjunHUO/leetcode/tree/main/1786_Number_of_Restricted_Paths_From_First_to_Last_Node) | DynamicProgramming  Graph  Heap  ShortestPath  TopologicalSort | 起点到终点之间的有条件的路径数 |
 |1791| [Find Center of Star Graph](https://github.com/ZhengjunHUO/leetcode/tree/main/1791_Find_Center_of_Star_Graph) | Graph | 找出星型图的中点 |
