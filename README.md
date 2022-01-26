@@ -365,4 +365,5 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |2054| [Two Best Non-Overlapping Events](https://github.com/ZhengjunHUO/leetcode/tree/main/2054_Two_Best_Non_Overlapping_Events) | Array  BinarySearch  DynamicProgramming  Heap  Sorting | 找到权重和最大的不重叠的两段事件 |
 |2063| [Vowels of All Substrings](https://github.com/ZhengjunHUO/leetcode/tree/main/2063_Vowels_of_All_Substrings) | Combinatorics  DynamicProgramming  Math  String | 所有子字符串中元音出现的次数 |
 |2100| [Find Good Days to Rob the Bank](https://github.com/ZhengjunHUO/leetcode/tree/main/2100_Find_Good_Days_to_Rob_the_Bank) | Array  DynamicProgramming  PrefixSum | 数列中寻找一个值的谷底 |
+|2129| [Capitalize the Title](https://github.com/ZhengjunHUO/leetcode/tree/main/2129_Capitalize_the_Title) | String | 首字母大写 |
 |2133| [Check if Every Row and Column Contains All Numbers](https://github.com/ZhengjunHUO/leetcode/tree/main/2133_Check_if_Every_Row_and_Column_Contains_All_Numbers) | Array  HashTable  Matrix | 检查n*n矩阵每一行每一列都包含了1到n的所有数字 |
