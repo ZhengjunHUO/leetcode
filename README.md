@@ -369,5 +369,6 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |2126| [Destroying Asteroids](https://github.com/ZhengjunHUO/leetcode/tree/main/2126_Destroying_Asteroids) | Array  Greedy  Sorting | 是否能毁灭所有小行星 |
 |2129| [Capitalize the Title](https://github.com/ZhengjunHUO/leetcode/tree/main/2129_Capitalize_the_Title) | String | 首字母大写 |
 |2133| [Check if Every Row and Column Contains All Numbers](https://github.com/ZhengjunHUO/leetcode/tree/main/2133_Check_if_Every_Row_and_Column_Contains_All_Numbers) | Array  HashTable  Matrix | 检查n*n矩阵每一行每一列都包含了1到n的所有数字 |
+|2144| [Minimum Cost of Buying Candies With Discount](https://github.com/ZhengjunHUO/leetcode/tree/main/2144_Minimum_Cost_of_Buying_Candies_With_Discount) | Array  Greedy  Sorting | 利用折扣买完所有糖所需的最小花费 |
 |2149| [Rearrange Array Elements by Sign](https://github.com/ZhengjunHUO/leetcode/tree/main/2149_Rearrange_Array_Elements_by_Sign) | Array  Simulation  TwoPointers | 按照一正一负顺序重排数列 |
 |2150| [Find All Lonely Numbers in the Array](https://github.com/ZhengjunHUO/leetcode/tree/main/2150_Find_All_Lonely_Numbers_in_the_Array) | Array  Counting  HashTable | 数列中找到所有孤独元素 |
