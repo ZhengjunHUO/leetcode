@@ -365,6 +365,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |2054| [Two Best Non-Overlapping Events](https://github.com/ZhengjunHUO/leetcode/tree/main/2054_Two_Best_Non_Overlapping_Events) | Array  BinarySearch  DynamicProgramming  Heap  Sorting | 找到权重和最大的不重叠的两段事件 |
 |2063| [Vowels of All Substrings](https://github.com/ZhengjunHUO/leetcode/tree/main/2063_Vowels_of_All_Substrings) | Combinatorics  DynamicProgramming  Math  String | 所有子字符串中元音出现的次数 |
 |2100| [Find Good Days to Rob the Bank](https://github.com/ZhengjunHUO/leetcode/tree/main/2100_Find_Good_Days_to_Rob_the_Bank) | Array  DynamicProgramming  PrefixSum | 数列中寻找一个值的谷底 |
+|2103| [Rings and Rods](https://github.com/ZhengjunHUO/leetcode/tree/main/2103_Rings_and_Rods) | HashTable  String | 统计套有三种颜色圆环的的杆子数量 |
 |2124| [Check if All A's Appears Before All B's](https://github.com/ZhengjunHUO/leetcode/tree/main/2124_Check_if_All_As_Appears_Before_All_Bs) | String | 检查是否所有A在B之前 |
 |2126| [Destroying Asteroids](https://github.com/ZhengjunHUO/leetcode/tree/main/2126_Destroying_Asteroids) | Array  Greedy  Sorting | 是否能毁灭所有小行星 |
 |2129| [Capitalize the Title](https://github.com/ZhengjunHUO/leetcode/tree/main/2129_Capitalize_the_Title) | String | 首字母大写 |
