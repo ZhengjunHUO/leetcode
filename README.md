@@ -376,3 +376,5 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |2144| [Minimum Cost of Buying Candies With Discount](https://github.com/ZhengjunHUO/leetcode/tree/main/2144_Minimum_Cost_of_Buying_Candies_With_Discount) | Array  Greedy  Sorting | 利用折扣买完所有糖所需的最小花费 |
 |2149| [Rearrange Array Elements by Sign](https://github.com/ZhengjunHUO/leetcode/tree/main/2149_Rearrange_Array_Elements_by_Sign) | Array  Simulation  TwoPointers | 按照一正一负顺序重排数列 |
 |2150| [Find All Lonely Numbers in the Array](https://github.com/ZhengjunHUO/leetcode/tree/main/2150_Find_All_Lonely_Numbers_in_the_Array) | Array  Counting  HashTable | 数列中找到所有孤独元素 |
+|2164| [Sort Even and Odd Indices Independently](https://github.com/ZhengjunHUO/leetcode/tree/main/2164_Sort_Even_and_Odd_Indices_Independently) | Array  Sorting | 将奇偶位置的数列分别升降序排列 |
+|2165| [Smallest Value of the Rearranged Number](https://github.com/ZhengjunHUO/leetcode/tree/main/2165_Smallest_Value_of_the_Rearranged_Number) | Math  Sorting | 重新排列数字可以取到的最小值 |
