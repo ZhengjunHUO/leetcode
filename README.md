@@ -185,7 +185,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0295| [Find Median from Data Stream](https://github.com/ZhengjunHUO/leetcode/tree/main/0295_Find_Median_from_Data_Stream) | DataStream  Design  Heap  Sorting  TwoPointers | 数据流中求中位数 |
 |0297| [Serialize and Deserialize Binary Tree](https://github.com/ZhengjunHUO/leetcode/tree/main/0297_Serialize_and_Deserialize_Binary_Tree) | BinaryTree  BreadthFirstSearch  DepthFirstSearch  Design  String  Tree | 序列化及反序列化一棵树 | 
 |0300| [Longest Increasing Subsequence](https://github.com/ZhengjunHUO/leetcode/tree/main/0300_Longest_Increasing_Subsequence) | Array  BinarySearch  DynamicProgramming | 求最长的递增子数列长度 |
-|0304| [Range Sum Query 2D - Immutable](https://github.com/ZhengjunHUO/leetcode/tree/main/0304_Range_Sum_Query_2D_Immutable) | Array  Design  Matrix  PrefixSum | |
+|0304| [Range Sum Query 2D - Immutable](https://github.com/ZhengjunHUO/leetcode/tree/main/0304_Range_Sum_Query_2D_Immutable) | Array  Design  Matrix  PrefixSum | 计算矩阵中两点确定的一个矩形覆盖的元素之和 |
 |0305| [Number of Islands II](https://github.com/ZhengjunHUO/leetcode/tree/main/0305_Number_of_Islands_II) | Array  BreadthFirstSearch  DepthFirstSearch  Matrix  UnionFind | 填海造岛过程中岛屿个数 |
 |0309| [Best Time to Buy and Sell Stock with Cooldown](https://github.com/ZhengjunHUO/leetcode/tree/main/0309_Best_Time_to_Buy_and_Sell_Stock_with_Cooldown) | DynamicProgramming | 不限次数交易获得的最大值，卖出后有一天冷却期 |
 |0310| [Minimum Height Trees](https://github.com/ZhengjunHUO/leetcode/tree/main/0310_Minimum_Height_Trees) | BreadthFirstSearch  DepthFirstSearch  Graph  TopologicalSort | 找到最矮的树 |
@@ -373,7 +373,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |2125| [Number of Laser Beams in a Bank](https://github.com/ZhengjunHUO/leetcode/tree/main/2125_Number_of_Laser_Beams_in_a_Bank) | Array  Math  Matrix  String | 统计镭射数量 |
 |2126| [Destroying Asteroids](https://github.com/ZhengjunHUO/leetcode/tree/main/2126_Destroying_Asteroids) | Array  Greedy  Sorting | 是否能毁灭所有小行星 |
 |2129| [Capitalize the Title](https://github.com/ZhengjunHUO/leetcode/tree/main/2129_Capitalize_the_Title) | String | 首字母大写 |
-|2132| [Stamping the Grid](https://github.com/ZhengjunHUO/leetcode/tree/main/2132_Stamping_the_Grid) | Array  Greedy  Matrix  PrefixSum | |
+|2132| [Stamping the Grid](https://github.com/ZhengjunHUO/leetcode/tree/main/2132_Stamping_the_Grid) | Array  Greedy  Matrix  PrefixSum | 是否可以用一个矩形邮戳盖满矩阵中的空格且不触碰已标记过的格子 |
 |2133| [Check if Every Row and Column Contains All Numbers](https://github.com/ZhengjunHUO/leetcode/tree/main/2133_Check_if_Every_Row_and_Column_Contains_All_Numbers) | Array  HashTable  Matrix | 检查n*n矩阵每一行每一列都包含了1到n的所有数字 |
 |2134| [Minimum Swaps to Group All 1's Together II](https://github.com/ZhengjunHUO/leetcode/tree/main/2134_Minimum_Swaps_to_Group_All_1s_Together_II) | Array  SlidingWindow | 把所有1凑到一起需要的swap数 |
 |2140| [Solving Questions With Brainpower](https://github.com/ZhengjunHUO/leetcode/tree/main/2140_Solving_Questions_With_Brainpower) | Array  DynamicProgramming | |
