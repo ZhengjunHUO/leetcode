@@ -376,6 +376,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |2132| [Stamping the Grid](https://github.com/ZhengjunHUO/leetcode/tree/main/2132_Stamping_the_Grid) | Array  Greedy  Matrix  PrefixSum | 是否可以用一个矩形邮戳盖满矩阵中的空格且不触碰已标记过的格子 |
 |2133| [Check if Every Row and Column Contains All Numbers](https://github.com/ZhengjunHUO/leetcode/tree/main/2133_Check_if_Every_Row_and_Column_Contains_All_Numbers) | Array  HashTable  Matrix | 检查n*n矩阵每一行每一列都包含了1到n的所有数字 |
 |2134| [Minimum Swaps to Group All 1's Together II](https://github.com/ZhengjunHUO/leetcode/tree/main/2134_Minimum_Swaps_to_Group_All_1s_Together_II) | Array  SlidingWindow | 把所有1凑到一起需要的swap数 |
+|2135| [Count Words Obtained After Adding a Letter](https://github.com/ZhengjunHUO/leetcode/tree/main/2135_Count_Words_Obtained_After_Adding_a_Letter) | Array  BitManipulation  HashTable  Sorting  String | 求目标字符串可以从初始字符串加一个字符并改变顺序而得到的树木 |
 |2140| [Solving Questions With Brainpower](https://github.com/ZhengjunHUO/leetcode/tree/main/2140_Solving_Questions_With_Brainpower) | Array  DynamicProgramming | |
 |2144| [Minimum Cost of Buying Candies With Discount](https://github.com/ZhengjunHUO/leetcode/tree/main/2144_Minimum_Cost_of_Buying_Candies_With_Discount) | Array  Greedy  Sorting | 利用折扣买完所有糖所需的最小花费 |
 |2145| [Count the Hidden Sequences](https://github.com/ZhengjunHUO/leetcode/tree/main/2145_Count_the_Hidden_Sequences) | Array  Prefix | 通过差分数列和元素值的上下限计算可能的原数列的数量 |
