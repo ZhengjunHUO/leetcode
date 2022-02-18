@@ -233,6 +233,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0459| [Repeated Substring Pattern](https://github.com/ZhengjunHUO/leetcode/tree/main/0459_Repeated_Substring_Pattern) | String | 检查字符串是否由某个子串重复n次构成 |
 |0460| [LFU Cache](https://github.com/ZhengjunHUO/leetcode/tree/main/0460_LFU_Cache) | Design  DoublyLinkedList  HashTable  LinkedList | 实现一个LFU缓存 |
 |0463| [Island Perimeter](https://github.com/ZhengjunHUO/leetcode/tree/main/0463_Island_Perimeter) | Array  BreadthFirstSearch  DepthFirstSearch  Matrix | 计算岛屿的周长 |
+|0473| [Matchsticks to Square](https://github.com/ZhengjunHUO/leetcode/tree/main/0473_Matchsticks_to_Square) | Array  Backtracking  BitManipulation  Bitmask  DynamicProgramming | 能否把火柴棍拼成正方形 |
 |0474| [Ones and Zeroes](https://github.com/ZhengjunHUO/leetcode/tree/main/0474_Ones_and_Zeroes) | DynamicProgramming | 字符串表示的二进制数组中，找出最大的包含至多m个0和n个1的子集合 |
 |0476| [Number Complement](https://github.com/ZhengjunHUO/leetcode/tree/main/0476_Number_Complement) | BitManipulation | 求数的二进制反转 |
 |0494| [Target Sum](https://github.com/ZhengjunHUO/leetcode/tree/main/0494_Target_Sum) | Array  Backtracking  DynamicProgramming | 数列中的数字可以取正负，求其和可以等于目标值的组合数 |
