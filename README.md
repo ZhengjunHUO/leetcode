@@ -387,3 +387,4 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |2164| [Sort Even and Odd Indices Independently](https://github.com/ZhengjunHUO/leetcode/tree/main/2164_Sort_Even_and_Odd_Indices_Independently) | Array  Sorting | 将奇偶位置的数列分别升降序排列 |
 |2165| [Smallest Value of the Rearranged Number](https://github.com/ZhengjunHUO/leetcode/tree/main/2165_Smallest_Value_of_the_Rearranged_Number) | Math  Sorting | 重新排列数字可以取到的最小值 |
 |2171| [Removing Minimum Number of Magic Beans](https://github.com/ZhengjunHUO/leetcode/tree/main/2171_Removing_Minimum_Number_of_Magic_Beans) | Array | 移除最少的豆子使非空袋子中的豆子数相等 |
+|2181| [Merge Nodes in Between Zeros](https://github.com/ZhengjunHUO/leetcode/tree/main/2181_Merge_Nodes_in_Between_Zeros) | LinkedList | |
