@@ -259,6 +259,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0600| [Non-negative Integers without Consecutive Ones](https://github.com/ZhengjunHUO/leetcode/tree/main/0600_Non-negative_Integers_without_Consecutive_Ones) | DynamicProgramming | 从0到给定值之间所有数的二进制表示中没有连续1的数的个数 |
 |0628| [Maximum Product of Three Numbers](https://github.com/ZhengjunHUO/leetcode/tree/main/0628_Maximum_Product_of_Three_Numbers) | Array  Math | 数列中挑选三个数使其乘积最大 |
 |0632| [Smallest Range Covering Elements from K Lists](https://github.com/ZhengjunHUO/leetcode/tree/main/0632_Smallest_Range_Covering_Elements_from_K_Lists) | HashTable  String  TwoPointers | 找到一个最小范围覆盖所有K个数列中至少一个元素 |
+|0638| [Shopping Offers](https://github.com/ZhengjunHUO/leetcode/tree/main/0638_Shopping_Offers) | Array  Backtracking  BitManipulation  Bitmask  DynamicProgramming  Memoization | 在存在商品促销的情况下计算购买需要物资的最小花费 |
 |0645| [Set Mismatch](https://github.com/ZhengjunHUO/leetcode/tree/main/0645_Set_Mismatch) | Array  BitManipulation  HashTable  Sorting | 集合中找出出现两次的元素和缺少的元素 |
 |0652| [Find Duplicate Subtrees](https://github.com/ZhengjunHUO/leetcode/tree/main/0652_Find_Duplicate_Subtrees) | BinaryTree  BreadthFirstSearch  DepthFirstSearch  Tree | 寻找重复的子树 |
 |0653| [Two Sum IV Input Is A BST](https://github.com/ZhengjunHUO/leetcode/tree/main/0653_Two_Sum_IV_Input_Is_A_BST) | Tree | 在BST中找到等于目标值的两个数 |
@@ -368,6 +369,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |2063| [Vowels of All Substrings](https://github.com/ZhengjunHUO/leetcode/tree/main/2063_Vowels_of_All_Substrings) | Combinatorics  DynamicProgramming  Math  String | 所有子字符串中元音出现的次数 |
 |2100| [Find Good Days to Rob the Bank](https://github.com/ZhengjunHUO/leetcode/tree/main/2100_Find_Good_Days_to_Rob_the_Bank) | Array  DynamicProgramming  PrefixSum | 数列中寻找一个值的谷底 |
 |2103| [Rings and Rods](https://github.com/ZhengjunHUO/leetcode/tree/main/2103_Rings_and_Rods) | HashTable  String | 统计套有三种颜色圆环的的杆子数量 |
+|2109| [Adding Spaces to a String](https://github.com/ZhengjunHUO/leetcode/tree/main/2109_Adding_Spaces_to_a_String) | Array  Simulation  String | 在字符串中插入空格 |
 |2120| [Execution of All Suffix Instructions Staying in a Grid](https://github.com/ZhengjunHUO/leetcode/tree/main/2120_Execution_of_All_Suffix_Instructions_Staying_in_a_Grid) | Simulation  String | 求从指令集任意位置执行机器人可以行走的最远距离 |
 |2121| [Intervals Between Identical Elements](https://github.com/ZhengjunHUO/leetcode/tree/main/2121_Intervals_Between_Identical_Elements) | Array  HashTable  PrefixSum | 求数列中相同元素之间的距离差之和 |
 |2124| [Check if All A's Appears Before All B's](https://github.com/ZhengjunHUO/leetcode/tree/main/2124_Check_if_All_As_Appears_Before_All_Bs) | String | 检查是否所有A在B之前 |
@@ -387,4 +389,4 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |2164| [Sort Even and Odd Indices Independently](https://github.com/ZhengjunHUO/leetcode/tree/main/2164_Sort_Even_and_Odd_Indices_Independently) | Array  Sorting | 将奇偶位置的数列分别升降序排列 |
 |2165| [Smallest Value of the Rearranged Number](https://github.com/ZhengjunHUO/leetcode/tree/main/2165_Smallest_Value_of_the_Rearranged_Number) | Math  Sorting | 重新排列数字可以取到的最小值 |
 |2171| [Removing Minimum Number of Magic Beans](https://github.com/ZhengjunHUO/leetcode/tree/main/2171_Removing_Minimum_Number_of_Magic_Beans) | Array | 移除最少的豆子使非空袋子中的豆子数相等 |
-|2181| [Merge Nodes in Between Zeros](https://github.com/ZhengjunHUO/leetcode/tree/main/2181_Merge_Nodes_in_Between_Zeros) | LinkedList | |
+|2181| [Merge Nodes in Between Zeros](https://github.com/ZhengjunHUO/leetcode/tree/main/2181_Merge_Nodes_in_Between_Zeros) | LinkedList | 将链表中两个值为0的节点之间的非零节点合并为一个节点重构链表 |
