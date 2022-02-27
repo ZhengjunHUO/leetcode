@@ -371,6 +371,8 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |2103| [Rings and Rods](https://github.com/ZhengjunHUO/leetcode/tree/main/2103_Rings_and_Rods) | HashTable  String | 统计套有三种颜色圆环的的杆子数量 |
 |2106| [Maximum Fruits Harvested After at Most K Steps](https://github.com/ZhengjunHUO/leetcode/tree/main/2106_Maximum_Fruits_Harvested_After_at_Most_K_Steps) | Array  BinarySearch  PrefixSum  SlidingWindow | 在一定步数内收获最多的果实 |
 |2109| [Adding Spaces to a String](https://github.com/ZhengjunHUO/leetcode/tree/main/2109_Adding_Spaces_to_a_String) | Array  Simulation  String | 在字符串中插入空格 |
+|2116| [Check if a Parentheses String Can Be Valid](https://github.com/ZhengjunHUO/leetcode/tree/main/2116_Check_if_a_Parentheses_String_Can_Be_Valid) | Greedy  Stack  String | 检查括号是否能成对 |
+|2119| [A Number After a Double Reversal](https://github.com/ZhengjunHUO/leetcode/tree/main/2119_A_Number_After_a_Double_Reversal) | Math | 数在两次反转后是否保持原来的值 |
 |2120| [Execution of All Suffix Instructions Staying in a Grid](https://github.com/ZhengjunHUO/leetcode/tree/main/2120_Execution_of_All_Suffix_Instructions_Staying_in_a_Grid) | Simulation  String | 求从指令集任意位置执行机器人可以行走的最远距离 |
 |2121| [Intervals Between Identical Elements](https://github.com/ZhengjunHUO/leetcode/tree/main/2121_Intervals_Between_Identical_Elements) | Array  HashTable  PrefixSum | 求数列中相同元素之间的距离差之和 |
 |2124| [Check if All A's Appears Before All B's](https://github.com/ZhengjunHUO/leetcode/tree/main/2124_Check_if_All_As_Appears_Before_All_Bs) | String | 检查是否所有A在B之前 |
