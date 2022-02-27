@@ -20,6 +20,10 @@ func min(a, b int) int {
 	return b
 }
 
+/*
+  可以向左或向右k步，或者先向左再向右搜索，亦或者向向右再向左搜索
+  至多转向一次，反复转向获得的收益必小于上述情况
+*/
 func maxTotalFruits(fruits [][]int, startPos int, k int) int {
 	var curr, idx, ret int
 	accuSum := make([]int, fruits[len(fruits)-1][0]+1)
