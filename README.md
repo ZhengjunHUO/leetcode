@@ -379,6 +379,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |2125| [Number of Laser Beams in a Bank](https://github.com/ZhengjunHUO/leetcode/tree/main/2125_Number_of_Laser_Beams_in_a_Bank) | Array  Math  Matrix  String | 统计镭射数量 |
 |2126| [Destroying Asteroids](https://github.com/ZhengjunHUO/leetcode/tree/main/2126_Destroying_Asteroids) | Array  Greedy  Sorting | 是否能毁灭所有小行星 |
 |2129| [Capitalize the Title](https://github.com/ZhengjunHUO/leetcode/tree/main/2129_Capitalize_the_Title) | String | 首字母大写 |
+|2130| [Maximum Twin Sum of a Linked List](https://github.com/ZhengjunHUO/leetcode/tree/main/2130_Maximum_Twin_Sum_of_a_Linked_List) | LinkedList  Stack  TwoPointers | 求链表中对称位置的节点和的最大值 |
 |2132| [Stamping the Grid](https://github.com/ZhengjunHUO/leetcode/tree/main/2132_Stamping_the_Grid) | Array  Greedy  Matrix  PrefixSum | 是否可以用一个矩形邮戳盖满矩阵中的空格且不触碰已标记过的格子 |
 |2133| [Check if Every Row and Column Contains All Numbers](https://github.com/ZhengjunHUO/leetcode/tree/main/2133_Check_if_Every_Row_and_Column_Contains_All_Numbers) | Array  HashTable  Matrix | 检查n*n矩阵每一行每一列都包含了1到n的所有数字 |
 |2134| [Minimum Swaps to Group All 1's Together II](https://github.com/ZhengjunHUO/leetcode/tree/main/2134_Minimum_Swaps_to_Group_All_1s_Together_II) | Array  SlidingWindow | 把所有1凑到一起需要的swap数 |
