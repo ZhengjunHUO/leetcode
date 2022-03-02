@@ -371,6 +371,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |2103| [Rings and Rods](https://github.com/ZhengjunHUO/leetcode/tree/main/2103_Rings_and_Rods) | HashTable  String | 统计套有三种颜色圆环的的杆子数量 |
 |2106| [Maximum Fruits Harvested After at Most K Steps](https://github.com/ZhengjunHUO/leetcode/tree/main/2106_Maximum_Fruits_Harvested_After_at_Most_K_Steps) | Array  BinarySearch  PrefixSum  SlidingWindow | 在一定步数内收获最多的果实 |
 |2109| [Adding Spaces to a String](https://github.com/ZhengjunHUO/leetcode/tree/main/2109_Adding_Spaces_to_a_String) | Array  Simulation  String | 在字符串中插入空格 |
+|2114| [Maximum Number of Words Found in Sentences](https://github.com/ZhengjunHUO/leetcode/tree/main/2114_Maximum_Number_of_Words_Found_in_Sentences) | Array  String | |
 |2116| [Check if a Parentheses String Can Be Valid](https://github.com/ZhengjunHUO/leetcode/tree/main/2116_Check_if_a_Parentheses_String_Can_Be_Valid) | Greedy  Stack  String | 检查括号是否能成对 |
 |2119| [A Number After a Double Reversal](https://github.com/ZhengjunHUO/leetcode/tree/main/2119_A_Number_After_a_Double_Reversal) | Math | 数在两次反转后是否保持原来的值 |
 |2120| [Execution of All Suffix Instructions Staying in a Grid](https://github.com/ZhengjunHUO/leetcode/tree/main/2120_Execution_of_All_Suffix_Instructions_Staying_in_a_Grid) | Simulation  String | 求从指令集任意位置执行机器人可以行走的最远距离 |
@@ -392,5 +393,6 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |2155| [All Divisions With the Highest Score of a Binary Array](https://github.com/ZhengjunHUO/leetcode/tree/main/2155_All_Divisions_With_the_Highest_Score_of_a_Binary_Array) | Array | 求分割数列使得分最高的所有index |
 |2164| [Sort Even and Odd Indices Independently](https://github.com/ZhengjunHUO/leetcode/tree/main/2164_Sort_Even_and_Odd_Indices_Independently) | Array  Sorting | 将奇偶位置的数列分别升降序排列 |
 |2165| [Smallest Value of the Rearranged Number](https://github.com/ZhengjunHUO/leetcode/tree/main/2165_Smallest_Value_of_the_Rearranged_Number) | Math  Sorting | 重新排列数字可以取到的最小值 |
+|2169| [Count Operations to Obtain Zero](https://github.com/ZhengjunHUO/leetcode/tree/main/2169_Count_Operations_to_Obtain_Zero) | Math  Simulation | |
 |2171| [Removing Minimum Number of Magic Beans](https://github.com/ZhengjunHUO/leetcode/tree/main/2171_Removing_Minimum_Number_of_Magic_Beans) | Array | 移除最少的豆子使非空袋子中的豆子数相等 |
 |2181| [Merge Nodes in Between Zeros](https://github.com/ZhengjunHUO/leetcode/tree/main/2181_Merge_Nodes_in_Between_Zeros) | LinkedList | 将链表中两个值为0的节点之间的非零节点合并为一个节点重构链表 |
