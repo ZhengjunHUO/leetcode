@@ -395,4 +395,6 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |2165| [Smallest Value of the Rearranged Number](https://github.com/ZhengjunHUO/leetcode/tree/main/2165_Smallest_Value_of_the_Rearranged_Number) | Math  Sorting | 重新排列数字可以取到的最小值 |
 |2169| [Count Operations to Obtain Zero](https://github.com/ZhengjunHUO/leetcode/tree/main/2169_Count_Operations_to_Obtain_Zero) | Math  Simulation | |
 |2171| [Removing Minimum Number of Magic Beans](https://github.com/ZhengjunHUO/leetcode/tree/main/2171_Removing_Minimum_Number_of_Magic_Beans) | Array | 移除最少的豆子使非空袋子中的豆子数相等 |
+|2177| [Find Three Consecutive Integers That Sum to a Given Number](https://github.com/ZhengjunHUO/leetcode/tree/main/2177_Find_Three_Consecutive_Integers_That_Sum_to_a_Given_Number) | Math  Simulation | 判断数能否拆分成三个连续的整数 |
+|2187| [Minimum Time to Complete Trips](https://github.com/ZhengjunHUO/leetcode/tree/main/2187_Minimum_Time_to_Complete_Trips) | Array  BinarySearch | 完成目标行程数所需的最小时间 |
 |2181| [Merge Nodes in Between Zeros](https://github.com/ZhengjunHUO/leetcode/tree/main/2181_Merge_Nodes_in_Between_Zeros) | LinkedList | 将链表中两个值为0的节点之间的非零节点合并为一个节点重构链表 |
