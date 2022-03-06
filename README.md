@@ -367,6 +367,8 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |2008| [Maximum Earnings From Taxi](https://github.com/ZhengjunHUO/leetcode/tree/main/2008_Maximum_Earnings_From_Taxi) | Array  BinarySearch  DynamicProgramming  Sorting | 出租车计算载客利润最大值 |
 |2054| [Two Best Non-Overlapping Events](https://github.com/ZhengjunHUO/leetcode/tree/main/2054_Two_Best_Non_Overlapping_Events) | Array  BinarySearch  DynamicProgramming  Heap  Sorting | 找到权重和最大的不重叠的两段事件 |
 |2063| [Vowels of All Substrings](https://github.com/ZhengjunHUO/leetcode/tree/main/2063_Vowels_of_All_Substrings) | Combinatorics  DynamicProgramming  Math  String | 所有子字符串中元音出现的次数 |
+|2087| [Minimum Cost Homecoming of a Robot in a Grid](https://github.com/ZhengjunHUO/leetcode/tree/main/2087_Minimum_Cost_Homecoming_of_a_Robot_in_a_Grid) | Array  Greedy  Matrix | 机器人以最小的代价回家 |
+|2089| [Find Target Indices After Sorting Array](https://github.com/ZhengjunHUO/leetcode/tree/main/2089_Find_Target_Indices_After_Sorting_Array) | Array  BinarySearch  Sorting | 找出目标在排序后的数列中坐标 |
 |2091| [Removing Minimum and Maximum From Array](https://github.com/ZhengjunHUO/leetcode/tree/main/2091_Removing_Minimum_and_Maximum_From_Array) | Array  Greedy | |
 |2095| [Delete the Middle Node of a Linked List](https://github.com/ZhengjunHUO/leetcode/tree/main/2095_Delete_the_Middle_Node_of_a_Linked_List) | LinkedList  TwoPointers | |
 |2100| [Find Good Days to Rob the Bank](https://github.com/ZhengjunHUO/leetcode/tree/main/2100_Find_Good_Days_to_Rob_the_Bank) | Array  DynamicProgramming  PrefixSum | 数列中寻找一个值的谷底 |
