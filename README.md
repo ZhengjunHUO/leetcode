@@ -369,13 +369,14 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |2063| [Vowels of All Substrings](https://github.com/ZhengjunHUO/leetcode/tree/main/2063_Vowels_of_All_Substrings) | Combinatorics  DynamicProgramming  Math  String | 所有子字符串中元音出现的次数 |
 |2087| [Minimum Cost Homecoming of a Robot in a Grid](https://github.com/ZhengjunHUO/leetcode/tree/main/2087_Minimum_Cost_Homecoming_of_a_Robot_in_a_Grid) | Array  Greedy  Matrix | 机器人以最小的代价回家 |
 |2089| [Find Target Indices After Sorting Array](https://github.com/ZhengjunHUO/leetcode/tree/main/2089_Find_Target_Indices_After_Sorting_Array) | Array  BinarySearch  Sorting | 找出目标在排序后的数列中坐标 |
-|2091| [Removing Minimum and Maximum From Array](https://github.com/ZhengjunHUO/leetcode/tree/main/2091_Removing_Minimum_and_Maximum_From_Array) | Array  Greedy | |
-|2095| [Delete the Middle Node of a Linked List](https://github.com/ZhengjunHUO/leetcode/tree/main/2095_Delete_the_Middle_Node_of_a_Linked_List) | LinkedList  TwoPointers | |
+|2091| [Removing Minimum and Maximum From Array](https://github.com/ZhengjunHUO/leetcode/tree/main/2091_Removing_Minimum_and_Maximum_From_Array) | Array  Greedy | 数列中移除最大和最小值需要的操作数 |
+|2095| [Delete the Middle Node of a Linked List](https://github.com/ZhengjunHUO/leetcode/tree/main/2095_Delete_the_Middle_Node_of_a_Linked_List) | LinkedList  TwoPointers | 删除链表中间位置的节点 |
 |2100| [Find Good Days to Rob the Bank](https://github.com/ZhengjunHUO/leetcode/tree/main/2100_Find_Good_Days_to_Rob_the_Bank) | Array  DynamicProgramming  PrefixSum | 数列中寻找一个值的谷底 |
 |2103| [Rings and Rods](https://github.com/ZhengjunHUO/leetcode/tree/main/2103_Rings_and_Rods) | HashTable  String | 统计套有三种颜色圆环的的杆子数量 |
 |2106| [Maximum Fruits Harvested After at Most K Steps](https://github.com/ZhengjunHUO/leetcode/tree/main/2106_Maximum_Fruits_Harvested_After_at_Most_K_Steps) | Array  BinarySearch  PrefixSum  SlidingWindow | 在一定步数内收获最多的果实 |
 |2109| [Adding Spaces to a String](https://github.com/ZhengjunHUO/leetcode/tree/main/2109_Adding_Spaces_to_a_String) | Array  Simulation  String | 在字符串中插入空格 |
-|2114| [Maximum Number of Words Found in Sentences](https://github.com/ZhengjunHUO/leetcode/tree/main/2114_Maximum_Number_of_Words_Found_in_Sentences) | Array  String | |
+|2114| [Maximum Number of Words Found in Sentences](https://github.com/ZhengjunHUO/leetcode/tree/main/2114_Maximum_Number_of_Words_Found_in_Sentences) | Array  String | 找到单词最多的句子 |
+|2115| [Find All Possible Recipes from Given Supplies](https://github.com/ZhengjunHUO/leetcode/tree/main/2115_Find_All_Possible_Recipes_from_Given_Supplies) | Array  Graph  HashTable  String  TopologicalSort | 由指定的素材找出所有可以做的菜 | 
 |2116| [Check if a Parentheses String Can Be Valid](https://github.com/ZhengjunHUO/leetcode/tree/main/2116_Check_if_a_Parentheses_String_Can_Be_Valid) | Greedy  Stack  String | 检查括号是否能成对 |
 |2119| [A Number After a Double Reversal](https://github.com/ZhengjunHUO/leetcode/tree/main/2119_A_Number_After_a_Double_Reversal) | Math | 数在两次反转后是否保持原来的值 |
 |2120| [Execution of All Suffix Instructions Staying in a Grid](https://github.com/ZhengjunHUO/leetcode/tree/main/2120_Execution_of_All_Suffix_Instructions_Staying_in_a_Grid) | Simulation  String | 求从指令集任意位置执行机器人可以行走的最远距离 |
@@ -389,7 +390,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |2133| [Check if Every Row and Column Contains All Numbers](https://github.com/ZhengjunHUO/leetcode/tree/main/2133_Check_if_Every_Row_and_Column_Contains_All_Numbers) | Array  HashTable  Matrix | 检查n*n矩阵每一行每一列都包含了1到n的所有数字 |
 |2134| [Minimum Swaps to Group All 1's Together II](https://github.com/ZhengjunHUO/leetcode/tree/main/2134_Minimum_Swaps_to_Group_All_1s_Together_II) | Array  SlidingWindow | 把所有1凑到一起需要的swap数 |
 |2135| [Count Words Obtained After Adding a Letter](https://github.com/ZhengjunHUO/leetcode/tree/main/2135_Count_Words_Obtained_After_Adding_a_Letter) | Array  BitManipulation  HashTable  Sorting  String | 求目标字符串可以从初始字符串加一个字符并改变顺序而得到的树木 |
-|2140| [Solving Questions With Brainpower](https://github.com/ZhengjunHUO/leetcode/tree/main/2140_Solving_Questions_With_Brainpower) | Array  DynamicProgramming | |
+|2140| [Solving Questions With Brainpower](https://github.com/ZhengjunHUO/leetcode/tree/main/2140_Solving_Questions_With_Brainpower) | Array  DynamicProgramming | 解决问题获得最大收益 |
 |2144| [Minimum Cost of Buying Candies With Discount](https://github.com/ZhengjunHUO/leetcode/tree/main/2144_Minimum_Cost_of_Buying_Candies_With_Discount) | Array  Greedy  Sorting | 利用折扣买完所有糖所需的最小花费 |
 |2145| [Count the Hidden Sequences](https://github.com/ZhengjunHUO/leetcode/tree/main/2145_Count_the_Hidden_Sequences) | Array  Prefix | 通过差分数列和元素值的上下限计算可能的原数列的数量 |
 |2149| [Rearrange Array Elements by Sign](https://github.com/ZhengjunHUO/leetcode/tree/main/2149_Rearrange_Array_Elements_by_Sign) | Array  Simulation  TwoPointers | 按照一正一负顺序重排数列 |
@@ -397,7 +398,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |2155| [All Divisions With the Highest Score of a Binary Array](https://github.com/ZhengjunHUO/leetcode/tree/main/2155_All_Divisions_With_the_Highest_Score_of_a_Binary_Array) | Array | 求分割数列使得分最高的所有index |
 |2164| [Sort Even and Odd Indices Independently](https://github.com/ZhengjunHUO/leetcode/tree/main/2164_Sort_Even_and_Odd_Indices_Independently) | Array  Sorting | 将奇偶位置的数列分别升降序排列 |
 |2165| [Smallest Value of the Rearranged Number](https://github.com/ZhengjunHUO/leetcode/tree/main/2165_Smallest_Value_of_the_Rearranged_Number) | Math  Sorting | 重新排列数字可以取到的最小值 |
-|2169| [Count Operations to Obtain Zero](https://github.com/ZhengjunHUO/leetcode/tree/main/2169_Count_Operations_to_Obtain_Zero) | Math  Simulation | |
+|2169| [Count Operations to Obtain Zero](https://github.com/ZhengjunHUO/leetcode/tree/main/2169_Count_Operations_to_Obtain_Zero) | Math  Simulation | 两个数相减需要几次操作才能得到0 |
 |2171| [Removing Minimum Number of Magic Beans](https://github.com/ZhengjunHUO/leetcode/tree/main/2171_Removing_Minimum_Number_of_Magic_Beans) | Array | 移除最少的豆子使非空袋子中的豆子数相等 |
 |2177| [Find Three Consecutive Integers That Sum to a Given Number](https://github.com/ZhengjunHUO/leetcode/tree/main/2177_Find_Three_Consecutive_Integers_That_Sum_to_a_Given_Number) | Math  Simulation | 判断数能否拆分成三个连续的整数 |
 |2187| [Minimum Time to Complete Trips](https://github.com/ZhengjunHUO/leetcode/tree/main/2187_Minimum_Time_to_Complete_Trips) | Array  BinarySearch | 完成目标行程数所需的最小时间 |
