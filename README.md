@@ -370,6 +370,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |2087| [Minimum Cost Homecoming of a Robot in a Grid](https://github.com/ZhengjunHUO/leetcode/tree/main/2087_Minimum_Cost_Homecoming_of_a_Robot_in_a_Grid) | Array  Greedy  Matrix | 机器人以最小的代价回家 |
 |2089| [Find Target Indices After Sorting Array](https://github.com/ZhengjunHUO/leetcode/tree/main/2089_Find_Target_Indices_After_Sorting_Array) | Array  BinarySearch  Sorting | 找出目标在排序后的数列中坐标 |
 |2091| [Removing Minimum and Maximum From Array](https://github.com/ZhengjunHUO/leetcode/tree/main/2091_Removing_Minimum_and_Maximum_From_Array) | Array  Greedy | 数列中移除最大和最小值需要的操作数 |
+|2092| [Find All People With Secret](https://github.com/ZhengjunHUO/leetcode/tree/main/2092_Find_All_People_With_Secret) | BreadthFirstSearch  DepthFirstSearch  Graph  Sorting  UnionFind | 列出所有知道秘密的人 |
 |2095| [Delete the Middle Node of a Linked List](https://github.com/ZhengjunHUO/leetcode/tree/main/2095_Delete_the_Middle_Node_of_a_Linked_List) | LinkedList  TwoPointers | 删除链表中间位置的节点 |
 |2100| [Find Good Days to Rob the Bank](https://github.com/ZhengjunHUO/leetcode/tree/main/2100_Find_Good_Days_to_Rob_the_Bank) | Array  DynamicProgramming  PrefixSum | 数列中寻找一个值的谷底 |
 |2103| [Rings and Rods](https://github.com/ZhengjunHUO/leetcode/tree/main/2103_Rings_and_Rods) | HashTable  String | 统计套有三种颜色圆环的的杆子数量 |
