@@ -364,6 +364,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |1928| [Minimum Cost to Reach Destination in Time](https://github.com/ZhengjunHUO/leetcode/tree/main/1928_Minimum_Cost_to_Reach_Destination_in_Time) | DynamicProgramming  Graph | 在规定时间内到达目的地的最小花费 |
 |1971| [Find if Path Exists in Graph](https://github.com/ZhengjunHUO/leetcode/tree/main/1971_Find_if_Path_Exists_in_Graph) | BreadthFirstSearch  DepthFirstSearch  Graph | 判断图中两点是否有通路 |
 |1976| [Number of Ways to Arrive at Destination](https://github.com/ZhengjunHUO/leetcode/tree/main/1976_Number_of_Ways_to_Arrive_at_Destination) | DynamicProgramming  Graph  ShortestPath  TopologicalSort | 到达终点最短的距离的路径数 |
+|2000| [Reverse Prefix of Word](https://github.com/ZhengjunHUO/leetcode/tree/main/2000_Reverse_Prefix_of_Word) | String  TwoPointers | |
 |2008| [Maximum Earnings From Taxi](https://github.com/ZhengjunHUO/leetcode/tree/main/2008_Maximum_Earnings_From_Taxi) | Array  BinarySearch  DynamicProgramming  Sorting | 出租车计算载客利润最大值 |
 |2054| [Two Best Non-Overlapping Events](https://github.com/ZhengjunHUO/leetcode/tree/main/2054_Two_Best_Non_Overlapping_Events) | Array  BinarySearch  DynamicProgramming  Heap  Sorting | 找到权重和最大的不重叠的两段事件 |
 |2063| [Vowels of All Substrings](https://github.com/ZhengjunHUO/leetcode/tree/main/2063_Vowels_of_All_Substrings) | Combinatorics  DynamicProgramming  Math  String | 所有子字符串中元音出现的次数 |
@@ -385,6 +386,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |2124| [Check if All A's Appears Before All B's](https://github.com/ZhengjunHUO/leetcode/tree/main/2124_Check_if_All_As_Appears_Before_All_Bs) | String | 检查是否所有A在B之前 |
 |2125| [Number of Laser Beams in a Bank](https://github.com/ZhengjunHUO/leetcode/tree/main/2125_Number_of_Laser_Beams_in_a_Bank) | Array  Math  Matrix  String | 统计镭射数量 |
 |2126| [Destroying Asteroids](https://github.com/ZhengjunHUO/leetcode/tree/main/2126_Destroying_Asteroids) | Array  Greedy  Sorting | 是否能毁灭所有小行星 |
+|2127| [Maximum Employees to Be Invited to a Meeting](https://github.com/ZhengjunHUO/leetcode/tree/main/2127_Maximum_Employees_to_Be_Invited_to_a_Meeting) | DepthFirstSearch  Graph  TopologicalSort | |
 |2129| [Capitalize the Title](https://github.com/ZhengjunHUO/leetcode/tree/main/2129_Capitalize_the_Title) | String | 首字母大写 |
 |2130| [Maximum Twin Sum of a Linked List](https://github.com/ZhengjunHUO/leetcode/tree/main/2130_Maximum_Twin_Sum_of_a_Linked_List) | LinkedList  Stack  TwoPointers | 求链表中对称位置的节点和的最大值 |
 |2132| [Stamping the Grid](https://github.com/ZhengjunHUO/leetcode/tree/main/2132_Stamping_the_Grid) | Array  Greedy  Matrix  PrefixSum | 是否可以用一个矩形邮戳盖满矩阵中的空格且不触碰已标记过的格子 |
