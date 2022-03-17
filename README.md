@@ -312,6 +312,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0921| [Minimum Add to Make Parentheses Valid](https://github.com/ZhengjunHUO/leetcode/tree/main/0921_Minimum_Add_to_Make_Parentheses_Valid) | Greedy  Stack  String | 添加最小的括号数时括号合法成对 |
 |0931| [Minimum Falling Path Sum](https://github.com/ZhengjunHUO/leetcode/tree/main/0931_Minimum_Falling_Path_Sum) | Array  DynamicProgramming  Matrix | 求坠落路径上数值之和最小的路径 |
 |0938| [Range_Sum_of_BST](https://github.com/ZhengjunHUO/leetcode/tree/main/0938_Range_Sum_of_BST) | BinarySearchTree  BinaryTree  DepthFirstSearch  Tree | 范围内BST节点值的和 |
+|0954| [Array of Doubled Pairs](https://github.com/ZhengjunHUO/leetcode/tree/main/0954_Array_of_Doubled_Pairs) | Array  Greedy  Hashtable  Sorting | 判断数列是否由另一个数列和其两倍数列构成 |
 |0969| [Pancake Sorting](https://github.com/ZhengjunHUO/leetcode/tree/main/0969_Pancake_Sorting) | Array  Greedy  Sorting  TwoPointers | 煎饼排序 |
 |0974| [Subarray Sums Divisible by K](https://github.com/ZhengjunHUO/leetcode/tree/main/0974_Subarray_Sums_Divisible_by_K) | Array  HashTable | 和可以整除目标值的子串的个数 |
 |0977| [Squares of a Sorted Array](https://github.com/ZhengjunHUO/leetcode/tree/main/0977_Squares_of_a_Sorted_Array) | Array  Sorting  TwoPointers | 求排好序的数组各元素平方后得到的新升序数组 |
@@ -365,11 +366,13 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |1971| [Find if Path Exists in Graph](https://github.com/ZhengjunHUO/leetcode/tree/main/1971_Find_if_Path_Exists_in_Graph) | BreadthFirstSearch  DepthFirstSearch  Graph | 判断图中两点是否有通路 |
 |1976| [Number of Ways to Arrive at Destination](https://github.com/ZhengjunHUO/leetcode/tree/main/1976_Number_of_Ways_to_Arrive_at_Destination) | DynamicProgramming  Graph  ShortestPath  TopologicalSort | 到达终点最短的距离的路径数 |
 |2000| [Reverse Prefix of Word](https://github.com/ZhengjunHUO/leetcode/tree/main/2000_Reverse_Prefix_of_Word) | String  TwoPointers | 反转单词的前缀 |
+|2007| [Find Original Array From Doubled Array](https://github.com/ZhengjunHUO/leetcode/tree/main/2007_Find_Original_Array_From_Doubled_Array) | Array  Greedy  Hashtable  Sorting | 判断数列是否由另一个数列和其两倍数列构成并返回单倍数列 |
 |2008| [Maximum Earnings From Taxi](https://github.com/ZhengjunHUO/leetcode/tree/main/2008_Maximum_Earnings_From_Taxi) | Array  BinarySearch  DynamicProgramming  Sorting | 出租车计算载客利润最大值 |
 |2054| [Two Best Non-Overlapping Events](https://github.com/ZhengjunHUO/leetcode/tree/main/2054_Two_Best_Non_Overlapping_Events) | Array  BinarySearch  DynamicProgramming  Heap  Sorting | 找到权重和最大的不重叠的两段事件 |
 |2063| [Vowels of All Substrings](https://github.com/ZhengjunHUO/leetcode/tree/main/2063_Vowels_of_All_Substrings) | Combinatorics  DynamicProgramming  Math  String | 所有子字符串中元音出现的次数 |
 |2087| [Minimum Cost Homecoming of a Robot in a Grid](https://github.com/ZhengjunHUO/leetcode/tree/main/2087_Minimum_Cost_Homecoming_of_a_Robot_in_a_Grid) | Array  Greedy  Matrix | 机器人以最小的代价回家 |
 |2089| [Find Target Indices After Sorting Array](https://github.com/ZhengjunHUO/leetcode/tree/main/2089_Find_Target_Indices_After_Sorting_Array) | Array  BinarySearch  Sorting | 找出目标在排序后的数列中坐标 |
+|2090| [K Radius Subarray Averages](https://github.com/ZhengjunHUO/leetcode/tree/main/2090_K_Radius_Subarray_Averages) | Array  SlidingWindow | 计算数列中每个元素周围一定半径之内元素的平均值 |
 |2091| [Removing Minimum and Maximum From Array](https://github.com/ZhengjunHUO/leetcode/tree/main/2091_Removing_Minimum_and_Maximum_From_Array) | Array  Greedy | 数列中移除最大和最小值需要的操作数 |
 |2092| [Find All People With Secret](https://github.com/ZhengjunHUO/leetcode/tree/main/2092_Find_All_People_With_Secret) | BreadthFirstSearch  DepthFirstSearch  Graph  Sorting  UnionFind | 列出所有知道秘密的人 |
 |2095| [Delete the Middle Node of a Linked List](https://github.com/ZhengjunHUO/leetcode/tree/main/2095_Delete_the_Middle_Node_of_a_Linked_List) | LinkedList  TwoPointers | 删除链表中间位置的节点 |
