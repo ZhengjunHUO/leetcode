@@ -403,6 +403,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |2149| [Rearrange Array Elements by Sign](https://github.com/ZhengjunHUO/leetcode/tree/main/2149_Rearrange_Array_Elements_by_Sign) | Array  Simulation  TwoPointers | 按照一正一负顺序重排数列 |
 |2150| [Find All Lonely Numbers in the Array](https://github.com/ZhengjunHUO/leetcode/tree/main/2150_Find_All_Lonely_Numbers_in_the_Array) | Array  Counting  HashTable | 数列中找到所有孤独元素 |
 |2155| [All Divisions With the Highest Score of a Binary Array](https://github.com/ZhengjunHUO/leetcode/tree/main/2155_All_Divisions_With_the_Highest_Score_of_a_Binary_Array) | Array | 求分割数列使得分最高的所有index |
+|2156| [Find Substring With Given Hash Value](https://github.com/ZhengjunHUO/leetcode/tree/main/2156_Find_Substring_With_Given_Hash_Value) | HashFunction  RollingHash  SlidingWindow  String | |
 |2164| [Sort Even and Odd Indices Independently](https://github.com/ZhengjunHUO/leetcode/tree/main/2164_Sort_Even_and_Odd_Indices_Independently) | Array  Sorting | 将奇偶位置的数列分别升降序排列 |
 |2165| [Smallest Value of the Rearranged Number](https://github.com/ZhengjunHUO/leetcode/tree/main/2165_Smallest_Value_of_the_Rearranged_Number) | Math  Sorting | 重新排列数字可以取到的最小值 |
 |2169| [Count Operations to Obtain Zero](https://github.com/ZhengjunHUO/leetcode/tree/main/2169_Count_Operations_to_Obtain_Zero) | Math  Simulation | 两个数相减需要几次操作才能得到0 |
