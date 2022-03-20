@@ -368,6 +368,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |2000| [Reverse Prefix of Word](https://github.com/ZhengjunHUO/leetcode/tree/main/2000_Reverse_Prefix_of_Word) | String  TwoPointers | 反转单词的前缀 |
 |2007| [Find Original Array From Doubled Array](https://github.com/ZhengjunHUO/leetcode/tree/main/2007_Find_Original_Array_From_Doubled_Array) | Array  Greedy  Hashtable  Sorting | 判断数列是否由另一个数列和其两倍数列构成并返回单倍数列 |
 |2008| [Maximum Earnings From Taxi](https://github.com/ZhengjunHUO/leetcode/tree/main/2008_Maximum_Earnings_From_Taxi) | Array  BinarySearch  DynamicProgramming  Sorting | 出租车计算载客利润最大值 |
+|2049| [Count Nodes With the Highest Score](https://github.com/ZhengjunHUO/leetcode/tree/main/2049_Count_Nodes_With_the_Highest_Score) | Array  BinaryTree  DepthFirstSearch  Tree | |
 |2054| [Two Best Non-Overlapping Events](https://github.com/ZhengjunHUO/leetcode/tree/main/2054_Two_Best_Non_Overlapping_Events) | Array  BinarySearch  DynamicProgramming  Heap  Sorting | 找到权重和最大的不重叠的两段事件 |
 |2063| [Vowels of All Substrings](https://github.com/ZhengjunHUO/leetcode/tree/main/2063_Vowels_of_All_Substrings) | Combinatorics  DynamicProgramming  Math  String | 所有子字符串中元音出现的次数 |
 |2087| [Minimum Cost Homecoming of a Robot in a Grid](https://github.com/ZhengjunHUO/leetcode/tree/main/2087_Minimum_Cost_Homecoming_of_a_Robot_in_a_Grid) | Array  Greedy  Matrix | 机器人以最小的代价回家 |
