@@ -23,9 +23,12 @@ func chooseRoute(grid [][]int) (int, int) {
 	return maxIdx, maxVal
 }
 
+// naive implementation, simulate robots' movement
 func gridGame(grid [][]int) int64 {
+	// for robot 1, pick up an index to go below with maximum points
 	maxIdx, _ := chooseRoute(grid)
 
+	// put zero to the choosen path
 	for i:=0; i<=maxIdx; i++ {
 		grid[0][i] = 0
 	}
@@ -33,6 +36,7 @@ func gridGame(grid [][]int) int64 {
 		grid[1][i] = 0
 	}
 
+	// for robot 2 do the same thing
 	_, ret := chooseRoute(grid)
 	return int64(ret)
 }
