@@ -368,6 +368,8 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |2000| [Reverse Prefix of Word](https://github.com/ZhengjunHUO/leetcode/tree/main/2000_Reverse_Prefix_of_Word) | String  TwoPointers | 反转单词的前缀 |
 |2007| [Find Original Array From Doubled Array](https://github.com/ZhengjunHUO/leetcode/tree/main/2007_Find_Original_Array_From_Doubled_Array) | Array  Greedy  Hashtable  Sorting | 判断数列是否由另一个数列和其两倍数列构成并返回单倍数列 |
 |2008| [Maximum Earnings From Taxi](https://github.com/ZhengjunHUO/leetcode/tree/main/2008_Maximum_Earnings_From_Taxi) | Array  BinarySearch  DynamicProgramming  Sorting | 出租车计算载客利润最大值 |
+|2012| [Sum of Beauty in the Array](https://github.com/ZhengjunHUO/leetcode/tree/main/2012_Sum_of_Beauty_in_the_Array) | Array | |
+|2016| [Maximum Difference Between Increasing Elements](https://github.com/ZhengjunHUO/leetcode/tree/main/2016_Maximum_Difference_Between_Increasing_Elements) | Array | |
 |2017| [Grid Game](https://github.com/ZhengjunHUO/leetcode/tree/main/2017_Grid_Game) | Array  Matrix  PrefixSum | |
 |2022| [Convert 1D Array Into 2D Array](https://github.com/ZhengjunHUO/leetcode/tree/main/2022_Convert_1D_Array_Into_2D_Array) | Array  Matrix  Simulation | 把一维数组转化为m*n的矩阵 |
 |2024| [Maximize the Confusion of an Exam](https://github.com/ZhengjunHUO/leetcode/tree/main/2024_Maximize_the_Confusion_of_an_Exam) | BinarySearch  PrefixSum  SlidingWindow  String | |
@@ -375,6 +377,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |2049| [Count Nodes With the Highest Score](https://github.com/ZhengjunHUO/leetcode/tree/main/2049_Count_Nodes_With_the_Highest_Score) | Array  BinaryTree  DepthFirstSearch  Tree | |
 |2054| [Two Best Non-Overlapping Events](https://github.com/ZhengjunHUO/leetcode/tree/main/2054_Two_Best_Non_Overlapping_Events) | Array  BinarySearch  DynamicProgramming  Heap  Sorting | 找到权重和最大的不重叠的两段事件 |
 |2063| [Vowels of All Substrings](https://github.com/ZhengjunHUO/leetcode/tree/main/2063_Vowels_of_All_Substrings) | Combinatorics  DynamicProgramming  Math  String | 所有子字符串中元音出现的次数 |
+|2075| [Decode the Slanted Ciphertext](https://github.com/ZhengjunHUO/leetcode/tree/main/2075_Decode_the_Slanted_Ciphertext) | String  Simulation | 解码斜对角加密字符串 |
 |2087| [Minimum Cost Homecoming of a Robot in a Grid](https://github.com/ZhengjunHUO/leetcode/tree/main/2087_Minimum_Cost_Homecoming_of_a_Robot_in_a_Grid) | Array  Greedy  Matrix | 机器人以最小的代价回家 |
 |2089| [Find Target Indices After Sorting Array](https://github.com/ZhengjunHUO/leetcode/tree/main/2089_Find_Target_Indices_After_Sorting_Array) | Array  BinarySearch  Sorting | 找出目标在排序后的数列中坐标 |
 |2090| [K Radius Subarray Averages](https://github.com/ZhengjunHUO/leetcode/tree/main/2090_K_Radius_Subarray_Averages) | Array  SlidingWindow | 计算数列中每个元素周围一定半径之内元素的平均值 |
