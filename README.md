@@ -373,7 +373,9 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |2017| [Grid Game](https://github.com/ZhengjunHUO/leetcode/tree/main/2017_Grid_Game) | Array  Matrix  PrefixSum | |
 |2022| [Convert 1D Array Into 2D Array](https://github.com/ZhengjunHUO/leetcode/tree/main/2022_Convert_1D_Array_Into_2D_Array) | Array  Matrix  Simulation | 把一维数组转化为m*n的矩阵 |
 |2024| [Maximize the Confusion of an Exam](https://github.com/ZhengjunHUO/leetcode/tree/main/2024_Maximize_the_Confusion_of_an_Exam) | BinarySearch  PrefixSum  SlidingWindow  String | |
+|2028| [Find Missing Observations](https://github.com/ZhengjunHUO/leetcode/tree/main/2028_Find_Missing_Observations) | Array Math Simulation | |
 |2032| [Two Out of Three](https://github.com/ZhengjunHUO/leetcode/tree/main/2032_Two_Out_of_Three) | Array  HashTable | |
+|2033| [Minimum Operations to Make a Uni-Value Grid](https://github.com/ZhengjunHUO/leetcode/tree/main/2033_Minimum_Operations_to_Make_a_Uni_Value_Grid) | Array Math Matrix Sorting | |
 |2049| [Count Nodes With the Highest Score](https://github.com/ZhengjunHUO/leetcode/tree/main/2049_Count_Nodes_With_the_Highest_Score) | Array  BinaryTree  DepthFirstSearch  Tree | |
 |2054| [Two Best Non-Overlapping Events](https://github.com/ZhengjunHUO/leetcode/tree/main/2054_Two_Best_Non_Overlapping_Events) | Array  BinarySearch  DynamicProgramming  Heap  Sorting | 找到权重和最大的不重叠的两段事件 |
 |2063| [Vowels of All Substrings](https://github.com/ZhengjunHUO/leetcode/tree/main/2063_Vowels_of_All_Substrings) | Combinatorics  DynamicProgramming  Math  String | 所有子字符串中元音出现的次数 |
