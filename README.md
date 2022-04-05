@@ -365,7 +365,10 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |1928| [Minimum Cost to Reach Destination in Time](https://github.com/ZhengjunHUO/leetcode/tree/main/1928_Minimum_Cost_to_Reach_Destination_in_Time) | DynamicProgramming  Graph | 在规定时间内到达目的地的最小花费 |
 |1971| [Find if Path Exists in Graph](https://github.com/ZhengjunHUO/leetcode/tree/main/1971_Find_if_Path_Exists_in_Graph) | BreadthFirstSearch  DepthFirstSearch  Graph | 判断图中两点是否有通路 |
 |1976| [Number of Ways to Arrive at Destination](https://github.com/ZhengjunHUO/leetcode/tree/main/1976_Number_of_Ways_to_Arrive_at_Destination) | DynamicProgramming  Graph  ShortestPath  TopologicalSort | 到达终点最短的距离的路径数 |
+|1995| [Count Special Quadruplets](https://github.com/ZhengjunHUO/leetcode/tree/main/1995_Count_Special_Quadruplets) | Array  Enumeration | 统计前三个元素和等于第四个元素的四元组数目 |
+|1996| [The Number of Weak Characters in the Game](https://github.com/ZhengjunHUO/leetcode/tree/main/1996_The_Number_of_Weak_Characters_in_the_Game) | Array  Greedy  MonotonicStack  Sorting  Stack | 找出元组中值严格小于其他元组的数量 |
 |2000| [Reverse Prefix of Word](https://github.com/ZhengjunHUO/leetcode/tree/main/2000_Reverse_Prefix_of_Word) | String  TwoPointers | 反转单词的前缀 |
+|2006| [Count Number of Pairs With Absolute Difference K](https://github.com/ZhengjunHUO/leetcode/tree/main/2006_Count_Number_of_Pairs_With_Absolute_Difference_K) | Array  Counting  HashTable | 计算差正好为k的元素对 |
 |2007| [Find Original Array From Doubled Array](https://github.com/ZhengjunHUO/leetcode/tree/main/2007_Find_Original_Array_From_Doubled_Array) | Array  Greedy  Hashtable  Sorting | 判断数列是否由另一个数列和其两倍数列构成并返回单倍数列 |
 |2008| [Maximum Earnings From Taxi](https://github.com/ZhengjunHUO/leetcode/tree/main/2008_Maximum_Earnings_From_Taxi) | Array  BinarySearch  DynamicProgramming  Sorting | 出租车计算载客利润最大值 |
 |2012| [Sum of Beauty in the Array](https://github.com/ZhengjunHUO/leetcode/tree/main/2012_Sum_of_Beauty_in_the_Array) | Array | |
