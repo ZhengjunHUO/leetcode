@@ -126,6 +126,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |0146| [LRU Cache](https://github.com/ZhengjunHUO/leetcode/tree/main/0146_LRU_Cache) | Design  DoublyLinkedList  HashTable  LinkedList | 实现一个LRU缓存 |
 |0152| [Maximum Product Subarray](https://github.com/ZhengjunHUO/leetcode/tree/main/0152_Maximum_Product_Subarray) | Array  DynamicProgramming | 找出所有元素乘积最大的子串 |
 |0155| [Min Stack](https://github.com/ZhengjunHUO/leetcode/tree/main/0155_Min_Stack) | Design  Stack | 构建能快速返回最小值的栈 |
+|0162| [Find Peak Element](https://github.com/ZhengjunHUO/leetcode/tree/main/0162_Find_Peak_Element) | Array  BinarySearch | |
 |0167| [Two Sum II](https://github.com/ZhengjunHUO/leetcode/tree/main/0167_Two_Sum_II) | Array  BinarySearch  TwoPointers | 递增数列中找出和为目标值的两个元素 |
 |0168| [Excel Sheet Column Title](https://github.com/ZhengjunHUO/leetcode/tree/main/0168_Excel_Sheet_Column_Title) | Math  String | 把数字转化为excel列名 |
 |0169| [Majority Element](https://github.com/ZhengjunHUO/leetcode/tree/main/0169_Majority_Element) | Array  Counting  DivideAndConquer  HashTable  Sorting | 找到多数元素 |
@@ -367,6 +368,8 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |1962| [Remove Stones to Minimize the Total](https://github.com/ZhengjunHUO/leetcode/tree/main/1962_Remove_Stones_to_Minimize_the_Total) | Array  Heap | |
 |1971| [Find if Path Exists in Graph](https://github.com/ZhengjunHUO/leetcode/tree/main/1971_Find_if_Path_Exists_in_Graph) | BreadthFirstSearch  DepthFirstSearch  Graph | 判断图中两点是否有通路 |
 |1976| [Number of Ways to Arrive at Destination](https://github.com/ZhengjunHUO/leetcode/tree/main/1976_Number_of_Ways_to_Arrive_at_Destination) | DynamicProgramming  Graph  ShortestPath  TopologicalSort | 到达终点最短的距离的路径数 |
+|1985| [Find the Kth Largest Integer in the Array](https://github.com/ZhengjunHUO/leetcode/tree/main/1985_Find_the_Kth_Largest_Integer_in_the_Array) | Array  String  DivideAndConquer  Heap  Quickselect  Sorting | 数列中寻找第k大元素 |
+|1992| [Find All Groups of Farmland](https://github.com/ZhengjunHUO/leetcode/tree/main/1992_Find_All_Groups_of_Farmland) | Array  BreadthFirstSearch  DepthFirstSearch  Matrix | |
 |1995| [Count Special Quadruplets](https://github.com/ZhengjunHUO/leetcode/tree/main/1995_Count_Special_Quadruplets) | Array  Enumeration | 统计前三个元素和等于第四个元素的四元组数目 |
 |1996| [The Number of Weak Characters in the Game](https://github.com/ZhengjunHUO/leetcode/tree/main/1996_The_Number_of_Weak_Characters_in_the_Game) | Array  Greedy  MonotonicStack  Sorting  Stack | 找出元组中值严格小于其他元组的数量 |
 |2000| [Reverse Prefix of Word](https://github.com/ZhengjunHUO/leetcode/tree/main/2000_Reverse_Prefix_of_Word) | String  TwoPointers | 反转单词的前缀 |
