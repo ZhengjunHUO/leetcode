@@ -363,6 +363,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |1791| [Find Center of Star Graph](https://github.com/ZhengjunHUO/leetcode/tree/main/1791_Find_Center_of_Star_Graph) | Graph | 找出星型图的中点 |
 |1871| [Jump Game VII](https://github.com/ZhengjunHUO/leetcode/tree/main/1871_Jump_Game_VII) | BreadthFirstSearch  Greedy  LineSweep | 从一个01字符串的头部出发，每次可以前进的距离介于[i,j]之间，且只能落在值为0的index上，求是否可以到达终点 |
 |1891| [Cutting Ribbons](https://github.com/ZhengjunHUO/leetcode/tree/main/1891_Cutting_Ribbons) | Array  BinarySearch | 切割一些绳子获得k条相同长度的绳子，求其长度的最大值 |
+|1903| [Largest Odd Number in String](https://github.com/ZhengjunHUO/leetcode/tree/main/1903_Largest_Odd_Number_in_String) | Greedy  Math  String | 找出字符串中最大的奇数 |
 |1928| [Minimum Cost to Reach Destination in Time](https://github.com/ZhengjunHUO/leetcode/tree/main/1928_Minimum_Cost_to_Reach_Destination_in_Time) | DynamicProgramming  Graph | 在规定时间内到达目的地的最小花费 |
 |1961| [Check If String Is a Prefix of Array](https://github.com/ZhengjunHUO/leetcode/tree/main/1961_Check_If_String_Is_a_Prefix_of_Array) | Array  String | |
 |1962| [Remove Stones to Minimize the Total](https://github.com/ZhengjunHUO/leetcode/tree/main/1962_Remove_Stones_to_Minimize_the_Total) | Array  Heap | |
@@ -384,6 +385,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |2028| [Find Missing Observations](https://github.com/ZhengjunHUO/leetcode/tree/main/2028_Find_Missing_Observations) | Array Math Simulation | |
 |2032| [Two Out of Three](https://github.com/ZhengjunHUO/leetcode/tree/main/2032_Two_Out_of_Three) | Array  HashTable | |
 |2033| [Minimum Operations to Make a Uni-Value Grid](https://github.com/ZhengjunHUO/leetcode/tree/main/2033_Minimum_Operations_to_Make_a_Uni_Value_Grid) | Array Math Matrix Sorting | |
+|2039| [The Time When the Network Becomes Idle](https://github.com/ZhengjunHUO/leetcode/tree/main/2039_The_Time_When_the_Network_Becomes_Idle) | Array  BreadthFirstSearch  Graph | 计算网络中最早何时没有数据包流通 |
 |2049| [Count Nodes With the Highest Score](https://github.com/ZhengjunHUO/leetcode/tree/main/2049_Count_Nodes_With_the_Highest_Score) | Array  BinaryTree  DepthFirstSearch  Tree | |
 |2054| [Two Best Non-Overlapping Events](https://github.com/ZhengjunHUO/leetcode/tree/main/2054_Two_Best_Non_Overlapping_Events) | Array  BinarySearch  DynamicProgramming  Heap  Sorting | 找到权重和最大的不重叠的两段事件 |
 |2063| [Vowels of All Substrings](https://github.com/ZhengjunHUO/leetcode/tree/main/2063_Vowels_of_All_Substrings) | Combinatorics  DynamicProgramming  Math  String | 所有子字符串中元音出现的次数 |
