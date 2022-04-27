@@ -370,6 +370,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |1962| [Remove Stones to Minimize the Total](https://github.com/ZhengjunHUO/leetcode/tree/main/1962_Remove_Stones_to_Minimize_the_Total) | Array  Heap | |
 |1971| [Find if Path Exists in Graph](https://github.com/ZhengjunHUO/leetcode/tree/main/1971_Find_if_Path_Exists_in_Graph) | BreadthFirstSearch  DepthFirstSearch  Graph | 判断图中两点是否有通路 |
 |1976| [Number of Ways to Arrive at Destination](https://github.com/ZhengjunHUO/leetcode/tree/main/1976_Number_of_Ways_to_Arrive_at_Destination) | DynamicProgramming  Graph  ShortestPath  TopologicalSort | 到达终点最短的距离的路径数 |
+|1984| [Minimum Difference Between Highest and Lowest of K Scores](https://github.com/ZhengjunHUO/leetcode/tree/main/1984_Minimum_Difference_Between_Highest_and_Lowest_of_K_Scores) | Array  SlidingWindow  Sorting | |
 |1985| [Find the Kth Largest Integer in the Array](https://github.com/ZhengjunHUO/leetcode/tree/main/1985_Find_the_Kth_Largest_Integer_in_the_Array) | Array  String  DivideAndConquer  Heap  Quickselect  Sorting | 数列中寻找第k大元素 |
 |1992| [Find All Groups of Farmland](https://github.com/ZhengjunHUO/leetcode/tree/main/1992_Find_All_Groups_of_Farmland) | Array  BreadthFirstSearch  DepthFirstSearch  Matrix | |
 |1995| [Count Special Quadruplets](https://github.com/ZhengjunHUO/leetcode/tree/main/1995_Count_Special_Quadruplets) | Array  Enumeration | 统计前三个元素和等于第四个元素的四元组数目 |
@@ -378,6 +379,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |2006| [Count Number of Pairs With Absolute Difference K](https://github.com/ZhengjunHUO/leetcode/tree/main/2006_Count_Number_of_Pairs_With_Absolute_Difference_K) | Array  Counting  HashTable | 计算差正好为k的元素对 |
 |2007| [Find Original Array From Doubled Array](https://github.com/ZhengjunHUO/leetcode/tree/main/2007_Find_Original_Array_From_Doubled_Array) | Array  Greedy  Hashtable  Sorting | 判断数列是否由另一个数列和其两倍数列构成并返回单倍数列 |
 |2008| [Maximum Earnings From Taxi](https://github.com/ZhengjunHUO/leetcode/tree/main/2008_Maximum_Earnings_From_Taxi) | Array  BinarySearch  DynamicProgramming  Sorting | 出租车计算载客利润最大值 |
+|2011| [Final Value of Variable After Performing Operations](https://github.com/ZhengjunHUO/leetcode/tree/main/2011_Final_Value_of_Variable_After_Performing_Operations) | Array  Simulation  String | |
 |2012| [Sum of Beauty in the Array](https://github.com/ZhengjunHUO/leetcode/tree/main/2012_Sum_of_Beauty_in_the_Array) | Array | |
 |2016| [Maximum Difference Between Increasing Elements](https://github.com/ZhengjunHUO/leetcode/tree/main/2016_Maximum_Difference_Between_Increasing_Elements) | Array | |
 |2017| [Grid Game](https://github.com/ZhengjunHUO/leetcode/tree/main/2017_Grid_Game) | Array  Matrix  PrefixSum | |
