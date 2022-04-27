@@ -364,6 +364,7 @@ Other [useful tools](https://github.com/ZhengjunHUO/gtoolkit) built during this 
 |1871| [Jump Game VII](https://github.com/ZhengjunHUO/leetcode/tree/main/1871_Jump_Game_VII) | BreadthFirstSearch  Greedy  LineSweep | 从一个01字符串的头部出发，每次可以前进的距离介于[i,j]之间，且只能落在值为0的index上，求是否可以到达终点 |
 |1891| [Cutting Ribbons](https://github.com/ZhengjunHUO/leetcode/tree/main/1891_Cutting_Ribbons) | Array  BinarySearch | 切割一些绳子获得k条相同长度的绳子，求其长度的最大值 |
 |1903| [Largest Odd Number in String](https://github.com/ZhengjunHUO/leetcode/tree/main/1903_Largest_Odd_Number_in_String) | Greedy  Math  String | 找出字符串中最大的奇数 |
+|1905| [Count Sub Islands](https://github.com/ZhengjunHUO/leetcode/tree/main/1905_Count_Sub_Islands) | Array  BreadthFirstSearch  DepthFirstSearch  Matrix  UnionFind | 统计子岛的数量 |
 |1928| [Minimum Cost to Reach Destination in Time](https://github.com/ZhengjunHUO/leetcode/tree/main/1928_Minimum_Cost_to_Reach_Destination_in_Time) | DynamicProgramming  Graph | 在规定时间内到达目的地的最小花费 |
 |1961| [Check If String Is a Prefix of Array](https://github.com/ZhengjunHUO/leetcode/tree/main/1961_Check_If_String_Is_a_Prefix_of_Array) | Array  String | |
 |1962| [Remove Stones to Minimize the Total](https://github.com/ZhengjunHUO/leetcode/tree/main/1962_Remove_Stones_to_Minimize_the_Total) | Array  Heap | |
