@@ -2,20 +2,20 @@ package main
 
 import (
 	"fmt"
-	"github.com/ZhengjunHUO/godtype"
+	"github.com/ZhengjunHUO/goutil/datastruct"
 )
 
 func dailyTemperatures(temperatures []int) []int {
-	mono := godtype.NewStack()
+	mono := datastruct.NewStack([]int{})
 	rslt := make([]int, len(temperatures))
-	
+
 	for i := len(temperatures) - 1; i >= 0; i-- {
-		for !mono.IsEmpty() && temperatures[i] >= temperatures[mono.Peek().(int)] {
+		for !mono.IsEmpty() && temperatures[i] >= temperatures[mono.Peek()] {
 			mono.Pop()
 		}
 
 		if !mono.IsEmpty() {
-			rslt[i] = mono.Peek().(int) - i
+			rslt[i] = mono.Peek() - i
 		}
 
 		mono.Push(i)

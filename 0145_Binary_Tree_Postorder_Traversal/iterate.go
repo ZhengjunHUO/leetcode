@@ -3,12 +3,13 @@ package main
 import (
 	"fmt"
 	"github.com/ZhengjunHUO/godtype"
+	"github.com/ZhengjunHUO/goutil/datastruct"
 )
 
 func postorderTraversal(root *godtype.TreeNode) []int {
 	rslt := []int{}
-	stack := godtype.NewStack()
-	
+	stack := datastruct.NewStack([]*godtype.TreeNode{})
+
 	if root == nil {
 		return rslt
 	}
@@ -16,7 +17,7 @@ func postorderTraversal(root *godtype.TreeNode) []int {
 
 	for !stack.IsEmpty() {
 		// 当前节点的值放在列表最后
-		curr := stack.Pop().(*godtype.TreeNode)
+		curr := stack.Pop()
 		rslt = append([]int{curr.Val.(int)}, rslt...)
 
 		// 按这个顺序下一轮会先Pop右结点，按先右后左处理
@@ -28,7 +29,7 @@ func postorderTraversal(root *godtype.TreeNode) []int {
 		}
 	}
 
-	return rslt   
+	return rslt
 }
 
 func main() {

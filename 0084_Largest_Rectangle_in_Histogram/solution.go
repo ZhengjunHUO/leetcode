@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/ZhengjunHUO/godtype"
+	"github.com/ZhengjunHUO/goutil/datastruct"
 )
 
 // 参考@dietpepsi的方案
@@ -10,20 +10,20 @@ func largestRectangleArea(heights []int) int {
 	// 在末尾添上0，配合后面的算法可在最后让stack元素全部pop出
 	list := append(heights, 0)
 
-	mono := godtype.NewStack()
+	mono := datastruct.NewStack([]int{})
 	// index指向最后添上的0作为stack的基础，配合后面的算法
 	mono.Push(len(list)-1)
 
 	max := 0
-	
+
 	for i := range list {
 		// 递增的stack遇到一个小于栈顶的元素，pop掉比它大的元素后插入，使stack始终递增
 		// 对每次pop出来的“大”元素进行计算，用变量max保存其中最大值
-		for !mono.IsEmpty() && list[i] < list[mono.Peek().(int)] {
-			idx := mono.Pop().(int)
+		for !mono.IsEmpty() && list[i] < list[mono.Peek()] {
+			idx := mono.Pop()
 			curr := 0
 			// 已到初始时插入的垫底元素
-			if temp := mono.Peek().(int); temp == len(list) - 1 {
+			if temp := mono.Peek(); temp == len(list) - 1 {
 				curr = list[idx] * i
 			}else{
 				// 注意i减去的是pop后再peek到的index

@@ -2,19 +2,19 @@ package main
 
 import (
 	"fmt"
-	"github.com/ZhengjunHUO/godtype"
+	"github.com/ZhengjunHUO/goutil/datastruct"
 )
 
 func isValid(s string) bool {
-	stack := godtype.NewStack()
+	stack := datastruct.NewStack([]byte{})
 	dict := map[byte]byte{')': '(', ']': '[', '}': '{'}
-	    
+
 	for i := 0 ; i < len(s) ; i++ {
 		switch s[i] {
 		case '(', '[', '{':
 			stack.Push(s[i])
 		case ')', ']', '}':
-			if stack.IsEmpty() || stack.Pop().(byte) != dict[s[i]] {
+			if stack.IsEmpty() || stack.Pop() != dict[s[i]] {
 				return false
 			}
 		}

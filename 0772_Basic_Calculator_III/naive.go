@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/ZhengjunHUO/godtype"
+	"github.com/ZhengjunHUO/goutil/datastruct"
 )
 
 // 同0227_Basic_Calculator_II
@@ -12,8 +12,8 @@ func calculate(s string) int {
 
 func calc(s *string) int {
 	currNum, sign := 0, byte('+')
-	stack := godtype.NewStack()
-	
+	stack := datastruct.NewStack([]int{})
+
 	for len(*s) > 0 {
 		currByte := (*s)[0]
 		*s = (*s)[1:]
@@ -33,11 +33,11 @@ func calc(s *string) int {
 			case byte('-'):
 				stack.Push(-currNum)
 			case byte('*'):
-				stack.Push(currNum * stack.Pop().(int))
+				stack.Push(currNum * stack.Pop())
 			case byte('/'):
-				stack.Push(stack.Pop().(int) / currNum)
+				stack.Push(stack.Pop() / currNum)
 			}
-			
+
 			currNum = 0
 			sign = currByte
 		}
@@ -49,7 +49,7 @@ func calc(s *string) int {
 
 	rslt := 0
 	for !stack.IsEmpty() {
-		rslt += stack.Pop().(int)
+		rslt += stack.Pop()
 	}
 
 	return rslt

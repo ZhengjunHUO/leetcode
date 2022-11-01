@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/ZhengjunHUO/godtype"
+	"github.com/ZhengjunHUO/goutil/datastruct"
 )
 
 func goodDaysToRobBank(security []int, time int) []int {
@@ -12,24 +12,24 @@ func goodDaysToRobBank(security []int, time int) []int {
 	if time == 0 {
 		rslt := make([]int, n)
 		for i := range security {
-			rslt[i] = i		
+			rslt[i] = i
 		}
 		return rslt
 	}
 
 	// 使用monotonic stack从后向前计算当前index向后下一个大于当前值的index
-	mono_asc := godtype.NewStack()
+	mono_asc := datastruct.NewStack([]int{})
 	table_asc := make([]int, n)
 
 	for i:=n-1; i>=0; i-- {
 		// stack非空时，移除栈顶小于当前值的元素
-		for !mono_asc.IsEmpty() && security[mono_asc.Peek().(int)] < security[i] {
+		for !mono_asc.IsEmpty() && security[mono_asc.Peek()] < security[i] {
 			mono_asc.Pop()
 		}
 
 		if !mono_asc.IsEmpty() {
 			// 栈顶元素(下一个值大于当前值的元素)的index和当前index只差为1表示找到一个递增
-			if mono_asc.Peek().(int) - i == 1 {
+			if mono_asc.Peek() - i == 1 {
 				table_asc[i] = table_asc[i+1] + 1
 			}
 		}
@@ -39,16 +39,16 @@ func goodDaysToRobBank(security []int, time int) []int {
 	}
 
 	// 反向用相同的方向生成递减表
-	mono_desc := godtype.NewStack()
+	mono_desc := datastruct.NewStack([]int{})
 	table_desc := make([]int, n)
 
 	for i:=0; i<n; i++ {
-		for !mono_desc.IsEmpty() && security[mono_desc.Peek().(int)] < security[i] {
+		for !mono_desc.IsEmpty() && security[mono_desc.Peek()] < security[i] {
 			mono_desc.Pop()
 		}
 
 		if !mono_desc.IsEmpty() {
-			if i - mono_desc.Peek().(int) == 1 {
+			if i - mono_desc.Peek() == 1 {
 				table_desc[i] = table_desc[i-1] + 1
 			}
 		}

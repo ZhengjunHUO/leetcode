@@ -2,11 +2,11 @@ package main
 
 import (
 	"fmt"
-	"github.com/ZhengjunHUO/godtype"
+	"github.com/ZhengjunHUO/goutil/datastruct"
 )
 
 func main() {
-	s := godtype.NewStack()
+	s := datastruct.NewStack([]int{})
 	fmt.Println(s.Pop())
 
 	s.Push(3)
@@ -17,7 +17,7 @@ func main() {
 	fmt.Println(s.Pop())
 	fmt.Println(s.Peek())
 	fmt.Println(s.Size())
-	
+
 	fmt.Println(s.IsEmpty())
 	fmt.Println(s.Pop())
 	fmt.Println(s.IsEmpty())

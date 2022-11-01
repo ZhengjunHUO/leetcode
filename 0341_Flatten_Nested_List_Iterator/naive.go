@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/ZhengjunHUO/godtype"
+	"github.com/ZhengjunHUO/goutil/datastruct"
 	"reflect"
 )
 
@@ -25,7 +25,7 @@ func (this NestedInteger) GetInteger() int {
 
 // Set this NestedInteger to hold a single integer.
 func (n *NestedInteger) SetInteger(value int) {
-	n.val = value	
+	n.val = value
 }
 
 // Set this NestedInteger to hold a nested list and adds a nested integer to it.
@@ -56,11 +56,11 @@ func NewNestedInteger(list []interface{}) []*NestedInteger {
 
 
 type NestedIterator struct {
-	stack	*godtype.Stack
+	stack	*datastruct.Stack[*NestedInteger]
 }
 
 func Constructor(nestedList []*NestedInteger) *NestedIterator {
-	ni := &NestedIterator{godtype.NewStack()}
+	ni := &NestedIterator{datastruct.NewStack([]*NestedInteger{})}
 	for i:=len(nestedList)-1; i>=0; i-- {
 		ni.stack.Push(nestedList[i])
 	}
@@ -69,12 +69,12 @@ func Constructor(nestedList []*NestedInteger) *NestedIterator {
 }
 
 func (this *NestedIterator) Next() int {
-	return this.stack.Pop().(*NestedInteger).GetInteger()
+	return this.stack.Pop().GetInteger()
 }
 
 func (this *NestedIterator) HasNext() bool {
 	for ! this.stack.IsEmpty() {
-		curr := this.stack.Peek().(*NestedInteger)
+		curr := this.stack.Peek()
 		if curr.IsInteger() {
 			return true
 		}

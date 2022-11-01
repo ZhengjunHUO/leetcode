@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/ZhengjunHUO/godtype"
+	"github.com/ZhengjunHUO/goutil/datastruct"
 )
 
 type ListNode struct {
@@ -36,7 +36,7 @@ func printList(node *ListNode) {
 			break
 		}
 
-		curr = curr.Next	
+		curr = curr.Next
 	}
 
 	fmt.Println(rslt)
@@ -44,14 +44,14 @@ func printList(node *ListNode) {
 
 func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
 	c1, c2 := l1, l2
-	s1, s2 := godtype.NewStack(), godtype.NewStack()
+	s1, s2 := datastruct.NewStack([]int{}), datastruct.NewStack([]int{})
 
-	var curr *ListNode 
+	var curr *ListNode
 	v1, v2, carry := 0, 0, 0
 
 	for c1 != nil {
 		s1.Push(c1.Val)
-		c1 = c1.Next	
+		c1 = c1.Next
 	}
 	for c2 != nil {
 		s2.Push(c2.Val)
@@ -60,12 +60,12 @@ func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
 
 	for !s1.IsEmpty() || !s2.IsEmpty() || carry > 0 {
 		if !s1.IsEmpty() {
-			v1 = s1.Pop().(int)
+			v1 = s1.Pop()
 		}else{
 			v1 = 0
 		}
 		if !s2.IsEmpty() {
-			v2 = s2.Pop().(int)
+			v2 = s2.Pop()
 		}else{
 			v2 = 0
 		}

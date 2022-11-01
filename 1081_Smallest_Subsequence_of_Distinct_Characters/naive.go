@@ -2,11 +2,11 @@ package main
 
 import (
 	"fmt"
-	"github.com/ZhengjunHUO/godtype"
+	"github.com/ZhengjunHUO/goutil/datastruct"
 )
 
 func smallestSubsequence(s string) string {
-	stack := godtype.NewStack()
+	stack := datastruct.NewStack([]byte{})
 	instack := make(map[byte]bool)
 	counter := make(map[byte]int)
 	for i := range s {
@@ -20,23 +20,23 @@ func smallestSubsequence(s string) string {
 			}
 		}
 
-		for !stack.IsEmpty() && s[i] < stack.Peek().(byte) {
-			if counter[stack.Peek().(byte)] == 0 {
+		for !stack.IsEmpty() && s[i] < stack.Peek() {
+			if counter[stack.Peek()] == 0 {
 				break
 			}
 
-			instack[stack.Pop().(byte)] = false
+			instack[stack.Pop()] = false
 		}
 
 		stack.Push(s[i])
 		counter[s[i]]--
 		instack[s[i]] = true
-	}	
+	}
 
 	rslt := make([]byte, stack.Size())
 	n := stack.Size() - 1
 	for !stack.IsEmpty() {
-		rslt[n] = stack.Pop().(byte)
+		rslt[n] = stack.Pop()
 		n--
 	}
 

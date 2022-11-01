@@ -3,13 +3,14 @@ package main
 import (
 	"fmt"
 	"github.com/ZhengjunHUO/godtype"
+	"github.com/ZhengjunHUO/goutil/datastruct"
 )
 
 // 参考@pavel-shlyk的算法
 func preorderTraversal(root *godtype.TreeNode) []int {
 	rslt := []int{}
-	stack := godtype.NewStack()
-	
+	stack := datastruct.NewStack([]*godtype.TreeNode{})
+
 	for root != nil {
 		rslt = append(rslt, root.Val.(int))
 		if root.Right != nil {
@@ -18,11 +19,11 @@ func preorderTraversal(root *godtype.TreeNode) []int {
 
 		root = root.Left
 		if root == nil && !stack.IsEmpty() {
-			root = stack.Pop().(*godtype.TreeNode)
+			root = stack.Pop()
 		}
 	}
 
-	return rslt   
+	return rslt
 }
 
 func main() {

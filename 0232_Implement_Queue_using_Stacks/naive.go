@@ -2,17 +2,17 @@ package main
 
 import (
 	"fmt"
-	"github.com/ZhengjunHUO/godtype"
+	"github.com/ZhengjunHUO/goutil/datastruct"
 )
 
 type MyQueue struct {
-	sOrigin		*godtype.Stack
-	sInverse	*godtype.Stack
+	sOrigin		*datastruct.Stack[int]
+	sInverse	*datastruct.Stack[int]
 }
 
 /** Initialize your data structure here. */
 func Constructor() MyQueue {
-	return MyQueue{godtype.NewStack(), godtype.NewStack()}
+	return MyQueue{datastruct.NewStack([]int{}), datastruct.NewStack([]int{})}
 }
 
 /** Push element x to the back of queue. */
@@ -26,7 +26,7 @@ func (this *MyQueue) Pop() int {
 		return -1
 	}
 
-	return this.sInverse.Pop().(int)
+	return this.sInverse.Pop()
 }
 
 /** Get the front element. */
@@ -41,7 +41,7 @@ func (this *MyQueue) Peek() int {
 		return -1
 	}
 
-	return this.sInverse.Peek().(int)
+	return this.sInverse.Peek()
 }
 
 /** Returns whether the queue is empty. */

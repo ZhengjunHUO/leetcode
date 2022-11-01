@@ -2,14 +2,14 @@ package main
 
 import (
 	"fmt"
-	"github.com/ZhengjunHUO/godtype"
+	"github.com/ZhengjunHUO/goutil/datastruct"
 )
 
 type FreqStack struct {
 	// 存放值和该值的出现频率
 	VF	map[int]int
 	// 出现频率和存放出现过f次的值
-	FV	map[int]*godtype.Stack
+	FV	map[int]*datastruct.Stack[int]
 	// 当前最大的出现频率
 	MaxF	int
 }
@@ -17,7 +17,7 @@ type FreqStack struct {
 func Constructor() FreqStack {
 	return FreqStack{
 		VF:	make(map[int]int),
-		FV:	make(map[int]*godtype.Stack),
+		FV:	make(map[int]*datastruct.Stack[int]),
 		MaxF:	0,
 	}
 }
@@ -33,15 +33,15 @@ func (this *FreqStack) Push(val int)  {
 
 	// 加入新频率对应的stack
 	if _, ok := this.FV[f]; !ok {
-		this.FV[f] = godtype.NewStack()
+		this.FV[f] = datastruct.NewStack([]int{})
 	}
-	this.FV[f].Push(val)	
+	this.FV[f].Push(val)
 }
 
 func (this *FreqStack) Pop() int {
 	// 找到当前最大出现频率的stack，弹出最近插入的值
 	s := this.FV[this.MaxF]
-	rslt := s.Pop().(int)
+	rslt := s.Pop()
 
 	if s.Size() == 0 {
 		delete(this.FV, this.MaxF)

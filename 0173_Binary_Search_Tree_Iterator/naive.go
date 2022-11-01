@@ -3,22 +3,23 @@ package main
 import (
 	"fmt"
 	"github.com/ZhengjunHUO/godtype"
+	"github.com/ZhengjunHUO/goutil/datastruct"
 )
 
 type BSTIterator struct {
-	stack	*godtype.Stack
+	stack	*datastruct.Stack[*godtype.TreeNode]
 }
 
 func Constructor(root *godtype.TreeNode) BSTIterator {
-	bi := BSTIterator{godtype.NewStack()}
+	bi := BSTIterator{datastruct.NewStack([]*godtype.TreeNode{})}
 	bi.pushNode(root)
-	
-	return bi	
+
+	return bi
 }
 
 func (this *BSTIterator) Next() int {
 	// 中序
-	currNode := this.stack.Pop().(*godtype.TreeNode)
+	currNode := this.stack.Pop()
 	// 后序，注意此处是Right
 	this.pushNode(currNode.Right)
 

@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/ZhengjunHUO/godtype"
+	"github.com/ZhengjunHUO/goutil/datastruct"
 )
 
 func calculate(s string) int {
@@ -11,8 +11,8 @@ func calculate(s string) int {
 
 func calc(s *string) int {
 	currNum, sign := 0, byte('+')
-	stack := godtype.NewStack()	
-	
+	stack := datastruct.NewStack([]int{})
+
 	for len(*s) > 0 {
 		currByte := (*s)[0]
 		*s = (*s)[1:]
@@ -31,7 +31,7 @@ func calc(s *string) int {
 			}else{
 				stack.Push(-currNum)
 			}
-			
+
 			currNum = 0
 			sign = currByte
 		}
@@ -43,7 +43,7 @@ func calc(s *string) int {
 
 	rslt := 0
 	for !stack.IsEmpty() {
-		rslt += stack.Pop().(int)
+		rslt += stack.Pop()
 	}
 
 	return rslt

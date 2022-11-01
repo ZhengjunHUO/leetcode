@@ -3,12 +3,13 @@ package main
 import (
 	"fmt"
 	"github.com/ZhengjunHUO/godtype"
+	"github.com/ZhengjunHUO/goutil/datastruct"
 )
 
 // 借鉴0173_Binary_Search_Tree_Iterator的思路
 func inorderTraversal(root *godtype.TreeNode) []int {
 	rslt := []int{}
-	stack := godtype.NewStack()
+	stack := datastruct.NewStack([]*godtype.TreeNode{})
 
 	// 添加当前结点的所有左子结点
 	push := func(curr *godtype.TreeNode) {
@@ -19,16 +20,16 @@ func inorderTraversal(root *godtype.TreeNode) []int {
 	}
 
 	push(root)
-		
+
 	for !stack.IsEmpty() {
-		root = stack.Pop().(*godtype.TreeNode)	
+		root = stack.Pop()
 		// 中序输出
 		rslt = append(rslt, root.Val.(int))
 		// 加入右结点及其所有左子结点
 		push(root.Right)
 	}
 
-	return rslt   
+	return rslt
 }
 
 func main() {

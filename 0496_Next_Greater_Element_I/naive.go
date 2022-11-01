@@ -2,22 +2,22 @@ package main
 
 import (
 	"fmt"
-	"github.com/ZhengjunHUO/godtype"
+	"github.com/ZhengjunHUO/goutil/datastruct"
 )
 
 func nextGreaterElement(nums1 []int, nums2 []int) []int {
-	mono := godtype.NewStack()
+	mono := datastruct.NewStack([]int{})
 	dict := make(map[int]int)
 
 	for i := len(nums2) - 1; i >= 0; i-- {
-		for !mono.IsEmpty() && nums2[i] > mono.Peek().(int) {
+		for !mono.IsEmpty() && nums2[i] > mono.Peek() {
 			mono.Pop()
 		}
 
 		if mono.IsEmpty() {
 			dict[nums2[i]] = -1
 		}else{
-			dict[nums2[i]] = mono.Peek().(int)
+			dict[nums2[i]] = mono.Peek()
 		}
 
 		mono.Push(nums2[i])
