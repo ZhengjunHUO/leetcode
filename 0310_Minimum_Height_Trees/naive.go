@@ -2,26 +2,26 @@ package main
 
 import (
 	"fmt"
-	"github.com/ZhengjunHUO/godtype"
+	"github.com/ZhengjunHUO/goutil/datastruct"
 )
 
 func findMinHeightTrees(n int, edges [][]int) []int {
 	min := 20000
 	rslt := []int{}
-	
+
 	// 制作邻接表
 	adj := make(map[int][]int)
 	for i := range edges {
 		adj[edges[i][0]] = append(adj[edges[i][0]], edges[i][1])
 		adj[edges[i][1]] = append(adj[edges[i][1]], edges[i][0])
 	}
-	
+
 	// 遍历所有节点作为根节点
 	for i := 0; i < n; i++ {
 		height := -1
 		visited := make([]bool, n)
 
-		q := godtype.NewQueue()
+		q := datastruct.NewQueue([]int{})
 		q.Push(i)
 		visited[i] = true
 
@@ -29,7 +29,7 @@ func findMinHeightTrees(n int, edges [][]int) []int {
 			// 遍历一圈邻居
 			s := q.Size()
 			for j:=0; j<s; j++ {
-				curr := q.Pop().(int)
+				curr := q.Pop()
 				if v, ok := adj[curr]; ok {
 					for k := range v {
 						if ! visited[v[k]] {

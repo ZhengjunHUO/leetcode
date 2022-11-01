@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"github.com/ZhengjunHUO/godtype"
+	"github.com/ZhengjunHUO/goutil/datastruct"
 )
 
 func minDepth(root *godtype.TreeNode) int {
@@ -10,7 +11,7 @@ func minDepth(root *godtype.TreeNode) int {
 		return 0
 	}
 
-	q := godtype.NewQueue()
+	q := datastruct.NewQueue([]*godtype.TreeNode{})
 	q.Push(root)
 	depth := 0
 
@@ -19,7 +20,7 @@ func minDepth(root *godtype.TreeNode) int {
 
 		size := q.Size()
 		for i:=0; i<size; i++ {
-			node := q.Pop().(*godtype.TreeNode)
+			node := q.Pop()
 
 			// 遇到叶子结点，返回
 			if node.Left == nil && node.Right == nil {

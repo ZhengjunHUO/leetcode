@@ -2,17 +2,17 @@ package main
 
 import (
 	"fmt"
-	"github.com/ZhengjunHUO/godtype"
+	"github.com/ZhengjunHUO/goutil/datastruct"
 )
 
 type MyStack struct {
-	Queue	*godtype.Queue
+	Queue	*datastruct.Queue[int]
 	TopElem	int
 }
 
 /** Initialize your data structure here. */
 func Constructor() MyStack {
-	return MyStack{godtype.NewQueue(), 0}
+	return MyStack{datastruct.NewQueue([]int{}), 0}
 }
 
 /** Push element x onto stack. */
@@ -26,14 +26,14 @@ func (this *MyStack) Pop() int {
 	size := this.Queue.Size()
 
 	for size > 2 {
-		this.Queue.Push(this.Queue.Pop().(int))
+		this.Queue.Push(this.Queue.Pop())
 		size--
 	}
 
-	this.TopElem = this.Queue.Peek().(int)
-	this.Queue.Push(this.Queue.Pop().(int))
+	this.TopElem = this.Queue.Peek()
+	this.Queue.Push(this.Queue.Pop())
 
-	return this.Queue.Pop().(int)
+	return this.Queue.Pop()
 }
 
 /** Get the top element. */

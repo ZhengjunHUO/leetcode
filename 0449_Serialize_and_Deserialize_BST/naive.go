@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"strings"
 	"github.com/ZhengjunHUO/godtype"
+	"github.com/ZhengjunHUO/goutil/datastruct"
 )
 
 type Codec struct {
@@ -20,7 +21,7 @@ func (this *Codec) serialize(root *godtype.TreeNode) string {
 	}
 
 	rslt := ""
-	q := godtype.NewQueue()
+	q := datastruct.NewQueue([]*godtype.TreeNode{})
 	q.Push(root)
 
 	var emptyNode godtype.TreeNode
@@ -30,7 +31,7 @@ func (this *Codec) serialize(root *godtype.TreeNode) string {
 		size = q.Size()
 		emptyNum := 0
 		for i:=0; i<size; i++ {
-			node := q.Pop().(*godtype.TreeNode)
+			node := q.Pop()
 			if *node != emptyNode {
 				rslt = rslt + node.Val.(string) + ","
 			}else{
@@ -60,7 +61,7 @@ func (this *Codec) serialize(root *godtype.TreeNode) string {
 }
 
 // Deserializes your encoded data to tree.
-func (this *Codec) deserialize(data string) *godtype.TreeNode {    
+func (this *Codec) deserialize(data string) *godtype.TreeNode {
 	temp := strings.Split(data, ",")
 	itf := make([]interface{}, len(temp))
 	for i := range temp {
@@ -70,7 +71,7 @@ func (this *Codec) deserialize(data string) *godtype.TreeNode {
 			itf[i] = temp[i]
 		}
 	}
-	
+
 	return godtype.NewBTree(itf)
 }
 
@@ -80,8 +81,8 @@ func main() {
 	obj := Constructor()
 
 	if s == obj.serialize(obj.deserialize(s)) {
-		fmt.Println("ok")	
+		fmt.Println("ok")
 	}else{
-		fmt.Println("ko")	
+		fmt.Println("ko")
 	}
 }

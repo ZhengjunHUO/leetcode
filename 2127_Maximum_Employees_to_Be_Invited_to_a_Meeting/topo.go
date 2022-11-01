@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/ZhengjunHUO/godtype"
+	"github.com/ZhengjunHUO/goutil/datastruct"
 )
 
 func max(a, b int) int {
@@ -19,7 +19,7 @@ func maximumInvitations(favorite []int) int {
 
 	ingr, dp := make([]int, n), make([]int, n)
 	visited := make([]bool, n)
-	q := godtype.NewQueue()
+	q := datastruct.NewQueue([]int{})
 
 	// calculate the "popularity" of each node
 	// 计算每一个节点的入度，即有几个箭头指向它
@@ -38,7 +38,7 @@ func maximumInvitations(favorite []int) int {
 
 	// dp[i]: longest (non-loop) path ended at i
 	for !q.IsEmpty() {
-		src := q.Pop().(int)
+		src := q.Pop()
 		dst := favorite[src]
 		dp[dst] = max(dp[dst], dp[src]+1)
 

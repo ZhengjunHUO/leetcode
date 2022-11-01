@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/ZhengjunHUO/godtype"
+	"github.com/ZhengjunHUO/goutil/datastruct"
 )
 
 func min(a, b int) int {
@@ -43,15 +43,15 @@ func mincostTickets(days []int, costs []int) int {
 	// current cost
 	cost := 0
 	// element: [2]int{travalingDay, costSinceBegin}
-	last7days, last30days := godtype.NewQueue(), godtype.NewQueue()
+	last7days, last30days := datastruct.NewQueue([][2]int{}), datastruct.NewQueue([][2]int{})
 
 	for i := range days {
 		// check the coverage/validity of the 7 days ticket, remove them if expired
-		for (!last7days.IsEmpty() && days[i] >= (last7days.Peek().([2]int))[0] + 7 ) {
+		for (!last7days.IsEmpty() && days[i] >= (last7days.Peek())[0] + 7) {
 			last7days.Pop()
 		}
 		// check the coverage/validity of the 30 days ticket, remove them if expired
-		for (!last30days.IsEmpty() && days[i] >= (last30days.Peek().([2]int))[0] + 30) {
+		for (!last30days.IsEmpty() && days[i] >= (last30days.Peek())[0] + 30) {
 			last30days.Pop()
 		}
 		// if we buy 7/30 days ticket today 
@@ -59,7 +59,7 @@ func mincostTickets(days []int, costs []int) int {
 		last30days.Push([2]int{days[i], cost+costs[2]})
 
 		// compare the different solutions and update the current cost
-		cost = min(cost+costs[0], min((last7days.Peek().([2]int))[1], (last30days.Peek().([2]int))[1]))
+		cost = min(cost+costs[0], min((last7days.Peek())[1], (last30days.Peek())[1]))
 	}
 
 	return cost

@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/ZhengjunHUO/godtype"
+	"github.com/ZhengjunHUO/goutil/datastruct"
 )
 
 func rotate(str string, idx int, isUp bool) string {
@@ -23,7 +23,7 @@ func rotate(str string, idx int, isUp bool) string {
 			changed = str[idx] - 1
 		}
 	}
-	
+
 	return str[:idx] + string(changed) + str[idx+1:]
 }
 
@@ -37,7 +37,7 @@ func openLock(deadends []string, target string) int {
 		return -1
 	}
 
-	q := godtype.NewQueue()
+	q := datastruct.NewQueue([]string{})
 	q.Push("0000")
 	visited["0000"] = true
 	step := 0
@@ -45,10 +45,10 @@ func openLock(deadends []string, target string) int {
 	for !q.IsEmpty() {
 		size := q.Size()
 		for i:=0; i<size; i++ {
-			curr := q.Pop().(string)
+			curr := q.Pop()
 			if curr == target {
 				return step
-			}			
+			}
 
 			for i:=0; i<4; i++ {
 				up := rotate(curr, i, true)

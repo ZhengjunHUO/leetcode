@@ -3,19 +3,19 @@ package main
 import (
 	"fmt"
 	"strings"
-	"github.com/ZhengjunHUO/godtype"
+	"github.com/ZhengjunHUO/goutil/datastruct"
 )
 
 func slidingPuzzle(board [][]int) int {
 	// 需要到达的状态
-	goal := "123450" 
+	goal := "123450"
 
 	// 初始状态
 	str := ""
 	for i := range board {
 		str += strings.Trim(strings.Join(strings.Split(fmt.Sprint(board[i]), " "), ""), "[]")
 	}
-	
+
 	// 每个格子可以和周围交换的格子列表
 	neighbour := [][]int{[]int{1,3}, []int{0,2,4}, []int{1,5}, []int{0,4}, []int{1,3,5}, []int{2,4}}
 
@@ -24,7 +24,7 @@ func slidingPuzzle(board [][]int) int {
 	dict[str] = true
 
 	// BFS标配
-	queue := godtype.NewQueue()
+	queue := datastruct.NewQueue([]string{})
 	queue.Push(str)
 
 	// 记录步数
@@ -33,9 +33,9 @@ func slidingPuzzle(board [][]int) int {
 	for !queue.IsEmpty() {
 		size := queue.Size()
 		for i := 0; i < size; i++ {
-			curr := queue.Pop().(string)
+			curr := queue.Pop()
 			if curr == goal {
-				return rslt		
+				return rslt
 			}
 
 			// 寻找当前状态0的位置
@@ -44,7 +44,7 @@ func slidingPuzzle(board [][]int) int {
 				if temp[i] == byte('0') {
 					idx = i
 					break
-				} 
+				}
 			}
 
 			// 通过查表遍历交换
