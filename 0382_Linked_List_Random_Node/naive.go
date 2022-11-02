@@ -3,21 +3,21 @@ package main
 import (
 	"fmt"
 	"math/rand"
-	"github.com/ZhengjunHUO/godtype"
+	"github.com/ZhengjunHUO/goutil/datastruct"
 )
 
 type Solution struct {
-	list	*godtype.ListNode    
+	list	*datastruct.LinkedList[int]
 }
 
-func Constructor(head *godtype.ListNode) Solution {
+func Constructor(head *datastruct.LinkedList[int]) Solution {
 	return Solution{
 		list: head,
 	}
 }
 
 func (this *Solution) GetRandom() int {
-	curr := this.list
+	curr := this.list.Head
 	rslt, i := 0, 0
 
 	// 遍历链表
@@ -26,7 +26,7 @@ func (this *Solution) GetRandom() int {
 		// 每一轮以1/i的概率来更新结果
 		// 最终结果能够达成uniform random
 		if rand.Intn(i)	== 0 {
-			rslt = curr.Val.(int)
+			rslt = curr.Val
 		}
 		curr = curr.Next
 	}
@@ -36,7 +36,7 @@ func (this *Solution) GetRandom() int {
 
 
 func main() {
-	obj := Constructor(godtype.NewList([]int{1,2,3,4,5}))
+	obj := Constructor(datastruct.NewLinkedList([]int{1,2,3,4,5}))
 	dict := make(map[int]int)
 	for i:=0; i<10000; i++ {
 		dict[obj.GetRandom()]++

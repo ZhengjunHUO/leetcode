@@ -1,19 +1,20 @@
 package main
 
 import (
-	"github.com/ZhengjunHUO/godtype"
+	"github.com/ZhengjunHUO/goutil/datastruct"
 )
 
-func mergeTwoLists(l1 *godtype.ListNode, l2 *godtype.ListNode) *godtype.ListNode {
-	curr := &godtype.ListNode{nil, nil}
+func mergeTwoLists(list1 *datastruct.LinkedList[int], list2 *datastruct.LinkedList[int]) *datastruct.LinkedList[int] {
+	curr := &datastruct.LinkedListNode[int]{0, nil}
 	rslt := curr
 
+	l1, l2 := list1.Head, list2.Head
 	for l1 != nil && l2 != nil {
-		if l1.Val.(int) < l2.Val.(int) {
-			curr.Next = &godtype.ListNode{l1.Val, nil}
+		if l1.Val < l2.Val {
+			curr.Next = &datastruct.LinkedListNode[int]{l1.Val, nil}
 			l1 = l1.Next
 		}else{
-			curr.Next = &godtype.ListNode{l2.Val, nil}
+			curr.Next = &datastruct.LinkedListNode[int]{l2.Val, nil}
 			l2 = l2.Next
 		}
 		curr = curr.Next
@@ -27,11 +28,11 @@ func mergeTwoLists(l1 *godtype.ListNode, l2 *godtype.ListNode) *godtype.ListNode
 		curr.Next = l2
 	}
 
-   	return rslt.Next
+	return &datastruct.LinkedList[int]{Head: rslt.Next, Tail: curr.Next}
 }
 
 func main() {
-	godtype.PrintList(mergeTwoLists(godtype.NewList([]int{1,2,4}), godtype.NewList([]int{1,3,4})))
-	godtype.PrintList(mergeTwoLists(godtype.NewList([]int{}), godtype.NewList([]int{})))
-	godtype.PrintList(mergeTwoLists(godtype.NewList([]int{}), godtype.NewList([]int{0})))
+	mergeTwoLists(datastruct.NewLinkedList([]int{1,2,4}), datastruct.NewLinkedList([]int{1,3,4})).PrintAll()
+	mergeTwoLists(datastruct.NewLinkedList([]int{}), datastruct.NewLinkedList([]int{})).PrintAll()
+	mergeTwoLists(datastruct.NewLinkedList([]int{}), datastruct.NewLinkedList([]int{0})).PrintAll()
 }
