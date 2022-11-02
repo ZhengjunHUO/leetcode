@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/ZhengjunHUO/godtype"
+	"github.com/ZhengjunHUO/goutil/datastruct"
 )
 
 type Node struct {
@@ -12,26 +12,26 @@ type Node struct {
 
 // 同0239_Sliding_Window_Maximum一样需要使用deque
 func maxResult(nums []int, k int) int {
-	dq := godtype.NewDeque()
+	dq := datastruct.NewDeque([]Node{})
 	curmax := 0
 
 	for i:=0; i<len(nums); i++ {
 		if dq.IsEmpty() {
-			curmax = nums[i]	
+			curmax = nums[i]
 		}else{
-			curmax = nums[i] + dq.PeekFirst().(Node).Value
+			curmax = nums[i] + dq.PeekFirst().Value
 		}
 
-		for !dq.IsEmpty() && dq.PeekLast().(Node).Value < curmax {
+		for !dq.IsEmpty() && dq.PeekLast().Value < curmax {
 			dq.PopLast()
 		}
 
 		dq.PushLast(Node{i, curmax})
 
-		if dq.PeekFirst().(Node).Index <= i - k {
+		if dq.PeekFirst().Index <= i - k {
 			dq.PopFirst()
 		}
-	}	
+	}
 
 	return curmax
 }

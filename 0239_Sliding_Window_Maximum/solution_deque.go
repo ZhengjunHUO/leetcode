@@ -2,26 +2,26 @@ package main
 
 import (
 	"fmt"
-	"github.com/ZhengjunHUO/godtype"
+	"github.com/ZhengjunHUO/goutil/datastruct"
 )
 
 func maxSlidingWindow(nums []int, k int) []int {
-	n := len(nums) 
+	n := len(nums)
 
 	// 新元素在尾部加入，头部为当前范围内的最大值
 	// 保存的值为index
-	dq := godtype.NewDeque()
+	dq := datastruct.NewDeque([]int{})
 	rslt := make([]int, n-k+1)
-	rsltIdx := 0    
+	rsltIdx := 0
 
 	for i := range nums{
 		// 去除已经落在范围外的局部最大值（检查最大值的index）
-		for (!dq.IsEmpty()) && (dq.PeekFirst().(int) < i - k + 1) {
+		for (!dq.IsEmpty()) && (dq.PeekFirst() < i - k + 1) {
 			dq.PopFirst()
-		}	
+		}
 
 		// 从尾向头去除小于当前nums[i]值的队列元素（检查index对应的值）
-		for (!dq.IsEmpty()) && (nums[dq.PeekLast().(int)]) < nums[i] {
+		for (!dq.IsEmpty()) && (nums[dq.PeekLast()]) < nums[i] {
 			dq.PopLast()
 		}
 
@@ -29,12 +29,12 @@ func maxSlidingWindow(nums []int, k int) []int {
 		dq.PushLast(i)
 		if i >= k - 1 {
 			// 头部为局部最大值的index，将对应数值保存至结果
-			rslt[rsltIdx] = nums[dq.PeekFirst().(int)]
+			rslt[rsltIdx] = nums[dq.PeekFirst()]
 			rsltIdx += 1
 		}
 	}
 
-	return rslt	
+	return rslt
 }
 
 func main() {

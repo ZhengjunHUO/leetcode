@@ -3,11 +3,11 @@ package main
 import (
 	"fmt"
 	"strings"
-	"github.com/ZhengjunHUO/godtype"
+	"github.com/ZhengjunHUO/goutil/datastruct"
 )
 
 func simplifyPath(path string) string {
-	deque := godtype.NewDeque()
+	deque := datastruct.NewDeque([]string{})
 	dirs := strings.Split(path, "/")
 
 	for _,v := range dirs {
@@ -17,14 +17,14 @@ func simplifyPath(path string) string {
 			case "..":
 				deque.PopLast()
 			default:
-				deque.PushLast(v)			
+				deque.PushLast(v)
 		}
 	}
 
 	rslt := ""
 	for !deque.IsEmpty(){
 		rslt += "/"
-		rslt += deque.PopFirst().(string)
+		rslt += deque.PopFirst()
 	}
 
 	if rslt == "" {
