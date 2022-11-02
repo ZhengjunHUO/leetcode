@@ -1,8 +1,8 @@
 github.com/ZhengjunHUO/godtype v0.0.0-20220307134544-24d0956a7dce h1:FCVXVpztnJ0oLSgIpb6cpWKw+E8W0kbIhfdK/8Gmkgk=
 github.com/ZhengjunHUO/godtype v0.0.0-20220307134544-24d0956a7dce/go.mod h1:kWLCUCjKWDNYJquJq4VQA16pRVtSgcsAWRQ0NyS+CfY=
-github.com/ZhengjunHUO/goutil v0.0.0-20221031171249-3ab459eea2fd h1:WHs9McFIua13V7O5n2NFtpWj/NOEuhhLxaomlwAgmLU=
-github.com/ZhengjunHUO/goutil v0.0.0-20221031171249-3ab459eea2fd/go.mod h1:9dorus3XkpGeiSJMdEjUqUCgA2jokyVRyGHFw55BQWw=
-github.com/ZhengjunHUO/gtoolkit v0.0.0-20220109104721-44e8f7dd97c9 h1:fUOk6DsOUpzPKr8aNW1M53evEBdUaaBNf0IlBZeLHYY=
-github.com/ZhengjunHUO/gtoolkit v0.0.0-20220109104721-44e8f7dd97c9/go.mod h1:cTA/r4x2Yy6owNMqTc9K52NaFC7y6xMlhTIl90GRUoo=
-golang.org/x/exp v0.0.0-20221026153819-32f3d567a233 h1:9bNbSKT4RPLEzne0Xh1v3NaNecsa1DKjkOuTbY6V9rI=
-golang.org/x/exp v0.0.0-20221026153819-32f3d567a233/go.mod h1:CxIveKay+FTh1D0yPZemJVgC/95VzuuOLq5Qi4xnoYc=
+github.com/ZhengjunHUO/goutil v0.0.0-20221102073518-13fb1712d772 h1:GtKyDJUQD/EX8jIFeGECGeO707ZchohA7SY3x0LXUuw=
+github.com/ZhengjunHUO/goutil v0.0.0-20221102073518-13fb1712d772/go.mod h1:9dorus3XkpGeiSJMdEjUqUCgA2jokyVRyGHFw55BQWw=
+github.com/ZhengjunHUO/gtoolkit v0.0.0-20220523190847-6013663ee3ca h1:yXqGOP2C847+jtDZ1Og/cEMVKAfyZlTrdHLsxk8Rw+M=
+github.com/ZhengjunHUO/gtoolkit v0.0.0-20220523190847-6013663ee3ca/go.mod h1:cTA/r4x2Yy6owNMqTc9K52NaFC7y6xMlhTIl90GRUoo=
+golang.org/x/exp v0.0.0-20221031165847-c99f073a8326 h1:QfTh0HpN6hlw6D3vu8DAwC8pBIwikq0AI1evdm+FksE=
+golang.org/x/exp v0.0.0-20221031165847-c99f073a8326/go.mod h1:CxIveKay+FTh1D0yPZemJVgC/95VzuuOLq5Qi4xnoYc=

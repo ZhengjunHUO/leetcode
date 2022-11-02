@@ -4,8 +4,8 @@ go 1.18
 
 require (
 	github.com/ZhengjunHUO/godtype v0.0.0-20220307134544-24d0956a7dce
-	github.com/ZhengjunHUO/goutil v0.0.0-20221031171249-3ab459eea2fd
-	github.com/ZhengjunHUO/gtoolkit v0.0.0-20220109104721-44e8f7dd97c9
+	github.com/ZhengjunHUO/goutil v0.0.0-20221102073518-13fb1712d772
+	github.com/ZhengjunHUO/gtoolkit v0.0.0-20220523190847-6013663ee3ca
 )
 
-require golang.org/x/exp v0.0.0-20221026153819-32f3d567a233 // indirect
+require golang.org/x/exp v0.0.0-20221031165847-c99f073a8326 // indirect
