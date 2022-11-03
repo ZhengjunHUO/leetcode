@@ -1,21 +1,22 @@
 package main
 
 import (
-	"github.com/ZhengjunHUO/godtype"
+	"github.com/ZhengjunHUO/goutil/datastruct"
 )
 
 
-func removeNthFromEnd(head *godtype.ListNode, n int) *godtype.ListNode {
+func removeNthFromEnd(list *datastruct.LinkedList[int], n int) *datastruct.LinkedList[int] {
+	head := list.Head
 	if head.Next == nil {
-		return nil
+		return &datastruct.LinkedList[int]{}
 	}
 
 	curr := head
-	mark := &godtype.ListNode{}
+	mark := &datastruct.LinkedListNode[int]{}
 	delay := 0 - n
 
 	for curr.Next != nil {
-		delay++	
+		delay++
 		if delay == 0 {
 			mark = head
 		}
@@ -29,8 +30,8 @@ func removeNthFromEnd(head *godtype.ListNode, n int) *godtype.ListNode {
 	if mark.Next != nil {
 		mark.Next = mark.Next.Next
 	}
-	
-	return head
+
+	return list
 }
 
 func main() {
@@ -38,7 +39,7 @@ func main() {
 	n := []int{2, 1, 1}
 
 	for i,v := range l {
-		list := godtype.NewList(v)
-		godtype.PrintList(removeNthFromEnd(list, n[i]))
+		list := datastruct.NewLinkedList[int](v)
+		removeNthFromEnd(list, n[i]).PrintAll()
 	}
 }

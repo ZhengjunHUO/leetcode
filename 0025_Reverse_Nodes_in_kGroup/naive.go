@@ -1,13 +1,14 @@
 package main
 
 import (
-	"github.com/ZhengjunHUO/godtype"
+	"fmt"
+	"github.com/ZhengjunHUO/goutil/datastruct"
 )
 
-var endNext *godtype.ListNode
+var endNext *datastruct.LinkedListNode[int]
 
 // 转置当前链表的前k个元素，类似func见0092 naive2.go
-func reverseK(curr *godtype.ListNode, k int) *godtype.ListNode {
+func reverseK(curr *datastruct.LinkedListNode[int], k int) *datastruct.LinkedListNode[int] {
 	// 如果当前链表不满k个元素返回nil
 	if curr == nil {
 		return nil
@@ -23,14 +24,14 @@ func reverseK(curr *godtype.ListNode, k int) *godtype.ListNode {
 	if end == nil {
 		return nil
 	}
-	
+
 	curr.Next.Next = curr
 	curr.Next = endNext
-		
+
 	return end
 }
 
-func reverseKGroup(head *godtype.ListNode, k int) *godtype.ListNode {
+func reverseKGroup(head *datastruct.LinkedListNode[int], k int) *datastruct.LinkedListNode[int] {
 	curr := head
 	// 返回点
 	begin := reverseK(head, k)
@@ -54,8 +55,19 @@ func reverseKGroup(head *godtype.ListNode, k int) *godtype.ListNode {
 func main() {
 	ks := []int{2,3,1}
 	for _, k := range ks {
-		godtype.PrintList(reverseKGroup(godtype.NewList([]int{1,2,3,4,5}), k))
+		list := datastruct.NewLinkedList[int]([]int{1,2,3,4,5})
+		rslt := reverseKGroup(list.Head, k)
+		for rslt != nil {
+			fmt.Printf("%v, ", rslt.Val)
+			rslt = rslt.Next
+		}
+		fmt.Println()
 	}
 
-	godtype.PrintList(reverseKGroup(godtype.NewList([]int{1}), 1))
+	rslt := reverseKGroup(datastruct.NewLinkedList([]int{1}).Head, 1)
+	for rslt != nil {
+		fmt.Printf("%v, ", rslt.Val)
+		rslt = rslt.Next
+	}
+	fmt.Println()
 }
