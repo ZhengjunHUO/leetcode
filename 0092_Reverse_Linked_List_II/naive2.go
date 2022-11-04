@@ -1,13 +1,14 @@
 package main
 
 import (
-	"github.com/ZhengjunHUO/godtype"
+	"fmt"
+	"github.com/ZhengjunHUO/goutil/datastruct"
 )
 
-var endNext *godtype.ListNode
+var endNext *datastruct.LinkedListNode[int]
 
 // 转置当前链表的前rest个元素
-func reverse(curr *godtype.ListNode, rest int) *godtype.ListNode {
+func reverse(curr *datastruct.LinkedListNode[int], rest int) *datastruct.LinkedListNode[int] {
 	// 区间尾部，这个结点将会被层层return到调用入口
 	if rest == 1 {
 		endNext = curr.Next
@@ -26,7 +27,7 @@ func reverse(curr *godtype.ListNode, rest int) *godtype.ListNode {
 	return end
 }
 
-func reverseBetween(head *godtype.ListNode, left int, right int) *godtype.ListNode {
+func reverseBetween(head *datastruct.LinkedListNode[int], left int, right int) *datastruct.LinkedListNode[int] {
 	// 区间开始处，进入reverse()，功能为转置链表前right个元素
 	if left == 1 {
 		return reverse(head, right)
@@ -43,6 +44,12 @@ func main() {
 	rights := []int{4, 1}
 
 	for i := range lists {
-		godtype.PrintList(reverseBetween(godtype.NewList(lists[i]), lefts[i], rights[i]))
+		list := datastruct.NewLinkedList[int](lists[i])
+		rslt := reverseBetween(list.Head, lefts[i], rights[i])
+		for rslt != nil {
+			fmt.Printf("%v, ", rslt.Val)
+			rslt = rslt.Next
+		}
+		fmt.Println()
 	}
 }

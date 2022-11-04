@@ -1,11 +1,12 @@
 package main
 
 import (
-	"github.com/ZhengjunHUO/godtype"
+	"fmt"
+	"github.com/ZhengjunHUO/goutil/datastruct"
 )
 
 // 修改指针，跳过重复结点，有内存泄漏?
-func deleteDuplicates(head *godtype.ListNode) *godtype.ListNode {
+func deleteDuplicates(head *datastruct.LinkedListNode[int]) *datastruct.LinkedListNode[int] {
 	p1, p2 := head, head
 
 	for p2 != nil {
@@ -19,7 +20,7 @@ func deleteDuplicates(head *godtype.ListNode) *godtype.ListNode {
 
 	prev, next := p1, p1.Next
 	for next != nil {
-		prev.Next = nil	
+		prev.Next = nil
 		prev, next = next, next.Next
 	}
 
@@ -29,7 +30,12 @@ func deleteDuplicates(head *godtype.ListNode) *godtype.ListNode {
 func main() {
 	lists := [][]int{[]int{1,1,2}, []int{1,1,2,3,3}}
 	for i := range lists {
-		godtype.PrintList(deleteDuplicates(godtype.NewList(lists[i])))
+		list := datastruct.NewLinkedList[int](lists[i])
+		rslt := deleteDuplicates(list.Head)
+		for rslt != nil {
+			fmt.Printf("%v, ", rslt.Val)
+			rslt = rslt.Next
+		}
+		fmt.Println()
 	}
-	
 }
