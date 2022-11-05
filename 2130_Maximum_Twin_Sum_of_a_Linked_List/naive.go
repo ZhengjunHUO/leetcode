@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/ZhengjunHUO/godtype"
+	"github.com/ZhengjunHUO/goutil/datastruct"
 )
 
 func max(a, b int) int {
@@ -13,16 +13,16 @@ func max(a, b int) int {
 	return b
 }
 
-func pairSum(head *godtype.ListNode) int {
+func pairSum(head *datastruct.LinkedListNode[int]) int {
 	// 如果只有两个节点，直接返回和
 	if head.Next.Next == nil {
-		return head.Val.(int) + head.Next.Val.(int)
+		return head.Val + head.Next.Val
 	}
 
 	// fast每回合往前走两步，slow每回合移动一格
 	// prev, next记录slow的前一个和后一个节点
 	slow, next, fast := head, head.Next, head
-	var prev *godtype.ListNode
+	var prev *datastruct.LinkedListNode[int]
 	var ret int
 
 	// 快指针走完链表时，慢指针会正好停在中间偏右的位置(偶数个节点)
@@ -45,7 +45,7 @@ func pairSum(head *godtype.ListNode) int {
 	// 同时遍历两边
 	for left != nil && slow != nil {
 		//fmt.Printf("%d + %d\n", left.Val.(int), slow.Val.(int))
-		ret = max(ret, left.Val.(int)+slow.Val.(int))
+		ret = max(ret, left.Val +slow.Val)
 		left, slow = left.Next, slow.Next
 	}
 
@@ -55,6 +55,6 @@ func pairSum(head *godtype.ListNode) int {
 func main() {
 	heads := [][]int{[]int{5,4,2,1}, []int{4,2,2,3}, []int{1,100000}}
 	for i := range heads {
-		fmt.Println(pairSum(godtype.NewList(heads[i])))
+		fmt.Println(pairSum(datastruct.NewLinkedList[int](heads[i]).Head))
 	}
 }

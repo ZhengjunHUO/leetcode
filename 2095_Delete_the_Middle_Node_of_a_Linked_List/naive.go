@@ -1,15 +1,16 @@
 package main
 
 import (
-	"github.com/ZhengjunHUO/godtype"
+	"fmt"
+	"github.com/ZhengjunHUO/goutil/datastruct"
 )
 
-func deleteMiddle(head *godtype.ListNode) *godtype.ListNode {
+func deleteMiddle(head *datastruct.LinkedListNode[int]) *datastruct.LinkedListNode[int] {
 	if head.Next == nil {
 		return nil
 	}
 
-	slow, fast, prev := head, head, &godtype.ListNode{}
+	slow, fast, prev := head, head, &datastruct.LinkedListNode[int]{}
 
 	// when the loop is stop, slow is in the middle of the the list
 	for fast != nil && fast.Next != nil {
@@ -27,6 +28,11 @@ func deleteMiddle(head *godtype.ListNode) *godtype.ListNode {
 func main() {
 	trees := [][]int{[]int{1,3,4,7,1,2,6}, []int{1,2,3,4}, []int{2,1}}
 	for i := range trees {
-		godtype.PrintList(deleteMiddle(godtype.NewList(trees[i])))
+		rslt := deleteMiddle(datastruct.NewLinkedList[int](trees[i]).Head)
+		for rslt != nil {
+			fmt.Printf("%v, ", rslt.Val)
+			rslt = rslt.Next
+		}
+		fmt.Println()
 	}
 }
