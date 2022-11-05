@@ -2,12 +2,12 @@ package main
 
 import (
 	"fmt"
-	"github.com/ZhengjunHUO/godtype"
+	"github.com/ZhengjunHUO/goutil/datastruct"
 )
 
-func reverse(head *godtype.ListNode) *godtype.ListNode {
+func reverse(head *datastruct.LinkedListNode[int]) *datastruct.LinkedListNode[int] {
 	curr := head
-	var prev, next *godtype.ListNode
+	var prev, next *datastruct.LinkedListNode[int]
 
 	for curr != nil {
 		next = curr.Next
@@ -18,9 +18,9 @@ func reverse(head *godtype.ListNode) *godtype.ListNode {
 	return prev
 }
 
-func isPalindrome(head *godtype.ListNode) bool {
+func isPalindrome(head *datastruct.LinkedListNode[int]) bool {
 	// 寻找链表中点，参照0876
-	mid, fast := head, head	
+	mid, fast := head, head
 	// 对应长度为偶数和奇数两种情况
 	for fast != nil && fast.Next != nil {
 		mid, fast = mid.Next, fast.Next.Next
@@ -38,7 +38,7 @@ func isPalindrome(head *godtype.ListNode) bool {
 		// 两头向中间逐个比较
 		if l.Val != r.Val {
 			return false
-		}		
+		}
 		l, r = l.Next, r.Next
 	}
 
@@ -46,8 +46,8 @@ func isPalindrome(head *godtype.ListNode) bool {
 }
 
 func main() {
-	fmt.Println(isPalindrome(godtype.NewList([]int{1,2,2,1})))
-	fmt.Println(isPalindrome(godtype.NewList([]int{1,2})))
-	fmt.Println(isPalindrome(godtype.NewList([]int{1,2,3,4,5})))
-	fmt.Println(isPalindrome(godtype.NewList([]int{1,2,3,2,1})))
+	ls := [][]int{[]int{1,2,2,1},[]int{1,2},[]int{1,2,3,4,5},[]int{1,2,3,2,1}}
+	for i := range ls {
+		fmt.Println(isPalindrome(datastruct.NewLinkedList(ls[i]).Head))
+	}
 }

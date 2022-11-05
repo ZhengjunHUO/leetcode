@@ -1,18 +1,19 @@
 package main
 
 import (
-	"github.com/ZhengjunHUO/godtype"
+	"fmt"
+	"github.com/ZhengjunHUO/goutil/datastruct"
 )
 
-func removeElements(head *godtype.ListNode, val int) *godtype.ListNode {
-	dummy := &godtype.ListNode{0, head}
+func removeElements(head *datastruct.LinkedListNode[int], val int) *datastruct.LinkedListNode[int] {
+	dummy := &datastruct.LinkedListNode[int]{0, head}
 	prev, curr := dummy, head
 
 	for curr != nil {
-		if curr.Val.(int) == val {
-			curr = curr.Next	
+		if curr.Val == val {
+			curr = curr.Next
 			prev.Next = curr
-		}else{		
+		}else{
 			curr, prev = curr.Next, curr
 		}
 	}
@@ -24,6 +25,11 @@ func main() {
 	lists := [][]int{[]int{1,2,6,3,4,5,6}, []int{7,7,7,7}, []int{}}
 	vals := []int{6,7,1}
 	for i := range lists {
-		godtype.PrintList(removeElements(godtype.NewList(lists[i]), vals[i]))
+		rslt := removeElements(datastruct.NewLinkedList[int](lists[i]).Head, vals[i])
+		for rslt != nil {
+			fmt.Printf("%v, ", rslt.Val)
+			rslt = rslt.Next
+		}
+		fmt.Println()
 	}
 }

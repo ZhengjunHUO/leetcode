@@ -1,11 +1,12 @@
 package main
 
 import (
-	"github.com/ZhengjunHUO/godtype"
+	"fmt"
+	"github.com/ZhengjunHUO/goutil/datastruct"
 )
 
-func reverse(node1, node2 *godtype.ListNode) *godtype.ListNode {
-	var rslt *godtype.ListNode
+func reverse(node1, node2 *datastruct.LinkedListNode[int]) *datastruct.LinkedListNode[int] {
+	var rslt *datastruct.LinkedListNode[int]
 	if node2.Next != nil {
 		rslt = reverse(node2, node2.Next)
 	}else{
@@ -16,7 +17,7 @@ func reverse(node1, node2 *godtype.ListNode) *godtype.ListNode {
 	return rslt
 }
 
-func reverseList(head *godtype.ListNode) *godtype.ListNode {
+func reverseList(head *datastruct.LinkedListNode[int]) *datastruct.LinkedListNode[int] {
 	if head == nil || head.Next == nil {
 		return head
 	}
@@ -28,6 +29,11 @@ func reverseList(head *godtype.ListNode) *godtype.ListNode {
 func main() {
 	lists := [][]int{[]int{1,2,3,4,5}, []int{1,2}, []int{}}
 	for _, v := range lists {
-		godtype.PrintList(reverseList(godtype.NewList(v)))
+		rslt := reverseList(datastruct.NewLinkedList[int](v).Head)
+		for rslt != nil {
+			fmt.Printf("%v, ", rslt.Val)
+			rslt = rslt.Next
+		}
+		fmt.Println()
 	}
 }
