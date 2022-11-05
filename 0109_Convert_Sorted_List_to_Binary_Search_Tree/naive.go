@@ -1,10 +1,11 @@
 package main
 
 import (
+	"github.com/ZhengjunHUO/goutil/datastruct"
 	"github.com/ZhengjunHUO/godtype"
 )
 
-var curr *godtype.ListNode
+var curr *datastruct.LinkedListNode[int]
 
 func build(l ,r int) *godtype.TreeNode {
 	if l > r {
@@ -28,7 +29,7 @@ func build(l ,r int) *godtype.TreeNode {
 	return this
 }
 
-func sortedListToBST(head *godtype.ListNode) *godtype.TreeNode {
+func sortedListToBST(head *datastruct.LinkedListNode[int]) *godtype.TreeNode {
 	if head == nil {
 		return nil
 	}
@@ -36,7 +37,7 @@ func sortedListToBST(head *godtype.ListNode) *godtype.TreeNode {
 	size, temp := 0, head
 	for temp != nil {
 		size++
-		temp = temp.Next	
+		temp = temp.Next
 	}
 
 	curr = head
@@ -47,7 +48,6 @@ func sortedListToBST(head *godtype.ListNode) *godtype.TreeNode {
 func main() {
 	heads := [][]int{[]int{-10,-3,0,5,9}, []int{}, []int{0}, []int{1,3}}
 	for i := range heads {
-		godtype.PrintBTreeBFS(sortedListToBST(godtype.NewList(heads[i])))
-	} 
-	
+		godtype.PrintBTreeBFS(sortedListToBST(datastruct.NewLinkedList[int](heads[i]).Head))
+	}
 }

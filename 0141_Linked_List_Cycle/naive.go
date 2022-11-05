@@ -2,13 +2,13 @@ package main
 
 import (
 	"fmt"
-	"github.com/ZhengjunHUO/godtype"
+	"github.com/ZhengjunHUO/goutil/datastruct"
 )
 
 // fast每次向前走两格，slow走一格，如果有环的话两者会相遇
-func hasCycle(head *godtype.ListNode) bool {
+func hasCycle(head *datastruct.LinkedListNode[int]) bool {
 	fast, slow := head, head
-	
+
 	for fast != nil && fast.Next != nil {
 		fast = fast.Next.Next
 		slow = slow.Next
@@ -22,17 +22,17 @@ func hasCycle(head *godtype.ListNode) bool {
 }
 
 func main() {
-	list := godtype.NewList([]int{3,2,0,-4})
-	target := list
+	list := datastruct.NewLinkedList[int]([]int{3,2,0,-4})
+	target := list.Head
 	for target.Next != nil {
-		target = target.Next	
+		target = target.Next
 	}
-	target.Next = list.Next
-	fmt.Println(hasCycle(list))
+	target.Next = list.Head.Next
+	fmt.Println(hasCycle(list.Head))
 
-	list1 := godtype.NewList([]int{1,2})
-	list1.Next.Next = list1
-	fmt.Println(hasCycle(list1))
+	list1 := datastruct.NewLinkedList[int]([]int{1,2})
+	list1.Head.Next.Next = list1.Head
+	fmt.Println(hasCycle(list1.Head))
 
-	fmt.Println(hasCycle(godtype.NewList([]int{1})))
+	fmt.Println(hasCycle(datastruct.NewLinkedList[int]([]int{1}).Head))
 }

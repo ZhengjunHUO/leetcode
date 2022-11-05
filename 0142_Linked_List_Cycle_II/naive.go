@@ -2,12 +2,12 @@ package main
 
 import (
 	"fmt"
-	"github.com/ZhengjunHUO/godtype"
+	"github.com/ZhengjunHUO/goutil/datastruct"
 )
 
-func detectCycle(head *godtype.ListNode) *godtype.ListNode {
+func detectCycle(head *datastruct.LinkedListNode[int]) *datastruct.LinkedListNode[int] {
 	fast, slow := head, head
-	
+
 	for fast != nil && fast.Next != nil {
 		fast = fast.Next.Next
 		slow = slow.Next
@@ -26,20 +26,18 @@ func detectCycle(head *godtype.ListNode) *godtype.ListNode {
 	return nil
 }
 
-    
-
 func main() {
-	list := godtype.NewList([]int{3,2,0,-4})
-	target := list
+	list := datastruct.NewLinkedList[int]([]int{3,2,0,-4})
+	target := list.Head
 	for target.Next != nil {
-		target = target.Next	
+		target = target.Next
 	}
-	target.Next = list.Next
-	fmt.Println(detectCycle(list).Val)
+	target.Next = list.Head.Next
+	fmt.Println(detectCycle(list.Head).Val)
 
-	list1 := godtype.NewList([]int{1,2})
-	list1.Next.Next = list1
-	fmt.Println(detectCycle(list1).Val)
+	list1 := datastruct.NewLinkedList[int]([]int{1,2})
+	list1.Head.Next.Next = list1.Head
+	fmt.Println(detectCycle(list1.Head).Val)
 
-	fmt.Println(detectCycle(godtype.NewList([]int{1})))
+	fmt.Println(detectCycle(datastruct.NewLinkedList[int]([]int{1}).Head))
 }
