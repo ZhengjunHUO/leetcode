@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/ZhengjunHUO/godtype"
+	"github.com/ZhengjunHUO/goutil/datastruct"
 )
 
 func max(a, b int) int {
@@ -14,17 +14,17 @@ func max(a, b int) int {
 }
 
 func maximumDifference(nums []int) int {
-	mono := godtype.NewStack()
+	mono := datastruct.NewStack[int]([]int{})
 	ret := -1
 
 	for i := range nums {
-		for !mono.IsEmpty() && nums[i] <= mono.Peek().(int) {
+		for !mono.IsEmpty() && nums[i] <= mono.Peek() {
 			mono.Pop()
 		}
 
 		mono.Push(nums[i])
 		if mono.Size() > 1 {
-			ret = max(ret, nums[i] - mono.Elems[0].(int))
+			ret = max(ret, nums[i] - mono.Elems[0])
 		}
 	}
 
