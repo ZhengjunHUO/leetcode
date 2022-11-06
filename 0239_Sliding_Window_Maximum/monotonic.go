@@ -2,13 +2,13 @@ package main
 
 import (
 	"fmt"
-	"github.com/ZhengjunHUO/godtype"
+	"github.com/ZhengjunHUO/goutil/datastruct"
 )
 
 func maxSlidingWindow(nums []int, k int) []int {
-	n := len(nums) 
+	n := len(nums)
 
-	mq := godtype.NewMonotonicQueue()
+	mq := datastruct.NewMonotonicQueue[int]()
 	rslt := make([]int, n-k+1)
 
 	for i := range nums{
@@ -18,11 +18,11 @@ func maxSlidingWindow(nums []int, k int) []int {
 		}
 
 		mq.Push(nums[i])
-		rslt[i-k+1] = mq.Max().(int)
+		rslt[i-k+1] = mq.Max()
 		mq.Pop(nums[i-k+1])
 	}
 
-	return rslt	
+	return rslt
 }
 
 func main() {
