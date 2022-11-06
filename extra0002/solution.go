@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 	"strconv"
-	"github.com/ZhengjunHUO/godtype"
+	zstr "github.com/ZhengjunHUO/goutil/strings"
 )
 
 func find_mapping(ref_seq string, pdb_seq [][2]string) {
@@ -43,7 +43,7 @@ func find_mapping(ref_seq string, pdb_seq [][2]string) {
 	pdb_seq_idx := 0
 	for i := range patterns {
 		//mapped_idx := strings.Index(ref_seq, patterns[i])
-		pf := godtype.NewPatternFinder(patterns[i])
+		pf := zstr.NewPatternFinder(patterns[i])
 		mapped_idxs := pf.FindIn(ref_seq)
 		mapped_idx := mapped_idxs[0]
 

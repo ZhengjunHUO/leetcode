@@ -2,15 +2,15 @@ package main
 
 import (
 	"fmt"
-	"github.com/ZhengjunHUO/godtype"
+	zstr "github.com/ZhengjunHUO/goutil/strings"
 	"sort"
 )
 
 func wordBreak(s string, wordDict []string) bool {
 	// 对wordDict中所有pattern计算LPS表
-	pf := make([]*godtype.PatternFinder, len(wordDict))
+	pf := make([]*zstr.PatternFinder, len(wordDict))
 	for i := range wordDict {
-		pf[i] = godtype.NewPatternFinder(wordDict[i]) 	
+		pf[i] = zstr.NewPatternFinder(wordDict[i])
 	}
 
 	// 对每个pattern使用KMP算法找出所有匹配
@@ -18,7 +18,7 @@ func wordBreak(s string, wordDict []string) bool {
 	for i := range pf {
 		if rslt := pf[i].FindIn(s); len(rslt) > 0 {
 			for j := range rslt {
-				rgs = append(rgs, [2]int{rslt[j], rslt[j] + len(pf[i].Pattern()) - 1})
+				rgs = append(rgs, [2]int{rslt[j], rslt[j] + len(pf[i].Pattern) - 1})
 			}
 		}
 
@@ -50,7 +50,7 @@ func wordBreak(s string, wordDict []string) bool {
 			table[rgs[i][1]+1] = table[rgs[i][0]]
 		}
 	}
-	
+
 	//fmt.Println(table)
 	return table[len(table)-1] == 1
 }

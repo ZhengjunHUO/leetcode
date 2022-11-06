@@ -2,14 +2,14 @@ package main
 
 import (
 	"fmt"
-	"github.com/ZhengjunHUO/godtype"
+	zstr "github.com/ZhengjunHUO/goutil/strings"
 )
 
 func wordBreak(s string, wordDict []string) bool {
 	// 使用KMP算法，对wordDict中所有pattern计算LPS表
-	pf := make([]*godtype.PatternFinder, len(wordDict))
+	pf := make([]*zstr.PatternFinder, len(wordDict))
 	for i := range wordDict {
-		pf[i] = godtype.NewPatternFinder(wordDict[i]) 	
+		pf[i] = zstr.NewPatternFinder(wordDict[i])
 	}
 
 	// 存放使用pattern可以拼凑出的子字符串的起始index, 在开始padding一个空格
@@ -24,7 +24,7 @@ func wordBreak(s string, wordDict []string) bool {
 			if rslt := pf[j].FindIn(s[:i+1]); len(rslt) > 0 {
 				// 如果pattern存在于当前slice，记录起点终点
 				beginAt := rslt[len(rslt)-1]
-				endAt := beginAt + len(pf[j].Pattern()) - 1
+				endAt := beginAt + len(pf[j].Pattern) - 1
 				//fmt.Printf("%v find in %s at %d to %d\n",string(pf[j].Pattern()), s[:i+1], beginAt, endAt)
 				// 观察起始index前一个格子的值，如果为-1则不能接上之前的子字符串
 				if table[beginAt] == -1 {

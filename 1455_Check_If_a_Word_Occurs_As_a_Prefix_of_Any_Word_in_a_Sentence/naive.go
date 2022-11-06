@@ -3,11 +3,11 @@ package main
 import (
 	"fmt"
 	"strings"
-	"github.com/ZhengjunHUO/godtype"
+	zstr "github.com/ZhengjunHUO/goutil/strings"
 )
 
 func isPrefixOfWord(sentence string, searchWord string) int {
-	pf := godtype.NewPatternFinder(searchWord)
+	pf := zstr.NewPatternFinder(searchWord)
 
 	str := strings.Split(sentence, " ")
 	for i := range str {
