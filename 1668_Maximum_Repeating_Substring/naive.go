@@ -2,11 +2,11 @@ package main
 
 import (
 	"fmt"
-	"github.com/ZhengjunHUO/godtype"
+	"github.com/ZhengjunHUO/goutil/strings"
 )
 
 func maxRepeating(sequence string, word string) int {
-	rslt := godtype.NewPatternFinder(word).FindIn(sequence)
+	rslt := strings.NewPatternFinder(word).FindIn(sequence)
 	if len(rslt) == 0 {
 		return 0
 	}

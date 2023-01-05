@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 	"github.com/ZhengjunHUO/gtoolkit"
-	"github.com/ZhengjunHUO/godtype"
+	"github.com/ZhengjunHUO/goutil/strings"
 )
 
 func canChoose(groups [][]int, nums []int) bool {
@@ -12,14 +12,14 @@ func canChoose(groups [][]int, nums []int) bool {
 	// 存储前一个subarray的在array中的index和其长度
 	var prevLocation []int
 	prevLen := 0
-	
+
 	for i := range groups {
 		// 将subarray转为字符串
 		pattern := gtoolkit.IntSliceToString(groups[i])
 		psize := len(pattern)
 
 		// 通过kmp算法找到其index
-		pf := godtype.NewPatternFinder(pattern)
+		pf := strings.NewPatternFinder(pattern)
 		location := pf.FindIn(target)
 
 		// 判断当前subarray是否在前一个subarray之后

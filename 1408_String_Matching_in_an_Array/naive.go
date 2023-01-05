@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/ZhengjunHUO/godtype"
+	"github.com/ZhengjunHUO/goutil/strings"
 )
 
 func stringMatching(words []string) []string {
@@ -14,7 +14,7 @@ func stringMatching(words []string) []string {
 	}
 
 	for i := range words {
-		if len(godtype.NewPatternFinder(words[i]).FindIn(s)) >= 2 {
+		if len(strings.NewPatternFinder(words[i]).FindIn(s)) >= 2 {
 			rslt = append(rslt, words[i])
 		}
 	}

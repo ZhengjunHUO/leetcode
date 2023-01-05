@@ -2,12 +2,12 @@ package main
 
 import (
 	"fmt"
-	"github.com/ZhengjunHUO/godtype"
+	"github.com/ZhengjunHUO/goutil/strings"
 )
 
 // 只需要判断是否含有"ba"这个pattern
 func checkString(s string) bool {
-	pf := godtype.NewPatternFinder("ba")
+	pf := strings.NewPatternFinder("ba")
 	rslt := pf.FindIn(s)
 
 	return len(rslt) == 0
