@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/ZhengjunHUO/godtype"
+	"github.com/ZhengjunHUO/goutil/strings"
 )
 
 func strStr(haystack string, needle string) int {
@@ -10,11 +10,11 @@ func strStr(haystack string, needle string) int {
 		return 0
 	}
 
-	pf := godtype.NewPatternFinder(needle)
+	pf := strings.NewPatternFinder(needle)
 	rslt := pf.FindIn(haystack)
 	if len(rslt) == 0 {
 		return -1
-	} 
+	}
 
 	return rslt[0]
 }

@@ -2,11 +2,11 @@ package main
 
 import (
 	"fmt"
-	"github.com/ZhengjunHUO/godtype"
+	"github.com/ZhengjunHUO/goutil/strings"
 )
 
 func longestPrefix(s string) string {
-	lps := godtype.NewPatternFinder(s).GetLPS()
+	lps := strings.NewPatternFinder(s).Lps
 
 	return s[:lps[len(lps)-1]]
 }

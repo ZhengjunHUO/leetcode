@@ -2,14 +2,14 @@ package main
 
 import (
 	"fmt"
-	"github.com/ZhengjunHUO/godtype"
+	"github.com/ZhengjunHUO/goutil/strings"
 )
 
 func rotateString(s string, goal string) bool {
-	pf := godtype.NewPatternFinder(goal)
+	pf := strings.NewPatternFinder(goal)
 
 	text := s+s
-	
+
 	return len(pf.FindIn(text)) != 0
 }
 
