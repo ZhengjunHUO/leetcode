@@ -2,12 +2,12 @@ package main
 
 import (
 	"fmt"
-	"github.com/ZhengjunHUO/godtype"
+	zgraph "github.com/ZhengjunHUO/goutil/graph"
 )
 
 func isBipartite(graph [][]int) bool {
 	n := len(graph)
-	uf := godtype.NewUF(n)
+	uf := zgraph.NewUF(n)
 
 	for i := range graph {
 		for j := range graph[i] {

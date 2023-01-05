@@ -2,11 +2,11 @@ package main
 
 import (
 	"fmt"
-	"github.com/ZhengjunHUO/godtype"
+	"github.com/ZhengjunHUO/goutil/graph"
 )
 
 // connect all the cells
-func buildUF(grid [][]int, uf *godtype.UF) {
+func buildUF(grid [][]int, uf *graph.UF) {
 	m, n := len(grid), len(grid[0])
 
 	for i:=0; i<m; i++ {
@@ -43,7 +43,7 @@ func buildUF(grid [][]int, uf *godtype.UF) {
 
 func countSubIslands(grid1 [][]int, grid2 [][]int) int {
 	m, n := len(grid1), len(grid1[0])
-	uf1, uf2 := godtype.NewUF(m*n), godtype.NewUF(m*n)
+	uf1, uf2 := graph.NewUF(m*n), graph.NewUF(m*n)
 
 	buildUF(grid1, uf1)
 	buildUF(grid2, uf2)

@@ -2,13 +2,13 @@ package main
 
 import (
 	"fmt"
-	"github.com/ZhengjunHUO/godtype"
+	"github.com/ZhengjunHUO/goutil/graph"
 )
 
 func main() {
-	uf := godtype.NewUF(10)
+	uf := graph.NewUF(10)
 	fmt.Println(uf.Count(), uf.Parent(), uf.Size())
-	
+
 	uf.Union(0,1)
 	uf.Union(0,6)
 	uf.Union(2,3)

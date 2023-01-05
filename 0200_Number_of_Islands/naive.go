@@ -2,14 +2,14 @@ package main
 
 import (
 	"fmt"
-	"github.com/ZhengjunHUO/godtype"
+	"github.com/ZhengjunHUO/goutil/graph"
 )
 
 func numIslands(grid [][]byte) int {
 	m, n := len(grid), len(grid[0])
-	uf := godtype.NewUF(m*n)
+	uf := graph.NewUF(m*n)
 	directions := [][]int{[]int{0,0}, []int{1,0}, []int{1,1}, []int{0,1}}
-	
+
 	// 使用一个2*2的框来遍历矩阵
 	for i := 0; i < m - 1; i++ {
 		for j := 0; j < n - 1; j++ {
@@ -30,10 +30,10 @@ func numIslands(grid [][]byte) int {
 			if grid[i][j] == '1' {
 				// 同一个岛的1指向同一个根结点
 				dict[uf.FindRoot(i*n+j)] += 1
-			}	
+			}
 		}
 	}
-	
+
 //	fmt.Println(dict)
 	return len(dict)
 }
