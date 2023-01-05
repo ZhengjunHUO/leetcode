@@ -2,12 +2,12 @@ package main
 
 import (
 	"fmt"
-	"github.com/ZhengjunHUO/godtype"
+	"github.com/ZhengjunHUO/goutil/graph"
 )
 
 func solve(board [][]byte) {
 	m, n := len(board), len(board[0])
-	uf := godtype.NewUF(m*n+1)
+	uf := graph.NewUF(m*n+1)
 	directions := [][]int{[]int{0, 1}, []int{1, 0}, []int{0, -1}, []int{-1, 0}}
 
 	notFlipRoot := m*n
@@ -18,8 +18,8 @@ func solve(board [][]byte) {
 		if board[i][n-1] == 'O' {
 			uf.Union(notFlipRoot, i*n + n-1)
 		}
-	}	
-	
+	}
+
 	for i := range board[0] {
 		if board[0][i] == 'O' {
 			uf.Union(notFlipRoot, i)
@@ -36,7 +36,7 @@ func solve(board [][]byte) {
 					x, y := i + directions[k][0], j + directions[k][1]
 					if board[x][y] == 'O' {
 						uf.Union(i*n+j, x*n+y)
-					} 
+					}
 				}
 			}
 		}

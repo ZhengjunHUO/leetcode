@@ -2,19 +2,19 @@ package main
 
 import (
 	"fmt"
-	"github.com/ZhengjunHUO/godtype"
+	"github.com/ZhengjunHUO/goutil/graph"
 )
 
 func findRedundantConnection(edges [][]int) []int {
 	n := len(edges)
-	uf := godtype.NewUF(n+1)
+	uf := graph.NewUF(n+1)
 
 	for i := range edges {
 		if uf.IsLinked(edges[i][0], edges[i][1]) {
 			return edges[i]
 		}
-		
-		uf.Union(edges[i][0], edges[i][1])	
+
+		uf.Union(edges[i][0], edges[i][1])
 	}
 
 	return []int{}

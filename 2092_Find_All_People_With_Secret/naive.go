@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 	"sort"
-	"github.com/ZhengjunHUO/godtype"
+	"github.com/ZhengjunHUO/goutil/graph"
 )
 
 func findAllPeople(n int, meetings [][]int, firstPerson int) []int {
@@ -13,12 +13,12 @@ func findAllPeople(n int, meetings [][]int, firstPerson int) []int {
 	})
 
 	// 创建一个unionfind对象，连接0和firstPerson表示秘密被分享
-	uf := godtype.NewUF(n)
+	uf := graph.NewUF(n)
 	uf.Union(0, firstPerson)
 
 	i := 0
 	for i < len(meetings) {
-		dict := make(map[int]struct{})	
+		dict := make(map[int]struct{})
 		time := meetings[i][2]
 
 		// 对于同一时刻发生的meetings，连接会议的两方，记录于一个set中

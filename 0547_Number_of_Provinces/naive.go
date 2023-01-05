@@ -2,12 +2,12 @@ package main
 
 import (
 	"fmt"
-	"github.com/ZhengjunHUO/godtype"
+	"github.com/ZhengjunHUO/goutil/graph"
 )
 
 func findCircleNum(isConnected [][]int) int {
 	n := len(isConnected)
-	uf := godtype.NewUF(n) 
+	uf := graph.NewUF(n)
 
 	for i := 0; i < n - 1 ; i++ {
 		for j := i + 1; j < n; j++ {
