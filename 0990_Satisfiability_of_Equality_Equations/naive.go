@@ -2,11 +2,11 @@ package main
 
 import (
 	"fmt"
-	"github.com/ZhengjunHUO/godtype"
+	"github.com/ZhengjunHUO/goutil/graph"
 )
 
 func equationsPossible(equations []string) bool {
-	uf := godtype.NewUF(26)
+	uf := graph.NewUF(26)
 
 	for i := range equations {
 		if equations[i][1] == '=' {
@@ -21,7 +21,7 @@ func equationsPossible(equations []string) bool {
 			}
 		}
 	}
-    
+
 	return true
 }
 

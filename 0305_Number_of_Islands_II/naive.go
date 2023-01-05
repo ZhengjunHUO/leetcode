@@ -2,11 +2,11 @@ package main
 
 import (
 	"fmt"
-	"github.com/ZhengjunHUO/godtype"
+	"github.com/ZhengjunHUO/goutil/graph"
 )
 
 func numIslands2(m,n int, positions [][]int) []int {
-	uf := godtype.NewUF(m*n)
+	uf := graph.NewUF(m*n)
 	uf.SetCount(0)
 
 	matrix := make([][]int, m)
@@ -32,7 +32,7 @@ func numIslands2(m,n int, positions [][]int) []int {
 
 		rslt = append(rslt, uf.Count())
 	}
-	
+
 	return rslt
 }
 
