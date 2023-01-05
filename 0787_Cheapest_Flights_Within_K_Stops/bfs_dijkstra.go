@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/ZhengjunHUO/godtype"
+	"github.com/ZhengjunHUO/goutil/datastruct"
 )
 
 
@@ -24,15 +24,15 @@ func findCheapestPrice(n int, flights [][]int, src int, dst int, k int) int {
 	}
 
 	// 值为[结点编号，剩余可中转数]，权重为累计花费
-	pq := godtype.NewPQ([][]int{[]int{src, k+1}}, []int{0}, true) 
+	pq := datastruct.NewPQ([][]int{[]int{src, k+1}}, []int{0}, true)
 	for pq.Size() > 0 {
 		// 优先pop出累计花费最少的点
-		curr := pq.PopWithPrio()
-		currPos, currK, currCost := (curr[0].([]int))[0], (curr[0].([]int))[1], curr[1].(int)
+		val, prio := pq.PopWithPriority()
+		currPos, currK, currCost := val[0], val[1], prio
 		if currPos == dst {
 			return currCost
 		}
-		
+
 		if currK > 0 {
 			/*
 			for i := range tab[currPos] {
@@ -48,7 +48,7 @@ func findCheapestPrice(n int, flights [][]int, src int, dst int, k int) int {
 			}
 		}
 	}
-	
+
 	return -1
 }
 

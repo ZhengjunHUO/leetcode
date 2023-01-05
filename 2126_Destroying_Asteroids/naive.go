@@ -2,11 +2,11 @@ package main
 
 import (
 	"fmt"
-	"github.com/ZhengjunHUO/godtype"
+	"github.com/ZhengjunHUO/goutil/datastruct"
 )
 
 func asteroidsDestroyed(mass int, asteroids []int) bool {
-	pq := godtype.NewPQ([]int{}, []int{}, true)
+	pq := datastruct.NewPQ([]int{}, []int{}, true)
 
 	for i := range asteroids {
 		if mass >= asteroids[i] {
@@ -19,11 +19,11 @@ func asteroidsDestroyed(mass int, asteroids []int) bool {
 
 	for pq.Size() > 0 {
 		// 如果质量小于最小堆的堆顶，那堆中剩下的小行星也肯定不能被消灭
-		if pq.Peek().(int) > mass {
+		if pq.Peek() > mass {
 			return false
 		}
 
-		mass += pq.Pop().(int)
+		mass += pq.Pop()
 	}
 
 	// 如果处理完了堆则表示所有小行星都被消灭

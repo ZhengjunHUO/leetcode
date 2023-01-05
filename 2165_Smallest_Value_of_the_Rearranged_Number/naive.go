@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/ZhengjunHUO/godtype"
+	"github.com/ZhengjunHUO/goutil/datastruct"
 )
 
 func smallestNumber(num int64) int64 {
@@ -12,17 +12,17 @@ func smallestNumber(num int64) int64 {
 
 	var ret int64
 	var zeroCount int
-	var pq *godtype.PriorityQueue
+	var pq *datastruct.PriorityQueue[int, int]
 	var isPositive bool
 
 	if num < 0 {
 		// for negative number we use a max priority queue
-		pq = godtype.NewPQ([]int{}, []int{}, false)
+		pq = datastruct.NewPQ([]int{}, []int{}, false)
 		isPositive = false
 		num *= -1
 	}else{
 		// for positive number we use a min priority queue
-		pq = godtype.NewPQ([]int{}, []int{}, true)
+		pq = datastruct.NewPQ([]int{}, []int{}, true)
 		isPositive = true
 	}
 
@@ -38,7 +38,7 @@ func smallestNumber(num int64) int64 {
 	}
 
 	// decide the leading digit
-	ret = int64(pq.Pop().(int))
+	ret = int64(pq.Pop())
 	if isPositive {
 		// rebuild number by assembling digits in ascending order, begin with zero(s)
 		for zeroCount > 0 {
@@ -47,12 +47,12 @@ func smallestNumber(num int64) int64 {
 		}
 
 		for pq.Size() > 0 {
-			ret = ret*10 + int64(pq.Pop().(int))
+			ret = ret*10 + int64(pq.Pop())
 		}
 	}else{
 		// rebuild number by assembling digits in descending order, zero(s) come at last
 		for pq.Size() > 0 {
-			ret = ret*10 + int64(pq.Pop().(int))
+			ret = ret*10 + int64(pq.Pop())
 		}
 
 		for zeroCount > 0 {
