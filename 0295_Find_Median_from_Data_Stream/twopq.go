@@ -2,21 +2,21 @@ package main
 
 import (
 	"fmt"
-	"github.com/ZhengjunHUO/godtype"
+	"github.com/ZhengjunHUO/goutil/datastruct"
 )
 
 type MedianFinder struct {
 	// 存放较小的一半数
-	SmallPopMax	*godtype.PriorityQueue 
+	SmallPopMax	*datastruct.PriorityQueue[int, int]
 	// 存放较大的一半数
-	BigPopMin	*godtype.PriorityQueue 
+	BigPopMin	*datastruct.PriorityQueue[int, int]
 	IsEven		bool
 }
 
 func Constructor() MedianFinder {
 	return MedianFinder{
-		SmallPopMax:	godtype.NewPQ([]int{}, []int{}, false),
-		BigPopMin:	godtype.NewPQ([]int{}, []int{}, true),
+		SmallPopMax:	datastruct.NewPQ([]int{}, []int{}, false),
+		BigPopMin:	datastruct.NewPQ([]int{}, []int{}, true),
 		IsEven:		true,
 	}
 }
@@ -26,22 +26,22 @@ func (this *MedianFinder) AddNum(num int)  {
 	if this.IsEven {
 		this.SmallPopMax.Push(num, num)
 		temp := this.SmallPopMax.Pop()
-		this.BigPopMin.Push(temp, temp.(int))
+		this.BigPopMin.Push(temp, temp)
 	}else{
 		this.BigPopMin.Push(num, num)
 		temp := this.BigPopMin.Pop()
-		this.SmallPopMax.Push(temp, temp.(int))
+		this.SmallPopMax.Push(temp, temp)
 	}
-	
+
 	this.IsEven = !this.IsEven
 }
 
 
 func (this *MedianFinder) FindMedian() float64 {
 	if this.IsEven {
-		return (float64(this.SmallPopMax.Peek().(int)) + float64(this.BigPopMin.Peek().(int))) / 2
+		return (float64(this.SmallPopMax.Peek()) + float64(this.BigPopMin.Peek())) / 2
 	}else{
-		return float64(this.BigPopMin.Peek().(int))
+		return float64(this.BigPopMin.Peek())
 	}
 }
 

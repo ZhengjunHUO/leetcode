@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/ZhengjunHUO/godtype"
+	"github.com/ZhengjunHUO/goutil/datastruct"
 )
 
 // 存入邻接表中的元素：相邻节点的坐标 和 到达需要花费的气力
@@ -53,10 +53,9 @@ func minimumEffortPath(heights [][]int) int {
 	costTo[0] = 0
 
 	// 优先队列 
-	pq := godtype.NewPQ([][2]int{[2]int{0,0}}, []int{0}, true)
+	pq := datastruct.NewPQ([][2]int{[2]int{0,0}}, []int{0}, true)
 	for pq.Size() > 0 {
-		curr := pq.PopWithPrio()
-		currCord, costToCurr := curr[0].([2]int), curr[1].(int)
+		currCord, costToCurr := pq.PopWithPriority()
 		currIdx := currCord[0]*n+currCord[1]
 
 		if currIdx == len(costTo)-1 {

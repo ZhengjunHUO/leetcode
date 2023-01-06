@@ -3,11 +3,11 @@ package main
 import (
 	"fmt"
 	"strconv"
-	"github.com/ZhengjunHUO/godtype"
+	"github.com/ZhengjunHUO/goutil/datastruct"
 )
 
 func kthLargestNumber(nums []string, k int) string {
-	pq := godtype.NewPQ([]int{}, []int{}, true)
+	pq := datastruct.NewPQ([]int{}, []int{}, true)
 
 	for i := range nums {
 		x, _ := strconv.Atoi(nums[i])
@@ -18,7 +18,7 @@ func kthLargestNumber(nums []string, k int) string {
 		}
 	}
 
-	return strconv.Itoa(pq.Peek().(int))
+	return strconv.Itoa(pq.Peek())
 }
 
 func main() {
