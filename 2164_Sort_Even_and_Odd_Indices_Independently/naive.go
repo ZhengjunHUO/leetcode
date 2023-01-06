@@ -2,11 +2,11 @@ package main
 
 import (
 	"fmt"
-	"github.com/ZhengjunHUO/godtype"
+	"github.com/ZhengjunHUO/goutil/datastruct"
 )
 
 func sortEvenOdd(nums []int) []int {
-	maxodd, mineven := godtype.NewPQ([]int{}, []int{}, false), godtype.NewPQ([]int{}, []int{}, true)
+	maxodd, mineven := datastruct.NewPQ([]int{}, []int{}, false), datastruct.NewPQ([]int{}, []int{}, true)
 
 	for i := range nums {
 		if i%2 == 1 {
@@ -18,9 +18,9 @@ func sortEvenOdd(nums []int) []int {
 
 	for i := range nums {
 		if i%2 == 1 {
-			nums[i] = maxodd.Pop().(int)
+			nums[i] = maxodd.Pop()
 		}else{
-			nums[i] = mineven.Pop().(int)
+			nums[i] = mineven.Pop()
 		}
 	}
 

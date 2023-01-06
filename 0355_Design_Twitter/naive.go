@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/ZhengjunHUO/godtype"
+	"github.com/ZhengjunHUO/goutil/datastruct"
 )
 
 type Tweet struct {
@@ -27,7 +27,7 @@ func Constructor() Twitter {
 		Tweet:		make(map[int][]*Tweet),
 		SerialNo:	0,
 		Limit:		10,
-	} 
+	}
 }
 
 /** Compose a new tweet. */
@@ -36,7 +36,7 @@ func (this *Twitter) PostTweet(userId int, tweetId int)  {
 		Id: tweetId,
 		Timestamp: this.SerialNo,
 	}
-	this.SerialNo += 1	
+	this.SerialNo += 1
 
 	if _, ok := this.Tweet[userId]; !ok {
 		// 第一次发推
@@ -49,23 +49,23 @@ func (this *Twitter) PostTweet(userId int, tweetId int)  {
 
 /** Retrieve the 10 most recent tweet ids in the user's news feed. Each item in the news feed must be posted by users who the user followed or by the user herself. Tweets must be ordered from most recent to least recent. */
 func (this *Twitter) GetNewsFeed(userId int) []int {
-	pq := godtype.NewPQ([]int{}, []int{}, true)
+	pq := datastruct.NewPQ([]int{}, []int{}, true)
 	// 遍历userId关注的用户
 	for k, _ := range this.Follower[userId] {
 		tweets := this.Tweet[k]
 		//将该用户的发推记录加入PQ，只保留最近10条
 		for i := len(tweets) - 1; i >= 0; i-- {
 			pq.Push(tweets[i].Id, tweets[i].Timestamp)
-			if pq.Data.Len() > this.Limit {
-				pq.Pop()	
+			if pq.Size() > this.Limit {
+				pq.Pop()
 			}
 		}
 	}
 
 	// 从PQ中提取内容并返回
 	rslt := []int{}
-	for pq.Peek() != nil {
-		rslt = append([]int{pq.Pop().(int)}, rslt...)	
+	for pq.Size() != 0 {
+		rslt = append([]int{pq.Pop()}, rslt...)
 	}
 	return rslt
 }
@@ -74,7 +74,7 @@ func (this *Twitter) GetNewsFeed(userId int) []int {
 func (this *Twitter) Follow(followerId int, followeeId int)  {
 	if _, ok := this.Follower[followerId]; !ok {
 		this.Follower[followerId] = make(map[int]bool)
-	} 
+	}
 	this.Follower[followerId][followeeId] = true
 }
 
@@ -83,7 +83,7 @@ func (this *Twitter) Unfollow(followerId int, followeeId int)  {
 	if _, ok := this.Follower[followerId][followeeId]; !ok {
 		return
 	}
-	
+
 	if followerId == followeeId {
 		return
 	}

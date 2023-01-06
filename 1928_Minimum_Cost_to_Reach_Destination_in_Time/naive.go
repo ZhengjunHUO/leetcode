@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/ZhengjunHUO/godtype"
+	"github.com/ZhengjunHUO/goutil/datastruct"
 )
 
 // 和0787类似，使用dijkstra算法
@@ -16,11 +16,11 @@ func minCost(maxTime int, edges [][]int, passingFees []int) int {
 
 	// 优先队列，value为[目标节点，剩余时间]，priority为累计花费，优先pop出花费最小的方案
 	n := len(adj)
-	pq := godtype.NewPQ([][2]int{[2]int{0, maxTime}}, []int{passingFees[0]}, true) 
+	pq := datastruct.NewPQ([][2]int{[2]int{0, maxTime}}, []int{passingFees[0]}, true)
 
 	for pq.Size() > 0 {
-		curr := pq.PopWithPrio()
-		currId, restTime, currFees := (curr[0].([2]int))[0], (curr[0].([2]int))[1], curr[1].(int)
+		curr, prio := pq.PopWithPriority()
+		currId, restTime, currFees := curr[0], curr[1], prio
 
 		// 跳过超时的路线
 		if restTime >= 0 {
@@ -28,7 +28,7 @@ func minCost(maxTime int, edges [][]int, passingFees []int) int {
 			if currId == n - 1 {
 				return currFees
 			}
-			
+
 			if v, ok := adj[currId]; ok {
 				for j := range v {
 					// 到下一个城市，剩余时间减少，花费增加
@@ -36,7 +36,7 @@ func minCost(maxTime int, edges [][]int, passingFees []int) int {
 				}
 			}
 		}
-	}	
+	}
 
 	return -1
 }

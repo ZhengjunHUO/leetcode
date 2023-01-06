@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/ZhengjunHUO/godtype"
+	"github.com/ZhengjunHUO/goutil/datastruct"
 )
 
 const MAXINT = int(^uint(0) >> 1)
@@ -24,10 +24,9 @@ func countRestrictedPaths(n int, edges [][]int) int {
 	costTo[n] = 0
 
 	// 优先队列
-	pq := godtype.NewPQ([]int{n}, []int{0}, true)
+	pq := datastruct.NewPQ([]int{n}, []int{0}, true)
 	for pq.Size() > 0 {
-                curr := pq.PopWithPrio()
-                currNode, costToCurr := curr[0].(int), curr[1].(int)
+                currNode, costToCurr := pq.PopWithPriority()
 
 		if costToCurr > costTo[currNode] {
 			continue
@@ -63,7 +62,7 @@ func countRestrictedPaths(n int, edges [][]int) int {
 	}
 
 	backtrack(1, "1")
-	
+
 	return len(rslt)
 }
 
