@@ -2,21 +2,21 @@ package main
 
 import (
 	"fmt"
-	"github.com/ZhengjunHUO/godtype"
+	"github.com/ZhengjunHUO/goutil/datastruct"
 )
 
 func findRelativeRanks(score []int) []string {
 	n := len(score)
-	rslt := make([]string, n) 
+	rslt := make([]string, n)
 
-	pq := godtype.NewPQ([]int{}, []int{}, true)
+	pq := datastruct.NewPQ([]int{}, []int{}, true)
 	// 分数作为priority值，内容为该元素的index
 	for i,v := range score{
 		pq.Push(i, v)
 	}
 
-	for pq.Peek() != nil {
-		idx := pq.Pop().(int)
+	for pq.Size() != 0 {
+		idx := pq.Pop()
 		switch n {
 			case 1:
 				rslt[idx] = "Gold Medal"
@@ -26,7 +26,7 @@ func findRelativeRanks(score []int) []string {
 				rslt[idx] = "Bronze Medal"
 			default:
 				rslt[idx] = fmt.Sprint(n)
-		}		
+		}
 		n--
 	}
 

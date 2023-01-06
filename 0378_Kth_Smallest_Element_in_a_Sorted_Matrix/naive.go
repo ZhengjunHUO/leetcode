@@ -2,22 +2,22 @@ package main
 
 import (
 	"fmt"
-	"github.com/ZhengjunHUO/godtype"
+	"github.com/ZhengjunHUO/goutil/datastruct"
 )
 
 func kthSmallest(matrix [][]int, k int) int {
-	rslt, pq := 0, godtype.NewPQ([][]int{}, []int{}, true)
+	rslt, pq := 0, datastruct.NewPQ([][]int{}, []int{}, true)
 
 	// 添加每一行的第一个元素到PQ, 由于行和列都是升序，所以如果矩阵超过了k行则超过部分不用考虑
 	for i:=0; i<len(matrix) && i<k; i++ {
 		pq.Push([]int{i, 0}, matrix[i][0])
 	}
-	
-	for k > 0 && pq.Peek() != nil {
-		curr := pq.Pop().([]int)	
+
+	for k > 0 && pq.Size() != 0 {
+		curr := pq.Pop()
 		k--
 		rslt = matrix[curr[0]][curr[1]]
-		
+
 		// 把Pop出的元素所在行的下一个元素(如果有)Push进PQ
 		if curr[1] == len(matrix[curr[0]]) - 1 {
 			continue

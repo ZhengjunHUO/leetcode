@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/ZhengjunHUO/godtype"
+	"github.com/ZhengjunHUO/goutil/datastruct"
 )
 
 func kSmallestPairs(nums1 []int, nums2 []int, k int) [][]int {
@@ -13,7 +13,7 @@ func kSmallestPairs(nums1 []int, nums2 []int, k int) [][]int {
 		return rslt
 	}
 
-	pq := godtype.NewPQ([][]int{}, []int{}, true)
+	pq := datastruct.NewPQ([][]int{}, []int{}, true)
 	// 基础为nums1[0]和nums2[i]的组合
 	for i := range nums2 {
 		if i == k {
@@ -22,8 +22,8 @@ func kSmallestPairs(nums1 []int, nums2 []int, k int) [][]int {
 		pq.Push([]int{0, i}, nums1[0]+nums2[i])
 	}
 
-	for k > 0 && pq.Peek() != nil {
-		curr := pq.Pop().([]int)
+	for k > 0 && pq.Size() != 0 {
+		curr := pq.Pop()
 		rslt = append(rslt, []int{nums1[curr[0]], nums2[curr[1]]})
 		k--
 
