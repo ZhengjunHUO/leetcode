@@ -2,14 +2,14 @@ package main
 
 import (
 	"fmt"
-	"github.com/ZhengjunHUO/godtype"
+	"github.com/ZhengjunHUO/goutil/graph"
 )
 
 // 有一些recipes在supplies的基础上还基于其他recipes，所以需要知道其依赖关系先处理没有依赖的receipes
 func findAllRecipes(recipes []string, ingredients [][]string, supplies []string) []string {
 	// 针对recipes构建dag
 	numV := len(recipes)
-	dag := godtype.NewDag(numV)
+	dag := graph.NewDag(numV)
 
 	// 将recipes做成字典便于根据名字查询index
 	dictRecp := make(map[string]int)
@@ -40,7 +40,7 @@ func findAllRecipes(recipes []string, ingredients [][]string, supplies []string)
 	ret := []string{}
 	// 依次pop出无依赖性的recipes到强依赖性的recipes
 	for dag.Sorted.Size() > 0 {
-		idx := dag.Sorted.Pop().(int)
+		idx := dag.Sorted.Pop()
 		isPossible := true
 		for i := range ingredients[idx] {
 			// 缺少原料，不能做出

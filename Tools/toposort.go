@@ -2,11 +2,11 @@ package main
 
 import (
 	"fmt"
-	"github.com/ZhengjunHUO/godtype"
+	"github.com/ZhengjunHUO/goutil/graph"
 )
 
 func main() {
-	g := godtype.NewDag(6)
+	g := graph.NewDag(6)
 	g.AddEdge(5, 2)
         g.AddEdge(5, 0)
         g.AddEdge(4, 0)
@@ -17,6 +17,6 @@ func main() {
 
 	fmt.Println(g.Sorted.Elems)
 	for g.Sorted.Size() > 0 {
-		fmt.Println(g.Sorted.Pop().(int))
+		fmt.Println(g.Sorted.Pop())
 	}
 }
