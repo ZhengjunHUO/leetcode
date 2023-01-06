@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/ZhengjunHUO/godtype"
+	"github.com/ZhengjunHUO/goutil/datastruct"
 )
 
 const MaxInt = int(^uint(0) >> 1)
@@ -15,18 +15,17 @@ func networkDelayTime(times [][]int, n int, k int) int {
         }
 
 	// 2. 初始化costTo
-	costTo := make([]int, n+1) 
+	costTo := make([]int, n+1)
 	for i := range costTo {
 		costTo[i] = MaxInt
 	}
 	costTo[k] = 0
 
 	// 3. 准备优先队列，值为节点ID，优先级为出发点到该节点的花费，优先Pop出花费小的
-	pq := godtype.NewPQ([]int{k}, []int{0}, true) 
-	
+	pq := datastruct.NewPQ([]int{k}, []int{0}, true)
+
 	for pq.Size() > 0 {
-		curr := pq.PopWithPrio()
-                idCurr, costToCurr := curr[0].(int), curr[1].(int)
+                idCurr, costToCurr := pq.PopWithPriority()
 
 		if costToCurr > costTo[idCurr] {
 			continue

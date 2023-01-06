@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/ZhengjunHUO/godtype"
+	"github.com/ZhengjunHUO/goutil/datastruct"
 )
 
 func maxEvents(events [][]int) int {
@@ -18,7 +18,7 @@ func maxEvents(events [][]int) int {
 	})
 
 	// 声明一个min PQ
-	pq := godtype.NewPQ([]int{}, []int{}, true)
+	pq := datastruct.NewPQ([]int{}, []int{}, true)
 
 	i, n, start, rslt := 0, len(events), 0, 0
 	for pq.Size() > 0 || i < n {
@@ -41,7 +41,7 @@ func maxEvents(events [][]int) int {
 		rslt += 1
 
 		// 放弃已经过期的事件
-		for pq.Size() > 0 && pq.Peek().(int) < start {
+		for pq.Size() > 0 && pq.Peek() < start {
 			pq.Pop()
 		}
 	}

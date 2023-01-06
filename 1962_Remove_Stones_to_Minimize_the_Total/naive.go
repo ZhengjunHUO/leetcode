@@ -2,21 +2,21 @@ package main
 
 import (
 	"fmt"
-	"github.com/ZhengjunHUO/godtype"
+	"github.com/ZhengjunHUO/goutil/datastruct"
 )
 
 func minStoneSum(piles []int, k int) int {
 	var ret int
-	pq := godtype.NewPQ(piles, piles, false)
+	pq := datastruct.NewPQ(piles, piles, false)
 	for k > 0 {
-		curr := pq.Pop().(int)
+		curr := pq.Pop()
 		reduced := curr - curr/2
 		pq.Push(reduced, reduced)
 		k--
 	}
 
 	for pq.Size() > 0 {
-		ret += pq.Pop().(int)
+		ret += pq.Pop()
 	}
 
 	return ret

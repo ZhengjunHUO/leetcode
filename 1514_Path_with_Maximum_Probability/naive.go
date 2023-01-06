@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/ZhengjunHUO/godtype"
+	"github.com/ZhengjunHUO/goutil/datastruct"
 )
 
 func maxProbability(n int, edges [][]int, succProb []float64, start int, end int) float64 {
@@ -18,10 +18,9 @@ func maxProbability(n int, edges [][]int, succProb []float64, start int, end int
 	probTo[start] = 1.0
 
 	// 优先队列
-	pq := godtype.NewPQ([]int{start}, []float64{1.0}, false)
+	pq := datastruct.NewPQ([]int{start}, []float64{1.0}, false)
 	for pq.Size() > 0 {
-		curr := pq.PopWithPrio()
-		currNode, probToCurr := curr[0].(int), curr[1].(float64)
+		currNode, probToCurr := pq.PopWithPriority()
 
 		if currNode == end {
 			return probToCurr
