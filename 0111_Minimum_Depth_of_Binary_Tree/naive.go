@@ -2,16 +2,16 @@ package main
 
 import (
 	"fmt"
-	"github.com/ZhengjunHUO/godtype"
+	"github.com/ZhengjunHUO/goutil/graph"
 	"github.com/ZhengjunHUO/goutil/datastruct"
 )
 
-func minDepth(root *godtype.TreeNode) int {
+func minDepth(root *graph.TreeNode) int {
 	if root == nil {
 		return 0
 	}
 
-	q := datastruct.NewQueue([]*godtype.TreeNode{})
+	q := datastruct.NewQueue([]*graph.TreeNode{})
 	q.Push(root)
 	depth := 0
 
@@ -40,5 +40,5 @@ func minDepth(root *godtype.TreeNode) int {
 }
 
 func main() {
-	fmt.Println(minDepth(godtype.NewBTree([]interface{}{3,9,20,nil,nil,15,7})))
+	fmt.Println(minDepth(graph.NewBTree([]interface{}{3,9,20,nil,nil,15,7})))
 }
