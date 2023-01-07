@@ -1,10 +1,11 @@
 package main
 
 import (
-	"github.com/ZhengjunHUO/godtype"
+	"os"
+	"github.com/ZhengjunHUO/goutil/graph"
 )
 
-func invertTree(root *godtype.TreeNode) *godtype.TreeNode {
+func invertTree(root *graph.TreeNode) *graph.TreeNode {
 	if root == nil {
 		return nil
 	}
@@ -13,9 +14,9 @@ func invertTree(root *godtype.TreeNode) *godtype.TreeNode {
 	return root
 }
 
-func invert(curr *godtype.TreeNode) {
+func invert(curr *graph.TreeNode) {
 	if curr == nil {
-		return 
+		return
 	}
 
 	curr.Left, curr.Right = curr.Right, curr.Left
@@ -26,7 +27,6 @@ func invert(curr *godtype.TreeNode) {
 func main() {
 	trees := [][]interface{}{[]interface{}{4,2,7,1,3,6,9}, []interface{}{2,1,3}, []interface{}{}}
 	for i := range trees {
-		godtype.PrintBTreeBFS(invertTree(godtype.NewBTree(trees[i])))
+		graph.PrintBTreeBFS(os.Stdout, invertTree(graph.NewBTree(trees[i])))
 	}
-	
 }

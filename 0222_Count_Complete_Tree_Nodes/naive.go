@@ -2,12 +2,12 @@ package main
 
 import (
 	"fmt"
-	"github.com/ZhengjunHUO/godtype"
+	"github.com/ZhengjunHUO/goutil/graph"
 )
 
 // Complete二叉树至少有一边是Perfect二叉树(2^h-1个结点)
 // 时间复杂度为O(logN*logN)
-func countNodes(root *godtype.TreeNode) int {
+func countNodes(root *graph.TreeNode) int {
 	if root == nil {
 		return 0
 	}
@@ -37,6 +37,6 @@ func countNodes(root *godtype.TreeNode) int {
 func main() {
 	tree := [][]interface{}{[]interface{}{1,2,3,4,5,6}, []interface{}{}, []interface{}{1}}
 	for i := range tree {
-		fmt.Println(countNodes(godtype.NewBTree(tree[i])))
+		fmt.Println(countNodes(graph.NewBTree(tree[i])))
 	}
 }

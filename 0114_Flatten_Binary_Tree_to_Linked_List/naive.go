@@ -1,11 +1,12 @@
 package main
 
 import (
-	"github.com/ZhengjunHUO/godtype"
+	"os"
+	"github.com/ZhengjunHUO/goutil/graph"
 )
 
 // 树从右向左拉直整合
-func flattenbis(curr, appendR *godtype.TreeNode) {
+func flattenbis(curr, appendR *graph.TreeNode) {
 	// 叶子结点负责append右边已经拉直的邻居结点
 	if curr.Left == nil && curr.Right == nil {
 		if appendR != nil {
@@ -24,25 +25,24 @@ func flattenbis(curr, appendR *godtype.TreeNode) {
 			flattenbis(curr.Left, appendR)
 		// appendR已由右分支整合，左分支整合当前右分支
 		}else{
-			flattenbis(curr.Left, curr.Right)	
+			flattenbis(curr.Left, curr.Right)
 		}
 		// 整合结束后根据题目要求将左分支变成右分支
 		curr.Right = curr.Left
 		curr.Left = nil
 	}
-	
-} 
+}
 
-func flatten(root *godtype.TreeNode)  {
-	flattenbis(root, nil)    
+func flatten(root *graph.TreeNode)  {
+	flattenbis(root, nil)
 }
 
 func main() {
-	tree := godtype.NewBTree([]interface{}{1,2,5,3,4,nil,6})
+	tree := graph.NewBTree([]interface{}{1,2,5,3,4,nil,6})
 	flatten(tree)
-	godtype.PrintBTreeDFS(tree)
+	graph.PrintBTreeDFS(os.Stdout, tree)
 
-	tree1 := godtype.NewBTree([]interface{}{1,2,6,3,5,nil,7,4})
+	tree1 := graph.NewBTree([]interface{}{1,2,6,3,5,nil,7,4})
 	flatten(tree1)
-	godtype.PrintBTreeDFS(tree1)
+	graph.PrintBTreeDFS(os.Stdout, tree1)
 }

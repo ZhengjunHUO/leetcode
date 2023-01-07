@@ -2,10 +2,10 @@ package main
 
 import (
 	"fmt"
-	"github.com/ZhengjunHUO/godtype"
+	"github.com/ZhengjunHUO/goutil/graph"
 )
 
-func backtrack(current *godtype.TreeNode, remain int, hasPath *bool) {
+func backtrack(current *graph.TreeNode, remain int, hasPath *bool) {
 	if current == nil {
 		if remain == 0 {
 			*hasPath = true
@@ -22,7 +22,7 @@ func backtrack(current *godtype.TreeNode, remain int, hasPath *bool) {
 	backtrack(current.Right, remain - curVal, hasPath)
 }
 
-func hasPathSum(root *godtype.TreeNode, targetSum int) bool {
+func hasPathSum(root *graph.TreeNode, targetSum int) bool {
 	if root == nil {
 		return false
 	}
@@ -37,6 +37,6 @@ func main() {
 	trees := [][]interface{}{[]interface{}{5,4,8,11,nil,13,4,7,2,nil,nil,nil,1}, []interface{}{1,2,3}, []interface{}{}}
 	targetSums := []int{22,5,0}
 	for i := range trees {
-		fmt.Println(hasPathSum(godtype.NewBTree(trees[i]), targetSums[i]))
+		fmt.Println(hasPathSum(graph.NewBTree(trees[i]), targetSums[i]))
 	}
 }

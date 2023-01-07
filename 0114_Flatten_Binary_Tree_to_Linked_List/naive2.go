@@ -1,10 +1,11 @@
 package main
 
 import (
-	"github.com/ZhengjunHUO/godtype"
+	"os"
+	"github.com/ZhengjunHUO/goutil/graph"
 )
 
-func flatten(root *godtype.TreeNode)  {
+func flatten(root *graph.TreeNode)  {
 	if root == nil {
 		return
 	}
@@ -26,11 +27,11 @@ func flatten(root *godtype.TreeNode)  {
 }
 
 func main() {
-	tree := godtype.NewBTree([]interface{}{1,2,5,3,4,nil,6})
+	tree := graph.NewBTree([]interface{}{1,2,5,3,4,nil,6})
 	flatten(tree)
-	godtype.PrintBTreeDFS(tree)
+	graph.PrintBTreeDFS(os.Stdout, tree)
 
-	tree1 := godtype.NewBTree([]interface{}{1,2,6,3,5,nil,7,4})
+	tree1 := graph.NewBTree([]interface{}{1,2,6,3,5,nil,7,4})
 	flatten(tree1)
-	godtype.PrintBTreeDFS(tree1)
+	graph.PrintBTreeDFS(os.Stdout, tree1)
 }

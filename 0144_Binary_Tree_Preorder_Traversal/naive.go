@@ -2,14 +2,14 @@ package main
 
 import (
 	"fmt"
-	"github.com/ZhengjunHUO/godtype"
+	"github.com/ZhengjunHUO/goutil/graph"
 )
 
-func preorderTraversal(root *godtype.TreeNode) []int {
+func preorderTraversal(root *graph.TreeNode) []int {
 	rslt := []int{}
-	var recursive func(*godtype.TreeNode)
+	var recursive func(*graph.TreeNode)
 
-	recursive = func(curr *godtype.TreeNode) {
+	recursive = func(curr *graph.TreeNode) {
 		if curr == nil {
 			return
 		}
@@ -20,12 +20,12 @@ func preorderTraversal(root *godtype.TreeNode) []int {
 	}
 
 	recursive(root)
-	return rslt   
+	return rslt
 }
 
 func main() {
 	ts := [][]interface{}{[]interface{}{1,nil,2,nil,nil,3}, []interface{}{}, []interface{}{1}, []interface{}{1,2}, []interface{}{1,nil,2}}
 	for i := range ts {
-		fmt.Println(preorderTraversal(godtype.NewBTree(ts[i])))
+		fmt.Println(preorderTraversal(graph.NewBTree(ts[i])))
 	}
 }

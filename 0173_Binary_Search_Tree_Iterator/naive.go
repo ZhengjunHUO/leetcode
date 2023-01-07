@@ -2,16 +2,16 @@ package main
 
 import (
 	"fmt"
-	"github.com/ZhengjunHUO/godtype"
+	"github.com/ZhengjunHUO/goutil/graph"
 	"github.com/ZhengjunHUO/goutil/datastruct"
 )
 
 type BSTIterator struct {
-	stack	*datastruct.Stack[*godtype.TreeNode]
+	stack	*datastruct.Stack[*graph.TreeNode]
 }
 
-func Constructor(root *godtype.TreeNode) BSTIterator {
-	bi := BSTIterator{datastruct.NewStack([]*godtype.TreeNode{})}
+func Constructor(root *graph.TreeNode) BSTIterator {
+	bi := BSTIterator{datastruct.NewStack([]*graph.TreeNode{})}
 	bi.pushNode(root)
 
 	return bi
@@ -31,7 +31,7 @@ func (this *BSTIterator) HasNext() bool {
 }
 
 // 前序
-func (this *BSTIterator) pushNode(curr *godtype.TreeNode) {
+func (this *BSTIterator) pushNode(curr *graph.TreeNode) {
 	for curr != nil {
 		this.stack.Push(curr)
 		curr = curr.Left
@@ -39,7 +39,7 @@ func (this *BSTIterator) pushNode(curr *godtype.TreeNode) {
 }
 
 func main() {
-	obj := Constructor(godtype.NewBTree([]interface{}{7, 3, 15, nil, nil, 9, 20}))
+	obj := Constructor(graph.NewBTree([]interface{}{7, 3, 15, nil, nil, 9, 20}))
 	fmt.Println(obj.Next())
 	fmt.Println(obj.Next())
 	fmt.Println(obj.HasNext())
