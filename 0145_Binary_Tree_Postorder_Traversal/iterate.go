@@ -2,13 +2,13 @@ package main
 
 import (
 	"fmt"
-	"github.com/ZhengjunHUO/godtype"
+	"github.com/ZhengjunHUO/goutil/graph"
 	"github.com/ZhengjunHUO/goutil/datastruct"
 )
 
-func postorderTraversal(root *godtype.TreeNode) []int {
+func postorderTraversal(root *graph.TreeNode) []int {
 	rslt := []int{}
-	stack := datastruct.NewStack([]*godtype.TreeNode{})
+	stack := datastruct.NewStack([]*graph.TreeNode{})
 
 	if root == nil {
 		return rslt
@@ -35,6 +35,6 @@ func postorderTraversal(root *godtype.TreeNode) []int {
 func main() {
 	ts := [][]interface{}{[]interface{}{1,nil,2,nil,nil,3}, []interface{}{}, []interface{}{1}, []interface{}{1,2}, []interface{}{1,nil,2}}
 	for i := range ts {
-		fmt.Println(postorderTraversal(godtype.NewBTree(ts[i])))
+		fmt.Println(postorderTraversal(graph.NewBTree(ts[i])))
 	}
 }

@@ -2,19 +2,19 @@ package main
 
 import (
 	"fmt"
-	"github.com/ZhengjunHUO/godtype"
+	"github.com/ZhengjunHUO/goutil/graph"
 )
 
-func rangeSumBST(root *godtype.TreeNode, low int, high int) int {
+func rangeSumBST(root *graph.TreeNode, low int, high int) int {
 	rslt := 0
-	var dfs func(current *godtype.TreeNode)
+	var dfs func(current *graph.TreeNode)
 
-	dfs = func(current *godtype.TreeNode) {
+	dfs = func(current *graph.TreeNode) {
 		if current == nil {
-			return 
+			return
 		}
-	
-		curVal := current.Val.(int) 
+
+		curVal := current.Val.(int)
 		if curVal <= low {
 			if curVal == low {
 				fmt.Printf("[Debug] add %d\n", curVal)
@@ -44,6 +44,6 @@ func main() {
 	trees := [][]interface{}{[]interface{}{10,5,15,3,7,nil,18}, []interface{}{10,5,15,3,7,13,18,1,nil,6}}
 	lows, highs := []int{7,6}, []int{15,10}
 	for i := range trees {
-		fmt.Println(rangeSumBST(godtype.NewBTree(trees[i]), lows[i], highs[i]));
+		fmt.Println(rangeSumBST(graph.NewBTree(trees[i]), lows[i], highs[i]));
 	}
 }

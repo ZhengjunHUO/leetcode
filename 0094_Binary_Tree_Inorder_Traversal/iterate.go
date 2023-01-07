@@ -2,17 +2,17 @@ package main
 
 import (
 	"fmt"
-	"github.com/ZhengjunHUO/godtype"
+	"github.com/ZhengjunHUO/goutil/graph"
 	"github.com/ZhengjunHUO/goutil/datastruct"
 )
 
 // 借鉴0173_Binary_Search_Tree_Iterator的思路
-func inorderTraversal(root *godtype.TreeNode) []int {
+func inorderTraversal(root *graph.TreeNode) []int {
 	rslt := []int{}
-	stack := datastruct.NewStack([]*godtype.TreeNode{})
+	stack := datastruct.NewStack([]*graph.TreeNode{})
 
 	// 添加当前结点的所有左子结点
-	push := func(curr *godtype.TreeNode) {
+	push := func(curr *graph.TreeNode) {
 		for curr != nil {
 			stack.Push(curr)
 			curr = curr.Left
@@ -35,6 +35,6 @@ func inorderTraversal(root *godtype.TreeNode) []int {
 func main() {
 	ts := [][]interface{}{[]interface{}{1,nil,2,nil,nil,3}, []interface{}{}, []interface{}{1}, []interface{}{1,2}, []interface{}{1,nil,2}}
 	for i := range ts {
-		fmt.Println(inorderTraversal(godtype.NewBTree(ts[i])))
+		fmt.Println(inorderTraversal(graph.NewBTree(ts[i])))
 	}
 }

@@ -2,13 +2,13 @@ package main
 
 import (
 	"fmt"
-	"github.com/ZhengjunHUO/godtype"
+	"github.com/ZhengjunHUO/goutil/graph"
 )
 
 const minint = int(^uint(0) >> 1)
 var maxsum int
 
-func recursive(curr, min, max *godtype.TreeNode) int {
+func recursive(curr, min, max *graph.TreeNode) int {
 	if curr == nil {
 		return 0
 	}
@@ -39,7 +39,7 @@ func recursive(curr, min, max *godtype.TreeNode) int {
 	if left == minint || right == minint {
 		return minint
 	}
-	
+
 	// 如果当前子树符合BST定义，则尝试更新maxsum值，并将和返回上一级
 	temp := curr.Val.(int) + left + right
 	if temp > maxsum {
@@ -49,9 +49,9 @@ func recursive(curr, min, max *godtype.TreeNode) int {
 	return temp
 }
 
-func maxSumBST(root *godtype.TreeNode) int {
+func maxSumBST(root *graph.TreeNode) int {
 	maxsum = -minint-1
-	recursive(root, nil, nil)	
+	recursive(root, nil, nil)
 	if maxsum == -minint-1 {
 		return 0
 	}
@@ -62,6 +62,6 @@ func maxSumBST(root *godtype.TreeNode) int {
 func main() {
 	trees := [][]interface{}{[]interface{}{1,4,3,2,4,2,5,nil,nil,nil,nil,nil,nil,4,6}, []interface{}{4,3,nil,1,2}, []interface{}{}, []interface{}{2,1,3}, []interface{}{5,4,8,3,nil,6,3}}
 	for i := range trees {
-		fmt.Println(maxSumBST(godtype.NewBTree(trees[i])))
+		fmt.Println(maxSumBST(graph.NewBTree(trees[i])))
 	}
 }
