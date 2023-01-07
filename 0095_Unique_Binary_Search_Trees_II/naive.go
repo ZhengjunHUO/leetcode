@@ -1,15 +1,16 @@
 package main
 
 import (
-	"github.com/ZhengjunHUO/godtype"
+	"os"
+	"github.com/ZhengjunHUO/goutil/graph"
 )
 
-func generate(l, r int) []*godtype.TreeNode {
+func generate(l, r int) []*graph.TreeNode {
 	if l > r {
-		return []*godtype.TreeNode{nil}
+		return []*graph.TreeNode{nil}
 	}
 
-	rslt := []*godtype.TreeNode{}
+	rslt := []*graph.TreeNode{}
 
 	for i:=l; i<=r; i++ {
 		// 左右子树会返回一个结点串，如果是空还是会返回长度为1的[nil]
@@ -19,8 +20,8 @@ func generate(l, r int) []*godtype.TreeNode {
 		for j := range left {
 			for k := range right {
 				// 排列组合，构成从本结点出发能生成的所有可能
-				curr := &godtype.TreeNode{i, left[j], right[k]}	
-				rslt = append(rslt, curr)		
+				curr := &graph.TreeNode{i, left[j], right[k]}
+				rslt = append(rslt, curr)
 			}
 		}
 	}
@@ -28,13 +29,13 @@ func generate(l, r int) []*godtype.TreeNode {
 	return rslt
 }
 
-func generateTrees(n int) []*godtype.TreeNode {
+func generateTrees(n int) []*graph.TreeNode {
 	return generate(1, n)
 }
 
 func main() {
-	trees := generateTrees(3)	
+	trees := generateTrees(3)
 	for i := range trees {
-		godtype.PrintBTreeBFS(trees[i])
+		graph.PrintBTreeBFS(os.Stdout, trees[i])
 	}
 }

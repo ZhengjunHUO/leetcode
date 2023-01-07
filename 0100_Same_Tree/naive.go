@@ -2,10 +2,10 @@ package main
 
 import (
 	"fmt"
-	"github.com/ZhengjunHUO/godtype"
+	"github.com/ZhengjunHUO/goutil/graph"
 )
 
-func isSameTree(p *godtype.TreeNode, q *godtype.TreeNode) bool {
+func isSameTree(p *graph.TreeNode, q *graph.TreeNode) bool {
 	if p == nil || q == nil {
 		return p == q
 	}
@@ -21,6 +21,6 @@ func main() {
 	ps := [][]interface{}{[]interface{}{1,2,3}, []interface{}{1,2}, []interface{}{1,2,1}}
 	qs := [][]interface{}{[]interface{}{1,2,3}, []interface{}{1,nil,2}, []interface{}{1,1,2}}
 	for i := range ps {
-		fmt.Println(isSameTree(godtype.NewBTree(ps[i]), godtype.NewBTree(qs[i])))
+		fmt.Println(isSameTree(graph.NewBTree(ps[i]), graph.NewBTree(qs[i])))
 	}
 }

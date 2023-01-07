@@ -2,13 +2,14 @@ package main
 
 import (
 	"fmt"
-	"github.com/ZhengjunHUO/godtype"
+	"os"
+	"github.com/ZhengjunHUO/goutil/graph"
 )
 
 const max_val int = (1 << 31)
 const min_val int = -(1 << 31)-1
 
-func recover(curr, minNode, maxNode *godtype.TreeNode) {
+func recover(curr, minNode, maxNode *graph.TreeNode) {
 	if curr == nil {
 		return
 	}
@@ -27,19 +28,19 @@ func recover(curr, minNode, maxNode *godtype.TreeNode) {
 	recover(curr.Right, curr, maxNode)
 }
 
-func recoverTree(root *godtype.TreeNode)  {
+func recoverTree(root *graph.TreeNode)  {
 	recover(root, nil, nil)
 }
 
 func main() {
 	trees := [][]interface{}{[]interface{}{1,3,nil,nil,2}, []interface{}{3,1,4,nil,nil,2}}
 	for i := range trees {
-		t := godtype.NewBTree(trees[i])
+		t := graph.NewBTree(trees[i])
 		fmt.Printf("Before: ")
-		godtype.PrintBTreeBFS(t)
+		graph.PrintBTreeBFS(os.Stdout, t)
 
 		recoverTree(t)
 		fmt.Printf("After : ")
-		godtype.PrintBTreeBFS(t)
+		graph.PrintBTreeBFS(os.Stdout, t)
 	}
 }
