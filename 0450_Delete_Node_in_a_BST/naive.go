@@ -1,11 +1,12 @@
 package main
 
 import (
+	"os"
 	"fmt"
-	"github.com/ZhengjunHUO/godtype"
+	"github.com/ZhengjunHUO/goutil/graph"
 )
 
-func findRightMin (root *godtype.TreeNode) *godtype.TreeNode {
+func findRightMin (root *graph.TreeNode) *graph.TreeNode {
 	for root.Left != nil {
 		root = root.Left
 	}
@@ -13,13 +14,13 @@ func findRightMin (root *godtype.TreeNode) *godtype.TreeNode {
 	return root
 }
 
-func deleteNode(root *godtype.TreeNode, key int) *godtype.TreeNode {
+func deleteNode(root *graph.TreeNode, key int) *graph.TreeNode {
 	if root == nil {
 		return nil
 	}
 
 	if key < root.Val.(int) {
-		root.Left = deleteNode(root.Left, key)	
+		root.Left = deleteNode(root.Left, key)
 	}else if key > root.Val.(int) {
 		root.Right = deleteNode(root.Right, key)
 	}else{
@@ -48,10 +49,10 @@ func main() {
 	lists := [][]interface{}{[]interface{}{5,3,6,2,4,nil,7}, []interface{}{5,3,6,2,4,nil,7}, []interface{}{}, []interface{}{5,2,6,1,4,nil,7,nil,nil,3}}
 	keys := []int{3, 0, 0, 2}
 	for i := range lists {
-		tree := godtype.NewBTree(lists[i])
+		tree := graph.NewBTree(lists[i])
 		fmt.Printf("Before: ")
-		godtype.PrintBTreeBFS(tree)
+		graph.PrintBTreeBFS(os.Stdout, tree)
 		fmt.Printf("After:  ")
-		godtype.PrintBTreeBFS(deleteNode(tree, keys[i]))
+		graph.PrintBTreeBFS(os.Stdout, deleteNode(tree, keys[i]))
 	}
 }

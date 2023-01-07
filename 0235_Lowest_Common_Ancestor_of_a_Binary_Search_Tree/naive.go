@@ -2,10 +2,10 @@ package main
 
 import (
 	"fmt"
-	"github.com/ZhengjunHUO/godtype"
+	"github.com/ZhengjunHUO/goutil/graph"
 )
 
-func lowestCommonAncestor(root *godtype.TreeNode, p, q int) *godtype.TreeNode {
+func lowestCommonAncestor(root *graph.TreeNode, p, q int) *graph.TreeNode {
 	if root == nil {
 		return nil
 	}
@@ -13,13 +13,13 @@ func lowestCommonAncestor(root *godtype.TreeNode, p, q int) *godtype.TreeNode {
 	if p > q {
 		p, q = q, p
 	}
-	
+
 	if root.Val.(int) >= p && root.Val.(int) <= q {
 		//fmt.Printf("Found %v\n", root.Val.(int))
 		return root
 	}
 
-	var rslt *godtype.TreeNode
+	var rslt *graph.TreeNode
 	if root.Val.(int) < p {
 		//fmt.Printf("%v: search right %v\n", root.Val.(int), root.Right.Val.(int))
 		rslt = lowestCommonAncestor(root.Right, p, q)
@@ -28,7 +28,7 @@ func lowestCommonAncestor(root *godtype.TreeNode, p, q int) *godtype.TreeNode {
 		rslt = lowestCommonAncestor(root.Left, p, q)
 	}
 
-	return rslt	
+	return rslt
 }
 
 func main() {
@@ -36,6 +36,6 @@ func main() {
 	qs := []int{8,4,5}
 
 	for i := range ps {
-		fmt.Println(lowestCommonAncestor(godtype.NewBTree([]interface{}{6,2,8,0,4,7,9,nil,nil,3,5}), ps[i], qs[i]).Val.(int))
+		fmt.Println(lowestCommonAncestor(graph.NewBTree([]interface{}{6,2,8,0,4,7,9,nil,nil,3,5}), ps[i], qs[i]).Val.(int))
 	}
 }

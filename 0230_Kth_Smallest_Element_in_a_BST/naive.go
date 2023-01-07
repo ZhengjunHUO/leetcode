@@ -2,14 +2,14 @@ package main
 
 import (
 	"fmt"
-	"github.com/ZhengjunHUO/godtype"
+	"github.com/ZhengjunHUO/goutil/graph"
 )
 
-func kthSmallest(root *godtype.TreeNode, k int) int {
+func kthSmallest(root *graph.TreeNode, k int) int {
 	return find(root, &k)
 }
 
-func find(root *godtype.TreeNode, k *int) int {
+func find(root *graph.TreeNode, k *int) int {
 	if root == nil {
 		// 返回的值无所谓
 		return 0
@@ -33,6 +33,6 @@ func main() {
 	trees := [][]interface{}{[]interface{}{3,1,4,nil,2}, []interface{}{5,3,6,2,4,nil,nil,1}}
 	ks := []int{1, 3}
 	for i := range trees {
-		fmt.Println(kthSmallest(godtype.NewBTree(trees[i]), ks[i]))
+		fmt.Println(kthSmallest(graph.NewBTree(trees[i]), ks[i]))
 	}
 }

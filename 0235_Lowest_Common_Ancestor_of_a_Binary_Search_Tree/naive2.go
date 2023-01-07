@@ -2,14 +2,14 @@ package main
 
 import (
 	"fmt"
-	"github.com/ZhengjunHUO/godtype"
+	"github.com/ZhengjunHUO/goutil/graph"
 )
 
-func lowestCommonAncestor(root *godtype.TreeNode, p, q int) *godtype.TreeNode {
+func lowestCommonAncestor(root *graph.TreeNode, p, q int) *graph.TreeNode {
 	if p > q {
 		p, q = q, p
 	}
-	
+
 	for ! (root.Val.(int) >= p && root.Val.(int) <= q) {
 		if root.Val.(int) < p {
 			root = root.Right
@@ -26,6 +26,6 @@ func main() {
 	qs := []int{8,4,5}
 
 	for i := range ps {
-		fmt.Println(lowestCommonAncestor(godtype.NewBTree([]interface{}{6,2,8,0,4,7,9,nil,nil,3,5}), ps[i], qs[i]).Val.(int))
+		fmt.Println(lowestCommonAncestor(graph.NewBTree([]interface{}{6,2,8,0,4,7,9,nil,nil,3,5}), ps[i], qs[i]).Val.(int))
 	}
 }

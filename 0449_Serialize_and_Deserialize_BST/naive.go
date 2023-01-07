@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 	"strings"
-	"github.com/ZhengjunHUO/godtype"
+	"github.com/ZhengjunHUO/goutil/graph"
 	"github.com/ZhengjunHUO/goutil/datastruct"
 )
 
@@ -15,16 +15,16 @@ func Constructor() Codec {
 }
 
 // Serializes a tree to a single string.
-func (this *Codec) serialize(root *godtype.TreeNode) string {
+func (this *Codec) serialize(root *graph.TreeNode) string {
 	if root == nil {
 		return ""
 	}
 
 	rslt := ""
-	q := datastruct.NewQueue([]*godtype.TreeNode{})
+	q := datastruct.NewQueue([]*graph.TreeNode{})
 	q.Push(root)
 
-	var emptyNode godtype.TreeNode
+	var emptyNode graph.TreeNode
 	size := 0
 
 	loop: for !q.IsEmpty() {
@@ -46,13 +46,13 @@ func (this *Codec) serialize(root *godtype.TreeNode) string {
 			if node.Left != nil {
 				q.Push(node.Left)
 			}else{
-				q.Push(&godtype.TreeNode{})
+				q.Push(&graph.TreeNode{})
 			}
 
 			if node.Right != nil {
 				q.Push(node.Right)
 			}else{
-				q.Push(&godtype.TreeNode{})
+				q.Push(&graph.TreeNode{})
 			}
 		}
 	}
@@ -61,7 +61,7 @@ func (this *Codec) serialize(root *godtype.TreeNode) string {
 }
 
 // Deserializes your encoded data to tree.
-func (this *Codec) deserialize(data string) *godtype.TreeNode {
+func (this *Codec) deserialize(data string) *graph.TreeNode {
 	temp := strings.Split(data, ",")
 	itf := make([]interface{}, len(temp))
 	for i := range temp {
@@ -72,7 +72,7 @@ func (this *Codec) deserialize(data string) *godtype.TreeNode {
 		}
 	}
 
-	return godtype.NewBTree(itf)
+	return graph.NewBTree(itf)
 }
 
 func main() {

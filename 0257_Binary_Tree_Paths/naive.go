@@ -2,14 +2,14 @@ package main
 
 import (
 	"fmt"
-	"github.com/ZhengjunHUO/godtype"
+	"github.com/ZhengjunHUO/goutil/graph"
 )
 
-func binaryTreePaths(root *godtype.TreeNode) []string {
+func binaryTreePaths(root *graph.TreeNode) []string {
 	rslt := []string{}
-	var recursive func(*godtype.TreeNode, string)
+	var recursive func(*graph.TreeNode, string)
 
-	recursive = func(curr *godtype.TreeNode, currPath string) {
+	recursive = func(curr *graph.TreeNode, currPath string) {
 		currPath = currPath + fmt.Sprint(curr.Val.(int)) + "->"
 
 		if curr.Left == nil && curr.Right == nil {
@@ -32,6 +32,6 @@ func binaryTreePaths(root *godtype.TreeNode) []string {
 func main() {
 	trees := [][]interface{}{[]interface{}{1,2,3,nil,5}, []interface{}{1}}
 	for i := range trees {
-		fmt.Println(binaryTreePaths(godtype.NewBTree(trees[i])))
+		fmt.Println(binaryTreePaths(graph.NewBTree(trees[i])))
 	}
 }
