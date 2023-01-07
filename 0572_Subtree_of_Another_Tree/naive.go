@@ -2,10 +2,10 @@ package main
 
 import (
 	"fmt"
-	"github.com/ZhengjunHUO/godtype"
+	"github.com/ZhengjunHUO/goutil/graph"
 )
 
-func isSubtree(root *godtype.TreeNode, subRoot *godtype.TreeNode) bool {
+func isSubtree(root *graph.TreeNode, subRoot *graph.TreeNode) bool {
 	if root == nil || subRoot == nil {
 		return root == subRoot
 	}
@@ -21,10 +21,10 @@ func isSubtree(root *godtype.TreeNode, subRoot *godtype.TreeNode) bool {
 }
 
 func main() {
-	roots := [][]interface{}{[]interface{}{3,4,5,1,2}, []interface{}{3,4,5,1,2,nil,nil,nil,nil,0}}	
+	roots := [][]interface{}{[]interface{}{3,4,5,1,2}, []interface{}{3,4,5,1,2,nil,nil,nil,nil,0}}
 	subroots := [][]interface{}{[]interface{}{4,1,2}, []interface{}{4,1,2}}
 
 	for i := range roots {
-		fmt.Println(isSubtree(godtype.NewBTree(roots[i]), godtype.NewBTree(subroots[i])))
+		fmt.Println(isSubtree(graph.NewBTree(roots[i]), graph.NewBTree(subroots[i])))
 	}
 }

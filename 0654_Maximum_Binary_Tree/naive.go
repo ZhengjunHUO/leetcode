@@ -1,7 +1,8 @@
 package main
 
 import (
-	"github.com/ZhengjunHUO/godtype"	
+	"os"
+	"github.com/ZhengjunHUO/goutil/graph"
 )
 
 func max(nums []int) int {
@@ -10,19 +11,19 @@ func max(nums []int) int {
 		if nums[i] > max {
 			max, index = nums[i], i
 		}
-	}	
+	}
 
 	return index
 }
 
 
-func constructMaximumBinaryTree(nums []int) *godtype.TreeNode {
+func constructMaximumBinaryTree(nums []int) *graph.TreeNode {
 	if len(nums) == 0 {
 		return nil
 	}
 
 	idx := max(nums)
-	return &godtype.TreeNode{
+	return &graph.TreeNode{
 		Val: nums[idx],
 		Left: constructMaximumBinaryTree(nums[:idx]),
 		Right: constructMaximumBinaryTree(nums[idx+1:]),
@@ -32,6 +33,6 @@ func constructMaximumBinaryTree(nums []int) *godtype.TreeNode {
 func main() {
 	nums := [][]int{[]int{3,2,1,6,0,5}, []int{3,2,1}}
 	for i := range nums {
-		godtype.PrintBTreeDFS(constructMaximumBinaryTree(nums[i]))
+		graph.PrintBTreeDFS(os.Stdout, constructMaximumBinaryTree(nums[i]))
 	}
 }

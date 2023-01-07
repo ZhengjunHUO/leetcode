@@ -1,10 +1,11 @@
 package main
 
 import (
-	"github.com/ZhengjunHUO/godtype"
+	"os"
+	"github.com/ZhengjunHUO/goutil/graph"
 )
 
-func find(curr *godtype.TreeNode, dict map[string]int, rslt *[]*godtype.TreeNode) string {
+func find(curr *graph.TreeNode, dict map[string]int, rslt *[]*graph.TreeNode) string {
 	if curr == nil {
 		return "nil"
 	}
@@ -13,34 +14,33 @@ func find(curr *godtype.TreeNode, dict map[string]int, rslt *[]*godtype.TreeNode
 	if v, ok := dict[str]; ok {
 		if v == 1 {
 			*rslt = append(*rslt, curr)
-		}	
+		}
 	}
 	dict[str] += 1
 
 	return str
 }
 
-func findDuplicateSubtrees(root *godtype.TreeNode) []*godtype.TreeNode {
-	rslt := []*godtype.TreeNode{}
+func findDuplicateSubtrees(root *graph.TreeNode) []*graph.TreeNode {
+	rslt := []*graph.TreeNode{}
 	dict := make(map[string]int)
 	find(root, dict, &rslt)
 	return rslt
 }
 
 func main() {
-	list := findDuplicateSubtrees(godtype.NewBTree([]interface{}{1,2,3,4,nil,2,4,nil,nil,nil,nil,4}))
+	list := findDuplicateSubtrees(graph.NewBTree([]interface{}{1,2,3,4,nil,2,4,nil,nil,nil,nil,4}))
 	for _, v := range list {
-		godtype.PrintBTreeDFS(v)
+		graph.PrintBTreeDFS(os.Stdout, v)
 	}
 
-
-	list = findDuplicateSubtrees(godtype.NewBTree([]interface{}{2,1,1}))
+	list = findDuplicateSubtrees(graph.NewBTree([]interface{}{2,1,1}))
 	for _, v := range list {
-		godtype.PrintBTreeDFS(v)
+		graph.PrintBTreeDFS(os.Stdout, v)
 	}
 
-	list = findDuplicateSubtrees(godtype.NewBTree([]interface{}{2,2,2,3,nil,3,nil}))
+	list = findDuplicateSubtrees(graph.NewBTree([]interface{}{2,2,2,3,nil,3,nil}))
 	for _, v := range list {
-		godtype.PrintBTreeDFS(v)
+		graph.PrintBTreeDFS(os.Stdout, v)
 	}
 }

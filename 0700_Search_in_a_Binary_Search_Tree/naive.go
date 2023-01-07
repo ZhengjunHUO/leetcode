@@ -1,10 +1,11 @@
 package main
 
 import (
-	"github.com/ZhengjunHUO/godtype"
+	"os"
+	"github.com/ZhengjunHUO/goutil/graph"
 )
 
-func searchBST(root *godtype.TreeNode, val int) *godtype.TreeNode {
+func searchBST(root *graph.TreeNode, val int) *graph.TreeNode {
 	if root == nil {
 		return nil
 	}
@@ -20,9 +21,9 @@ func searchBST(root *godtype.TreeNode, val int) *godtype.TreeNode {
 }
 
 func main() {
-	tree := godtype.NewBTree([]interface{}{4,2,7,1,3})
+	tree := graph.NewBTree([]interface{}{4,2,7,1,3})
 	vals := []int{2, 5}
 	for _, v := range vals {
-		godtype.PrintBTreeBFS(searchBST(tree, v))
+		graph.PrintBTreeBFS(os.Stdout, searchBST(tree, v))
 	}
 }

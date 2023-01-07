@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/ZhengjunHUO/godtype"
+	"github.com/ZhengjunHUO/goutil/graph"
 )
 
 var maxDist int
@@ -15,7 +15,7 @@ func max(a, b int) int {
 	return b
 }
 
-func search(curr *godtype.TreeNode) int {
+func search(curr *graph.TreeNode) int {
 	if curr == nil {
 		return 0
 	}
@@ -28,7 +28,7 @@ func search(curr *godtype.TreeNode) int {
 	return max(l, r) + 1
 }
 
-func diameterOfBinaryTree(root *godtype.TreeNode) int {
+func diameterOfBinaryTree(root *graph.TreeNode) int {
 	maxDist = 0
 	search(root)
 	return maxDist
@@ -37,6 +37,6 @@ func diameterOfBinaryTree(root *godtype.TreeNode) int {
 func main() {
 	trees := [][]interface{}{[]interface{}{1,2,3,4,5}, []interface{}{1,2}}
 	for i := range trees {
-		fmt.Println(diameterOfBinaryTree(godtype.NewBTree(trees[i])))
+		fmt.Println(diameterOfBinaryTree(graph.NewBTree(trees[i])))
 	}
 }
