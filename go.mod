@@ -3,8 +3,7 @@ module github.com/ZhengjunHUO/leetcode
 go 1.18
 
 require (
-	github.com/ZhengjunHUO/godtype v0.0.0-20220307134544-24d0956a7dce
-	github.com/ZhengjunHUO/goutil v0.0.0-20230107120509-2abea02c18ff
+	github.com/ZhengjunHUO/goutil v0.0.0-20230108111836-1a4b48444347
 	github.com/ZhengjunHUO/gtoolkit v0.0.0-20220523190847-6013663ee3ca
 )
 

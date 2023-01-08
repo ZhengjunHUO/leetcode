@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/ZhengjunHUO/godtype"
+	"github.com/ZhengjunHUO/goutil/datastruct"
 )
 
 type LFUCache struct {
@@ -11,17 +11,17 @@ type LFUCache struct {
 	// 存放key, frequence
 	KF	map[interface{}]int
 	// 存放frequence, keys
-	FK	map[int]*godtype.Lmap
+	FK	map[int]*datastruct.LinkedHashmap
 	// 全局最小Freq
 	MinF	int
-	Cap	int	
+	Cap	int
 }
 
 func Constructor(capacity int) LFUCache {
 	return LFUCache{
 		KV:	make(map[interface{}]interface{}),
 		KF:	make(map[interface{}]int),
-		FK:	make(map[int]*godtype.Lmap),
+		FK:	make(map[int]*datastruct.LinkedHashmap),
 		MinF:	0,
 		Cap:	capacity,
 	}
@@ -45,7 +45,7 @@ func (this *LFUCache) IncremFreq(key int) {
 
 	// 在FK表中对应Freq+1的linked hashmap中加入
 	if _, ok := this.FK[f+1]; !ok {
-		this.FK[f+1] = godtype.NewLmap()
+		this.FK[f+1] = datastruct.NewLinkedHashmap()
 	}
 	this.FK[f+1].Put(key, nil)
 }
@@ -76,7 +76,7 @@ func (this *LFUCache) Get(key int) int {
 func (this *LFUCache) Put(key int, value int)  {
 	// 如果key已存在则更新对应的value，增加访问次数
 	if _, ok := this.KV[key]; ok {
-		this.KV[key] = value	
+		this.KV[key] = value
 		this.IncremFreq(key)
 		return
 	}
@@ -93,10 +93,10 @@ func (this *LFUCache) Put(key int, value int)  {
 
 	// update FK
 	if _, ok := this.FK[1]; !ok {
-		this.FK[1] = godtype.NewLmap()
+		this.FK[1] = datastruct.NewLinkedHashmap()
 	}
 	this.FK[1].Put(key, nil)
-	
+
 	this.MinF = 1
 }
 

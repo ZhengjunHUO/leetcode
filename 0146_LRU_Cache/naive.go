@@ -2,23 +2,23 @@ package main
 
 import (
 	"fmt"
-	"github.com/ZhengjunHUO/godtype"
+	"github.com/ZhengjunHUO/goutil/datastruct"
 )
 
 type LRUCache struct {
 	Cap	int
-	LMap	*godtype.Lmap
+	LMap	*datastruct.LinkedHashmap
 }
 
 func Constructor(capacity int) LRUCache {
-	return LRUCache{capacity, godtype.NewLmap()}    
+	return LRUCache{capacity, datastruct.NewLinkedHashmap()}
 }
 
 func (this *LRUCache) Get(key int) int {
 	if ! this.LMap.Contains(key) {
 		return -1
 	}
-	
+
 	// 将被访问的元素放到最后（最新）
 	this.LMap.BecomeNewest(key)
 	return this.LMap.Get(key).(int)
