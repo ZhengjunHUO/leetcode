@@ -1,5 +1,7 @@
 github.com/ZhengjunHUO/goutil v0.0.0-20230108111836-1a4b48444347 h1:UE71wEtf1DUkw1M7JpLpW4uUD0K7RehQXGpTCtgKxLo=
 github.com/ZhengjunHUO/goutil v0.0.0-20230108111836-1a4b48444347/go.mod h1:9dorus3XkpGeiSJMdEjUqUCgA2jokyVRyGHFw55BQWw=
+github.com/ZhengjunHUO/goutil v0.0.0-20230115184424-bf1011679556 h1:Y8pVOqCVDdQwHWxqOiuyHspqUAuuDcwIstn5PCa6kBs=
+github.com/ZhengjunHUO/goutil v0.0.0-20230115184424-bf1011679556/go.mod h1:9dorus3XkpGeiSJMdEjUqUCgA2jokyVRyGHFw55BQWw=
 github.com/ZhengjunHUO/gtoolkit v0.0.0-20220523190847-6013663ee3ca h1:yXqGOP2C847+jtDZ1Og/cEMVKAfyZlTrdHLsxk8Rw+M=
 github.com/ZhengjunHUO/gtoolkit v0.0.0-20220523190847-6013663ee3ca/go.mod h1:cTA/r4x2Yy6owNMqTc9K52NaFC7y6xMlhTIl90GRUoo=
 golang.org/x/exp v0.0.0-20230105202349-8879d0199aa3 h1:fJwx88sMf5RXwDwziL0/Mn9Wqs+efMSo/RYcL+37W9c=
